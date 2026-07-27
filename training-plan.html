@@ -1,0 +1,1185 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Ground War — 8-Week Jiu-Jitsu for MMA</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@500;600;700&family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+<style>
+:root {
+  --ink:#eceae4; --muted:#a29f96; --bg:#121317; --panel:#1b1d22; --card:#202329;
+  --line:rgba(255,255,255,.09); --red:#c8302e; --blue:#1d4f91;
+  --c-td:#e05248; --c-pos:#5b8ed6; --c-sub:#b5811f; --c-live:#35a08c;
+}
+* { margin:0; padding:0; box-sizing:border-box; }
+html { scroll-behavior:smooth; }
+body {
+  background:var(--bg); color:var(--ink);
+  font-family:Inter,system-ui,-apple-system,'Segoe UI',Roboto,Arial,sans-serif;
+  font-size:15.5px; line-height:1.55; -webkit-font-smoothing:antialiased;
+}
+.wrap { max-width:760px; margin:0 auto; padding:0 14px 60px; }
+h1,h2,h3,h4,.disp { font-family:Oswald,'Arial Narrow','Helvetica Neue',Arial,sans-serif; text-transform:uppercase; letter-spacing:.5px; }
+
+/* hero */
+.hero {
+  margin:14px 0 26px; padding:34px 22px 30px; border-radius:14px; position:relative; overflow:hidden;
+  background:linear-gradient(118deg, rgba(200,48,46,.28) 0%, rgba(200,48,46,.10) 34%, rgba(18,19,23,0) 50%, rgba(29,79,145,.10) 66%, rgba(29,79,145,.30) 100%), var(--panel);
+  border:1px solid var(--line); text-align:center;
+}
+.hero::before, .hero::after { content:''; position:absolute; top:0; bottom:0; width:7px; }
+.hero::before { left:0; background:var(--red); }
+.hero::after  { right:0; background:var(--blue); }
+.hero .kicker { font-family:Oswald,'Arial Narrow',sans-serif; letter-spacing:4px; font-size:13px; color:var(--muted); text-transform:uppercase; }
+.hero h1 { font-size:clamp(44px,10vw,74px); font-weight:700; line-height:.95; margin:10px 0 6px; }
+.hero h1 em { font-style:normal; color:#e05248; }
+.hero .sub { font-size:clamp(16px,3.4vw,20px); font-weight:600; letter-spacing:2.5px; font-family:Oswald,'Arial Narrow',sans-serif; text-transform:uppercase; color:var(--ink); }
+.hero .meta { display:flex; justify-content:center; gap:8px; flex-wrap:wrap; margin-top:18px; }
+.hero .meta span { font-size:12.5px; font-weight:600; letter-spacing:1.2px; text-transform:uppercase; padding:6px 12px; border:1px solid var(--line); border-radius:999px; color:var(--muted); background:rgba(0,0,0,.25); }
+
+/* section scaffolding */
+section { margin-top:44px; }
+.sec-head { display:flex; align-items:baseline; gap:12px; border-bottom:2px solid var(--line); padding-bottom:8px; margin-bottom:18px; }
+.sec-head .slash { color:#e05248; font-family:Oswald,sans-serif; font-weight:700; font-size:22px; }
+.sec-head h2 { font-size:clamp(22px,5vw,30px); font-weight:600; }
+.sec-head .tag { margin-left:auto; font-size:12px; letter-spacing:2px; color:var(--muted); font-family:Oswald,'Arial Narrow',sans-serif; }
+.lead { color:var(--muted); margin-bottom:16px; max-width:64ch; }
+
+/* legend */
+.legend { display:flex; gap:10px; flex-wrap:wrap; margin:18px 0 0; }
+.legend .chip { display:flex; align-items:center; gap:9px; background:var(--card); border:1px solid var(--line); border-radius:10px; padding:8px 14px 8px 10px; font-size:13.5px; font-weight:600; }
+.legfig { width:26px; height:26px; }
+.legend b { font-family:Oswald,'Arial Narrow',sans-serif; letter-spacing:1px; font-weight:600; }
+
+/* safety */
+.safety { background:linear-gradient(0deg, rgba(200,48,46,.10), rgba(200,48,46,.10)), var(--card); border:1px solid rgba(224,82,72,.55); border-left:6px solid #e05248; border-radius:12px; padding:16px 18px; }
+.safety h3 { font-size:18px; letter-spacing:2px; color:#e05248; margin-bottom:8px; }
+.safety ul { list-style:none; }
+.safety li { padding:5px 0 5px 22px; position:relative; font-size:14.5px; }
+.safety li::before { content:''; position:absolute; left:4px; top:13px; width:9px; height:9px; background:#e05248; transform:rotate(45deg); }
+.safety li b { color:var(--ink); }
+
+/* clock */
+.clockrow { display:flex; gap:22px; align-items:center; flex-wrap:wrap; background:var(--card); border:1px solid var(--line); border-radius:12px; padding:18px; }
+.clock { width:min(230px,64vw); height:auto; flex:0 0 auto; margin:auto; }
+.clocklist { list-style:none; flex:1 1 240px; min-width:230px; }
+.clocklist li { display:flex; align-items:center; gap:10px; padding:6.5px 0; border-bottom:1px dashed var(--line); font-size:14px; }
+.clocklist li:last-child { border-bottom:0; }
+.clocklist .sw { width:13px; height:13px; border-radius:3.5px; flex:0 0 auto; }
+.clocklist .t { font-family:Oswald,'Arial Narrow',sans-serif; letter-spacing:1px; color:var(--muted); width:56px; flex:0 0 auto; font-size:13px; }
+.clocklist b { font-weight:600; letter-spacing:.4px; margin-right:6px; }
+.clocklist span.d { color:var(--muted); }
+
+/* phases */
+.phasegrid { display:grid; grid-template-columns:repeat(auto-fit,minmax(160px,1fr)); gap:10px; }
+.phase { border:1px solid var(--line); border-top:5px solid var(--pc); border-radius:11px; background:var(--card); padding:13px 14px; }
+.phase .pw { font-size:11.5px; letter-spacing:2px; color:var(--muted); font-family:Oswald,'Arial Narrow',sans-serif; }
+.phase h3 { font-size:21px; color:var(--pc); letter-spacing:1.5px; margin:2px 0 6px; }
+.phase p { font-size:13.5px; color:var(--muted); }
+
+/* ladder */
+.ladder { background:var(--card); border:1px solid var(--line); border-radius:12px; padding:16px 14px; position:relative; }
+.ladder .zone { font-family:Oswald,'Arial Narrow',sans-serif; letter-spacing:2.5px; font-size:12px; margin:2px 0 8px 62px; }
+.ladder .zone.bottomz { margin-top:8px; margin-bottom:2px; }
+.rung { display:flex; align-items:center; gap:12px; padding:6px 0; position:relative; }
+.rung::before { content:''; position:absolute; left:24px; top:0; bottom:0; width:3px; background:var(--line); }
+.rung .pts { position:relative; z-index:1; width:50px; flex:0 0 auto; text-align:center; font-family:Oswald,'Arial Narrow',sans-serif; font-weight:700; font-size:16px; color:#15161a; background:var(--rc); border-radius:8px; padding:7px 0; }
+.rung .lab b { display:block; font-family:Oswald,'Arial Narrow',sans-serif; font-size:16.5px; font-weight:600; letter-spacing:1px; text-transform:uppercase; }
+.rung .lab span { font-size:13.5px; color:var(--muted); }
+
+/* position cards */
+.posgrid { display:grid; grid-template-columns:1fr; gap:14px; }
+@media (min-width:560px) { .posgrid { grid-template-columns:1fr 1fr; } }
+.poscard { background:var(--card); border:1px solid var(--line); border-radius:12px; overflow:hidden; }
+.figwrap { background:#f2ede3; border-bottom:3px solid rgba(0,0,0,.35); }
+.fig { display:block; width:100%; height:auto; }
+.poscard figcaption { padding:12px 14px 14px; }
+.pc-head { display:flex; align-items:center; gap:8px; margin-bottom:6px; }
+.pc-head h4 { font-size:19px; font-weight:600; letter-spacing:1px; }
+.pc-tag { margin-left:auto; flex:0 0 auto; font-size:10.5px; letter-spacing:1.5px; font-family:Oswald,'Arial Narrow',sans-serif; color:#b5811f; border:1px solid rgba(181,129,31,.6); padding:3px 8px; border-radius:999px; }
+.poscard p { font-size:13.8px; color:var(--muted); }
+.poscard p strong { color:var(--ink); font-weight:600; }
+
+/* takedown syllabus table */
+.tdlist { width:100%; border-collapse:collapse; background:var(--card); border:1px solid var(--line); border-radius:12px; overflow:hidden; font-size:13.8px; }
+.tdlist th { font-family:Oswald,'Arial Narrow',sans-serif; letter-spacing:1.5px; font-size:12.5px; text-align:left; color:var(--muted); padding:10px 12px; border-bottom:1px solid var(--line); background:rgba(0,0,0,.25); }
+.tdlist td { padding:8.5px 12px; border-bottom:1px solid var(--line); vertical-align:top; }
+.tdlist tr:last-child td { border-bottom:0; }
+.tdlist td b { font-weight:600; }
+.tdlist .ss { color:#35a08c; font-weight:600; }
+.tdlist td:last-child { color:var(--muted); }
+.tablewrap { overflow-x:auto; }
+
+/* choke map */
+.chokemap { width:100%; height:auto; display:block; background:var(--card); border:1px solid var(--line); border-radius:12px; padding:10px 4px; }
+
+/* weeks + sessions */
+.week { margin-top:40px; border-radius:14px; }
+.wk-head { border-left:6px solid var(--pc); background:linear-gradient(90deg, color-mix(in srgb, var(--pc) 16%, transparent), transparent 70%), var(--panel); border-radius:12px; padding:14px 16px; border-top:1px solid var(--line); border-bottom:1px solid var(--line); }
+.wk-head .wnum { font-family:Oswald,'Arial Narrow',sans-serif; font-size:13px; letter-spacing:3px; color:var(--pc); font-weight:600; }
+.wk-head h3 { font-size:clamp(22px,5.4vw,28px); margin:2px 0 4px; }
+.wk-head p { color:var(--muted); font-size:14px; max-width:62ch; }
+.session { background:var(--card); border:1px solid var(--line); border-radius:12px; padding:14px 14px 12px; margin-top:14px; }
+.s-head { display:flex; gap:12px; align-items:center; margin-bottom:10px; }
+.s-num { flex:0 0 auto; font-family:Oswald,'Arial Narrow',sans-serif; font-weight:700; font-size:20px; color:var(--pc); border:2px solid var(--pc); border-radius:9px; width:44px; height:44px; display:grid; place-items:center; }
+.s-head h4 { font-size:19.5px; font-weight:600; letter-spacing:.8px; }
+.s-meta { font-size:12px; color:var(--muted); letter-spacing:1.2px; text-transform:uppercase; font-family:Oswald,'Arial Narrow',sans-serif; }
+.tbar { display:flex; gap:2px; height:8px; border-radius:99px; overflow:hidden; margin-bottom:12px; }
+.blocks { list-style:none; }
+.blk { display:flex; gap:11px; padding:7px 0; border-top:1px dashed var(--line); font-size:14px; }
+.btime { flex:0 0 52px; text-align:center; align-self:flex-start; font-family:Oswald,'Arial Narrow',sans-serif; font-size:12.5px; letter-spacing:.5px; color:var(--ink); background:color-mix(in srgb, var(--bc) 30%, var(--panel)); border-left:3px solid var(--bc); border-radius:5px; padding:3px 0; margin-top:2px; }
+.blab { font-family:Oswald,'Arial Narrow',sans-serif; font-weight:600; letter-spacing:1.2px; font-size:13px; margin-right:6px; }
+.btxt { color:#cdcabf; }
+.cue { margin-top:10px; border-top:1px solid var(--line); padding-top:10px; font-size:14.5px; font-style:italic; color:var(--ink); }
+.cue span { font-style:normal; font-family:Oswald,'Arial Narrow',sans-serif; font-size:11.5px; letter-spacing:2px; color:var(--pc); margin-right:10px; }
+.checkpoint { margin-top:14px; border:1px dashed var(--pc); border-radius:11px; padding:11px 14px; font-size:14px; color:var(--ink); background:color-mix(in srgb, var(--pc) 9%, transparent); }
+.checkpoint b { font-family:Oswald,'Arial Narrow',sans-serif; letter-spacing:1.5px; color:var(--pc); }
+.session.final { border:2px solid #b5811f; box-shadow:0 0 0 4px rgba(181,129,31,.12); }
+
+/* final checklist */
+.checklist { list-style:none; background:var(--card); border:1px solid var(--line); border-radius:12px; padding:8px 14px; }
+.checklist li { display:flex; gap:12px; align-items:flex-start; padding:10px 0; border-bottom:1px dashed var(--line); font-size:14.5px; }
+.checklist li:last-child { border-bottom:0; }
+.checklist .cb { flex:0 0 22px; height:22px; margin-top:1px; border:2.5px solid #b5811f; border-radius:6px; }
+
+/* nav + footer */
+.jump { display:flex; flex-wrap:wrap; gap:8px; margin-top:16px; }
+.jump a { font-size:12.5px; font-weight:600; letter-spacing:1.2px; text-transform:uppercase; font-family:Oswald,'Arial Narrow',sans-serif; color:var(--ink); text-decoration:none; border:1px solid var(--line); background:var(--panel); border-radius:999px; padding:6px 12px; }
+.jump a:hover { border-color:#e05248; color:#e05248; }
+footer { margin-top:50px; border-top:2px solid var(--line); padding-top:16px; color:var(--muted); font-size:13px; text-align:center; }
+footer b { color:var(--ink); font-family:Oswald,'Arial Narrow',sans-serif; letter-spacing:2px; }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+<header class="hero">
+  <span class="kicker">Fight camp curriculum</span>
+  <h1>GROUND <em>WAR</em></h1>
+  <p class="sub">8-Week Jiu-Jitsu Program for MMA</p>
+  <div class="meta"><span>8 weeks</span><span>4 sessions / week</span><span>60 min / session</span><span>32 sessions</span></div>
+  <nav class="jump">
+    <a href="#system">The System</a><a href="#ladder">Ladder</a><a href="#positions">Positions</a>
+    <a href="#takedowns">Takedowns</a><a href="#chokemap">Choke Map</a><a href="#week1">Weeks 1–8</a><a href="#finaltest">Final Test</a>
+  </nav>
+</header>
+
+<section id="legend">
+  <div class="sec-head"><span class="slash">//</span><h2>Read the Drawings</h2><span class="tag">LEGEND</span></div>
+  <p class="lead">Every position in this plan is drawn the same way, corner colors included. One look tells you who is winning.</p>
+  <div class="legend">
+    <div class="chip"><svg viewBox="0 0 34 34" class="legfig" aria-hidden="true"><circle cx="17" cy="8" r="6" fill="#c8302e"/><path d="M17 15 V26 M17 18 L9 24 M17 18 L25 24 M17 26 L11 32 M17 26 L23 32" stroke="#c8302e" stroke-width="4.5" stroke-linecap="round" fill="none"/></svg><span><b>RED</b> — our athlete</span></div>
+    <div class="chip"><svg viewBox="0 0 34 34" class="legfig" aria-hidden="true"><circle cx="17" cy="8" r="6" fill="#1d4f91"/><path d="M17 15 V26 M17 18 L9 24 M17 18 L25 24 M17 26 L11 32 M17 26 L23 32" stroke="#1d4f91" stroke-width="4.5" stroke-linecap="round" fill="none"/></svg><span><b>BLUE</b> — opponent</span></div>
+  </div>
+</section>
+
+<section id="safety">
+  <div class="sec-head"><span class="slash">//</span><h2>Safety Rules</h2><span class="tag">NON-NEGOTIABLE</span></div>
+  <div class="safety">
+    <h3>The mat pays interest on stupidity</h3>
+    <ul>
+      <li><b>Tap early, tap often.</b> Pride costs joints. Tapping is data, not defeat.</li>
+      <li><b>Catch-and-release</b> on every fast submission in live rounds: catch it, hold one second, let it go, keep rolling.</li>
+      <li><b>No live heel hooks — ever.</b> Weeks 2 and 6 cover heel-hook <em>defense</em> concepts only, at drill speed.</li>
+      <li><b>Straight ankle locks only</b> for leg attacks: no twisting, release on the tap, not after it.</li>
+      <li><b>Strike progression by phase:</b> Weeks 1–4 none · Weeks 5–6 open-hand placement only · Weeks 7–8 light gloved strikes at 30% max, mouthpiece in, coach supervising.</li>
+      <li><b>Throws land on crash pads.</b> Mat returns, never spikes. Protect the person you train with tomorrow.</li>
+    </ul>
+  </div>
+</section>
+
+<section id="system">
+  <div class="sec-head"><span class="slash">//</span><h2>The 60-Minute Session</h2><span class="tag">EVERY DAY, SAME CLOCK</span></div>
+  <p class="lead">Every one of the 32 sessions runs on this clock. A little of everything, every day — takedown, position, submission, live work — so nothing rusts and a coach can run any session straight off the page.</p>
+  <div class="clockrow">
+    <svg viewBox="0 0 260 260" class="clock" role="img" aria-label="60-minute session clock: 6 warm-up, 12 takedown, 15 position, 15 submission, 10 live, 2 review"><path d="M 130.0 26.0 A 104 104 0 0 1 191.1 45.9 L 167.0 79.0 A 63 63 0 0 0 130.0 67.0 Z" fill="#6d675c" stroke="#1b1d22" stroke-width="2"/><path d="M 191.1 45.9 A 104 104 0 0 1 228.9 162.1 L 189.9 149.5 A 63 63 0 0 0 167.0 79.0 Z" fill="#e05248" stroke="#1b1d22" stroke-width="2"/><path d="M 228.9 162.1 A 104 104 0 0 1 97.9 228.9 L 110.5 189.9 A 63 63 0 0 0 189.9 149.5 Z" fill="#5b8ed6" stroke="#1b1d22" stroke-width="2"/><path d="M 97.9 228.9 A 104 104 0 0 1 31.1 97.9 L 70.1 110.5 A 63 63 0 0 0 110.5 189.9 Z" fill="#b5811f" stroke="#1b1d22" stroke-width="2"/><path d="M 31.1 97.9 A 104 104 0 0 1 108.4 28.3 L 116.9 68.4 A 63 63 0 0 0 70.1 110.5 Z" fill="#35a08c" stroke="#1b1d22" stroke-width="2"/><path d="M 108.4 28.3 A 104 104 0 0 1 130.0 26.0 L 130.0 67.0 A 63 63 0 0 0 116.9 68.4 Z" fill="#4b4e55" stroke="#1b1d22" stroke-width="2"/><text x="130" y="12" font-size="12" fill="#a29f96" text-anchor="middle" dominant-baseline="middle" font-family="Inter,system-ui,sans-serif">0</text><text x="199" y="35" font-size="12" fill="#a29f96" text-anchor="middle" dominant-baseline="middle" font-family="Inter,system-ui,sans-serif">6</text><text x="242" y="166" font-size="12" fill="#a29f96" text-anchor="middle" dominant-baseline="middle" font-family="Inter,system-ui,sans-serif">18</text><text x="94" y="242" font-size="12" fill="#a29f96" text-anchor="middle" dominant-baseline="middle" font-family="Inter,system-ui,sans-serif">33</text><text x="18" y="94" font-size="12" fill="#a29f96" text-anchor="middle" dominant-baseline="middle" font-family="Inter,system-ui,sans-serif">48</text><text x="105" y="15" font-size="12" fill="#a29f96" text-anchor="middle" dominant-baseline="middle" font-family="Inter,system-ui,sans-serif">58</text><text x="130" y="124" text-anchor="middle" font-size="34" font-weight="700" fill="#eceae4" font-family="Oswald,'Arial Narrow',sans-serif">60</text><text x="130" y="150" text-anchor="middle" font-size="13" letter-spacing="3" fill="#a29f96" font-family="Oswald,'Arial Narrow',sans-serif">MINUTES</text></svg>
+    <ul class="clocklist"><li><span class="sw" style="background:#6d675c"></span><span class="t">0–6</span><div><b>Warm-up</b><span class="d">pulse up, joints ready, grappling-specific movement</span></div></li><li><span class="sw" style="background:#e05248"></span><span class="t">6–18</span><div><b>Takedown</b><span class="d">the day’s takedown or defense, drilled to live pace</span></div></li><li><span class="sw" style="background:#5b8ed6"></span><span class="t">18–33</span><div><b>Position</b><span class="d">position, escape, sweep or pass of the day</span></div></li><li><span class="sw" style="background:#b5811f"></span><span class="t">33–48</span><div><b>Submission</b><span class="d">the finishing skill, always chained to the position</span></div></li><li><span class="sw" style="background:#35a08c"></span><span class="t">48–58</span><div><b>Live</b><span class="d">positional or full sparring at the day’s intensity</span></div></li><li><span class="sw" style="background:#4b4e55"></span><span class="t">58–60</span><div><b>Review</b><span class="d">log one win and one fix in the notebook</span></div></li></ul>
+  </div>
+</section>
+
+<section id="phases">
+  <div class="sec-head"><span class="slash">//</span><h2>Four Phases</h2><span class="tag">THE ARC</span></div>
+  <div class="phasegrid"><div class="phase" style="--pc:#5b8ed6">
+      <span class="pw">WEEKS 1–2</span><h3>SURVIVE</h3><p>Escapes from every bad spot, submission defense, first takedowns. Become impossible to put away.</p></div><div class="phase" style="--pc:#35a08c">
+      <span class="pw">WEEKS 3–4</span><h3>CONTROL</h3><p>Sweeps, passes, cage wrestling. Win the exchange after the exchange and stay on top.</p></div><div class="phase" style="--pc:#e05248">
+      <span class="pw">WEEKS 5–6</span><h3>FINISH</h3><p>Submission chains: the choke hub, the mount system, the guard engine. End fights.</p></div><div class="phase" style="--pc:#b5811f">
+      <span class="pw">WEEKS 7–8</span><h3>FIGHT</h3><p>Light strikes on. Ground-and-pound, fence work, fight sims, final exam.</p></div></div>
+</section>
+
+<section id="ladder">
+  <div class="sec-head"><span class="slash">//</span><h2>The Positional Ladder</h2><span class="tag">WHERE EVERY SCRAMBLE LEADS</span></div>
+  <p class="lead">MMA grappling is a climb. Every technique in this program either moves you up a rung, holds the rung you have, or drags them down one. Red rungs: you are winning. Blue rungs: get out.</p>
+  <div class="ladder">
+    <div class="zone" style="color:#e05248">FINISH ZONE</div>
+    <div class="rung" style="--rc:#ef5644"><span class="pts">+4</span>
+      <div class="lab"><b>You take the back</b><span>Rear-naked-choke country. Hooks or body triangle, hunt the neck.</span></div></div><div class="rung" style="--rc:#d0705f"><span class="pts">+3</span>
+      <div class="lab"><b>Mount</b><span>Ground-and-pound plus the arm triangle and armbar.</span></div></div><div class="rung" style="--rc:#b98a7d"><span class="pts">+2</span>
+      <div class="lab"><b>Side control / KOB / N–S</b><span>Pins and pickings: hold, hit, harvest an arm.</span></div></div><div class="rung" style="--rc:#a49a90"><span class="pts">+1</span>
+      <div class="lab"><b>Half guard top</b><span>Pressure passing; D’Arce bait when they dive.</span></div></div><div class="rung" style="--rc:#8f9096"><span class="pts">0</span>
+      <div class="lab"><b>Standing / guard battle</b><span>Neutral. Strike, shoot, snap, or sit to attack.</span></div></div><div class="rung" style="--rc:#97a0b4"><span class="pts">−1</span>
+      <div class="lab"><b>Guard bottom</b><span>Workable: sweep, submit, or wrestle up — do not stall.</span></div></div><div class="rung" style="--rc:#7f97c2"><span class="pts">−2</span>
+      <div class="lab"><b>Bottom side / KOB</b><span>Survive: frames on, elbow-knee connected, shrimp.</span></div></div><div class="rung" style="--rc:#6a8fd2"><span class="pts">−3</span>
+      <div class="lab"><b>Bottom mount</b><span>Emergency: trap an arm, bridge, get to half guard.</span></div></div><div class="rung" style="--rc:#4f86e0"><span class="pts">−4</span>
+      <div class="lab"><b>Back taken</b><span>Alarm bells: chin down, win the hands, slide out.</span></div></div>
+    <div class="zone bottomz" style="color:#5b8ed6">SURVIVE ZONE</div>
+  </div>
+</section>
+
+<section id="positions">
+  <div class="sec-head"><span class="slash">//</span><h2>Position Library</h2><span class="tag">10 SPOTS TO OWN</span></div>
+  <p class="lead">The ten positions the whole program is built around. Every one is trained from both sides: how to use it, how to escape it, and how to stand up out of it — including against the cage.</p>
+  <div class="posgrid"><figure class="poscard">
+  <div class="figwrap"><svg class="fig" role="img" aria-label="Red athlete sitting astride a supine blue opponent, one fist cocked" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300">
+<rect width="400" height="300" fill="#f2ede3"/>
+<line x1="16" y1="272" x2="384" y2="272" stroke="#23262b" stroke-width="6" stroke-linecap="round"/>
+<polyline points="98,251 205,256" fill="none" stroke="#f2ede3" stroke-width="19" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="98,251 205,256" fill="none" stroke="#1d4f91" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="205,256 270,244 308,262" fill="none" stroke="#f2ede3" stroke-width="19" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="205,256 270,244 308,262" fill="none" stroke="#1d4f91" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="205,256 258,233 297,259" fill="none" stroke="#f2ede3" stroke-width="19" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="205,256 258,233 297,259" fill="none" stroke="#1d4f91" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="98,251 128,232 158,220" fill="none" stroke="#f2ede3" stroke-width="19" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="98,251 128,232 158,220" fill="none" stroke="#1d4f91" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="72" cy="246" r="18.5" fill="#f2ede3"/>
+<circle cx="72" cy="246" r="15" fill="#1d4f91"/>
+<polyline points="198,228 164,254 138,260" fill="none" stroke="#f2ede3" stroke-width="19" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="198,228 164,254 138,260" fill="none" stroke="#c8302e" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="198,228 234,258 262,266" fill="none" stroke="#f2ede3" stroke-width="19" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="198,228 234,258 262,266" fill="none" stroke="#c8302e" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="198,228 203,155" fill="none" stroke="#f2ede3" stroke-width="19" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="198,228 203,155" fill="none" stroke="#c8302e" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="203,155 174,194 154,238" fill="none" stroke="#f2ede3" stroke-width="19" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="203,155 174,194 154,238" fill="none" stroke="#c8302e" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="203,155 240,132 258,155" fill="none" stroke="#f2ede3" stroke-width="19" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="203,155 240,132 258,155" fill="none" stroke="#c8302e" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="204" cy="124" r="18.5" fill="#f2ede3"/>
+<circle cx="204" cy="124" r="15" fill="#c8302e"/>
+</svg></div>
+  <figcaption><div class="pc-head"><h4>Mount</h4><span class="pc-tag">TOP PIN</span></div>
+  <p><strong>Good for:</strong> Full weight on their chest, both of your hands free. Ground-and-pound headquarters — and the armbar, arm triangle and americana all start here.</p></figcaption>
+</figure><figure class="poscard">
+  <div class="figwrap"><svg class="fig" role="img" aria-label="Red athlete chest-down across a supine blue opponent, hips high" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300">
+<rect width="400" height="300" fill="#f2ede3"/>
+<line x1="16" y1="272" x2="384" y2="272" stroke="#23262b" stroke-width="6" stroke-linecap="round"/>
+<polyline points="96,251 205,256" fill="none" stroke="#f2ede3" stroke-width="19" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="96,251 205,256" fill="none" stroke="#1d4f91" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="205,256 266,246 305,262" fill="none" stroke="#f2ede3" stroke-width="19" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="205,256 266,246 305,262" fill="none" stroke="#1d4f91" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="205,256 256,236 295,260" fill="none" stroke="#f2ede3" stroke-width="19" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="205,256 256,236 295,260" fill="none" stroke="#1d4f91" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="96,251 70,257 48,250" fill="none" stroke="#f2ede3" stroke-width="19" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="96,251 70,257 48,250" fill="none" stroke="#1d4f91" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="96,251 126,232 150,238" fill="none" stroke="#f2ede3" stroke-width="19" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="96,251 126,232 150,238" fill="none" stroke="#1d4f91" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="232,175 258,232 292,258" fill="none" stroke="#f2ede3" stroke-width="19" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="232,175 258,232 292,258" fill="none" stroke="#c8302e" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="232,175 240,242 276,262" fill="none" stroke="#f2ede3" stroke-width="19" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="232,175 240,242 276,262" fill="none" stroke="#c8302e" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="232,175 152,218" fill="none" stroke="#f2ede3" stroke-width="19" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="232,175 152,218" fill="none" stroke="#c8302e" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="152,218 170,246 196,256" fill="none" stroke="#f2ede3" stroke-width="19" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="152,218 170,246 196,256" fill="none" stroke="#c8302e" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="152,218 114,238 78,246" fill="none" stroke="#f2ede3" stroke-width="19" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="152,218 114,238 78,246" fill="none" stroke="#c8302e" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="70" cy="246" r="18.5" fill="#f2ede3"/>
+<circle cx="70" cy="246" r="15" fill="#1d4f91"/>
+<circle cx="122" cy="202" r="18.5" fill="#f2ede3"/>
+<circle cx="122" cy="202" r="15" fill="#c8302e"/>
+</svg></div>
+  <figcaption><div class="pc-head"><h4>Side Control</h4><span class="pc-tag">TOP PIN</span></div>
+  <p><strong>Good for:</strong> The heavy pin after every pass. Shoulder pressure kills their frames; the americana, arm triangle, and the hop to knee-on-belly or mount are one beat away.</p></figcaption>
+</figure><figure class="poscard">
+  <div class="figwrap"><svg class="fig" role="img" aria-label="Red athlete glued to seated blue opponent from behind, arm around the neck, hook over the thigh" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300">
+<rect width="400" height="300" fill="#f2ede3"/>
+<line x1="16" y1="272" x2="384" y2="272" stroke="#23262b" stroke-width="6" stroke-linecap="round"/>
+<polyline points="225,235 205,258 232,264" fill="none" stroke="#f2ede3" stroke-width="19" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="225,235 205,258 232,264" fill="none" stroke="#c8302e" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="225,235 196,155" fill="none" stroke="#f2ede3" stroke-width="19" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="225,235 196,155" fill="none" stroke="#c8302e" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="185,238 150,222 112,262" fill="none" stroke="#f2ede3" stroke-width="19" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="185,238 150,222 112,262" fill="none" stroke="#1d4f91" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="185,238 135,210 100,252" fill="none" stroke="#f2ede3" stroke-width="19" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="185,238 135,210 100,252" fill="none" stroke="#1d4f91" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="185,238 150,162" fill="none" stroke="#f2ede3" stroke-width="19" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="185,238 150,162" fill="none" stroke="#1d4f91" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="150,162 115,198 92,232" fill="none" stroke="#f2ede3" stroke-width="19" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="150,162 115,198 92,232" fill="none" stroke="#1d4f91" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="150,162 120,188 130,160" fill="none" stroke="#f2ede3" stroke-width="19" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="150,162 120,188 130,160" fill="none" stroke="#1d4f91" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="141" cy="133" r="18.5" fill="#f2ede3"/>
+<circle cx="141" cy="133" r="15" fill="#1d4f91"/>
+<polyline points="225,235 172,248 142,233" fill="none" stroke="#f2ede3" stroke-width="19" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="225,235 172,248 142,233" fill="none" stroke="#c8302e" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="196,155 185,192 163,178" fill="none" stroke="#f2ede3" stroke-width="19" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="196,155 185,192 163,178" fill="none" stroke="#c8302e" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="196,155 158,146 134,158" fill="none" stroke="#f2ede3" stroke-width="19" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="196,155 158,146 134,158" fill="none" stroke="#c8302e" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="210" cy="122" r="18.5" fill="#f2ede3"/>
+<circle cx="210" cy="122" r="15" fill="#c8302e"/>
+</svg></div>
+  <figcaption><div class="pc-head"><h4>Back Control</h4><span class="pc-tag">BEST SEAT</span></div>
+  <p><strong>Good for:</strong> The best position in MMA: you can hit them, they cannot hit you back, and the rear-naked choke owns the highest finish rate in the sport.</p></figcaption>
+</figure><figure class="poscard">
+  <div class="figwrap"><svg class="fig" role="img" aria-label="Red athlete with knee planted on a supine blue opponent, other leg posted wide" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300">
+<rect width="400" height="300" fill="#f2ede3"/>
+<line x1="16" y1="272" x2="384" y2="272" stroke="#23262b" stroke-width="6" stroke-linecap="round"/>
+<polyline points="96,251 200,256" fill="none" stroke="#f2ede3" stroke-width="19" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="96,251 200,256" fill="none" stroke="#1d4f91" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="200,256 262,248 300,263" fill="none" stroke="#f2ede3" stroke-width="19" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="200,256 262,248 300,263" fill="none" stroke="#1d4f91" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="200,256 252,238 292,261" fill="none" stroke="#f2ede3" stroke-width="19" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="200,256 252,238 292,261" fill="none" stroke="#1d4f91" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="96,251 60,258 40,250" fill="none" stroke="#f2ede3" stroke-width="19" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="96,251 60,258 40,250" fill="none" stroke="#1d4f91" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="96,251 135,232 158,228" fill="none" stroke="#f2ede3" stroke-width="19" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="96,251 135,232 158,228" fill="none" stroke="#1d4f91" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="70" cy="246" r="18.5" fill="#f2ede3"/>
+<circle cx="70" cy="246" r="15" fill="#1d4f91"/>
+<polyline points="180,195 235,222 266,266" fill="none" stroke="#f2ede3" stroke-width="19" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="180,195 235,222 266,266" fill="none" stroke="#c8302e" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="180,195 150,239 126,246" fill="none" stroke="#f2ede3" stroke-width="19" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="180,195 150,239 126,246" fill="none" stroke="#c8302e" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="180,195 196,132" fill="none" stroke="#f2ede3" stroke-width="19" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="180,195 196,132" fill="none" stroke="#c8302e" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="196,132 178,178 163,215" fill="none" stroke="#f2ede3" stroke-width="19" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="196,132 178,178 163,215" fill="none" stroke="#c8302e" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="196,132 230,110 250,132" fill="none" stroke="#f2ede3" stroke-width="19" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="196,132 230,110 250,132" fill="none" stroke="#c8302e" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="201" cy="103" r="18.5" fill="#f2ede3"/>
+<circle cx="201" cy="103" r="15" fill="#c8302e"/>
+</svg></div>
+  <figcaption><div class="pc-head"><h4>Knee-on-Belly</h4><span class="pc-tag">MOBILE PIN</span></div>
+  <p><strong>Good for:</strong> A pin that makes them panic. Their push on your knee feeds the armbar and the spin to mount, and your posture stays free to strike.</p></figcaption>
+</figure><figure class="poscard">
+  <div class="figwrap"><svg class="fig" role="img" aria-label="Red athlete kneeling over blue opponent head-to-toe, chest on chest" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300">
+<rect width="400" height="300" fill="#f2ede3"/>
+<line x1="16" y1="272" x2="384" y2="272" stroke="#23262b" stroke-width="6" stroke-linecap="round"/>
+<polyline points="245,251 140,256" fill="none" stroke="#f2ede3" stroke-width="19" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="245,251 140,256" fill="none" stroke="#1d4f91" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="140,256 85,238 48,259" fill="none" stroke="#f2ede3" stroke-width="19" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="140,256 85,238 48,259" fill="none" stroke="#1d4f91" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="140,256 95,247 55,263" fill="none" stroke="#f2ede3" stroke-width="19" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="140,256 95,247 55,263" fill="none" stroke="#1d4f91" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="245,251 275,258 300,260" fill="none" stroke="#f2ede3" stroke-width="19" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="245,251 275,258 300,260" fill="none" stroke="#1d4f91" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="308,182 330,240 360,260" fill="none" stroke="#f2ede3" stroke-width="19" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="308,182 330,240 360,260" fill="none" stroke="#c8302e" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="308,182 316,248 348,264" fill="none" stroke="#f2ede3" stroke-width="19" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="308,182 316,248 348,264" fill="none" stroke="#c8302e" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="308,182 230,222" fill="none" stroke="#f2ede3" stroke-width="19" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="308,182 230,222" fill="none" stroke="#c8302e" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="230,222 244,246 262,254" fill="none" stroke="#f2ede3" stroke-width="19" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="230,222 244,246 262,254" fill="none" stroke="#c8302e" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="230,222 232,250 212,258" fill="none" stroke="#f2ede3" stroke-width="19" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="230,222 232,250 212,258" fill="none" stroke="#c8302e" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="272" cy="246" r="18.5" fill="#f2ede3"/>
+<circle cx="272" cy="246" r="15" fill="#1d4f91"/>
+<circle cx="201" cy="213" r="18.5" fill="#f2ede3"/>
+<circle cx="201" cy="213" r="15" fill="#c8302e"/>
+</svg></div>
+  <figcaption><div class="pc-head"><h4>North–South</h4><span class="pc-tag">SCRAMBLE PIN</span></div>
+  <p><strong>Good for:</strong> The pin that catches scrambles. It blocks re-guarding, feeds the north–south choke and kimura, and rotates out to side control on either side.</p></figcaption>
+</figure><figure class="poscard">
+  <div class="figwrap"><svg class="fig" role="img" aria-label="Blue opponent on elbows and knees, red athlete covering from above" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300">
+<rect width="400" height="300" fill="#f2ede3"/>
+<line x1="16" y1="272" x2="384" y2="272" stroke="#23262b" stroke-width="6" stroke-linecap="round"/>
+<polyline points="258,175 300,216 320,262" fill="none" stroke="#f2ede3" stroke-width="19" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="258,175 300,216 320,262" fill="none" stroke="#c8302e" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="258,175 276,236 308,260" fill="none" stroke="#f2ede3" stroke-width="19" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="258,175 276,236 308,260" fill="none" stroke="#c8302e" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="235,208 263,257 298,264" fill="none" stroke="#f2ede3" stroke-width="19" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="235,208 263,257 298,264" fill="none" stroke="#1d4f91" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="235,208 252,254 288,262" fill="none" stroke="#f2ede3" stroke-width="19" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="235,208 252,254 288,262" fill="none" stroke="#1d4f91" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="235,208 150,212" fill="none" stroke="#f2ede3" stroke-width="19" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="235,208 150,212" fill="none" stroke="#1d4f91" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="150,212 158,256 128,262" fill="none" stroke="#f2ede3" stroke-width="19" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="150,212 158,256 128,262" fill="none" stroke="#1d4f91" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="150,212 140,252 112,258" fill="none" stroke="#f2ede3" stroke-width="19" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="150,212 140,252 112,258" fill="none" stroke="#1d4f91" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="118" cy="228" r="18.5" fill="#f2ede3"/>
+<circle cx="118" cy="228" r="15" fill="#1d4f91"/>
+<polyline points="258,175 172,190" fill="none" stroke="#f2ede3" stroke-width="19" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="258,175 172,190" fill="none" stroke="#c8302e" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="172,190 205,210 228,228" fill="none" stroke="#f2ede3" stroke-width="19" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="172,190 205,210 228,228" fill="none" stroke="#c8302e" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="172,190 156,216 146,234" fill="none" stroke="#f2ede3" stroke-width="19" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="172,190 156,216 146,234" fill="none" stroke="#c8302e" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="150" cy="170" r="18.5" fill="#f2ede3"/>
+<circle cx="150" cy="170" r="15" fill="#c8302e"/>
+</svg></div>
+  <figcaption><div class="pc-head"><h4>Attacking the Turtle</h4><span class="pc-tag">ATTACK ZONE</span></div>
+  <p><strong>Good for:</strong> Where opponents hide after a sprawl or stuffed shot. Go behind to take the back, or thread the anaconda and D’Arce when they stay down.</p></figcaption>
+</figure><figure class="poscard">
+  <div class="figwrap"><svg class="fig" role="img" aria-label="Red athlete on his back with legs locked around a kneeling blue opponent" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300">
+<rect width="400" height="300" fill="#f2ede3"/>
+<line x1="16" y1="272" x2="384" y2="272" stroke="#23262b" stroke-width="6" stroke-linecap="round"/>
+<polyline points="262,212 296,258 328,264" fill="none" stroke="#f2ede3" stroke-width="19" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="262,212 296,258 328,264" fill="none" stroke="#1d4f91" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="262,212 285,254 320,262" fill="none" stroke="#f2ede3" stroke-width="19" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="262,212 285,254 320,262" fill="none" stroke="#1d4f91" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="262,212 244,142" fill="none" stroke="#f2ede3" stroke-width="19" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="262,212 244,142" fill="none" stroke="#1d4f91" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="244,142 205,190 172,228" fill="none" stroke="#f2ede3" stroke-width="19" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="244,142 205,190 172,228" fill="none" stroke="#1d4f91" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="244,142 213,184 180,220" fill="none" stroke="#f2ede3" stroke-width="19" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="244,142 213,184 180,220" fill="none" stroke="#1d4f91" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="238" cy="113" r="18.5" fill="#f2ede3"/>
+<circle cx="238" cy="113" r="15" fill="#1d4f91"/>
+<polyline points="88,247 178,240" fill="none" stroke="#f2ede3" stroke-width="19" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="88,247 178,240" fill="none" stroke="#c8302e" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="178,240 235,205 285,222" fill="none" stroke="#f2ede3" stroke-width="19" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="178,240 235,205 285,222" fill="none" stroke="#c8302e" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="178,240 240,190 292,204" fill="none" stroke="#f2ede3" stroke-width="19" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="178,240 240,190 292,204" fill="none" stroke="#c8302e" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="88,247 115,262 148,264" fill="none" stroke="#f2ede3" stroke-width="19" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="88,247 115,262 148,264" fill="none" stroke="#c8302e" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="88,247 120,222 162,220" fill="none" stroke="#f2ede3" stroke-width="19" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="88,247 120,222 162,220" fill="none" stroke="#c8302e" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="62" cy="244" r="18.5" fill="#f2ede3"/>
+<circle cx="62" cy="244" r="15" fill="#c8302e"/>
+</svg></div>
+  <figcaption><div class="pc-head"><h4>Closed Guard</h4><span class="pc-tag">BOTTOM BASE</span></div>
+  <p><strong>Good for:</strong> Your bottom safety net. Broken posture kills their punches, and the armbar, triangle, kimura and hip-bump sweep all come off the same sit-up grips.</p></figcaption>
+</figure><figure class="poscard">
+  <div class="figwrap"><svg class="fig" role="img" aria-label="Red athlete on his side scissoring blue opponent’s lead leg, blue upright" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300">
+<rect width="400" height="300" fill="#f2ede3"/>
+<line x1="16" y1="272" x2="384" y2="272" stroke="#23262b" stroke-width="6" stroke-linecap="round"/>
+<polyline points="238,196 292,220 318,264" fill="none" stroke="#f2ede3" stroke-width="19" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="238,196 292,220 318,264" fill="none" stroke="#1d4f91" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="238,196 255,250 298,258" fill="none" stroke="#f2ede3" stroke-width="19" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="238,196 255,250 298,258" fill="none" stroke="#1d4f91" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="238,196 210,130" fill="none" stroke="#f2ede3" stroke-width="19" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="238,196 210,130" fill="none" stroke="#1d4f91" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="210,130 240,158 232,186" fill="none" stroke="#f2ede3" stroke-width="19" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="210,130 240,158 232,186" fill="none" stroke="#1d4f91" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="210,130 186,172 214,210" fill="none" stroke="#f2ede3" stroke-width="19" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="210,130 186,172 214,210" fill="none" stroke="#1d4f91" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="200" cy="103" r="18.5" fill="#f2ede3"/>
+<circle cx="200" cy="103" r="15" fill="#1d4f91"/>
+<polyline points="105,233 88,258 114,264" fill="none" stroke="#f2ede3" stroke-width="19" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="105,233 88,258 114,264" fill="none" stroke="#c8302e" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="105,233 172,244" fill="none" stroke="#f2ede3" stroke-width="19" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="105,233 172,244" fill="none" stroke="#c8302e" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="172,244 205,262 248,266" fill="none" stroke="#f2ede3" stroke-width="19" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="172,244 205,262 248,266" fill="none" stroke="#c8302e" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="172,244 228,220 268,240" fill="none" stroke="#f2ede3" stroke-width="19" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="172,244 228,220 268,240" fill="none" stroke="#c8302e" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="105,233 148,212 192,198" fill="none" stroke="#f2ede3" stroke-width="19" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="105,233 148,212 192,198" fill="none" stroke="#c8302e" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="80" cy="220" r="18.5" fill="#f2ede3"/>
+<circle cx="80" cy="220" r="15" fill="#c8302e"/>
+</svg></div>
+  <figcaption><div class="pc-head"><h4>Half Guard</h4><span class="pc-tag">WORKHORSE</span></div>
+  <p><strong>Good for:</strong> The MMA workhorse. Knee shield and underhook keep strikes off you while the wrestle-up and old-school sweep put you back on your feet or on top.</p></figcaption>
+</figure><figure class="poscard">
+  <div class="figwrap"><svg class="fig" role="img" aria-label="Red athlete seated with a hook under kneeling blue opponent’s thigh" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300">
+<rect width="400" height="300" fill="#f2ede3"/>
+<line x1="16" y1="272" x2="384" y2="272" stroke="#23262b" stroke-width="6" stroke-linecap="round"/>
+<polyline points="295,215 322,258 352,264" fill="none" stroke="#f2ede3" stroke-width="19" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="295,215 322,258 352,264" fill="none" stroke="#1d4f91" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="295,215 276,256 312,264" fill="none" stroke="#f2ede3" stroke-width="19" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="295,215 276,256 312,264" fill="none" stroke="#1d4f91" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="295,215 232,165" fill="none" stroke="#f2ede3" stroke-width="19" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="295,215 232,165" fill="none" stroke="#1d4f91" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="232,165 196,180 162,192" fill="none" stroke="#f2ede3" stroke-width="19" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="232,165 196,180 162,192" fill="none" stroke="#1d4f91" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="232,165 262,198 240,208" fill="none" stroke="#f2ede3" stroke-width="19" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="232,165 262,198 240,208" fill="none" stroke="#1d4f91" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="210" cy="148" r="18.5" fill="#f2ede3"/>
+<circle cx="210" cy="148" r="15" fill="#1d4f91"/>
+<polyline points="150,242 126,170" fill="none" stroke="#f2ede3" stroke-width="19" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="150,242 126,170" fill="none" stroke="#c8302e" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="150,242 196,206 210,254" fill="none" stroke="#f2ede3" stroke-width="19" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="150,242 196,206 210,254" fill="none" stroke="#c8302e" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="150,242 212,196 278,224" fill="none" stroke="#f2ede3" stroke-width="19" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="150,242 212,196 278,224" fill="none" stroke="#c8302e" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="126,170 160,192 228,206" fill="none" stroke="#f2ede3" stroke-width="19" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="126,170 160,192 228,206" fill="none" stroke="#c8302e" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="126,170 164,182 218,172" fill="none" stroke="#f2ede3" stroke-width="19" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="126,170 164,182 218,172" fill="none" stroke="#c8302e" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="118" cy="141" r="18.5" fill="#f2ede3"/>
+<circle cx="118" cy="141" r="15" fill="#c8302e"/>
+</svg></div>
+  <figcaption><div class="pc-head"><h4>Butterfly Guard</h4><span class="pc-tag">LAUNCH PAD</span></div>
+  <p><strong>Good for:</strong> The seated engine against a kneeling opponent: hooks lift them into sweeps, wrestle-ups and guillotines while your hips stay off the fence.</p></figcaption>
+</figure><figure class="poscard">
+  <div class="figwrap"><svg class="fig" role="img" aria-label="Blue opponent bent over, red athlete wrapping the neck from above" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300">
+<rect width="400" height="300" fill="#f2ede3"/>
+<line x1="16" y1="272" x2="384" y2="272" stroke="#23262b" stroke-width="6" stroke-linecap="round"/>
+<polyline points="272,180 298,222 312,264" fill="none" stroke="#f2ede3" stroke-width="19" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="272,180 298,222 312,264" fill="none" stroke="#1d4f91" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="272,180 280,225 268,266" fill="none" stroke="#f2ede3" stroke-width="19" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="272,180 280,225 268,266" fill="none" stroke="#1d4f91" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="272,180 185,190" fill="none" stroke="#f2ede3" stroke-width="19" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="272,180 185,190" fill="none" stroke="#1d4f91" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="185,190 192,232 205,256" fill="none" stroke="#f2ede3" stroke-width="19" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="185,190 192,232 205,256" fill="none" stroke="#1d4f91" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="185,190 172,230 160,252" fill="none" stroke="#f2ede3" stroke-width="19" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="185,190 172,230 160,252" fill="none" stroke="#1d4f91" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="157" cy="200" r="18.5" fill="#f2ede3"/>
+<circle cx="157" cy="200" r="15" fill="#1d4f91"/>
+<polyline points="98,180 84,224 72,266" fill="none" stroke="#f2ede3" stroke-width="19" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="98,180 84,224 72,266" fill="none" stroke="#c8302e" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="98,180 120,224 116,266" fill="none" stroke="#f2ede3" stroke-width="19" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="98,180 120,224 116,266" fill="none" stroke="#c8302e" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="98,180 155,135" fill="none" stroke="#f2ede3" stroke-width="19" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="98,180 155,135" fill="none" stroke="#c8302e" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="155,135 190,155 218,182" fill="none" stroke="#f2ede3" stroke-width="19" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="155,135 190,155 218,182" fill="none" stroke="#c8302e" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="155,135 182,172 150,206" fill="none" stroke="#f2ede3" stroke-width="19" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="155,135 182,172 150,206" fill="none" stroke="#c8302e" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="178" cy="112" r="18.5" fill="#f2ede3"/>
+<circle cx="178" cy="112" r="15" fill="#c8302e"/>
+</svg></div>
+  <figcaption><div class="pc-head"><h4>Front Headlock</h4><span class="pc-tag">CHOKE HUB</span></div>
+  <p><strong>Good for:</strong> MMA’s choke hub. Every snap-down and every sprawl lands here — leave with a guillotine, D’Arce or anaconda, or spin behind to the back.</p></figcaption>
+</figure></div>
+</section>
+
+<section id="takedowns">
+  <div class="sec-head"><span class="slash">//</span><h2>Takedown Game</h2><span class="tag">GET IT TO THE MAT</span></div>
+  <p class="lead">Four core patterns carry the program — the shot, the leg you keep, the lock-up, and the answer to all of it.</p>
+  <div class="posgrid"><figure class="poscard">
+  <div class="figwrap"><svg class="fig" role="img" aria-label="Red athlete driving low into blue opponent’s legs, trailing leg extended" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300">
+<rect width="400" height="300" fill="#f2ede3"/>
+<line x1="16" y1="272" x2="384" y2="272" stroke="#23262b" stroke-width="6" stroke-linecap="round"/>
+<polyline points="275,172 288,220 298,264" fill="none" stroke="#f2ede3" stroke-width="19" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="275,172 288,220 298,264" fill="none" stroke="#1d4f91" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="275,172 262,222 258,266" fill="none" stroke="#f2ede3" stroke-width="19" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="275,172 262,222 258,266" fill="none" stroke="#1d4f91" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="275,172 295,100" fill="none" stroke="#f2ede3" stroke-width="19" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="275,172 295,100" fill="none" stroke="#1d4f91" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="295,100 322,130 340,158" fill="none" stroke="#f2ede3" stroke-width="19" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="295,100 322,130 340,158" fill="none" stroke="#1d4f91" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="295,100 322,88 345,102" fill="none" stroke="#f2ede3" stroke-width="19" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="295,100 322,88 345,102" fill="none" stroke="#1d4f91" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="300" cy="70" r="18.5" fill="#f2ede3"/>
+<circle cx="300" cy="70" r="15" fill="#1d4f91"/>
+<polyline points="150,205 108,235 70,262" fill="none" stroke="#f2ede3" stroke-width="19" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="150,205 108,235 70,262" fill="none" stroke="#c8302e" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="150,205 190,254 228,262" fill="none" stroke="#f2ede3" stroke-width="19" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="150,205 190,254 228,262" fill="none" stroke="#c8302e" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="150,205 228,168" fill="none" stroke="#f2ede3" stroke-width="19" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="150,205 228,168" fill="none" stroke="#c8302e" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="228,168 258,208 290,222" fill="none" stroke="#f2ede3" stroke-width="19" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="228,168 258,208 290,222" fill="none" stroke="#c8302e" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="228,168 250,202 268,222" fill="none" stroke="#f2ede3" stroke-width="19" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="228,168 250,202 268,222" fill="none" stroke="#c8302e" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="253" cy="152" r="18.5" fill="#f2ede3"/>
+<circle cx="253" cy="152" r="15" fill="#c8302e"/>
+</svg></div>
+  <figcaption><div class="pc-head"><h4>Double Leg</h4><span class="pc-tag">THE SHOT</span></div>
+  <p><strong>Good for:</strong> The highest-percentage takedown in MMA. Hide the level change behind punches; finish by driving through, lifting, or cutting the corner.</p></figcaption>
+</figure><figure class="poscard">
+  <div class="figwrap"><svg class="fig" role="img" aria-label="Red athlete holding blue opponent’s leg to his chest while blue hops" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300">
+<rect width="400" height="300" fill="#f2ede3"/>
+<line x1="16" y1="272" x2="384" y2="272" stroke="#23262b" stroke-width="6" stroke-linecap="round"/>
+<polyline points="285,170 295,220 300,266" fill="none" stroke="#f2ede3" stroke-width="19" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="285,170 295,220 300,266" fill="none" stroke="#1d4f91" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="285,170 232,170 196,184" fill="none" stroke="#f2ede3" stroke-width="19" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="285,170 232,170 196,184" fill="none" stroke="#1d4f91" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="285,170 300,98" fill="none" stroke="#f2ede3" stroke-width="19" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="285,170 300,98" fill="none" stroke="#1d4f91" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="300,98 330,130 345,158" fill="none" stroke="#f2ede3" stroke-width="19" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="300,98 330,130 345,158" fill="none" stroke="#1d4f91" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="300,98 265,108 232,112" fill="none" stroke="#f2ede3" stroke-width="19" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="300,98 265,108 232,112" fill="none" stroke="#1d4f91" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="305" cy="68" r="18.5" fill="#f2ede3"/>
+<circle cx="305" cy="68" r="15" fill="#1d4f91"/>
+<polyline points="148,192 132,228 126,266" fill="none" stroke="#f2ede3" stroke-width="19" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="148,192 132,228 126,266" fill="none" stroke="#c8302e" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="148,192 168,230 172,264" fill="none" stroke="#f2ede3" stroke-width="19" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="148,192 168,230 172,264" fill="none" stroke="#c8302e" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="148,192 172,122" fill="none" stroke="#f2ede3" stroke-width="19" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="148,192 172,122" fill="none" stroke="#c8302e" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="172,122 178,162 196,186" fill="none" stroke="#f2ede3" stroke-width="19" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="172,122 178,162 196,186" fill="none" stroke="#c8302e" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="172,122 196,156 208,180" fill="none" stroke="#f2ede3" stroke-width="19" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="172,122 196,156 208,180" fill="none" stroke="#c8302e" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="180" cy="93" r="18.5" fill="#f2ede3"/>
+<circle cx="180" cy="93" r="15" fill="#c8302e"/>
+</svg></div>
+  <figcaption><div class="pc-head"><h4>Single Leg</h4><span class="pc-tag">ALWAYS THERE</span></div>
+  <p><strong>Good for:</strong> The shot that is always half-available: head tight, their leg to your chest, run the pipe. Also the finish for every kick you catch.</p></figcaption>
+</figure><figure class="poscard">
+  <div class="figwrap"><svg class="fig" role="img" aria-label="Red athlete chest to chest with blue, arms locked around the waist" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300">
+<rect width="400" height="300" fill="#f2ede3"/>
+<line x1="16" y1="272" x2="384" y2="272" stroke="#23262b" stroke-width="6" stroke-linecap="round"/>
+<polyline points="252,185 272,224 280,262" fill="none" stroke="#f2ede3" stroke-width="19" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="252,185 272,224 280,262" fill="none" stroke="#1d4f91" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="252,185 240,226 234,266" fill="none" stroke="#f2ede3" stroke-width="19" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="252,185 240,226 234,266" fill="none" stroke="#1d4f91" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="252,185 234,118" fill="none" stroke="#f2ede3" stroke-width="19" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="252,185 234,118" fill="none" stroke="#1d4f91" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="234,118 258,148 242,172" fill="none" stroke="#f2ede3" stroke-width="19" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="234,118 258,148 242,172" fill="none" stroke="#1d4f91" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="234,118 205,140 185,160" fill="none" stroke="#f2ede3" stroke-width="19" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="234,118 205,140 185,160" fill="none" stroke="#1d4f91" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="240" cy="88" r="18.5" fill="#f2ede3"/>
+<circle cx="240" cy="88" r="15" fill="#1d4f91"/>
+<polyline points="148,190 118,232 96,266" fill="none" stroke="#f2ede3" stroke-width="19" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="148,190 118,232 96,266" fill="none" stroke="#c8302e" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="148,190 165,228 170,264" fill="none" stroke="#f2ede3" stroke-width="19" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="148,190 165,228 170,264" fill="none" stroke="#c8302e" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="148,190 196,128" fill="none" stroke="#f2ede3" stroke-width="19" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="148,190 196,128" fill="none" stroke="#c8302e" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="196,128 228,162 258,188" fill="none" stroke="#f2ede3" stroke-width="19" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="196,128 228,162 258,188" fill="none" stroke="#c8302e" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="196,128 232,152 262,175" fill="none" stroke="#f2ede3" stroke-width="19" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="196,128 232,152 262,175" fill="none" stroke="#c8302e" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="203" cy="99" r="18.5" fill="#f2ede3"/>
+<circle cx="203" cy="99" r="15" fill="#c8302e"/>
+</svg></div>
+  <figcaption><div class="pc-head"><h4>Bodylock</h4><span class="pc-tag">CAGE KING</span></div>
+  <p><strong>Good for:</strong> The cage-wrestling king. Chest to chest with your hips lower than theirs, it trades almost no guillotine risk for trips, lifts and wall takedowns.</p></figcaption>
+</figure><figure class="poscard">
+  <div class="figwrap"><svg class="fig" role="img" aria-label="Red athlete sprawled hips-down over a flattened blue shot" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300">
+<rect width="400" height="300" fill="#f2ede3"/>
+<line x1="16" y1="272" x2="384" y2="272" stroke="#23262b" stroke-width="6" stroke-linecap="round"/>
+<polyline points="262,236 304,244 344,252" fill="none" stroke="#f2ede3" stroke-width="19" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="262,236 304,244 344,252" fill="none" stroke="#1d4f91" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="262,236 298,254 338,260" fill="none" stroke="#f2ede3" stroke-width="19" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="262,236 298,254 338,260" fill="none" stroke="#1d4f91" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="262,236 175,242" fill="none" stroke="#f2ede3" stroke-width="19" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="262,236 175,242" fill="none" stroke="#1d4f91" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="175,242 190,260 162,265" fill="none" stroke="#f2ede3" stroke-width="19" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="175,242 190,260 162,265" fill="none" stroke="#1d4f91" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="175,242 152,260 122,264" fill="none" stroke="#f2ede3" stroke-width="19" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="175,242 152,260 122,264" fill="none" stroke="#1d4f91" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="140" cy="250" r="18.5" fill="#f2ede3"/>
+<circle cx="140" cy="250" r="15" fill="#1d4f91"/>
+<polyline points="152,230 100,248 48,262" fill="none" stroke="#f2ede3" stroke-width="19" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="152,230 100,248 48,262" fill="none" stroke="#c8302e" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="152,230 110,240 56,252" fill="none" stroke="#f2ede3" stroke-width="19" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="152,230 110,240 56,252" fill="none" stroke="#c8302e" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="152,230 232,192" fill="none" stroke="#f2ede3" stroke-width="19" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="152,230 232,192" fill="none" stroke="#c8302e" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="232,192 215,225 190,246" fill="none" stroke="#f2ede3" stroke-width="19" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="232,192 215,225 190,246" fill="none" stroke="#c8302e" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="232,192 252,222 246,242" fill="none" stroke="#f2ede3" stroke-width="19" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="232,192 252,222 246,242" fill="none" stroke="#c8302e" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="258" cy="172" r="18.5" fill="#f2ede3"/>
+<circle cx="258" cy="172" r="15" fill="#c8302e"/>
+</svg></div>
+  <figcaption><div class="pc-head"><h4>Sprawl</h4><span class="pc-tag">THE ANSWER</span></div>
+  <p><strong>Good for:</strong> The anti-shot: hips crush down, legs shoot back, chest stays heavy — and their failed shot becomes your front headlock.</p></figcaption>
+</figure></div>
+  <p class="lead" style="margin-top:18px">The full 12-takedown syllabus, with the sessions where each one lives:</p>
+  <div class="tablewrap"><table class="tdlist">
+    <tr><th>Takedown</th><th>Sessions</th><th>Key detail</th></tr><tr><td><b>01 · Double leg</b></td><td class="ss">S1, S25</td><td>penetration step, head outside, three finishes</td></tr><tr><td><b>02 · Single leg</b></td><td class="ss">S3, S21</td><td>head inside, run the pipe; chain off the double</td></tr><tr><td><b>03 · Bodylock</b></td><td class="ss">S9, S22</td><td>over-under pummel, lift-and-turn</td></tr><tr><td><b>04 · Hip toss</b></td><td class="ss">S14</td><td>over-under entry, hips lower and through — pads only</td></tr><tr><td><b>05 · Foot sweep</b></td><td class="ss">S12, S24</td><td>de-ashi timing as their foot lands</td></tr><tr><td><b>06 · Inside trip</b></td><td class="ss">S11, S22</td><td>deep step, inside hook, drive over the trapped foot</td></tr><tr><td><b>07 · Outside trip</b></td><td class="ss">S10, S22</td><td>load the heel from the bodylock, chop and drive</td></tr><tr><td><b>08 · Knee tap</b></td><td class="ss">S13, S26</td><td>block the far knee off the over-under, drive across</td></tr><tr><td><b>09 · Ankle pick</b></td><td class="ss">S7, S23</td><td>snap them over the lead foot, scoop the heel</td></tr><tr><td><b>10 · Snap-down</b></td><td class="ss">S5, S17, S20</td><td>collar tie + elbow, snap into the chin strap</td></tr><tr><td><b>11 · Duck-under</b></td><td class="ss">S6, S19</td><td>lift the elbow, level change through, chest to back</td></tr><tr><td><b>12 · Cage takedowns</b></td><td class="ss">S15, S26, S30</td><td>wall bodylock, fence single, hip bump off the cage</td></tr>
+  </table></div>
+</section>
+
+<section id="chokemap">
+  <div class="sec-head"><span class="slash">//</span><h2>The Choke Map</h2><span class="tag">ONE SNAP, FIVE ENDINGS</span></div>
+  <p class="lead">The front-headlock system, drawn as a map. Weeks 5 and 6 install every road on it; week 7 makes you drive them tired.</p>
+  <svg viewBox="0 0 700 620" class="chokemap" role="img" aria-label="Choke map: snap-down or sprawl into front headlock, exits to guillotine, D’Arce, anaconda or go-behind; go-behind leads to back control and the rear-naked choke"><defs><marker id="ah" markerWidth="9" markerHeight="9" refX="7" refY="4.5" orient="auto"><path d="M0,0 L9,4.5 L0,9 Z" fill="#a29f96"/></marker></defs><rect x="50" y="16" width="250" height="62" rx="10" fill="rgba(91,142,214,.16)" stroke="#5b8ed6" stroke-width="1.5"/><text x="175.0" y="49.0" text-anchor="middle" font-size="17" font-weight="600" fill="#eceae4" font-family="Oswald,'Arial Narrow',sans-serif" letter-spacing="1">SNAP-DOWN</text><text x="175.0" y="67" text-anchor="middle" font-size="11.5" fill="#a29f96" font-family="Inter,system-ui,sans-serif">they get pulled down</text><rect x="400" y="16" width="250" height="62" rx="10" fill="rgba(91,142,214,.16)" stroke="#5b8ed6" stroke-width="1.5"/><text x="525.0" y="49.0" text-anchor="middle" font-size="17" font-weight="600" fill="#eceae4" font-family="Oswald,'Arial Narrow',sans-serif" letter-spacing="1">SPRAWL</text><text x="525.0" y="67" text-anchor="middle" font-size="11.5" fill="#a29f96" font-family="Inter,system-ui,sans-serif">their shot gets stuffed</text><path d="M 175 82 L 310 128" stroke="#a29f96" stroke-width="2.5" fill="none" marker-end="url(#ah)"/><path d="M 525 82 L 390 128" stroke="#a29f96" stroke-width="2.5" fill="none" marker-end="url(#ah)"/><rect x="200" y="134" width="300" height="74" rx="10" fill="rgba(224,82,72,.16)" stroke="#e05248" stroke-width="1.5"/><text x="350.0" y="173.0" text-anchor="middle" font-size="21" font-weight="600" fill="#eceae4" font-family="Oswald,'Arial Narrow',sans-serif" letter-spacing="1">FRONT HEADLOCK</text><text x="350.0" y="197" text-anchor="middle" font-size="11.5" fill="#a29f96" font-family="Inter,system-ui,sans-serif">chin strap + elbow — the hub</text><rect x="12" y="300" width="160" height="64" rx="10" fill="rgba(224,82,72,.16)" stroke="#e05248" stroke-width="1.5"/><text x="92.0" y="334.0" text-anchor="middle" font-size="15.5" font-weight="600" fill="#eceae4" font-family="Oswald,'Arial Narrow',sans-serif" letter-spacing="1">GUILLOTINE</text><text x="92.0" y="353" text-anchor="middle" font-size="11.5" fill="#a29f96" font-family="Inter,system-ui,sans-serif">high-elbow / arm-in</text><path d="M 250 208 L 92.0 294" stroke="#a29f96" stroke-width="2.5" fill="none" marker-end="url(#ah)"/><rect x="184" y="300" width="160" height="64" rx="10" fill="rgba(224,82,72,.16)" stroke="#e05248" stroke-width="1.5"/><text x="264.0" y="334.0" text-anchor="middle" font-size="15.5" font-weight="600" fill="#eceae4" font-family="Oswald,'Arial Narrow',sans-serif" letter-spacing="1">D’ARCE</text><text x="264.0" y="353" text-anchor="middle" font-size="11.5" fill="#a29f96" font-family="Inter,system-ui,sans-serif">arm-first thread</text><path d="M 317 208 L 264.0 294" stroke="#a29f96" stroke-width="2.5" fill="none" marker-end="url(#ah)"/><rect x="356" y="300" width="160" height="64" rx="10" fill="rgba(224,82,72,.16)" stroke="#e05248" stroke-width="1.5"/><text x="436.0" y="334.0" text-anchor="middle" font-size="15.5" font-weight="600" fill="#eceae4" font-family="Oswald,'Arial Narrow',sans-serif" letter-spacing="1">ANACONDA</text><text x="436.0" y="353" text-anchor="middle" font-size="11.5" fill="#a29f96" font-family="Inter,system-ui,sans-serif">neck-first thread</text><path d="M 384 208 L 436.0 294" stroke="#a29f96" stroke-width="2.5" fill="none" marker-end="url(#ah)"/><rect x="528" y="300" width="160" height="64" rx="10" fill="rgba(91,142,214,.16)" stroke="#5b8ed6" stroke-width="1.5"/><text x="608.0" y="334.0" text-anchor="middle" font-size="15.5" font-weight="600" fill="#eceae4" font-family="Oswald,'Arial Narrow',sans-serif" letter-spacing="1">GO-BEHIND</text><text x="608.0" y="353" text-anchor="middle" font-size="11.5" fill="#a29f96" font-family="Inter,system-ui,sans-serif">shuck, chest to back</text><path d="M 451 208 L 608.0 294" stroke="#a29f96" stroke-width="2.5" fill="none" marker-end="url(#ah)"/><text x="92.0" y="392" text-anchor="middle" font-size="12" font-weight="600" fill="#e05248" font-family="Inter,system-ui,sans-serif">FINISH</text><path d="M 92.0 368 L 92.0 380" stroke="#a29f96" stroke-width="2"/><text x="264.0" y="392" text-anchor="middle" font-size="12" font-weight="600" fill="#e05248" font-family="Inter,system-ui,sans-serif">FINISH</text><path d="M 264.0 368 L 264.0 380" stroke="#a29f96" stroke-width="2"/><text x="436.0" y="392" text-anchor="middle" font-size="12" font-weight="600" fill="#e05248" font-family="Inter,system-ui,sans-serif">FINISH</text><path d="M 436.0 368 L 436.0 380" stroke="#a29f96" stroke-width="2"/><path d="M 608.0 368 L 575 418" stroke="#a29f96" stroke-width="2.5" fill="none" marker-end="url(#ah)"/><rect x="465" y="424" width="220" height="62" rx="10" fill="rgba(91,142,214,.16)" stroke="#5b8ed6" stroke-width="1.5"/><text x="575.0" y="457.0" text-anchor="middle" font-size="17" font-weight="600" fill="#eceae4" font-family="Oswald,'Arial Narrow',sans-serif" letter-spacing="1">BACK CONTROL</text><text x="575.0" y="475" text-anchor="middle" font-size="11.5" fill="#a29f96" font-family="Inter,system-ui,sans-serif">seat belt, hooks in</text><path d="M 575 490 L 575 532" stroke="#a29f96" stroke-width="2.5" fill="none" marker-end="url(#ah)"/><rect x="462" y="536" width="226" height="64" rx="10" fill="rgba(224,82,72,.30)" stroke="#e05248" stroke-width="1.5"/><text x="575.0" y="570.0" text-anchor="middle" font-size="16" font-weight="600" fill="#eceae4" font-family="Oswald,'Arial Narrow',sans-serif" letter-spacing="1">REAR-NAKED CHOKE</text><text x="575.0" y="589" text-anchor="middle" font-size="11.5" fill="#a29f96" font-family="Inter,system-ui,sans-serif">highest finish rate in MMA</text></svg>
+</section>
+
+<section class="week" id="week1" style="--pc:#5b8ed6">
+  <div class="wk-head"><span class="wnum">WEEK 1 · SURVIVE PHASE</span>
+  <h3>Don’t drown</h3><p>Job one: become hard to finish. Escapes from every bad position, submission defense, and your first takedown mechanics.</p></div>
+  <article class="session" id="s1">
+  <header class="s-head">
+    <span class="s-num" style="--pc:#5b8ed6">01</span>
+    <div><h4>Day One: Base & the Upa</h4><span class="s-meta">Week 1 · Survive phase · 60 min</span></div>
+  </header>
+  <div class="tbar" aria-hidden="true"><span style="flex:6;background:#6d675c" title="Warm-up 6 min"></span><span style="flex:12;background:#e05248" title="Takedown 12 min"></span><span style="flex:15;background:#5b8ed6" title="Position 15 min"></span><span style="flex:15;background:#b5811f" title="Submission 15 min"></span><span style="flex:10;background:#35a08c" title="Live 10 min"></span><span style="flex:2;background:#4b4e55" title="Review 2 min"></span></div>
+  <ul class="blocks">
+    <li class="blk"><span class="btime" style="--bc:#6d675c">0–6</span><div class="btxt"><span class="blab" style="color:#6d675c">WARM-UP</span> Line drills: shrimp, bridge, technical stand-up, sprawl walk.</div></li>
+    <li class="blk"><span class="btime" style="--bc:#e05248">6–18</span><div class="btxt"><span class="blab" style="color:#e05248">TAKEDOWN</span> Double leg part 1 — stance and penetration step: level change with the knees, lead knee over the toes, head up. 10 clean shots each side on pads.</div></li>
+    <li class="blk"><span class="btime" style="--bc:#5b8ed6">18–33</span><div class="btxt"><span class="blab" style="color:#5b8ed6">POSITION</span> Mount escape — trap &amp; roll: trap the arm and the same-side foot, bridge high over that shoulder, finish on top inside their guard. Both sides.</div></li>
+    <li class="blk"><span class="btime" style="--bc:#b5811f">33–48</span><div class="btxt"><span class="blab" style="color:#b5811f">SUBMISSION</span> RNC survival: chin down, shoulders shrugged, two-on-one on the choking hand, peel and slide it over your head. Partner builds to a 70% grip.</div></li>
+    <li class="blk"><span class="btime" style="--bc:#35a08c">48–58</span><div class="btxt"><span class="blab" style="color:#35a08c">LIVE</span> Positional 5×2 min: start mounted — escape resets, top holds or advances.</div></li>
+  </ul>
+  <p class="cue"><span>COACH CUE</span>Bridge into them, not just up.</p>
+</article><article class="session" id="s2">
+  <header class="s-head">
+    <span class="s-num" style="--pc:#5b8ed6">02</span>
+    <div><h4>Frames & Sprawls</h4><span class="s-meta">Week 1 · Survive phase · 60 min</span></div>
+  </header>
+  <div class="tbar" aria-hidden="true"><span style="flex:6;background:#6d675c" title="Warm-up 6 min"></span><span style="flex:12;background:#e05248" title="Takedown 12 min"></span><span style="flex:15;background:#5b8ed6" title="Position 15 min"></span><span style="flex:15;background:#b5811f" title="Submission 15 min"></span><span style="flex:10;background:#35a08c" title="Live 10 min"></span><span style="flex:2;background:#4b4e55" title="Review 2 min"></span></div>
+  <ul class="blocks">
+    <li class="blk"><span class="btime" style="--bc:#6d675c">0–6</span><div class="btxt"><span class="blab" style="color:#6d675c">WARM-UP</span> Sprawl ladder, hip escapes down the mat, backward rolls.</div></li>
+    <li class="blk"><span class="btime" style="--bc:#e05248">6–18</span><div class="btxt"><span class="blab" style="color:#e05248">TAKEDOWN</span> Sprawl: hips punch the mat, legs shoot back, chest heavy on their shoulders, angle behind. Partner shoots at 50%.</div></li>
+    <li class="blk"><span class="btime" style="--bc:#5b8ed6">18–33</span><div class="btxt"><span class="blab" style="color:#5b8ed6">POSITION</span> Side control escape: forearm frame at the neck, elbow-to-knee connection, big shrimp, knee inside, recover guard. Option two: underhook and come up.</div></li>
+    <li class="blk"><span class="btime" style="--bc:#b5811f">33–48</span><div class="btxt"><span class="blab" style="color:#b5811f">SUBMISSION</span> Guillotine defense: early hand to your own throat, chin buried, shoulder pressure over the top, circle to the trapped-arm side and pop the head out.</div></li>
+    <li class="blk"><span class="btime" style="--bc:#35a08c">48–58</span><div class="btxt"><span class="blab" style="color:#35a08c">LIVE</span> 5×2 min: start under side control.</div></li>
+  </ul>
+  <p class="cue"><span>COACH CUE</span>Frames before force — bones hold, muscles fail.</p>
+</article><article class="session" id="s3">
+  <header class="s-head">
+    <span class="s-num" style="--pc:#5b8ed6">03</span>
+    <div><h4>Lose the Backpack</h4><span class="s-meta">Week 1 · Survive phase · 60 min</span></div>
+  </header>
+  <div class="tbar" aria-hidden="true"><span style="flex:6;background:#6d675c" title="Warm-up 6 min"></span><span style="flex:12;background:#e05248" title="Takedown 12 min"></span><span style="flex:15;background:#5b8ed6" title="Position 15 min"></span><span style="flex:15;background:#b5811f" title="Submission 15 min"></span><span style="flex:10;background:#35a08c" title="Live 10 min"></span><span style="flex:2;background:#4b4e55" title="Review 2 min"></span></div>
+  <ul class="blocks">
+    <li class="blk"><span class="btime" style="--bc:#6d675c">0–6</span><div class="btxt"><span class="blab" style="color:#6d675c">WARM-UP</span> Seat-belt pummels, wall sits, light wrestler’s bridges.</div></li>
+    <li class="blk"><span class="btime" style="--bc:#e05248">6–18</span><div class="btxt"><span class="blab" style="color:#e05248">TAKEDOWN</span> Single leg part 1: snap the collar tie, change level, head tight to their chest, run the pipe. Counter for the partner: whizzer plus hips back.</div></li>
+    <li class="blk"><span class="btime" style="--bc:#5b8ed6">18–33</span><div class="btxt"><span class="blab" style="color:#5b8ed6">POSITION</span> Back escape: chin down, two hands win the choking hand, shoulders flat to the mat, walk the hips to the open side, clear the hook, turn in.</div></li>
+    <li class="blk"><span class="btime" style="--bc:#b5811f">33–48</span><div class="btxt"><span class="blab" style="color:#b5811f">SUBMISSION</span> Kimura and americana defense: hide the wrist — grab your own hip or straighten the arm — elbows tight to the ribs, turn toward the crank.</div></li>
+    <li class="blk"><span class="btime" style="--bc:#35a08c">48–58</span><div class="btxt"><span class="blab" style="color:#35a08c">LIVE</span> Back-attack rounds 4×2 min from the seat belt.</div></li>
+  </ul>
+  <p class="cue"><span>COACH CUE</span>Chin buys time, hands buy freedom.</p>
+</article><article class="session" id="s4">
+  <header class="s-head">
+    <span class="s-num" style="--pc:#5b8ed6">04</span>
+    <div><h4>Bad Day at the Office</h4><span class="s-meta">Week 1 · Survive phase · 60 min</span></div>
+  </header>
+  <div class="tbar" aria-hidden="true"><span style="flex:6;background:#6d675c" title="Warm-up 6 min"></span><span style="flex:12;background:#e05248" title="Takedown 12 min"></span><span style="flex:15;background:#5b8ed6" title="Position 15 min"></span><span style="flex:15;background:#b5811f" title="Submission 15 min"></span><span style="flex:10;background:#35a08c" title="Live 10 min"></span><span style="flex:2;background:#4b4e55" title="Review 2 min"></span></div>
+  <ul class="blocks">
+    <li class="blk"><span class="btime" style="--bc:#6d675c">0–6</span><div class="btxt"><span class="blab" style="color:#6d675c">WARM-UP</span> Partner sprawl-shot ladder, easy pace.</div></li>
+    <li class="blk"><span class="btime" style="--bc:#e05248">6–18</span><div class="btxt"><span class="blab" style="color:#e05248">TAKEDOWN</span> Shot vs sprawl game: alternate on the whistle every 30 seconds at 60%. Shooters score on a clean knee pick-up.</div></li>
+    <li class="blk"><span class="btime" style="--bc:#5b8ed6">18–33</span><div class="btxt"><span class="blab" style="color:#5b8ed6">POSITION</span> Knee-on-belly escape: frame the knee and the hip, long shrimp to guard. Turtle recovery: sit-out and face them before they attach.</div></li>
+    <li class="blk"><span class="btime" style="--bc:#b5811f">33–48</span><div class="btxt"><span class="blab" style="color:#b5811f">SUBMISSION</span> Defense circuit, one-minute stations: RNC peel, guillotine posture, kimura hide, early armbar clasp and stack.</div></li>
+    <li class="blk"><span class="btime" style="--bc:#35a08c">48–58</span><div class="btxt"><span class="blab" style="color:#35a08c">LIVE</span> Bad-spot rotation 4×2 min: mount, side, back, KOB.</div></li>
+  </ul>
+  <p class="cue"><span>COACH CUE</span>Position before panic — breathe, frame, move.</p>
+</article>
+  <div class="checkpoint"><b>CHECKPOINT W1</b> — Escape mount and side control against 50% resistance inside 60 seconds each; 10 clean penetration steps without dropping your head.</div>
+</section><section class="week" id="week2" style="--pc:#5b8ed6">
+  <div class="wk-head"><span class="wnum">WEEK 2 · SURVIVE PHASE</span>
+  <h3>Get up, get out</h3><p>Guard retention, getting off the floor, and getting off the fence. The bottom is a place you visit, never live.</p></div>
+  <article class="session" id="s5">
+  <header class="s-head">
+    <span class="s-num" style="--pc:#5b8ed6">05</span>
+    <div><h4>Stand-Up Game</h4><span class="s-meta">Week 2 · Survive phase · 60 min</span></div>
+  </header>
+  <div class="tbar" aria-hidden="true"><span style="flex:6;background:#6d675c" title="Warm-up 6 min"></span><span style="flex:12;background:#e05248" title="Takedown 12 min"></span><span style="flex:15;background:#5b8ed6" title="Position 15 min"></span><span style="flex:15;background:#b5811f" title="Submission 15 min"></span><span style="flex:10;background:#35a08c" title="Live 10 min"></span><span style="flex:2;background:#4b4e55" title="Review 2 min"></span></div>
+  <ul class="blocks">
+    <li class="blk"><span class="btime" style="--bc:#6d675c">0–6</span><div class="btxt"><span class="blab" style="color:#6d675c">WARM-UP</span> Technical stand-ups on the whistle, wall sits, shot-defense footwork.</div></li>
+    <li class="blk"><span class="btime" style="--bc:#e05248">6–18</span><div class="btxt"><span class="blab" style="color:#e05248">TAKEDOWN</span> Snap-down: heavy collar tie plus elbow control, snap as they step in, circle toward the go-behind.</div></li>
+    <li class="blk"><span class="btime" style="--bc:#5b8ed6">18–33</span><div class="btxt"><span class="blab" style="color:#5b8ed6">POSITION</span> Technical stand-up and the wall walk: post, base leg back, stand facing them. On the fence: back flat, underhooks, wedge a leg, slide up — never turn away.</div></li>
+    <li class="blk"><span class="btime" style="--bc:#b5811f">33–48</span><div class="btxt"><span class="blab" style="color:#b5811f">SUBMISSION</span> Triangle defense: posture tall, arms both in or both out — never one-and-one. Late: stack high over their shoulder and walk around.</div></li>
+    <li class="blk"><span class="btime" style="--bc:#35a08c">48–58</span><div class="btxt"><span class="blab" style="color:#35a08c">LIVE</span> Wall rounds 5×2 min: attacker pins to the fence, defender stands and exits.</div></li>
+  </ul>
+  <p class="cue"><span>COACH CUE</span>Head above their head, hips off the fence.</p>
+</article><article class="session" id="s6">
+  <header class="s-head">
+    <span class="s-num" style="--pc:#5b8ed6">06</span>
+    <div><h4>Half Shield</h4><span class="s-meta">Week 2 · Survive phase · 60 min</span></div>
+  </header>
+  <div class="tbar" aria-hidden="true"><span style="flex:6;background:#6d675c" title="Warm-up 6 min"></span><span style="flex:12;background:#e05248" title="Takedown 12 min"></span><span style="flex:15;background:#5b8ed6" title="Position 15 min"></span><span style="flex:15;background:#b5811f" title="Submission 15 min"></span><span style="flex:10;background:#35a08c" title="Live 10 min"></span><span style="flex:2;background:#4b4e55" title="Review 2 min"></span></div>
+  <ul class="blocks">
+    <li class="blk"><span class="btime" style="--bc:#6d675c">0–6</span><div class="btxt"><span class="blab" style="color:#6d675c">WARM-UP</span> Knee-shield sit-throughs, hip switches.</div></li>
+    <li class="blk"><span class="btime" style="--bc:#e05248">6–18</span><div class="btxt"><span class="blab" style="color:#e05248">TAKEDOWN</span> Duck-under: lift their elbow off the collar tie, level change through the window, chest to their back, finish with a rear bodylock.</div></li>
+    <li class="blk"><span class="btime" style="--bc:#5b8ed6">18–33</span><div class="btxt"><span class="blab" style="color:#5b8ed6">POSITION</span> Half guard bottom: knee shield and frames; the law of the position — underhook or knee shield at all times. Today: recover full guard.</div></li>
+    <li class="blk"><span class="btime" style="--bc:#b5811f">33–48</span><div class="btxt"><span class="blab" style="color:#b5811f">SUBMISSION</span> Arm-triangle defense: chin and hand-fight before it locks; once locked, bridge, turn belly-down toward them, make the gap and slide out.</div></li>
+    <li class="blk"><span class="btime" style="--bc:#35a08c">48–58</span><div class="btxt"><span class="blab" style="color:#35a08c">LIVE</span> Half guard bottom survival 5×2 min: recover or stand to reset.</div></li>
+  </ul>
+  <p class="cue"><span>COACH CUE</span>Underhook or knee shield — never neither.</p>
+</article><article class="session" id="s7">
+  <header class="s-head">
+    <span class="s-num" style="--pc:#5b8ed6">07</span>
+    <div><h4>Land Mines & Leg Locks</h4><span class="s-meta">Week 2 · Survive phase · 60 min</span></div>
+  </header>
+  <div class="tbar" aria-hidden="true"><span style="flex:6;background:#6d675c" title="Warm-up 6 min"></span><span style="flex:12;background:#e05248" title="Takedown 12 min"></span><span style="flex:15;background:#5b8ed6" title="Position 15 min"></span><span style="flex:15;background:#b5811f" title="Submission 15 min"></span><span style="flex:10;background:#35a08c" title="Live 10 min"></span><span style="flex:2;background:#4b4e55" title="Review 2 min"></span></div>
+  <ul class="blocks">
+    <li class="blk"><span class="btime" style="--bc:#6d675c">0–6</span><div class="btxt"><span class="blab" style="color:#6d675c">WARM-UP</span> Technical stand-ups, backward rolls, ankle mobility.</div></li>
+    <li class="blk"><span class="btime" style="--bc:#e05248">6–18</span><div class="btxt"><span class="blab" style="color:#e05248">TAKEDOWN</span> Ankle pick: snap their posture over the lead foot, drop step, scoop the heel, drive through the shoulder.</div></li>
+    <li class="blk"><span class="btime" style="--bc:#5b8ed6">18–33</span><div class="btxt"><span class="blab" style="color:#5b8ed6">POSITION</span> North–south escape: frame the hips, spin inside to turtle, sit out to face them. Turtle rules: elbows in, hands guard the neck, never flatten.</div></li>
+    <li class="blk"><span class="btime" style="--bc:#b5811f">33–48</span><div class="btxt"><span class="blab" style="color:#b5811f">SUBMISSION</span> Leg-lock survival: straight ankle — clear the knee line, put the boot on, stand through. Heel hooks: defense concepts only, hands follow early, kill the rotation, tap at the first sign. Never applied live in this program.</div></li>
+    <li class="blk"><span class="btime" style="--bc:#35a08c">48–58</span><div class="btxt"><span class="blab" style="color:#35a08c">LIVE</span> Leg-entanglement escapes at 50%, then north–south and turtle positionals.</div></li>
+  </ul>
+  <p class="cue"><span>COACH CUE</span>Leg tangled? Clear the knee line, then stand.</p>
+</article><article class="session" id="s8">
+  <header class="s-head">
+    <span class="s-num" style="--pc:#5b8ed6">08</span>
+    <div><h4>Survival Final</h4><span class="s-meta">Week 2 · Survive phase · 60 min</span></div>
+  </header>
+  <div class="tbar" aria-hidden="true"><span style="flex:6;background:#6d675c" title="Warm-up 6 min"></span><span style="flex:12;background:#e05248" title="Takedown 12 min"></span><span style="flex:15;background:#5b8ed6" title="Position 15 min"></span><span style="flex:15;background:#b5811f" title="Submission 15 min"></span><span style="flex:10;background:#35a08c" title="Live 10 min"></span><span style="flex:2;background:#4b4e55" title="Review 2 min"></span></div>
+  <ul class="blocks">
+    <li class="blk"><span class="btime" style="--bc:#6d675c">0–6</span><div class="btxt"><span class="blab" style="color:#6d675c">WARM-UP</span> Full escape flow both sides, zero resistance.</div></li>
+    <li class="blk"><span class="btime" style="--bc:#e05248">6–18</span><div class="btxt"><span class="blab" style="color:#e05248">TAKEDOWN</span> Carousel, 2-minute stations at 60%: double, single, sprawl, snap-down, duck-under, ankle pick.</div></li>
+    <li class="blk"><span class="btime" style="--bc:#5b8ed6">18–33</span><div class="btxt"><span class="blab" style="color:#5b8ed6">POSITION</span> Escape gauntlet: coach calls a new bad position every 90 seconds; escape or stand.</div></li>
+    <li class="blk"><span class="btime" style="--bc:#b5811f">33–48</span><div class="btxt"><span class="blab" style="color:#b5811f">SUBMISSION</span> Defense gauntlet: partner attacks the called submission at 70%; defend, escape, reset.</div></li>
+    <li class="blk"><span class="btime" style="--bc:#35a08c">48–58</span><div class="btxt"><span class="blab" style="color:#35a08c">LIVE</span> Week-2 test: 4×2 min in mount, side, back and KOB against fresh partners at 70%.</div></li>
+  </ul>
+  <p class="cue"><span>COACH CUE</span>Calm is a skill — exhale on the bottom.</p>
+</article>
+  <div class="checkpoint"><b>CHECKPOINT W2</b> — Survive two minutes in any bad spot at 70% pressure without tapping; three clean wall stand-ups in one round.</div>
+</section><section class="week" id="week3" style="--pc:#35a08c">
+  <div class="wk-head"><span class="wnum">WEEK 3 · CONTROL PHASE</span>
+  <h3>Win every exchange</h3><p>Sweeps that put you on top, passes that keep you there, and full takedowns. Position pays the bills.</p></div>
+  <article class="session" id="s9">
+  <header class="s-head">
+    <span class="s-num" style="--pc:#35a08c">09</span>
+    <div><h4>Bodylock & Hip Bump</h4><span class="s-meta">Week 3 · Control phase · 60 min</span></div>
+  </header>
+  <div class="tbar" aria-hidden="true"><span style="flex:6;background:#6d675c" title="Warm-up 6 min"></span><span style="flex:12;background:#e05248" title="Takedown 12 min"></span><span style="flex:15;background:#5b8ed6" title="Position 15 min"></span><span style="flex:15;background:#b5811f" title="Submission 15 min"></span><span style="flex:10;background:#35a08c" title="Live 10 min"></span><span style="flex:2;background:#4b4e55" title="Review 2 min"></span></div>
+  <ul class="blocks">
+    <li class="blk"><span class="btime" style="--bc:#6d675c">0–6</span><div class="btxt"><span class="blab" style="color:#6d675c">WARM-UP</span> Pummeling swims, hip-heist sit-ups.</div></li>
+    <li class="blk"><span class="btime" style="--bc:#e05248">6–18</span><div class="btxt"><span class="blab" style="color:#e05248">TAKEDOWN</span> Bodylock takedown: win the over-under pummel, hips in and lower than theirs, lock behind their back, chest drive, step across, turn them over the hip.</div></li>
+    <li class="blk"><span class="btime" style="--bc:#5b8ed6">18–33</span><div class="btxt"><span class="blab" style="color:#5b8ed6">POSITION</span> Hip bump sweep: as they posture up in your closed guard — sit up big, post the hand, swing your hips over the trapped arm, land in mount.</div></li>
+    <li class="blk"><span class="btime" style="--bc:#b5811f">33–48</span><div class="btxt"><span class="blab" style="color:#b5811f">SUBMISSION</span> Kimura from guard: they post on the mat to stop the bump — wrap the posting arm, lock the figure-four, hip out, paint their knuckles to the ceiling.</div></li>
+    <li class="blk"><span class="btime" style="--bc:#35a08c">48–58</span><div class="btxt"><span class="blab" style="color:#35a08c">LIVE</span> Guard battle 5×2 min: bottom sweeps or submits, top postures and passes.</div></li>
+  </ul>
+  <p class="cue"><span>COACH CUE</span>The hip bump and the kimura are the same sit-up.</p>
+</article><article class="session" id="s10">
+  <header class="s-head">
+    <span class="s-num" style="--pc:#35a08c">10</span>
+    <div><h4>Knee Cut Day</h4><span class="s-meta">Week 3 · Control phase · 60 min</span></div>
+  </header>
+  <div class="tbar" aria-hidden="true"><span style="flex:6;background:#6d675c" title="Warm-up 6 min"></span><span style="flex:12;background:#e05248" title="Takedown 12 min"></span><span style="flex:15;background:#5b8ed6" title="Position 15 min"></span><span style="flex:15;background:#b5811f" title="Submission 15 min"></span><span style="flex:10;background:#35a08c" title="Live 10 min"></span><span style="flex:2;background:#4b4e55" title="Review 2 min"></span></div>
+  <ul class="blocks">
+    <li class="blk"><span class="btime" style="--bc:#6d675c">0–6</span><div class="btxt"><span class="blab" style="color:#6d675c">WARM-UP</span> Knee-cut slide drills down the mat, cross-face drills.</div></li>
+    <li class="blk"><span class="btime" style="--bc:#e05248">6–18</span><div class="btxt"><span class="blab" style="color:#e05248">TAKEDOWN</span> Outside trip from the bodylock: load their weight over one heel, chop the calf, chest through, land straight into side control.</div></li>
+    <li class="blk"><span class="btime" style="--bc:#5b8ed6">18–33</span><div class="btxt"><span class="blab" style="color:#5b8ed6">POSITION</span> Knee cut pass: knee slices across their bottom shin, far-side underhook, heavy cross-face, corkscrew the hips through to side control.</div></li>
+    <li class="blk"><span class="btime" style="--bc:#b5811f">33–48</span><div class="btxt"><span class="blab" style="color:#b5811f">SUBMISSION</span> Americana from side control: they push up — pin the wrist to the mat, figure-four, paint the knuckles toward their hip, lift the elbow.</div></li>
+    <li class="blk"><span class="btime" style="--bc:#35a08c">48–58</span><div class="btxt"><span class="blab" style="color:#35a08c">LIVE</span> Pass vs guard 5×2 min from open guard.</div></li>
+  </ul>
+  <p class="cue"><span>COACH CUE</span>The cross-face wins the pass before the knee does.</p>
+</article><article class="session" id="s11">
+  <header class="s-head">
+    <span class="s-num" style="--pc:#35a08c">11</span>
+    <div><h4>Scissor & Straight Arm</h4><span class="s-meta">Week 3 · Control phase · 60 min</span></div>
+  </header>
+  <div class="tbar" aria-hidden="true"><span style="flex:6;background:#6d675c" title="Warm-up 6 min"></span><span style="flex:12;background:#e05248" title="Takedown 12 min"></span><span style="flex:15;background:#5b8ed6" title="Position 15 min"></span><span style="flex:15;background:#b5811f" title="Submission 15 min"></span><span style="flex:10;background:#35a08c" title="Live 10 min"></span><span style="flex:2;background:#4b4e55" title="Review 2 min"></span></div>
+  <ul class="blocks">
+    <li class="blk"><span class="btime" style="--bc:#6d675c">0–6</span><div class="btxt"><span class="blab" style="color:#6d675c">WARM-UP</span> Scissor-sweep load-ups, hip-escape flow.</div></li>
+    <li class="blk"><span class="btime" style="--bc:#e05248">6–18</span><div class="btxt"><span class="blab" style="color:#e05248">TAKEDOWN</span> Inside trip: off the collar tie, deep step between their feet, inside hook the lead leg, drive over the trapped foot.</div></li>
+    <li class="blk"><span class="btime" style="--bc:#5b8ed6">18–33</span><div class="btxt"><span class="blab" style="color:#5b8ed6">POSITION</span> Scissor sweep: wrist and head control, knee across their chest, bottom leg chops the base, pull them onto you first — no load, no sweep.</div></li>
+    <li class="blk"><span class="btime" style="--bc:#b5811f">33–48</span><div class="btxt"><span class="blab" style="color:#b5811f">SUBMISSION</span> Armbar from guard: control the wrist, climb the legs high to the armpits, cut the angle, knees pinch, leg over the face, lift the hips.</div></li>
+    <li class="blk"><span class="btime" style="--bc:#35a08c">48–58</span><div class="btxt"><span class="blab" style="color:#35a08c">LIVE</span> Sweep-or-pass 5×2 min.</div></li>
+  </ul>
+  <p class="cue"><span>COACH CUE</span>Nobody sweeps a tall opponent — break the posture first.</p>
+</article><article class="session" id="s12">
+  <header class="s-head">
+    <span class="s-num" style="--pc:#35a08c">12</span>
+    <div><h4>Toreando & Tempo</h4><span class="s-meta">Week 3 · Control phase · 60 min</span></div>
+  </header>
+  <div class="tbar" aria-hidden="true"><span style="flex:6;background:#6d675c" title="Warm-up 6 min"></span><span style="flex:12;background:#e05248" title="Takedown 12 min"></span><span style="flex:15;background:#5b8ed6" title="Position 15 min"></span><span style="flex:15;background:#b5811f" title="Submission 15 min"></span><span style="flex:10;background:#35a08c" title="Live 10 min"></span><span style="flex:2;background:#4b4e55" title="Review 2 min"></span></div>
+  <ul class="blocks">
+    <li class="blk"><span class="btime" style="--bc:#6d675c">0–6</span><div class="btxt"><span class="blab" style="color:#6d675c">WARM-UP</span> Push-pull partner steps, foot-sweep timing.</div></li>
+    <li class="blk"><span class="btime" style="--bc:#e05248">6–18</span><div class="btxt"><span class="blab" style="color:#e05248">TAKEDOWN</span> Foot sweep: pull them into a step and sweep the ankle with your arch just as the foot lands; the hands snap them past you.</div></li>
+    <li class="blk"><span class="btime" style="--bc:#5b8ed6">18–33</span><div class="btxt"><span class="blab" style="color:#5b8ed6">POSITION</span> Toreando pass: control both shins, steer the legs one way and step the other, hip switch into knee-on-belly before they turn in.</div></li>
+    <li class="blk"><span class="btime" style="--bc:#b5811f">33–48</span><div class="btxt"><span class="blab" style="color:#b5811f">SUBMISSION</span> Kimura from north–south and side: snag the far wrist as they push, figure-four, rotate toward the head, their elbow glued to your chest.</div></li>
+    <li class="blk"><span class="btime" style="--bc:#35a08c">48–58</span><div class="btxt"><span class="blab" style="color:#35a08c">LIVE</span> Positional carousel 5×2 min: guard, pass, KOB.</div></li>
+  </ul>
+  <p class="cue"><span>COACH CUE</span>Pass to knee-on-belly, not into a hug.</p>
+</article>
+  <div class="checkpoint"><b>CHECKPOINT W3</b> — Hit two different sweeps and one clean pass against 60% resistance; finish the bodylock takedown into side control.</div>
+</section><section class="week" id="week4" style="--pc:#35a08c">
+  <div class="wk-head"><span class="wnum">WEEK 4 · CONTROL PHASE</span>
+  <h3>Cage & chains</h3><p>Butterfly attacks, wrestle-ups, pressure passing and the fence game — where most MMA grappling actually happens.</p></div>
+  <article class="session" id="s13">
+  <header class="s-head">
+    <span class="s-num" style="--pc:#35a08c">13</span>
+    <div><h4>Butterfly Engine</h4><span class="s-meta">Week 4 · Control phase · 60 min</span></div>
+  </header>
+  <div class="tbar" aria-hidden="true"><span style="flex:6;background:#6d675c" title="Warm-up 6 min"></span><span style="flex:12;background:#e05248" title="Takedown 12 min"></span><span style="flex:15;background:#5b8ed6" title="Position 15 min"></span><span style="flex:15;background:#b5811f" title="Submission 15 min"></span><span style="flex:10;background:#35a08c" title="Live 10 min"></span><span style="flex:2;background:#4b4e55" title="Review 2 min"></span></div>
+  <ul class="blocks">
+    <li class="blk"><span class="btime" style="--bc:#6d675c">0–6</span><div class="btxt"><span class="blab" style="color:#6d675c">WARM-UP</span> Seated hip movement, butterfly sit-and-lift drills.</div></li>
+    <li class="blk"><span class="btime" style="--bc:#e05248">6–18</span><div class="btxt"><span class="blab" style="color:#e05248">TAKEDOWN</span> Knee tap: off the over-under, block the far knee, drive across the block, head up and chest heavy.</div></li>
+    <li class="blk"><span class="btime" style="--bc:#5b8ed6">18–33</span><div class="btxt"><span class="blab" style="color:#5b8ed6">POSITION</span> Butterfly hook sweep: chest to chest, underhook plus far-arm control, load them onto your hooks, lift the underhook-side hook, roll them over the trapped arm.</div></li>
+    <li class="blk"><span class="btime" style="--bc:#b5811f">33–48</span><div class="btxt"><span class="blab" style="color:#b5811f">SUBMISSION</span> High-elbow guillotine intro: when they duck or shoot lazy — chin strap, wrist blade on the throat, elbow climbs over their back, hips curl in.</div></li>
+    <li class="blk"><span class="btime" style="--bc:#35a08c">48–58</span><div class="btxt"><span class="blab" style="color:#35a08c">LIVE</span> Seated starts 5×2 min: butterfly vs kneeling passer.</div></li>
+  </ul>
+  <p class="cue"><span>COACH CUE</span>Hooks do nothing without chest-to-chest.</p>
+</article><article class="session" id="s14">
+  <header class="s-head">
+    <span class="s-num" style="--pc:#35a08c">14</span>
+    <div><h4>Heavy Hips</h4><span class="s-meta">Week 4 · Control phase · 60 min</span></div>
+  </header>
+  <div class="tbar" aria-hidden="true"><span style="flex:6;background:#6d675c" title="Warm-up 6 min"></span><span style="flex:12;background:#e05248" title="Takedown 12 min"></span><span style="flex:15;background:#5b8ed6" title="Position 15 min"></span><span style="flex:15;background:#b5811f" title="Submission 15 min"></span><span style="flex:10;background:#35a08c" title="Live 10 min"></span><span style="flex:2;background:#4b4e55" title="Review 2 min"></span></div>
+  <ul class="blocks">
+    <li class="blk"><span class="btime" style="--bc:#6d675c">0–6</span><div class="btxt"><span class="blab" style="color:#6d675c">WARM-UP</span> Hip-toss footwork with no throw, crash-pad falls.</div></li>
+    <li class="blk"><span class="btime" style="--bc:#e05248">6–18</span><div class="btxt"><span class="blab" style="color:#e05248">TAKEDOWN</span> Hip toss from the over-under: step across, hips lower than theirs and through, rotate them over. Soft throws onto pads only.</div></li>
+    <li class="blk"><span class="btime" style="--bc:#5b8ed6">18–33</span><div class="btxt"><span class="blab" style="color:#5b8ed6">POSITION</span> Bodylock pressure pass: lock over their knees, chest heavy, walk the hips to one side, slide the knee over — your chest never leaves them.</div></li>
+    <li class="blk"><span class="btime" style="--bc:#b5811f">33–48</span><div class="btxt"><span class="blab" style="color:#b5811f">SUBMISSION</span> Arm triangle from mount: pin their arm across the neck, drop your head to that side, slide off to the other, hips low, squeeze slow.</div></li>
+    <li class="blk"><span class="btime" style="--bc:#35a08c">48–58</span><div class="btxt"><span class="blab" style="color:#35a08c">LIVE</span> Top-pressure rounds: pass, hold five seconds, advance to mount.</div></li>
+  </ul>
+  <p class="cue"><span>COACH CUE</span>Pressure is patience with posture.</p>
+</article><article class="session" id="s15">
+  <header class="s-head">
+    <span class="s-num" style="--pc:#35a08c">15</span>
+    <div><h4>Fence Wrestling 101</h4><span class="s-meta">Week 4 · Control phase · 60 min</span></div>
+  </header>
+  <div class="tbar" aria-hidden="true"><span style="flex:6;background:#6d675c" title="Warm-up 6 min"></span><span style="flex:12;background:#e05248" title="Takedown 12 min"></span><span style="flex:15;background:#5b8ed6" title="Position 15 min"></span><span style="flex:15;background:#b5811f" title="Submission 15 min"></span><span style="flex:10;background:#35a08c" title="Live 10 min"></span><span style="flex:2;background:#4b4e55" title="Review 2 min"></span></div>
+  <ul class="blocks">
+    <li class="blk"><span class="btime" style="--bc:#6d675c">0–6</span><div class="btxt"><span class="blab" style="color:#6d675c">WARM-UP</span> Wall sits, wall-pummel entries.</div></li>
+    <li class="blk"><span class="btime" style="--bc:#e05248">6–18</span><div class="btxt"><span class="blab" style="color:#e05248">TAKEDOWN</span> Cage takedowns: stuffed double becomes a wall bodylock; head inside, inside trip and run-the-pipe single off the fence.</div></li>
+    <li class="blk"><span class="btime" style="--bc:#5b8ed6">18–33</span><div class="btxt"><span class="blab" style="color:#5b8ed6">POSITION</span> Wall play both sides — pinner: head under the chin, hips glued, wrist rides; defender: frame, swim, circle off, never flat. Arm drag to the back at the wall.</div></li>
+    <li class="blk"><span class="btime" style="--bc:#b5811f">33–48</span><div class="btxt"><span class="blab" style="color:#b5811f">SUBMISSION</span> RNC mechanics: choking arm deep past the chin, elbow centered under the jaw, second hand behind the head, squeeze chest-to-spine. Catch and release.</div></li>
+    <li class="blk"><span class="btime" style="--bc:#35a08c">48–58</span><div class="btxt"><span class="blab" style="color:#35a08c">LIVE</span> Cage rounds 5×2 min: takedown vs stand-up on the fence.</div></li>
+  </ul>
+  <p class="cue"><span>COACH CUE</span>On the fence, head position is the whole fight.</p>
+</article><article class="session" id="s16">
+  <header class="s-head">
+    <span class="s-num" style="--pc:#35a08c">16</span>
+    <div><h4>Half Guard, Both Chairs</h4><span class="s-meta">Week 4 · Control phase · 60 min</span></div>
+  </header>
+  <div class="tbar" aria-hidden="true"><span style="flex:6;background:#6d675c" title="Warm-up 6 min"></span><span style="flex:12;background:#e05248" title="Takedown 12 min"></span><span style="flex:15;background:#5b8ed6" title="Position 15 min"></span><span style="flex:15;background:#b5811f" title="Submission 15 min"></span><span style="flex:10;background:#35a08c" title="Live 10 min"></span><span style="flex:2;background:#4b4e55" title="Review 2 min"></span></div>
+  <ul class="blocks">
+    <li class="blk"><span class="btime" style="--bc:#6d675c">0–6</span><div class="btxt"><span class="blab" style="color:#6d675c">WARM-UP</span> Underhook sit-outs, old-school entries, no resistance.</div></li>
+    <li class="blk"><span class="btime" style="--bc:#e05248">6–18</span><div class="btxt"><span class="blab" style="color:#e05248">TAKEDOWN</span> Chain drill at 60%: double → knee tap → bodylock, flowing off the partner’s reactions.</div></li>
+    <li class="blk"><span class="btime" style="--bc:#5b8ed6">18–33</span><div class="btxt"><span class="blab" style="color:#5b8ed6">POSITION</span> Split rounds. Bottom: old-school — deep underhook, up on the elbow, capture the far ankle, drive over it; sprawled on? Treat it as a single leg. Top: half-guard pass — cross-face, far underhook, flatten them, free the knee with a toe grab.</div></li>
+    <li class="blk"><span class="btime" style="--bc:#b5811f">33–48</span><div class="btxt"><span class="blab" style="color:#b5811f">SUBMISSION</span> Turtle attacks: seat belt, chair-sit to hooks, snap them flat — finish the sequence with a catch-and-release RNC.</div></li>
+    <li class="blk"><span class="btime" style="--bc:#35a08c">48–58</span><div class="btxt"><span class="blab" style="color:#35a08c">LIVE</span> Half guard top/bottom 5×2 min, then the week-4 sweep test.</div></li>
+  </ul>
+  <p class="cue"><span>COACH CUE</span>The underhook is the steering wheel — whoever has it, drives.</p>
+</article>
+  <div class="checkpoint"><b>CHECKPOINT W4</b> — Sweep or wrestle up from bottom half or butterfly inside 90 seconds; defend a cage takedown and exit off the fence.</div>
+</section><section class="week" id="week5" style="--pc:#e05248">
+  <div class="wk-head"><span class="wnum">WEEK 5 · FINISH PHASE</span>
+  <h3>The choke hub</h3><p>The front headlock is MMA’s money position. Enter it from snap-downs and sprawls; leave with a neck or the back. Open-hand placement strikes appear this week.</p></div>
+  <article class="session" id="s17">
+  <header class="s-head">
+    <span class="s-num" style="--pc:#e05248">17</span>
+    <div><h4>Front Headlock Day</h4><span class="s-meta">Week 5 · Finish phase · 60 min</span></div>
+  </header>
+  <div class="tbar" aria-hidden="true"><span style="flex:6;background:#6d675c" title="Warm-up 6 min"></span><span style="flex:12;background:#e05248" title="Takedown 12 min"></span><span style="flex:15;background:#5b8ed6" title="Position 15 min"></span><span style="flex:15;background:#b5811f" title="Submission 15 min"></span><span style="flex:10;background:#35a08c" title="Live 10 min"></span><span style="flex:2;background:#4b4e55" title="Review 2 min"></span></div>
+  <ul class="blocks">
+    <li class="blk"><span class="btime" style="--bc:#6d675c">0–6</span><div class="btxt"><span class="blab" style="color:#6d675c">WARM-UP</span> Snap-down footwork, chin-strap pummels.</div></li>
+    <li class="blk"><span class="btime" style="--bc:#e05248">6–18</span><div class="btxt"><span class="blab" style="color:#e05248">TAKEDOWN</span> Snap-down to front headlock: heavy collar tie and elbow, snap as they step, chin strap plus elbow control before their hands touch the mat.</div></li>
+    <li class="blk"><span class="btime" style="--bc:#5b8ed6">18–33</span><div class="btxt"><span class="blab" style="color:#5b8ed6">POSITION</span> Front headlock ride: chest on the crown, chin strap, second hand rides the elbow, knee blocks the near shoulder, spin opposite their sit-out.</div></li>
+    <li class="blk"><span class="btime" style="--bc:#b5811f">33–48</span><div class="btxt"><span class="blab" style="color:#b5811f">SUBMISSION</span> High-elbow guillotine, full detail: chin strap deep, blade on the throat, clasp without weaving, elbow climbs over the back, hips curl through. Finish standing or with guard on one side.</div></li>
+    <li class="blk"><span class="btime" style="--bc:#35a08c">48–58</span><div class="btxt"><span class="blab" style="color:#35a08c">LIVE</span> Front headlock spar 5×2 min: finish or escape resets.</div></li>
+  </ul>
+  <p class="cue"><span>COACH CUE</span>Chin strap first, choke second.</p>
+</article><article class="session" id="s18">
+  <header class="s-head">
+    <span class="s-num" style="--pc:#e05248">18</span>
+    <div><h4>The D’Arce</h4><span class="s-meta">Week 5 · Finish phase · 60 min</span></div>
+  </header>
+  <div class="tbar" aria-hidden="true"><span style="flex:6;background:#6d675c" title="Warm-up 6 min"></span><span style="flex:12;background:#e05248" title="Takedown 12 min"></span><span style="flex:15;background:#5b8ed6" title="Position 15 min"></span><span style="flex:15;background:#b5811f" title="Submission 15 min"></span><span style="flex:10;background:#35a08c" title="Live 10 min"></span><span style="flex:2;background:#4b4e55" title="Review 2 min"></span></div>
+  <ul class="blocks">
+    <li class="blk"><span class="btime" style="--bc:#6d675c">0–6</span><div class="btxt"><span class="blab" style="color:#6d675c">WARM-UP</span> Sprawl flow, shot entries at 50%.</div></li>
+    <li class="blk"><span class="btime" style="--bc:#e05248">6–18</span><div class="btxt"><span class="blab" style="color:#e05248">TAKEDOWN</span> Sprawl to front headlock: their shot comes in, hips crush down, chin strap installs on the way up.</div></li>
+    <li class="blk"><span class="btime" style="--bc:#5b8ed6">18–33</span><div class="btxt"><span class="blab" style="color:#5b8ed6">POSITION</span> Go-behind: shuck the head down and past, drag the elbow, chest glued, arrive at a 90-degree angle behind them.</div></li>
+    <li class="blk"><span class="btime" style="--bc:#b5811f">33–48</span><div class="btxt"><span class="blab" style="color:#b5811f">SUBMISSION</span> D’Arce — the arm-first entry: thread under their near arm and across the neck, palm to your own biceps, second hand behind their head, shrink the circle. Hit it off half guard top and stuffed shots.</div></li>
+    <li class="blk"><span class="btime" style="--bc:#35a08c">48–58</span><div class="btxt"><span class="blab" style="color:#35a08c">LIVE</span> Sprawl-and-brawl grappling: one shoots, one snaps and chokes.</div></li>
+  </ul>
+  <p class="cue"><span>COACH CUE</span>They fight the guillotine hand? The D’Arce is already there.</p>
+</article><article class="session" id="s19">
+  <header class="s-head">
+    <span class="s-num" style="--pc:#e05248">19</span>
+    <div><h4>Take the Back</h4><span class="s-meta">Week 5 · Finish phase · 60 min</span></div>
+  </header>
+  <div class="tbar" aria-hidden="true"><span style="flex:6;background:#6d675c" title="Warm-up 6 min"></span><span style="flex:12;background:#e05248" title="Takedown 12 min"></span><span style="flex:15;background:#5b8ed6" title="Position 15 min"></span><span style="flex:15;background:#b5811f" title="Submission 15 min"></span><span style="flex:10;background:#35a08c" title="Live 10 min"></span><span style="flex:2;background:#4b4e55" title="Review 2 min"></span></div>
+  <ul class="blocks">
+    <li class="blk"><span class="btime" style="--bc:#6d675c">0–6</span><div class="btxt"><span class="blab" style="color:#6d675c">WARM-UP</span> Seat-belt pummels, hook retention drills.</div></li>
+    <li class="blk"><span class="btime" style="--bc:#e05248">6–18</span><div class="btxt"><span class="blab" style="color:#e05248">TAKEDOWN</span> Duck-under to the back, rear bodylock finish: lift, angle, place them down — mat returns, never spikes.</div></li>
+    <li class="blk"><span class="btime" style="--bc:#5b8ed6">18–33</span><div class="btxt"><span class="blab" style="color:#5b8ed6">POSITION</span> Back retention: seat belt palm-over-palm on the chest, hooks or body triangle, follow their turn like a backpack, re-pummel lost hooks.</div></li>
+    <li class="blk"><span class="btime" style="--bc:#b5811f">33–48</span><div class="btxt"><span class="blab" style="color:#b5811f">SUBMISSION</span> RNC against full resistance: trap one wrist one-on-one, sneak the choking hand while they fight, palm-to-palm short choke when the full lock is blocked.</div></li>
+    <li class="blk"><span class="btime" style="--bc:#35a08c">48–58</span><div class="btxt"><span class="blab" style="color:#35a08c">LIVE</span> Back attack vs escape 5×2 min.</div></li>
+  </ul>
+  <p class="cue"><span>COACH CUE</span>Legs keep the position, hands take the neck.</p>
+</article><article class="session" id="s20">
+  <header class="s-head">
+    <span class="s-num" style="--pc:#e05248">20</span>
+    <div><h4>Anaconda & the Map</h4><span class="s-meta">Week 5 · Finish phase · 60 min</span></div>
+  </header>
+  <div class="tbar" aria-hidden="true"><span style="flex:6;background:#6d675c" title="Warm-up 6 min"></span><span style="flex:12;background:#e05248" title="Takedown 12 min"></span><span style="flex:15;background:#5b8ed6" title="Position 15 min"></span><span style="flex:15;background:#b5811f" title="Submission 15 min"></span><span style="flex:10;background:#35a08c" title="Live 10 min"></span><span style="flex:2;background:#4b4e55" title="Review 2 min"></span></div>
+  <ul class="blocks">
+    <li class="blk"><span class="btime" style="--bc:#6d675c">0–6</span><div class="btxt"><span class="blab" style="color:#6d675c">WARM-UP</span> Front-headlock flow with a partner, both sides.</div></li>
+    <li class="blk"><span class="btime" style="--bc:#e05248">6–18</span><div class="btxt"><span class="blab" style="color:#e05248">TAKEDOWN</span> Snap-down variations: two-on-one snap, inside-tie snap, cross-face snap — every snap finishes in a chin strap.</div></li>
+    <li class="blk"><span class="btime" style="--bc:#5b8ed6">18–33</span><div class="btxt"><span class="blab" style="color:#5b8ed6">POSITION</span> Choke-map flow drill: snap → front headlock → coach calls the exit — guillotine, D’Arce, anaconda or go-behind. Ten reps per pair.</div></li>
+    <li class="blk"><span class="btime" style="--bc:#b5811f">33–48</span><div class="btxt"><span class="blab" style="color:#b5811f">SUBMISSION</span> Anaconda — the neck-first entry: thread under the neck and out the far armpit, biceps grip, gator-roll toward the trapped arm to shrink it. Knees to chest, breathe them out.</div></li>
+    <li class="blk"><span class="btime" style="--bc:#35a08c">48–58</span><div class="btxt"><span class="blab" style="color:#35a08c">LIVE</span> Front-headlock-only game 5×2 min.</div></li>
+  </ul>
+  <p class="cue"><span>COACH CUE</span>Neck-first is anaconda, arm-first is D’Arce.</p>
+</article>
+  <div class="checkpoint"><b>CHECKPOINT W5</b> — From a snap-down: enter the front headlock and finish one choke (guillotine, D’Arce or anaconda) or take the back, against a resisting partner.</div>
+</section><section class="week" id="week6" style="--pc:#e05248">
+  <div class="wk-head"><span class="wnum">WEEK 6 · FINISH PHASE</span>
+  <h3>Mount, triangles & legs</h3><p>Finish from the positions you win: the mount and back systems, the armbar–triangle guard engine, and one safe leg attack.</p></div>
+  <article class="session" id="s21">
+  <header class="s-head">
+    <span class="s-num" style="--pc:#e05248">21</span>
+    <div><h4>Mount Week Opens</h4><span class="s-meta">Week 6 · Finish phase · 60 min</span></div>
+  </header>
+  <div class="tbar" aria-hidden="true"><span style="flex:6;background:#6d675c" title="Warm-up 6 min"></span><span style="flex:12;background:#e05248" title="Takedown 12 min"></span><span style="flex:15;background:#5b8ed6" title="Position 15 min"></span><span style="flex:15;background:#b5811f" title="Submission 15 min"></span><span style="flex:10;background:#35a08c" title="Live 10 min"></span><span style="flex:2;background:#4b4e55" title="Review 2 min"></span></div>
+  <ul class="blocks">
+    <li class="blk"><span class="btime" style="--bc:#6d675c">0–6</span><div class="btxt"><span class="blab" style="color:#6d675c">WARM-UP</span> Grapevine holds, tech-mount switches.</div></li>
+    <li class="blk"><span class="btime" style="--bc:#e05248">6–18</span><div class="btxt"><span class="blab" style="color:#e05248">TAKEDOWN</span> Double–single chain: shoot the double; they sprawl a leg free — swing to the single and run the pipe.</div></li>
+    <li class="blk"><span class="btime" style="--bc:#5b8ed6">18–33</span><div class="btxt"><span class="blab" style="color:#5b8ed6">POSITION</span> Mount maintenance: grapevines, head under the chin; they turn, you tech-mount; they push, your hands ride up. Thirty-second king-of-mount turns.</div></li>
+    <li class="blk"><span class="btime" style="--bc:#b5811f">33–48</span><div class="btxt"><span class="blab" style="color:#b5811f">SUBMISSION</span> Armbar from mount: they push your chest — S-mount, knee behind the head, leg over the face, fall back slow, knees pinched, thumb up.</div></li>
+    <li class="blk"><span class="btime" style="--bc:#35a08c">48–58</span><div class="btxt"><span class="blab" style="color:#35a08c">LIVE</span> Mount attack vs escape 5×2 min.</div></li>
+  </ul>
+  <p class="cue"><span>COACH CUE</span>When they push, they hand you the arm.</p>
+</article><article class="session" id="s22">
+  <header class="s-head">
+    <span class="s-num" style="--pc:#e05248">22</span>
+    <div><h4>Head & Arm</h4><span class="s-meta">Week 6 · Finish phase · 60 min</span></div>
+  </header>
+  <div class="tbar" aria-hidden="true"><span style="flex:6;background:#6d675c" title="Warm-up 6 min"></span><span style="flex:12;background:#e05248" title="Takedown 12 min"></span><span style="flex:15;background:#5b8ed6" title="Position 15 min"></span><span style="flex:15;background:#b5811f" title="Submission 15 min"></span><span style="flex:10;background:#35a08c" title="Live 10 min"></span><span style="flex:2;background:#4b4e55" title="Review 2 min"></span></div>
+  <ul class="blocks">
+    <li class="blk"><span class="btime" style="--bc:#6d675c">0–6</span><div class="btxt"><span class="blab" style="color:#6d675c">WARM-UP</span> Pummeling, trip entries at 50%.</div></li>
+    <li class="blk"><span class="btime" style="--bc:#e05248">6–18</span><div class="btxt"><span class="blab" style="color:#e05248">TAKEDOWN</span> Bodylock to trips: inside trip when they base back, outside trip when they lean in — feel it, don’t force it.</div></li>
+    <li class="blk"><span class="btime" style="--bc:#5b8ed6">18–33</span><div class="btxt"><span class="blab" style="color:#5b8ed6">POSITION</span> Pressure pass to mount: slide the knee over the belt line, grapevine, consolidate before you climb.</div></li>
+    <li class="blk"><span class="btime" style="--bc:#b5811f">33–48</span><div class="btxt"><span class="blab" style="color:#b5811f">SUBMISSION</span> Arm triangle system: punch the arm across from mount, head drops, slide off toward the trapped-arm side, hips low, squeeze slow. Fist in the way? Fix the angle, not the effort.</div></li>
+    <li class="blk"><span class="btime" style="--bc:#35a08c">48–58</span><div class="btxt"><span class="blab" style="color:#35a08c">LIVE</span> Pass-to-submission rounds: a sub only counts if you held the position three seconds first.</div></li>
+  </ul>
+  <p class="cue"><span>COACH CUE</span>Squeeze like a door closing, not a trap snapping.</p>
+</article><article class="session" id="s23">
+  <header class="s-head">
+    <span class="s-num" style="--pc:#e05248">23</span>
+    <div><h4>Triangle Day</h4><span class="s-meta">Week 6 · Finish phase · 60 min</span></div>
+  </header>
+  <div class="tbar" aria-hidden="true"><span style="flex:6;background:#6d675c" title="Warm-up 6 min"></span><span style="flex:12;background:#e05248" title="Takedown 12 min"></span><span style="flex:15;background:#5b8ed6" title="Position 15 min"></span><span style="flex:15;background:#b5811f" title="Submission 15 min"></span><span style="flex:10;background:#35a08c" title="Live 10 min"></span><span style="flex:2;background:#4b4e55" title="Review 2 min"></span></div>
+  <ul class="blocks">
+    <li class="blk"><span class="btime" style="--bc:#6d675c">0–6</span><div class="btxt"><span class="blab" style="color:#6d675c">WARM-UP</span> High-leg climbs, hip-up holds, angle-cut drills.</div></li>
+    <li class="blk"><span class="btime" style="--bc:#e05248">6–18</span><div class="btxt"><span class="blab" style="color:#e05248">TAKEDOWN</span> Ankle pick review plus snap-down mix: make them carry your collar-tie weight, then pick the lead ankle.</div></li>
+    <li class="blk"><span class="btime" style="--bc:#5b8ed6">18–33</span><div class="btxt"><span class="blab" style="color:#5b8ed6">POSITION</span> Guard attack posture: overhook and head control, climb the legs to the armpits, hips never flat — the punch-safe angles.</div></li>
+    <li class="blk"><span class="btime" style="--bc:#b5811f">33–48</span><div class="btxt"><span class="blab" style="color:#b5811f">SUBMISSION</span> Triangle from guard: one arm in, one arm out, shoot the legs high, lock the shin behind the knee, cut perpendicular, curl their head down. Chain: armbar when they pull out, triangle when they re-post.</div></li>
+    <li class="blk"><span class="btime" style="--bc:#35a08c">48–58</span><div class="btxt"><span class="blab" style="color:#35a08c">LIVE</span> Guard submission-only rounds 5×2 min.</div></li>
+  </ul>
+  <p class="cue"><span>COACH CUE</span>No angle, no triangle — get perpendicular.</p>
+</article><article class="session" id="s24">
+  <header class="s-head">
+    <span class="s-num" style="--pc:#e05248">24</span>
+    <div><h4>Below the Belt, Safely</h4><span class="s-meta">Week 6 · Finish phase · 60 min</span></div>
+  </header>
+  <div class="tbar" aria-hidden="true"><span style="flex:6;background:#6d675c" title="Warm-up 6 min"></span><span style="flex:12;background:#e05248" title="Takedown 12 min"></span><span style="flex:15;background:#5b8ed6" title="Position 15 min"></span><span style="flex:15;background:#b5811f" title="Submission 15 min"></span><span style="flex:10;background:#35a08c" title="Live 10 min"></span><span style="flex:2;background:#4b4e55" title="Review 2 min"></span></div>
+  <ul class="blocks">
+    <li class="blk"><span class="btime" style="--bc:#6d675c">0–6</span><div class="btxt"><span class="blab" style="color:#6d675c">WARM-UP</span> Ashi entries on a cooperative partner.</div></li>
+    <li class="blk"><span class="btime" style="--bc:#e05248">6–18</span><div class="btxt"><span class="blab" style="color:#e05248">TAKEDOWN</span> Foot sweep and snap rhythm: sweep when they defend the snap, snap when they defend the sweep.</div></li>
+    <li class="blk"><span class="btime" style="--bc:#5b8ed6">18–33</span><div class="btxt"><span class="blab" style="color:#5b8ed6">POSITION</span> North–south control and rotations: side → north–south → far side, chest heavy, hips never float.</div></li>
+    <li class="blk"><span class="btime" style="--bc:#b5811f">33–48</span><div class="btxt"><span class="blab" style="color:#b5811f">SUBMISSION</span> North–south choke: arm past the neck, shoulder drops onto the throat, hips low, slow squeeze. Straight ankle: ashi position, knees pinch, blade under the achilles, hips forward — no twisting, instant release. Heel-hook defense review only.</div></li>
+    <li class="blk"><span class="btime" style="--bc:#35a08c">48–58</span><div class="btxt"><span class="blab" style="color:#35a08c">LIVE</span> Submission-only rounds; every leg attack is catch-and-release. Week-6 chain test.</div></li>
+  </ul>
+  <p class="cue"><span>COACH CUE</span>Catches prove control; control proves the finish.</p>
+</article>
+  <div class="checkpoint"><b>CHECKPOINT W6</b> — Chain three submissions in one continuous catch-and-release sequence from mount or guard; finish a straight ankle lock with control.</div>
+</section><section class="week" id="week7" style="--pc:#b5811f">
+  <div class="wk-head"><span class="wnum">WEEK 7 · FIGHT PHASE</span>
+  <h3>Add the strikes</h3><p>Everything now happens under light strikes: ground-and-pound on top and bottom, striking-aware guard, cage MMA rounds. Gloves on, 30% maximum.</p></div>
+  <article class="session" id="s25">
+  <header class="s-head">
+    <span class="s-num" style="--pc:#b5811f">25</span>
+    <div><h4>Ground & Pound 101</h4><span class="s-meta">Week 7 · Fight phase · 60 min</span></div>
+  </header>
+  <div class="tbar" aria-hidden="true"><span style="flex:6;background:#6d675c" title="Warm-up 6 min"></span><span style="flex:12;background:#e05248" title="Takedown 12 min"></span><span style="flex:15;background:#5b8ed6" title="Position 15 min"></span><span style="flex:15;background:#b5811f" title="Submission 15 min"></span><span style="flex:10;background:#35a08c" title="Live 10 min"></span><span style="flex:2;background:#4b4e55" title="Review 2 min"></span></div>
+  <ul class="blocks">
+    <li class="blk"><span class="btime" style="--bc:#6d675c">0–6</span><div class="btxt"><span class="blab" style="color:#6d675c">WARM-UP</span> Glove up; shadow wrestling with level changes.</div></li>
+    <li class="blk"><span class="btime" style="--bc:#e05248">6–18</span><div class="btxt"><span class="blab" style="color:#e05248">TAKEDOWN</span> Double leg off the jab: hide the level change behind your own punches, shoot as their weight loads the lead leg.</div></li>
+    <li class="blk"><span class="btime" style="--bc:#5b8ed6">18–33</span><div class="btxt"><span class="blab" style="color:#5b8ed6">POSITION</span> GnP from mount and guard top at 30%: base first, punch second — posture control, hand traps, short elbows. Bottom player installs the high-frame punch block.</div></li>
+    <li class="blk"><span class="btime" style="--bc:#b5811f">33–48</span><div class="btxt"><span class="blab" style="color:#b5811f">SUBMISSION</span> Arm triangle off their punch: the bottom player swings, the arm crosses the center line — pin it, drop the head, lock the choke.</div></li>
+    <li class="blk"><span class="btime" style="--bc:#35a08c">48–58</span><div class="btxt"><span class="blab" style="color:#35a08c">LIVE</span> MMA positional 5×2 min: top may strike light; bottom escapes or submits.</div></li>
+  </ul>
+  <p class="cue"><span>COACH CUE</span>Strike to advance, not just to score.</p>
+</article><article class="session" id="s26">
+  <header class="s-head">
+    <span class="s-num" style="--pc:#b5811f">26</span>
+    <div><h4>Fence & Fists</h4><span class="s-meta">Week 7 · Fight phase · 60 min</span></div>
+  </header>
+  <div class="tbar" aria-hidden="true"><span style="flex:6;background:#6d675c" title="Warm-up 6 min"></span><span style="flex:12;background:#e05248" title="Takedown 12 min"></span><span style="flex:15;background:#5b8ed6" title="Position 15 min"></span><span style="flex:15;background:#b5811f" title="Submission 15 min"></span><span style="flex:10;background:#35a08c" title="Live 10 min"></span><span style="flex:2;background:#4b4e55" title="Review 2 min"></span></div>
+  <ul class="blocks">
+    <li class="blk"><span class="btime" style="--bc:#6d675c">0–6</span><div class="btxt"><span class="blab" style="color:#6d675c">WARM-UP</span> Wall pummeling with gloves, light inside shots.</div></li>
+    <li class="blk"><span class="btime" style="--bc:#e05248">6–18</span><div class="btxt"><span class="blab" style="color:#e05248">TAKEDOWN</span> Cage wrestling with strikes: level change off short punches, knee taps at the wall, bodylock with the head inside, light knees to the thighs.</div></li>
+    <li class="blk"><span class="btime" style="--bc:#5b8ed6">18–33</span><div class="btxt"><span class="blab" style="color:#5b8ed6">POSITION</span> GnP from side control and knee-on-belly: shoulder pressure, short elbows, hop to KOB to open the punches. Defender: frames up, wall-walks under fire.</div></li>
+    <li class="blk"><span class="btime" style="--bc:#b5811f">33–48</span><div class="btxt"><span class="blab" style="color:#b5811f">SUBMISSION</span> Guillotine punishing the shot: they duck in off your punches — snap, chin strap, high elbow. Their takedown becomes your finish.</div></li>
+    <li class="blk"><span class="btime" style="--bc:#35a08c">48–58</span><div class="btxt"><span class="blab" style="color:#35a08c">LIVE</span> Cage MMA rounds 5×2 min, light.</div></li>
+  </ul>
+  <p class="cue"><span>COACH CUE</span>Position pays for the punches.</p>
+</article><article class="session" id="s27">
+  <header class="s-head">
+    <span class="s-num" style="--pc:#b5811f">27</span>
+    <div><h4>Bottom Game Under Fire</h4><span class="s-meta">Week 7 · Fight phase · 60 min</span></div>
+  </header>
+  <div class="tbar" aria-hidden="true"><span style="flex:6;background:#6d675c" title="Warm-up 6 min"></span><span style="flex:12;background:#e05248" title="Takedown 12 min"></span><span style="flex:15;background:#5b8ed6" title="Position 15 min"></span><span style="flex:15;background:#b5811f" title="Submission 15 min"></span><span style="flex:10;background:#35a08c" title="Live 10 min"></span><span style="flex:2;background:#4b4e55" title="Review 2 min"></span></div>
+  <ul class="blocks">
+    <li class="blk"><span class="btime" style="--bc:#6d675c">0–6</span><div class="btxt"><span class="blab" style="color:#6d675c">WARM-UP</span> Punch-block series flow: frame, hip escape, knees in.</div></li>
+    <li class="blk"><span class="btime" style="--bc:#e05248">6–18</span><div class="btxt"><span class="blab" style="color:#e05248">TAKEDOWN</span> Level change off strike feints; defenders sprawl on the real one — read the hips, not the hands.</div></li>
+    <li class="blk"><span class="btime" style="--bc:#5b8ed6">18–33</span><div class="btxt"><span class="blab" style="color:#5b8ed6">POSITION</span> Punch-block series to attacks: high frame, hip escape, butterfly lift to wrestle-up; break their posture by pulling the punching arm in.</div></li>
+    <li class="blk"><span class="btime" style="--bc:#b5811f">33–48</span><div class="btxt"><span class="blab" style="color:#b5811f">SUBMISSION</span> RNC in scrambles: every time they turn away from punches — seat belt, hooks, finish. Back takes off every turn.</div></li>
+    <li class="blk"><span class="btime" style="--bc:#35a08c">48–58</span><div class="btxt"><span class="blab" style="color:#35a08c">LIVE</span> Scramble-heavy MMA rounds, light: coach resets to chaos positions.</div></li>
+  </ul>
+  <p class="cue"><span>COACH CUE</span>The arm they punch with is the arm you take.</p>
+</article><article class="session" id="s28">
+  <header class="s-head">
+    <span class="s-num" style="--pc:#b5811f">28</span>
+    <div><h4>Rounds</h4><span class="s-meta">Week 7 · Fight phase · 60 min</span></div>
+  </header>
+  <div class="tbar" aria-hidden="true"><span style="flex:6;background:#6d675c" title="Warm-up 6 min"></span><span style="flex:12;background:#e05248" title="Takedown 12 min"></span><span style="flex:15;background:#5b8ed6" title="Position 15 min"></span><span style="flex:15;background:#b5811f" title="Submission 15 min"></span><span style="flex:10;background:#35a08c" title="Live 10 min"></span><span style="flex:2;background:#4b4e55" title="Review 2 min"></span></div>
+  <ul class="blocks">
+    <li class="blk"><span class="btime" style="--bc:#6d675c">0–6</span><div class="btxt"><span class="blab" style="color:#6d675c">WARM-UP</span> Jump rope, sprawl bursts, breathing drills.</div></li>
+    <li class="blk"><span class="btime" style="--bc:#e05248">6–18</span><div class="btxt"><span class="blab" style="color:#e05248">TAKEDOWN</span> Chain wrestling tired: 45-second bursts of double → single → bodylock against sprawl and light strikes.</div></li>
+    <li class="blk"><span class="btime" style="--bc:#5b8ed6">18–33</span><div class="btxt"><span class="blab" style="color:#5b8ed6">POSITION</span> Fight-IQ drill: from any position the coach calls advance, strike, finish or stand — three seconds to obey.</div></li>
+    <li class="blk"><span class="btime" style="--bc:#b5811f">33–48</span><div class="btxt"><span class="blab" style="color:#b5811f">SUBMISSION</span> Choke map under fatigue: 30-second sprawl sprint, then run the map on a resisting partner.</div></li>
+    <li class="blk"><span class="btime" style="--bc:#35a08c">48–58</span><div class="btxt"><span class="blab" style="color:#35a08c">LIVE</span> 1×5 min full fight sim, light strikes.</div></li>
+  </ul>
+  <p class="cue"><span>COACH CUE</span>Score with position, rest in control, finish on their exhale.</p>
+</article>
+  <div class="checkpoint"><b>CHECKPOINT W7</b> — In one 5-minute fight sim: land a takedown, advance one position, threaten one submission, and stand back up under light fire.</div>
+</section><section class="week" id="week8" style="--pc:#b5811f">
+  <div class="wk-head"><span class="wnum">WEEK 8 · FIGHT PHASE</span>
+  <h3>Peak week</h3><p>Sharpen, rehearse, taper, test. Nothing new this week — everything faster, cleaner, calmer.</p></div>
+  <article class="session" id="s29">
+  <header class="s-head">
+    <span class="s-num" style="--pc:#b5811f">29</span>
+    <div><h4>Sharpen</h4><span class="s-meta">Week 8 · Fight phase · 60 min</span></div>
+  </header>
+  <div class="tbar" aria-hidden="true"><span style="flex:6;background:#6d675c" title="Warm-up 6 min"></span><span style="flex:12;background:#e05248" title="Takedown 12 min"></span><span style="flex:15;background:#5b8ed6" title="Position 15 min"></span><span style="flex:15;background:#b5811f" title="Submission 15 min"></span><span style="flex:10;background:#35a08c" title="Live 10 min"></span><span style="flex:2;background:#4b4e55" title="Review 2 min"></span></div>
+  <ul class="blocks">
+    <li class="blk"><span class="btime" style="--bc:#6d675c">0–6</span><div class="btxt"><span class="blab" style="color:#6d675c">WARM-UP</span> Fast feet, level changes, two sprawls, roll out.</div></li>
+    <li class="blk"><span class="btime" style="--bc:#e05248">6–18</span><div class="btxt"><span class="blab" style="color:#e05248">TAKEDOWN</span> Speed chains: six takedowns for time, both sides, crisp entries — sloppy reps reset the clock.</div></li>
+    <li class="blk"><span class="btime" style="--bc:#5b8ed6">18–33</span><div class="btxt"><span class="blab" style="color:#5b8ed6">POSITION</span> Top flow: pass → knee-on-belly → mount → back with light GnP against rising resistance.</div></li>
+    <li class="blk"><span class="btime" style="--bc:#b5811f">33–48</span><div class="btxt"><span class="blab" style="color:#b5811f">SUBMISSION</span> Chain carousel, catch-and-release: armbar–triangle–kimura from guard; guillotine–D’Arce–anaconda from the front headlock.</div></li>
+    <li class="blk"><span class="btime" style="--bc:#35a08c">48–58</span><div class="btxt"><span class="blab" style="color:#35a08c">LIVE</span> 2×3 min fight sims, light.</div></li>
+  </ul>
+  <p class="cue"><span>COACH CUE</span>Speed is certainty, not hurry.</p>
+</article><article class="session" id="s30">
+  <header class="s-head">
+    <span class="s-num" style="--pc:#b5811f">30</span>
+    <div><h4>Dress Rehearsal</h4><span class="s-meta">Week 8 · Fight phase · 60 min</span></div>
+  </header>
+  <div class="tbar" aria-hidden="true"><span style="flex:6;background:#6d675c" title="Warm-up 6 min"></span><span style="flex:12;background:#e05248" title="Takedown 12 min"></span><span style="flex:15;background:#5b8ed6" title="Position 15 min"></span><span style="flex:15;background:#b5811f" title="Submission 15 min"></span><span style="flex:10;background:#35a08c" title="Live 10 min"></span><span style="flex:2;background:#4b4e55" title="Review 2 min"></span></div>
+  <ul class="blocks">
+    <li class="blk"><span class="btime" style="--bc:#6d675c">0–6</span><div class="btxt"><span class="blab" style="color:#6d675c">WARM-UP</span> Full fight warm-up exactly as on fight night.</div></li>
+    <li class="blk"><span class="btime" style="--bc:#e05248">6–18</span><div class="btxt"><span class="blab" style="color:#e05248">TAKEDOWN</span> Cage takedowns and defense, mixed rounds at fight pace, light strikes.</div></li>
+    <li class="blk"><span class="btime" style="--bc:#5b8ed6">18–33</span><div class="btxt"><span class="blab" style="color:#5b8ed6">POSITION</span> Wall stand-ups under fire, GnP against the cage, referee-position restarts.</div></li>
+    <li class="blk"><span class="btime" style="--bc:#b5811f">33–48</span><div class="btxt"><span class="blab" style="color:#b5811f">SUBMISSION</span> Finish what appears: coach calls a position, you take the highest-percentage submission available inside 20 seconds.</div></li>
+    <li class="blk"><span class="btime" style="--bc:#35a08c">48–58</span><div class="btxt"><span class="blab" style="color:#35a08c">LIVE</span> 3×3 min fight sim with corner advice between rounds.</div></li>
+  </ul>
+  <p class="cue"><span>COACH CUE</span>Fight the plan, not your feelings.</p>
+</article><article class="session" id="s31">
+  <header class="s-head">
+    <span class="s-num" style="--pc:#b5811f">31</span>
+    <div><h4>Taper & Flow</h4><span class="s-meta">Week 8 · Fight phase · 60 min</span></div>
+  </header>
+  <div class="tbar" aria-hidden="true"><span style="flex:6;background:#6d675c" title="Warm-up 6 min"></span><span style="flex:12;background:#e05248" title="Takedown 12 min"></span><span style="flex:15;background:#5b8ed6" title="Position 15 min"></span><span style="flex:15;background:#b5811f" title="Submission 15 min"></span><span style="flex:10;background:#35a08c" title="Live 10 min"></span><span style="flex:2;background:#4b4e55" title="Review 2 min"></span></div>
+  <ul class="blocks">
+    <li class="blk"><span class="btime" style="--bc:#6d675c">0–6</span><div class="btxt"><span class="blab" style="color:#6d675c">WARM-UP</span> Easy movement, long exhales.</div></li>
+    <li class="blk"><span class="btime" style="--bc:#e05248">6–18</span><div class="btxt"><span class="blab" style="color:#e05248">TAKEDOWN</span> Shadow wrestling; 50% entries on a cooperative partner — footwork perfect, breathing quiet.</div></li>
+    <li class="blk"><span class="btime" style="--bc:#5b8ed6">18–33</span><div class="btxt"><span class="blab" style="color:#5b8ed6">POSITION</span> Flow rolls: continuous position-to-position at 50%, no winners today.</div></li>
+    <li class="blk"><span class="btime" style="--bc:#b5811f">33–48</span><div class="btxt"><span class="blab" style="color:#b5811f">SUBMISSION</span> Catch-and-release chains at 50%; talk the choke map and the ladder out loud with your partner.</div></li>
+    <li class="blk"><span class="btime" style="--bc:#35a08c">48–58</span><div class="btxt"><span class="blab" style="color:#35a08c">LIVE</span> 2×3 min conversational-pace flow spars.</div></li>
+  </ul>
+  <p class="cue"><span>COACH CUE</span>Store it today, spend it Saturday.</p>
+</article><article class="session final" id="s32">
+  <header class="s-head">
+    <span class="s-num" style="--pc:#b5811f">32</span>
+    <div><h4>FINAL EXAM</h4><span class="s-meta">Week 8 · Fight phase · 60 min</span></div>
+  </header>
+  <div class="tbar" aria-hidden="true"><span style="flex:6;background:#6d675c" title="Warm-up 6 min"></span><span style="flex:12;background:#e05248" title="Takedown 12 min"></span><span style="flex:15;background:#5b8ed6" title="Position 15 min"></span><span style="flex:15;background:#b5811f" title="Submission 15 min"></span><span style="flex:10;background:#35a08c" title="Live 10 min"></span><span style="flex:2;background:#4b4e55" title="Review 2 min"></span></div>
+  <ul class="blocks">
+    <li class="blk"><span class="btime" style="--bc:#6d675c">0–6</span><div class="btxt"><span class="blab" style="color:#6d675c">WARM-UP</span> Fighter’s choice, six minutes.</div></li>
+    <li class="blk"><span class="btime" style="--bc:#e05248">6–18</span><div class="btxt"><span class="blab" style="color:#e05248">TEST 1</span> Land three different takedowns against 70% defense — one of them against the cage.</div></li>
+    <li class="blk"><span class="btime" style="--bc:#5b8ed6">18–33</span><div class="btxt"><span class="blab" style="color:#5b8ed6">TEST 2</span> Escape mount, side control and back control at 70%; two wall stand-ups under pressure.</div></li>
+    <li class="blk"><span class="btime" style="--bc:#b5811f">33–48</span><div class="btxt"><span class="blab" style="color:#b5811f">TEST 3</span> Run the full choke map, then chain three submissions catch-and-release without losing position.</div></li>
+    <li class="blk"><span class="btime" style="--bc:#35a08c">48–58</span><div class="btxt"><span class="blab" style="color:#35a08c">TEST 4</span> One 5-minute championship-pace fight sim, light strikes. Debrief and scorecard.</div></li>
+  </ul>
+  <p class="cue"><span>COACH CUE</span>Empty the toolbox.</p>
+</article>
+  <div class="checkpoint"><b>FINAL</b> — Pass the fight-ready checklist below. Coach signs off line by line.</div>
+</section>
+
+<section id="finaltest">
+  <div class="sec-head"><span class="slash">//</span><h2>Fight-Ready Checklist</h2><span class="tag">SESSION 32 · FINAL EXAM</span></div>
+  <p class="lead">The graduation standard. Every line gets a coach’s initials during Session 32 — anything unchecked becomes week one of the next camp.</p>
+  <ul class="checklist"><li><span class="cb" aria-hidden="true"></span>Three takedowns landed on a resisting opponent — at least one against the cage</li><li><span class="cb" aria-hidden="true"></span>Escapes shown from mount, side control and back control at 70% intensity</li><li><span class="cb" aria-hidden="true"></span>Two wall stand-ups under pressure in a single round</li><li><span class="cb" aria-hidden="true"></span>Choke map run end to end: snap-down, front headlock, finish or back take</li><li><span class="cb" aria-hidden="true"></span>Three submissions chained catch-and-release without losing position</li><li><span class="cb" aria-hidden="true"></span>Sweep or wrestle-up from half or butterfly guard inside 90 seconds</li><li><span class="cb" aria-hidden="true"></span>5-minute fight sim: takedown + position advance + submission threat + stand-up</li><li><span class="cb" aria-hidden="true"></span>Composure under light strikes — taps early, releases instantly, coach sign-off</li></ul>
+</section>
+
+<footer>
+  <p><b>GROUND WAR</b> · 8-week jiu-jitsu program for MMA · red corner vs blue corner</p>
+  <p style="margin-top:6px">Tap early. Train tomorrow.</p>
+</footer>
+
+</div>
+</body>
+</html>
