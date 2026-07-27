@@ -3,7 +3,9 @@
 > 8 weeks · 4 sessions/week · 60 minutes/session · 32 sessions total.
 > Illustrated, styled version: **[training-plan.html](training-plan.html)** (open in a browser).
 
-**Legend:** in every drawing the **red figure is our athlete** (red corner, `#c8302e`) and the **blue figure is the opponent** (blue corner, `#1d4f91`).
+**Legend:** every position is shown as a rendered 3D scene from two angles — a **side view** and a **high angle** that shows the hand positions. The athlete in **red shorts (light skin)** is our fighter, red corner; the opponent wears **blue shorts (dark skin)**, blue corner.
+
+> To swap in a real photo for any position, just replace the matching image file in `assets/figures3d/` and keep the same file name — no edits to this document needed. Free photo sources for every position are listed in [assets/README.md](assets/README.md).
 
 ## Safety rules (non-negotiable)
 
@@ -56,61 +58,61 @@ From best to worst. Every scramble is a fight over this list:
 
 ### Mount
 
-<img src="assets/figures/mount.svg" alt="Red athlete sitting astride a supine blue opponent, one fist cocked" width="420">
+<img src="assets/figures3d/mount-side.jpg" alt="Red athlete sitting astride a supine blue opponent, one fist cocked — side view" width="390"> <img src="assets/figures3d/mount-high.jpg" alt="Red athlete sitting astride a supine blue opponent, one fist cocked — high angle showing the hands" width="390">
 
 **Good for:** Full weight on their chest, both of your hands free. Ground-and-pound headquarters — and the armbar, arm triangle and americana all start here.
 
 ### Side Control
 
-<img src="assets/figures/side-control.svg" alt="Red athlete chest-down across a supine blue opponent, hips high" width="420">
+<img src="assets/figures3d/side-control-side.jpg" alt="Red athlete chest-down across a supine blue opponent, hips high — side view" width="390"> <img src="assets/figures3d/side-control-high.jpg" alt="Red athlete chest-down across a supine blue opponent, hips high — high angle showing the hands" width="390">
 
 **Good for:** The heavy pin after every pass. Shoulder pressure kills their frames; the americana, arm triangle, and the hop to knee-on-belly or mount are one beat away.
 
 ### Back Control
 
-<img src="assets/figures/back-control.svg" alt="Red athlete glued to seated blue opponent from behind, arm around the neck, hook over the thigh" width="420">
+<img src="assets/figures3d/back-control-side.jpg" alt="Red athlete glued to seated blue opponent from behind, arm around the neck, hook over the thigh — side view" width="390"> <img src="assets/figures3d/back-control-high.jpg" alt="Red athlete glued to seated blue opponent from behind, arm around the neck, hook over the thigh — high angle showing the hands" width="390">
 
 **Good for:** The best position in MMA: you can hit them, they cannot hit you back, and the rear-naked choke owns the highest finish rate in the sport.
 
 ### Knee-on-Belly
 
-<img src="assets/figures/knee-on-belly.svg" alt="Red athlete with knee planted on a supine blue opponent, other leg posted wide" width="420">
+<img src="assets/figures3d/knee-on-belly-side.jpg" alt="Red athlete with knee planted on a supine blue opponent, other leg posted wide — side view" width="390"> <img src="assets/figures3d/knee-on-belly-high.jpg" alt="Red athlete with knee planted on a supine blue opponent, other leg posted wide — high angle showing the hands" width="390">
 
 **Good for:** A pin that makes them panic. Their push on your knee feeds the armbar and the spin to mount, and your posture stays free to strike.
 
 ### North–South
 
-<img src="assets/figures/north-south.svg" alt="Red athlete kneeling over blue opponent head-to-toe, chest on chest" width="420">
+<img src="assets/figures3d/north-south-side.jpg" alt="Red athlete kneeling over blue opponent head-to-toe, chest on chest — side view" width="390"> <img src="assets/figures3d/north-south-high.jpg" alt="Red athlete kneeling over blue opponent head-to-toe, chest on chest — high angle showing the hands" width="390">
 
 **Good for:** The pin that catches scrambles. It blocks re-guarding, feeds the north–south choke and kimura, and rotates out to side control on either side.
 
 ### Attacking the Turtle
 
-<img src="assets/figures/turtle.svg" alt="Blue opponent on elbows and knees, red athlete covering from above" width="420">
+<img src="assets/figures3d/turtle-side.jpg" alt="Blue opponent on elbows and knees, red athlete covering from above — side view" width="390"> <img src="assets/figures3d/turtle-high.jpg" alt="Blue opponent on elbows and knees, red athlete covering from above — high angle showing the hands" width="390">
 
 **Good for:** Where opponents hide after a sprawl or stuffed shot. Go behind to take the back, or thread the anaconda and D’Arce when they stay down.
 
 ### Closed Guard
 
-<img src="assets/figures/closed-guard.svg" alt="Red athlete on his back with legs locked around a kneeling blue opponent" width="420">
+<img src="assets/figures3d/closed-guard-side.jpg" alt="Red athlete on his back with legs locked around a kneeling blue opponent — side view" width="390"> <img src="assets/figures3d/closed-guard-high.jpg" alt="Red athlete on his back with legs locked around a kneeling blue opponent — high angle showing the hands" width="390">
 
 **Good for:** Your bottom safety net. Broken posture kills their punches, and the armbar, triangle, kimura and hip-bump sweep all come off the same sit-up grips.
 
 ### Half Guard
 
-<img src="assets/figures/half-guard.svg" alt="Red athlete on his side scissoring blue opponent’s lead leg, blue upright" width="420">
+<img src="assets/figures3d/half-guard-side.jpg" alt="Red athlete on his side scissoring blue opponent’s lead leg, blue upright — side view" width="390"> <img src="assets/figures3d/half-guard-high.jpg" alt="Red athlete on his side scissoring blue opponent’s lead leg, blue upright — high angle showing the hands" width="390">
 
 **Good for:** The MMA workhorse. Knee shield and underhook keep strikes off you while the wrestle-up and old-school sweep put you back on your feet or on top.
 
 ### Butterfly Guard
 
-<img src="assets/figures/butterfly.svg" alt="Red athlete seated with a hook under kneeling blue opponent’s thigh" width="420">
+<img src="assets/figures3d/butterfly-side.jpg" alt="Red athlete seated with a hook under kneeling blue opponent’s thigh — side view" width="390"> <img src="assets/figures3d/butterfly-high.jpg" alt="Red athlete seated with a hook under kneeling blue opponent’s thigh — high angle showing the hands" width="390">
 
 **Good for:** The seated engine against a kneeling opponent: hooks lift them into sweeps, wrestle-ups and guillotines while your hips stay off the fence.
 
 ### Front Headlock
 
-<img src="assets/figures/front-headlock.svg" alt="Blue opponent bent over, red athlete wrapping the neck from above" width="420">
+<img src="assets/figures3d/front-headlock-side.jpg" alt="Blue opponent bent over, red athlete wrapping the neck from above — side view" width="390"> <img src="assets/figures3d/front-headlock-high.jpg" alt="Blue opponent bent over, red athlete wrapping the neck from above — high angle showing the hands" width="390">
 
 **Good for:** MMA’s choke hub. Every snap-down and every sprawl lands here — leave with a guillotine, D’Arce or anaconda, or spin behind to the back.
 
@@ -185,25 +187,25 @@ Every named position in jiu-jitsu, both sides of it, and the sessions where this
 
 ### Double Leg
 
-<img src="assets/figures/double-leg.svg" alt="Red athlete driving low into blue opponent’s legs, trailing leg extended" width="420">
+<img src="assets/figures3d/double-leg-side.jpg" alt="Red athlete driving low into blue opponent’s legs, trailing leg extended — side view" width="390"> <img src="assets/figures3d/double-leg-high.jpg" alt="Red athlete driving low into blue opponent’s legs, trailing leg extended — high angle showing the hands" width="390">
 
 **Good for:** The highest-percentage takedown in MMA. Hide the level change behind punches; finish by driving through, lifting, or cutting the corner.
 
 ### Single Leg
 
-<img src="assets/figures/single-leg.svg" alt="Red athlete holding blue opponent’s leg to his chest while blue hops" width="420">
+<img src="assets/figures3d/single-leg-side.jpg" alt="Red athlete holding blue opponent’s leg to his chest while blue hops — side view" width="390"> <img src="assets/figures3d/single-leg-high.jpg" alt="Red athlete holding blue opponent’s leg to his chest while blue hops — high angle showing the hands" width="390">
 
 **Good for:** The shot that is always half-available: head tight, their leg to your chest, run the pipe. Also the finish for every kick you catch.
 
 ### Bodylock
 
-<img src="assets/figures/bodylock.svg" alt="Red athlete chest to chest with blue, arms locked around the waist" width="420">
+<img src="assets/figures3d/bodylock-side.jpg" alt="Red athlete chest to chest with blue, arms locked around the waist — side view" width="390"> <img src="assets/figures3d/bodylock-high.jpg" alt="Red athlete chest to chest with blue, arms locked around the waist — high angle showing the hands" width="390">
 
 **Good for:** The cage-wrestling king. Chest to chest with your hips lower than theirs, it trades almost no guillotine risk for trips, lifts and wall takedowns.
 
 ### Sprawl
 
-<img src="assets/figures/sprawl.svg" alt="Red athlete sprawled hips-down over a flattened blue shot" width="420">
+<img src="assets/figures3d/sprawl-side.jpg" alt="Red athlete sprawled hips-down over a flattened blue shot — side view" width="390"> <img src="assets/figures3d/sprawl-high.jpg" alt="Red athlete sprawled hips-down over a flattened blue shot — high angle showing the hands" width="390">
 
 **Good for:** The anti-shot: hips crush down, legs shoot back, chest stays heavy — and their failed shot becomes your front headlock.
 
