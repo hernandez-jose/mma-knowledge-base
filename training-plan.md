@@ -114,6 +114,73 @@ From best to worst. Every scramble is a fight over this list:
 
 **Good for:** MMA’s choke hub. Every snap-down and every sprawl lands here — leave with a guillotine, D’Arce or anaconda, or spin behind to the back.
 
+### The full position atlas
+
+Every named position in jiu-jitsu, both sides of it, and the sessions where this camp visits it. A dash means it waits for a future camp.
+
+**Top pins**
+
+| # | Position | Sessions | Top side · bottom side |
+|---|---|---|---|
+| 01 | **Mount** | S1, S21–22, S25 | top: GnP, arm triangle, armbar · bottom: trap-and-roll, elbow escape |
+| 02 | **High mount / S-mount** | S21 | arms trapped above the shoulders, armbar gateway · bottom: bridge early, never late |
+| 03 | **Technical mount** | S21 | they turn under your mount · back door: slide straight to back control |
+| 04 | **Side control** | S2, S10, S26 | top: cross-face, americana, hop to mount · bottom: frame, shrimp, underhook out |
+| 05 | **Scarf hold (kesa)** | — | head-and-arm sit-out pin; heavy but loose hips give up the back — use it short |
+| 06 | **North–south** | S7, S12, S24 | top: N–S choke, kimura · bottom: frame the hips, spin out to turtle |
+| 07 | **Knee-on-belly** | S4, S12, S26 | top: strikes, armbar off their push · bottom: frame knee and hip, long shrimp |
+
+**Back & turtle**
+
+| # | Position | Sessions | Top side · bottom side |
+|---|---|---|---|
+| 08 | **Back control** | S3, S19, S27 | seat belt + hooks: RNC · bottom: chin down, win the hands, slide to the open side |
+| 09 | **Body triangle** | S19 | trade hooks for a leg figure-four — heavier control, same choke |
+| 10 | **Turtle (riding it)** | S7, S16, S20 | spiral ride, snap them flat, hooks in · underneath: elbows in, sit-out, stand |
+| 11 | **Crucifix** | — | turtle side-ride with both arms trapped — strikes and RNC with zero reply |
+| 12 | **The truck** | — | back-side leg ride; twister and calf-slicer country in sport rules |
+| 13 | **Front headlock** | S17–20, S26 | chin strap + elbow, the choke hub · underneath: hand to throat, circle, re-wrestle |
+
+**Fight-ready guards**
+
+| # | Position | Sessions | Top side · bottom side |
+|---|---|---|---|
+| 14 | **Closed guard** | S9, S11, S23 | break posture: hip bump, kimura, armbar, triangle · vs: posture, stack, stand to open |
+| 15 | **Half guard (knee shield)** | S6, S16 | underhook wrestle-up, old-school · vs: cross-face, flatten, free the knee |
+| 16 | **Deep half** | — | under their hips, sweeps everywhere; thin answer to strikes — sport-first tool |
+| 17 | **Lockdown half** | — | leg vice; whip-up to the dogfight and the electric-chair sweep |
+| 18 | **Butterfly** | S13, S27 | hooks lift: sweeps and wrestle-ups · vs: chest heavy, kill the hooks, bodylock pass |
+| 19 | **Open / seated guard** | S13, S15 | distance manager: feet on hips, arm drags · vs: toreando past the feet |
+| 20 | **Rubber guard** | — | overhook + high leg traps posture under strikes; gogoplata and sweep lines |
+
+**Sport & gi guards**
+
+| # | Position | Sessions | Top side · bottom side |
+|---|---|---|---|
+| 21 | **De La Riva** | — | outside hook behind their knee; berimbolo and back takes in the gi |
+| 22 | **Reverse De La Riva** | — | inside-hook answer to the knee cut; spins under to the back |
+| 23 | **Spider guard** | — | gi only: sleeve grips + feet on the biceps; triangles and balance breaks |
+| 24 | **Lasso guard** | — | gi only: leg threaded through the sleeve arm; omoplata factory |
+| 25 | **Lapel guards** | — | gi only: worm and squid lines — lapel wraps that anchor sweeps |
+| 26 | **K-guard** | — | knee wedge + ankle grip; the modern gateway into the legs |
+
+**Leg entanglements**
+
+| # | Position | Sessions | Top side · bottom side |
+|---|---|---|---|
+| 27 | **X-guard** | — | both hooks under one leg; off-balance everything, stand up into sweeps |
+| 28 | **Single-leg X (ashi)** | S24 | inside hook, foot on the hip: straight-ankle home base and wrestle-ups |
+| 29 | **50/50** | — | mirror-image entanglement; sport heel-hook territory — defense only in this camp |
+| 30 | **Outside ashi** | — | outside heel-hook line; know the escapes before you ever chase the entries |
+| 31 | **Saddle (inside sankaku)** | — | inside heel-hook control, the deepest water — defense study only |
+
+**MMA specials**
+
+| # | Position | Sessions | Top side · bottom side |
+|---|---|---|---|
+| 32 | **Wall clinch / fence seat** | S5, S15, S26 | the MMA-only battleground: underhooks, wall walks and stand-ups win rounds |
+| 33 | **Dogfight** | S16 | half-guard wrestle-up standoff: whizzer vs underhook, race to the hips |
+
 ## Takedown game
 
 ### Double Leg
