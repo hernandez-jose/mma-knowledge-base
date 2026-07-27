@@ -207,22 +207,69 @@ Every named position in jiu-jitsu, both sides of it, and the sessions where this
 
 **Good for:** The anti-shot: hips crush down, legs shoot back, chest stays heavy — and their failed shot becomes your front headlock.
 
-### Full 12-takedown syllabus
+### The full takedown atlas
+
+Teal-column session numbers mark the twelve takedowns this camp drills; a dash means it waits for a future cycle.
+
+**Shots — leg attacks**
 
 | # | Takedown | Sessions | Key detail |
 |---|---|---|---|
-| 01 | **Double leg** | S1, S25 | penetration step, head outside, three finishes |
-| 02 | **Single leg** | S3, S21 | head inside, run the pipe; chain off the double |
-| 03 | **Bodylock** | S9, S22 | over-under pummel, lift-and-turn |
-| 04 | **Hip toss** | S14 | over-under entry, hips lower and through — pads only |
-| 05 | **Foot sweep** | S12, S24 | de-ashi timing as their foot lands |
-| 06 | **Inside trip** | S11, S22 | deep step, inside hook, drive over the trapped foot |
-| 07 | **Outside trip** | S10, S22 | load the heel from the bodylock, chop and drive |
-| 08 | **Knee tap** | S13, S26 | block the far knee off the over-under, drive across |
-| 09 | **Ankle pick** | S7, S23 | snap them over the lead foot, scoop the heel |
-| 10 | **Snap-down** | S5, S17, S20 | collar tie + elbow, snap into the chin strap |
-| 11 | **Duck-under** | S6, S19 | lift the elbow, level change through, chest to back |
-| 12 | **Cage takedowns** | S15, S26, S30 | wall bodylock, fence single, hip bump off the cage |
+| 01 | **Double leg** | S1, S25 | penetration step, head outside; finish driving, lifting or cutting the corner |
+| 02 | **Single leg** | S3, S21 | head inside, leg to your chest, run the pipe; chains off the double |
+| 03 | **High crotch** | — | half double, half single: head inside, leg to your hip, finish across the body |
+| 04 | **Low single** | — | fingertip shot at the ankle; long range, then sprint the corner to finish |
+| 05 | **Ankle pick** | S7, S23 | snap them over the lead foot, scoop the heel, drive through the shoulder |
+| 06 | **Knee tap** | S13, S26 | block the far knee off the over-under, drive across the block |
+| 07 | **Fireman’s carry** | — | arm and crotch lift, roll them across your shoulders; big in scrambles |
+
+**Clinch — upper body**
+
+| # | Takedown | Sessions | Key detail |
+|---|---|---|---|
+| 08 | **Bodylock** | S9, S22 | win the pummel, hips lower than theirs; lift-and-turn or walk them to the fence |
+| 09 | **Duck-under** | S6, S19 | lift the elbow, level change through the window, chest to their back |
+| 10 | **Snap-down** | S5, S17, S20 | collar tie + elbow, snap as they step, land in the chin strap |
+| 11 | **Arm drag** | S15 | pull the arm past your center line and arrive at the back — standing or seated |
+| 12 | **Slide-by / shrug** | — | shuck their collar tie past you and change sides to the back |
+| 13 | **Throw-by** | — | feed their underhook past you like a matador; they fall through the open door |
+
+**Trips & foot sweeps**
+
+| # | Takedown | Sessions | Key detail |
+|---|---|---|---|
+| 14 | **Inside trip (ouchi)** | S11, S22 | deep step between their feet, hook the lead leg, drive over it |
+| 15 | **Outside trip (osoto)** | S10, S22 | load the heel from the bodylock, chop the calf, chest through |
+| 16 | **Foot sweep (de-ashi)** | S12, S24 | sweep the arch just as their foot lands; the hands snap them past |
+| 17 | **Outside hook (kosoto)** | — | heel block behind their ankle off the bodylock; sit them down backward |
+
+**Throws**
+
+| # | Takedown | Sessions | Key detail |
+|---|---|---|---|
+| 18 | **Hip toss** | S14 | over-under entry, hips lower and through — crash pads only |
+| 19 | **Shoulder throw (seoi)** | — | spin under the overtie, hips through, roll them over your shoulder |
+| 20 | **Uchi mata** | — | inner-thigh lift off the whizzer; the answer when they hang on the overhook |
+| 21 | **Lateral drop** | — | chest-to-chest sag, sacrifice sideways, land on top — a pure timing throw |
+| 22 | **Mat return (rear bodylock)** | S19 | lift from behind, angle, place them down — never a spike |
+
+**Counters & defense**
+
+| # | Takedown | Sessions | Key detail |
+|---|---|---|---|
+| 23 | **Sprawl** | S2, S4, S27 | hips down, legs back, chest heavy; their shot becomes your front headlock |
+| 24 | **Whizzer** | S3 | deep overhook kills singles and underhooks; hips back, square up |
+| 25 | **Limp leg** | — | single-leg escape: turn the knee in and slip the leg out loose |
+| 26 | **Down block** | — | hard forearm post on the head against low shots; feet back first, then snap |
+
+**Cage wrestling**
+
+| # | Takedown | Sessions | Key detail |
+|---|---|---|---|
+| 27 | **Cage double** | S15, S26, S30 | chain the stuffed shot to the fence: head inside, feet driving, zero space |
+| 28 | **Wall bodylock** | S15, S26 | chest pin on the fence; finish with inside trips and run-the-pipe singles |
+| 29 | **Off-fence exits** | S5, S26, S30 | defense: frames, underhooks, hip wedge, circle off — never flat, never turn away |
+
 
 ## The choke map
 
