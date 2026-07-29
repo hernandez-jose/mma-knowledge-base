@@ -32,6 +32,15 @@ Every move gets two numbers. They are the whole point of this document — a lis
 
 **A note on honesty:** the `Com` numbers are calibrated against competition data (IBJJF Worlds, ADCC, published match analyses) blended with what actually happens in a normal gym on a Tuesday. They are informed judgment, not a peer-reviewed dataset. `Diff` is pure coaching judgment. Your mileage will vary with body type, ruleset, and whether you wear a gi.
 
+> ### 📚 Going deeper
+>
+> This file is the **map**. For a full page on any submission — mechanism, step-by-step
+> application, **how to adjust it for opponents of different body sizes**, failure modes,
+> chains, defense and drills — see the **[Technique Library](techniques/)**:
+> **[Submissions](techniques/submissions/)** · **[Escapes](techniques/escapes/)**
+>
+> Technique names in the tables below link straight to their detail pages.
+
 **Gi markers:** 🥋 = gi-only (needs cloth) · 🚫🥋 = works much better without a gi · no marker = works in both.
 
 ---
@@ -210,7 +219,7 @@ Everything in jiu-jitsu is a fight to move up this ladder and stop your opponent
 | **Guillotine on the shot** | Catching a high, sloppy shot in a guillotine grip. Highly effective and highly abused by beginners. | 2 | 4 |
 | **Head-outside single defense** | Crossface, hip away, peel the hands, foot to the floor. The specific answer to the most common takedown you'll face. | 3 | 4 |
 | **Peek-out / go-behind** | After stuffing their head, spin around to take the back. The reward step — the whole point of sprawling. | 2 | 4 |
-| **Sit-out** | From turtle, throwing a leg through and sitting out to face them again. | 3 | 3 |
+| **[Sit-out](techniques/escapes/turtle-escapes.md)** | From turtle, throwing a leg through and sitting out to face them again. | 3 | 3 |
 | **Switch** | From bottom turtle, sitting through and switching hips to reverse into top position. | 3 | 2 |
 | **Granby roll** | A shoulder roll from turtle or bottom that flips you back to guard without exposing your back. | 3 | 3 |
 | **Kimura counter to the single** | Trapping their far arm in a kimura grip as they hold your leg. Ends the takedown and starts a submission. | 3 | 3 |
@@ -291,21 +300,21 @@ There are three families, and every pass is one of them:
 
 | Escape | From | What it is | Diff | Com |
 |---|---|---|:-:|:-:|
-| **Upa / trap-and-roll** | Mount | Trap one of their arms and the same-side foot, bridge hard over that shoulder, land in their guard. | 1 | 5 |
-| **Elbow-knee escape** | Mount | Frame on their hips, shrimp out, and thread a knee in to recover half or full guard. | 2 | 5 |
-| **Heel drag / foot drag** | Mount | Hook their foot with your heel and drag it across as you shrimp, converting to half guard. | 2 | 4 |
-| **Hip heist to half** | Mount | Combination escape: fail the upa on purpose so they post, then shrimp into the space. | 3 | 4 |
-| **Frame and shrimp** | Side control | Elbow into their hip, forearm on their neck, shrimp away, insert the knee. The universal side-control escape. | 2 | 5 |
-| **Bridge-and-roll (ghost)** | Side control | Bridge into them and slip your hips out backwards to come up behind. | 3 | 4 |
-| **Underhook to dogfight** | Side control | Get the far underhook, come to your side and up to a knee. Trades a bad position for a scramble. | 3 | 4 |
+| **[Upa / trap-and-roll](techniques/escapes/mount-escapes.md)** | Mount | Trap one of their arms and the same-side foot, bridge hard over that shoulder, land in their guard. | 1 | 5 |
+| **[Elbow-knee escape](techniques/escapes/mount-escapes.md)** | Mount | Frame on their hips, shrimp out, and thread a knee in to recover half or full guard. | 2 | 5 |
+| **[Heel drag / foot drag](techniques/escapes/mount-escapes.md)** | Mount | Hook their foot with your heel and drag it across as you shrimp, converting to half guard. | 2 | 4 |
+| **[Hip heist to half](techniques/escapes/mount-escapes.md)** | Mount | Combination escape: fail the upa on purpose so they post, then shrimp into the space. | 3 | 4 |
+| **[Frame and shrimp](techniques/escapes/side-control-escapes.md)** | Side control | Elbow into their hip, forearm on their neck, shrimp away, insert the knee. The universal side-control escape. | 2 | 5 |
+| **[Bridge-and-roll (ghost)](techniques/escapes/side-control-escapes.md)** | Side control | Bridge into them and slip your hips out backwards to come up behind. | 3 | 4 |
+| **[Underhook to dogfight](techniques/escapes/side-control-escapes.md)** | Side control | Get the far underhook, come to your side and up to a knee. Trades a bad position for a scramble. | 3 | 4 |
 | **Granby roll** | Side / turtle | Shoulder roll under them and out the back door to guard. | 3 | 3 |
-| **Knee push** | Knee-on-belly | Two hands on the knee, shrimp, and re-insert your legs before they settle. | 2 | 4 |
-| **Frame and shrimp out** | North–south | Hands on their hips, walk your hips sideways, recover guard or turtle. | 3 | 3 |
-| **Back escape — hand fight and slide** | Back control | Win the choking-arm battle (two hands on one), slide your shoulders down, clear one hook, land in half guard. | 3 | 5 |
-| **Back escape — hip-to-hip** | Back control | Pin your back to the mat toward one side so they can't stay behind you. | 3 | 4 |
+| **[Knee push](techniques/escapes/knee-on-belly-escapes.md)** | Knee-on-belly | Two hands on the knee, shrimp, and re-insert your legs before they settle. | 2 | 4 |
+| **[Frame and shrimp out](techniques/escapes/north-south-escapes.md)** | North–south | Hands on their hips, walk your hips sideways, recover guard or turtle. | 3 | 3 |
+| **[Back escape — hand fight and slide](techniques/escapes/back-escapes.md)** | Back control | Win the choking-arm battle (two hands on one), slide your shoulders down, clear one hook, land in half guard. | 3 | 5 |
+| **[Back escape — hip-to-hip](techniques/escapes/back-escapes.md)** | Back control | Pin your back to the mat toward one side so they can't stay behind you. | 3 | 4 |
 | **Sit-out** | Turtle | Kick a leg through, sit out, and turn to face them. | 3 | 3 |
-| **Stand up in base** | Turtle | Simply post and stand rather than staying folded up. Under-taught and effective. | 2 | 3 |
-| **Kesa escape** | Scarf hold | Frame on the neck, bridge, and spin out to the far side or take the back. | 3 | 2 |
+| **[Stand up in base](techniques/escapes/turtle-escapes.md)** | Turtle | Simply post and stand rather than staying folded up. Under-taught and effective. | 2 | 3 |
+| **[Kesa escape](techniques/escapes/kesa-gatame-escapes.md)** | Scarf hold | Frame on the neck, bridge, and spin out to the far side or take the back. | 3 | 2 |
 
 ### VII.b — Submission defense
 
@@ -334,12 +343,12 @@ There are three families, and every pass is one of them:
 
 | Submission | What it is | Diff | Com |
 |---|---|:-:|:-:|
-| **Rear naked choke (mata leão)** | Arm under the chin, bicep and shoulder squeezing both carotids, second hand behind their head. **The highest-percentage submission in grappling** — around 45% of finishes at a recent IBJJF Worlds. | 2 | 5 |
-| **Triangle choke** | Legs figure-foured around their neck and one arm; their own shoulder does half the strangling. Second or third most common finish everywhere. | 3 | 5 |
-| **Guillotine (arm-in / high elevation)** | Head trapped under your armpit, forearm across their throat, hips driving forward. Available from guard, standing, and off a stuffed shot. | 2 | 5 |
-| **Arm triangle (head-and-arm / kata gatame)** | Their own shoulder plus your bicep close both sides of their neck. The most reliable choke from mount and side control. | 3 | 5 |
-| **D'Arce (Brabo)** | Arm threaded under their near arm and across the neck, hand to your own bicep. Front headlock and half guard top staple. | 3 | 4 |
-| **Anaconda** | D'Arce's mirror — arm threaded *under the neck and through the armpit*, then rolled. | 3 | 3 |
+| **[Rear naked choke (mata leão)](techniques/submissions/rear-naked-choke.md)** | Arm under the chin, bicep and shoulder squeezing both carotids, second hand behind their head. **The highest-percentage submission in grappling** — around 45% of finishes at a recent IBJJF Worlds. | 2 | 5 |
+| **[Triangle choke](techniques/submissions/triangle-choke.md)** | Legs figure-foured around their neck and one arm; their own shoulder does half the strangling. Second or third most common finish everywhere. | 3 | 5 |
+| **[Guillotine (arm-in / high elevation)](techniques/submissions/guillotine.md)** | Head trapped under your armpit, forearm across their throat, hips driving forward. Available from guard, standing, and off a stuffed shot. | 2 | 5 |
+| **[Arm triangle (head-and-arm / kata gatame)](techniques/submissions/arm-triangle.md)** | Their own shoulder plus your bicep close both sides of their neck. The most reliable choke from mount and side control. | 3 | 5 |
+| **[D'Arce (Brabo)](techniques/submissions/darce.md)** | Arm threaded under their near arm and across the neck, hand to your own bicep. Front headlock and half guard top staple. | 3 | 4 |
+| **[Anaconda](techniques/submissions/anaconda.md)** | D'Arce's mirror — arm threaded *under the neck and through the armpit*, then rolled. | 3 | 3 |
 | **Cross collar choke** 🥋 | Both hands deep in their collar, thumbs or fingers in, elbows flaring. The most fundamental gi choke, from guard or mount. | 2 | 4 |
 | **Bow and arrow choke** 🥋 | From the back: collar grip plus their pant leg, extending like drawing a bow. The best gi choke in the sport. | 3 | 4 |
 | **Sliding / lapel collar choke** 🥋 | Feeding the collar across their neck from back control and sliding it tight. | 3 | 4 |
@@ -348,9 +357,9 @@ There are three families, and every pass is one of them:
 | **Clock choke** 🥋 | Collar grip from the turtle, walking around their head like a clock hand. | 3 | 3 |
 | **Baseball bat choke** 🥋 | Two collar grips held like a bat, applied while spinning through — often from knee-on-belly. | 4 | 2 |
 | **Paper cutter / bread cutter** 🥋 | Collar grip plus a forearm blade driven across the far side of the neck from side control. | 3 | 3 |
-| **North–south choke** | From north–south, their neck trapped in the crook of your arm as you shrug and squeeze. Slow, inescapable when tight. | 4 | 3 |
+| **[North–south choke](techniques/submissions/north-south-choke.md)** | From north–south, their neck trapped in the crook of your arm as you shrug and squeeze. Slow, inescapable when tight. | 4 | 3 |
 | **Von Flue choke** | Shoulder pressure choke that punishes an opponent holding a guillotine. Pure counter-attack. | 3 | 3 |
-| **Peruvian necktie** | Front headlock choke where you sit and roll them over your leg, wrapping the neck. | 4 | 2 |
+| **[Peruvian necktie](techniques/submissions/peruvian-necktie.md)** | Front headlock choke where you sit and roll them over your leg, wrapping the neck. | 4 | 2 |
 | **Japanese necktie** | Peruvian's variant with the trapping arm in a different configuration. | 4 | 1 |
 | **Buggy choke** | An improvised strangle from *underneath* side control using your own leg and arm. Legitimately effective; discovered/popularised recently. | 4 | 2 |
 | **Gogoplata** | Shin across the throat from rubber guard or mounted triangle. Flexibility-dependent showpiece. | 5 | 1 |
@@ -362,14 +371,14 @@ There are three families, and every pass is one of them:
 
 | Submission | What it is | Diff | Com |
 |---|---|:-:|:-:|
-| **Armbar (juji gatame)** | Their elbow hyperextended over your hips with their thumb pointing up. Available from guard, mount, side control, knee-on-belly and back. **The most common joint lock in the sport** — roughly 20% of all finishes. | 2 | 5 |
-| **Kimura** | Figure-four grip rotating their arm behind their back. As much a *control system* as a submission — the grip alone wins positions. | 2 | 5 |
-| **Americana (keylock)** | Figure-four the other direction, arm bent up toward their head. Beginner-friendly and superb from side control and mount. | 1 | 4 |
-| **Omoplata** | Shoulder lock using your *leg* over their shoulder while their arm is trapped. Doubles as a sweep and a control position. | 3 | 4 |
+| **[Armbar (juji gatame)](techniques/submissions/armbar.md)** | Their elbow hyperextended over your hips with their thumb pointing up. Available from guard, mount, side control, knee-on-belly and back. **The most common joint lock in the sport** — roughly 20% of all finishes. | 2 | 5 |
+| **[Kimura](techniques/submissions/kimura.md)** | Figure-four grip rotating their arm behind their back. As much a *control system* as a submission — the grip alone wins positions. | 2 | 5 |
+| **[Americana (keylock)](techniques/submissions/americana.md)** | Figure-four the other direction, arm bent up toward their head. Beginner-friendly and superb from side control and mount. | 1 | 4 |
+| **[Omoplata](techniques/submissions/omoplata.md)** | Shoulder lock using your *leg* over their shoulder while their arm is trapped. Doubles as a sweep and a control position. | 3 | 4 |
 | **Straight armlock from mount** | Pushing their arm straight past your body while mounted and levering the elbow. Fast, often overlooked. | 3 | 3 |
 | **Flying armbar** | Jumping into an armbar from standing. Rare, dramatic, high-risk. | 5 | 1 |
 | **Baratoplata / Tarikoplata / Monoplata** | Modern shoulder-lock variants using the arm and shin in different configurations from mount and guard. | 4 | 2 |
-| **Wrist lock** | Bending or twisting the wrist. Available almost everywhere, undervalued, and it ends rolls instantly. Illegal for IBJJF white belts. | 3 | 3 |
+| **[Wrist lock](techniques/submissions/wrist-lock.md)** | Bending or twisting the wrist. Available almost everywhere, undervalued, and it ends rolls instantly. Illegal for IBJJF white belts. | 3 | 3 |
 | **Bicep slicer** | Your shin or forearm driven into their bicep with their arm folded over it. Compression, not a joint lock. Banned below brown belt in IBJJF. | 3 | 1 |
 | **Crucifix shoulder lock** | Attacking the trapped arm from the crucifix position. | 4 | 1 |
 
@@ -379,12 +388,12 @@ There are three families, and every pass is one of them:
 
 | Submission | What it is | Diff | Com |
 |---|---|:-:|:-:|
-| **Straight ankle lock (Achilles lock)** | Their foot in your armpit, forearm blade under the Achilles, hips bridging. **The only leg lock legal at every IBJJF belt.** | 2 | 4 |
-| **Outside heel hook** | Rotating the heel outward to tear through the knee. Extremely fast, extremely damaging. Brown/black no-gi only under IBJJF. | 3 | 3 |
-| **Inside heel hook** | The saddle version — rotating the heel inward. Considered the single most dangerous submission in grappling. | 4 | 3 |
-| **Kneebar** | An armbar for the leg: their knee hyperextended over your hips. Legal from brown belt in IBJJF. | 3 | 3 |
-| **Toe hold** | Figure-four grip on the foot, twisting it inward — attacks ankle *and* knee. Legal from brown belt in IBJJF. | 3 | 3 |
-| **Calf slicer** | Your shin wedged behind their knee with their leg folded over it. Compression lock. Banned below brown belt. | 3 | 2 |
+| **[Straight ankle lock (Achilles lock)](techniques/submissions/straight-ankle-lock.md)** | Their foot in your armpit, forearm blade under the Achilles, hips bridging. **The only leg lock legal at every IBJJF belt.** | 2 | 4 |
+| **[Outside heel hook](techniques/submissions/heel-hook.md)** | Rotating the heel outward to tear through the knee. Extremely fast, extremely damaging. Brown/black no-gi only under IBJJF. | 3 | 3 |
+| **[Inside heel hook](techniques/submissions/heel-hook.md)** | The saddle version — rotating the heel inward. Considered the single most dangerous submission in grappling. | 4 | 3 |
+| **[Kneebar](techniques/submissions/kneebar.md)** | An armbar for the leg: their knee hyperextended over your hips. Legal from brown belt in IBJJF. | 3 | 3 |
+| **[Toe hold](techniques/submissions/toe-hold.md)** | Figure-four grip on the foot, twisting it inward — attacks ankle *and* knee. Legal from brown belt in IBJJF. | 3 | 3 |
+| **[Calf slicer](techniques/submissions/calf-slicer.md)** | Your shin wedged behind their knee with their leg folded over it. Compression lock. Banned below brown belt. | 3 | 2 |
 | **Estima lock** | A foot lock applied from a standing/passing position, catching the foot as they pass or retain. | 4 | 1 |
 | **Aoki lock / inverted heel hook** | Inverted variants of the heel hook from unusual entries. | 5 | 1 |
 | **Banana split** | Splitting their legs apart to attack the groin and hip. From the truck and back positions. | 4 | 1 |
