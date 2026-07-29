@@ -6,7 +6,7 @@
 |---|---|
 | **Category** | Positional escape — back taken (**−4** on the atlas ladder, the worst position in the sport) |
 | **Comes from** | Turtle, technical mount, a failed guard retention, an arm drag, a leg drag, a front headlock, any scramble you lost |
-| **Difficulty** | 2–3/5 · per escape, see §3 |
+| **Difficulty** | 3/5 · both atlas back escapes are rated 3; the chin-and-hands defense that precedes them is rated 2 |
 | **How common** | 5/5 · the hand fight and slide is rated Com 5 in the atlas |
 | **Legal** | All belts, all major rulesets |
 

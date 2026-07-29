@@ -1,7 +1,7 @@
 # Ground War — 8-Week Jiu-Jitsu Program for MMA
 
 > 8 weeks · 4 sessions/week · 60 minutes/session · 32 sessions total.
-> Illustrated, styled version: **[training-plan.html](training-plan.html)** (open in a browser).
+> Technique deep-dives: **[Technique Library](techniques/)** — per-submission and per-escape pages covering how each move changes against different body sizes.
 
 **Legend:** every position is shown as a rendered 3D scene from two angles — a **side view** and a **high angle** that shows the hand positions. The athlete in **red shorts (light skin)** is our fighter, red corner; the opponent wears **blue shorts (dark skin)**, blue corner.
 
