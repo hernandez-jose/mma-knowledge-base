@@ -92,6 +92,8 @@ Everything in jiu-jitsu is a fight to move up this ladder and stop your opponent
 | **Crucifix** | Their back is turned, one of their arms is trapped by your legs, the other by your arm. Total helplessness — chokes and shoulder locks available. | 4 | 2 | [Crucifix position – Wikipedia](https://en.wikipedia.org/wiki/Crucifix_position) |
 | **The Truck** | A leg-entangled back attack from turtle: one of your legs threaded through and over their leg, rolling them onto their shoulder. Entry to the twister and the banana split. | 5 | 1 | [The Truck – BJJ Heroes](https://www.bjjheroes.com/techniques/the-truck) |
 | **Mounted triangle** | Mount with your legs triangled around their head and one arm. A finishing cage, not just a pin. | 4 | 2 | [Triangle choke – Wikipedia](https://en.wikipedia.org/wiki/Triangle_choke) |
+| **Twister side control** | Reverse-kesa side control facing their legs, ribs riding high on their chest, arms pinned above their shoulders. 10th Planet's gateway to the truck and the twister. | 3 | 2 | [Standard Twister Side Control – Fight Encyclopedia](https://fightencyclopedia.com/techniques/position/top-position/side-control/twister-side-control/standard-twister-side-control) |
+| **False reap** | Top-side leg entanglement where your wrapping leg stays *outside* their hip instead of crossing the centreline — legal where reaping isn't, and it feeds the saddle even when they win inside position. The hottest entry in modern no-gi. | 4 | 2 | [False Reap – After The Mat](https://afterthemat.com/library/jiu-jitsu/false-reap) |
 
 ### II.b — Guards (bottom positions with attacks)
 
@@ -125,6 +127,10 @@ Everything in jiu-jitsu is a fight to move up this ladder and stop your opponent
 | **Inverted guard** | Guard played while upside down on your shoulders. Necessary as a *recovery* skill, dangerous as a lifestyle — hard on the neck. | 4 | 2 | [Inverted Guard and Tornado Guard – BJJ Heroes](https://www.bjjheroes.com/techniques/inverted-guard-tornado-guard) |
 | **Quarter guard** | Only their foot/ankle is trapped between your legs. Half a step from being passed; treat it as an emergency, not a position. | 2 | 3 | [Quarter Guard – BJJ World](https://bjj-world.com/quarter-guard-final-frontier/) |
 | **Turtle (bottom)** | Curled on knees and elbows, neck and arms tight. Not a guard — a shelter. Learn it or you'll donate your back for years. | 2 | 4 | [Grappling position – Wikipedia](https://en.wikipedia.org/wiki/Grappling_position) |
+| **Williams guard** | Closed-guard variant: overwrap their arm and shoulder with your leg and grip your own shin, pinning their posture with angles instead of flexibility. A rubber guard for people with normal hips. | 3 | 2 | [Williams Guard – BJJ World](https://bjj-world.com/williams-guard-never-get-passed/) |
+| **Squid guard** 🥋 | Keenan Cornelius's answer to worm-guard defense: when they hide the far leg, the lapel laces their *near* leg instead, trading one leash for another. | 5 | 1 | [What Is The BJJ Squid Guard? – Evolve Daily](https://evolve-mma.com/blog/what-is-the-bjj-squid-guard/) |
+| **Tornado guard** | Cyborg Abreu's inverted-guard system: spin under from half guard into sweeps and back takes. The most developed competitive expression of inversion. | 5 | 1 | [Inverted Guard and Tornado Guard – BJJ Heroes](https://www.bjjheroes.com/techniques/inverted-guard-tornado-guard) |
+| **Donkey guard** | Jeff Glover's provocation: turtle with your rear facing them, baiting engagement, then corkscrewing into their legs for imanari-style entries when they bite. Half technique, half taunt — built to force stalling opponents to play. | 4 | 1 | [The Donkey Guard – BJJ Heroes](https://www.bjjheroes.com/techniques/donkey-guard) |
 
 ### II.c — Standing and clinch positions
 
@@ -165,6 +171,7 @@ Everything in jiu-jitsu is a fight to move up this ladder and stop your opponent
 | **Mat return** | From rear body lock, lift or trip them back down as they try to stand. Essential companion to the body lock. | 2 | 3 | [Rear Body Lock, Knee Pinch & Mat Return – Fuji Sports](https://fujisports.com/blogs/blog/the-merge-rear-body-lock-knee-pinch-mat-return-option) |
 | **Go-behind off a sprawl** | They shoot, you sprawl, you circle to their back. The most common way grapplers score standing. | 2 | 5 | [Sprawl (grappling) – Wikipedia](https://en.wikipedia.org/wiki/Sprawl_(grappling)) |
 | **Slide-by** | Redirect their reaching arm past your head and step around to the back. Cheap, fast, no commitment. | 2 | 3 | [Slide By in Wrestling – Fanatic Wrestling](https://fanaticwrestling.com/blogs/news/slide-by-in-wrestling) |
+| **Lateral drop** | From the over-under: pop your hips in, arch sideways, and sail them over your chest to the mat. Wrestling's sacrifice throw — high points or a pin when it lands, bottom position when it doesn't. | 4 | 2 | [Standard Lateral Drop – Fight Encyclopedia](https://fightencyclopedia.com/techniques/throw/wrestling-throw/lateral-drop/standard-lateral-drop) |
 
 ### III.b — Judo throws
 
@@ -189,6 +196,7 @@ Everything in jiu-jitsu is a fight to move up this ladder and stop your opponent
 | **Ura nage** (rear throw / suplex) | Lift and arch them over your shoulder from a body lock. Power move; illegal to spike in most rulesets. | 5 | 1 | [Ura nage – Wikipedia](https://en.wikipedia.org/wiki/Ura_nage) |
 | **Morote gari** | Judo's name for the double leg. Restricted in modern IJF judo, fully legal in BJJ. | 3 | 4 | [Morote gari – Wikipedia](https://en.wikipedia.org/wiki/Morote_gari) |
 | **Kuchiki taoshi** | Judo's single leg. Same restriction story as above. | 3 | 4 | [Kuchiki taoshi – Wikipedia](https://en.wikipedia.org/wiki/Kuchiki_taoshi) |
+| **Sukui nage / te guruma** (scoop throw) | Scoop their leg and hip mid-throw and wheel them over — judo's classic counter to the uchi mata and turn-in throws. Restricted in IJF judo since the leg-grab bans; fully legal in BJJ. | 4 | 1 | [Sukui Nage – Wikipedia](https://en.wikipedia.org/wiki/Sukui_Nage) · [Te Guruma – Wikipedia](https://en.wikipedia.org/wiki/Te_Guruma) |
 
 ### III.c — BJJ-specific entries to the ground
 
@@ -229,6 +237,7 @@ Everything in jiu-jitsu is a fight to move up this ladder and stop your opponent
 | **Grip breaking** 🥋 | Attacking the thumb, using two hands against one, using hip movement to break their gi grips before a throw sets. | 2 | 5 | [How To Break Grips In BJJ – Evolve Daily](https://evolve-mma.com/blog/how-to-break-grips-in-bjj/) |
 | **Foot-sweep denial** | Keeping weight off the swept foot, stepping over rather than through, and not crossing your feet. | 3 | 3 | [Foot sweep – Wikipedia](https://en.wikipedia.org/wiki/Foot_sweep) |
 | **Cage / wall wrestling** | MMA-only: using the fence to stand, defend, and reverse a body lock. Irrelevant in sport BJJ, essential in MMA. | 3 | 2 | [How To Use The Cage Wall To Escape Takedowns – Evolve Daily](https://evolve-mma.com/blog/how-to-use-the-cage-wall-to-escape-takedowns-in-mma/) |
+| **Spladle** | They shoot a head-inside single; you step over their head and sit back, splitting their legs into a pinning cradle. A defense that ends the whole exchange — famous in folkstyle, rare and spectacular in grappling. | 4 | 1 | [Wrestling Spladle – BJJ World](https://bjj-world.com/wrestling-spladle-single-leg-counter/) |
 
 ---
 
@@ -275,6 +284,7 @@ There are three families, and every pass is one of them:
 | **Kimura sweep** | Closed guard | Take the kimura grip; if they defend by basing, you use that arm as a lever to roll them. | 2 | 4 | [Why The Kimura Sweep Is The Best BJJ Sweep – BJJ World](https://bjj-world.com/kimura-sweep-bjj/) |
 | **Butterfly / elevator sweep** | Butterfly | Underhook or overhook, load their weight to one side, elevate with the hook and follow them over. | 2 | 4 | [Elevator Sweep – BJJ Graph](https://bjjgraph.org/Transitions/Elevator-Sweep) |
 | **Arm drag to back** | Butterfly / seated | Drag their arm across, take the back rather than the sweep. Usually a better outcome than the sweep itself. | 3 | 4 | [The Arm Drag: BJJ's Silent Game-Changer – Evolve Daily](https://evolve-mma.com/blog/the-arm-drag-bjjs-silent-game-changer/) |
+| **Shaolin sweep** | Sit-up guard | Overhook their arm from sit-up guard, trap the same-side leg, and run them over the trapped shoulder. Vitor "Shaolin" Ribeiro's signature — simple, old-school, still works. | 3 | 2 | [Vitor Shaolin Demonstrates The Shaolin Sweep – BJJEE](https://www.bjjee.com/articles/vitor-shaolin-demonstrates-the-simple-but-effective-shaolin-sweep/) |
 | **Old school sweep** | Half guard | Underhook, grab their far ankle, drive into them. The classic half-guard sweep. | 2 | 4 | [The Old School Sweep From Half Guard – BJJEE](https://www.bjjee.com/articles/the-old-school-sweep-from-half-guard-is-the-first-one-you-should-learn/) |
 | **John Wayne sweep** | Half guard | Trap the near ankle and roll them over the top of your knee. | 3 | 2 | [The John Wayne Sweep – BJJ Fanatics](https://bjjfanatics.com/blogs/news/the-easiest-half-guard-sweep-the-john-wayne-sweep) |
 | **Electric chair** | Lockdown half | Split their legs with your lockdown and lift, sweeping and torquing simultaneously. Hard on the groin — go slow. | 4 | 1 | [Lockdown, Electric Chair Sweep – BJJ World](https://bjj-world.com/lockdown-electric-chair-sweep-submission/) |
@@ -368,6 +378,9 @@ There are three families, and every pass is one of them:
 | **Reverse / side triangle** | Triangle applied from the top or side rather than from guard. | 3 | 3 | [Triangle choke – Wikipedia](https://en.wikipedia.org/wiki/Triangle_choke) — parent article, no dedicated page found |
 | **Body triangle squeeze** | Not a neck attack — a legal body compression from back control that ends fights on its own against some builds. | 3 | 2 | [Body Triangle Guide – BJJ App Wiki](https://wiki.bjj-app.net/en/bjj-body-triangle-guide.html) |
 | **10-finger guillotine / Marcelotine** | High-elevation guillotine with palm-to-palm grip, no arm in. Brutal from butterfly guard. | 3 | 3 | [Guillotine choke – Wikipedia](https://en.wikipedia.org/wiki/Guillotine_choke) — parent article, no dedicated page found |
+| **Kata ha jime** (single-wing choke) 🥋 | Sliding collar choke with their far arm lifted and trapped — the "single wing." A Kodokan classic that reappears every time someone defends the back with an early grip. | 3 | 2 | [Kata ha jime – Wikipedia](https://en.wikipedia.org/wiki/Kata_ha_jime) |
+| **Jigoku jime** ("hell strangle") 🥋 | The crucifix choke: collar grip plus your leg driving their trapped arm down, strangling with thigh pressure and cloth at once. | 4 | 1 | [The Hell Strangle – Jiu-Jitsu Times](https://www.jiujitsutimes.com/the-hell-strangle/) |
+| **Bulldog choke** | An RNC-grip choke applied side-on with your back half-turned to them, usually snatched mid-scramble as they turtle beside you. Crude, rare — and it keeps finishing world-class people in MMA. | 3 | 1 | [What Is The Bulldog Choke In BJJ? – Evolve Daily](https://evolve-mma.com/blog/what-is-the-bulldog-choke-in-bjj/) |
 
 ### VIII.b — Arm and shoulder locks
 
@@ -383,6 +396,8 @@ There are three families, and every pass is one of them:
 | **[Wrist lock](techniques/submissions/wrist-lock.md)** | Bending or twisting the wrist. Available almost everywhere, undervalued, and it ends rolls instantly. Illegal for IBJJF white belts. | 3 | 3 | [Wristlock – Wikipedia](https://en.wikipedia.org/wiki/Wristlock) |
 | **Bicep slicer** | Your shin or forearm driven into their bicep with their arm folded over it. Compression, not a joint lock. Banned below brown belt in IBJJF. | 3 | 1 | [What Is The Bicep Slicer Submission? – Evolve Daily](https://evolve-mma.com/blog/what-is-the-bicep-slicer-submission-in-bjj/) |
 | **Crucifix shoulder lock** | Attacking the trapped arm from the crucifix position. | 4 | 1 | [Submissions From The Crucifix Position – Grapplearts](https://www.grapplearts.com/submissions-from-crucifix-position/) |
+| **Helicopter armbar** | Off a double-sleeve overhead lift: they fly, you spin them 90 degrees mid-air and drop them straight into the armbar. Gravity does the extension. | 5 | 1 | [Helicopter Armbar – BJJ World](https://bjj-world.com/helicopter-armbar-setup/) |
+| **Dead orchard / dead orchid** | Nathan Orchard's trap from rubber-guard entries: a triangle locked around *both* shoulders, killing the posture-and-pull defense before the armbar even begins. | 5 | 1 | [The Dead Orchard Armbar – BJJ World](https://bjj-world.com/dead-orchard-arm-bar-attack/) |
 
 ### VIII.c — Leg locks
 
@@ -400,6 +415,8 @@ There are three families, and every pass is one of them:
 | **Aoki lock / inverted heel hook** | Inverted variants of the heel hook from unusual entries. | 5 | 1 | [What Is The Aoki Lock? – Evolve Daily](https://evolve-mma.com/blog/what-is-the-aoki-lock/) |
 | **Banana split** | Splitting their legs apart to attack the groin and hip. From the truck and back positions. | 4 | 1 | [Banana Split – BJJ Graph](https://bjjgraph.org/Submissions/Banana-Split) |
 | **Z-lock / Vaporizer** | Knee compression variants from the saddle. | 4 | 1 | [Vaporizer Leglock Setups and Finishes – HubPages](https://discover.hubpages.com/sports/Vaporizer-Leglock-Setups-and-Finishes-a-BJJ-Tutorial) |
+| **Mikey lock** | Musumeci's modified footlock system: cup the heel instead of blading the Achilles, outer leg hooked, finishing as a straight ankle in the gi or feeding heel hooks without. Behind some of the fastest finishes in Worlds history. | 5 | 1 | [The Mikey Lock – LowKick MMA](https://www.lowkickmma.com/the-mikey-lock/) |
+| **Suloev stretch** | A kneebar from the back: when they tripod up to shake you off, snatch the ankle and pull it to your chest, loading the hamstring and knee at once. | 5 | 1 | [The Suloev Stretch at ADCC Trials – FloGrappling](https://www.flograppling.com/articles/7666456-the-suloev-stretch-at-adcc-trials-what-is-it-and-how-does-it-work) |
 
 ### VIII.d — Spinal locks and cranks
 
@@ -409,6 +426,7 @@ There are three families, and every pass is one of them:
 | **Can opener** | Pulling their head toward their chest from inside their guard. Legal in some rulesets, considered poor form in most gyms. | 1 | 1 | [BJJ Can Opener Submission – BJJ World](https://bjj-world.com/bjj-can-opener/) |
 | **Neck crank from front headlock** | Cranking rather than strangling from a chin-strap. Effective and unloved — many rulesets ban it. | 2 | 2 | [Neck Crank Choke – Fight Encyclopedia](https://fightencyclopedia.com/techniques/submission/choke-and-strangle-lock/neck-crank-choke) |
 | **Crucifix neck crank** | Head torqued from the crucifix position. | 4 | 1 | [Crucifix Neck Crank – Submission Searcher](https://submissionsearcher.com/techniques/crucifix-neck-crank-mastering-this-powerful-bjj-technique/) |
+| **Boston crab** | Pro wrestling's spinal lock, occasionally landed for real in submission-only events. Banned under IBJJF spinal-lock rules. | 4 | 1 | [Boston crab – Wikipedia](https://en.wikipedia.org/wiki/Boston_crab) |
 
 ---
 
@@ -429,6 +447,8 @@ The moves that make everything else connect. Beginners learn positions; intermed
 | **Front headlock → back** | Snap them down, spin behind. Wrestling's bread and butter. | 3 | 4 | [3 Great Finishes From A Front Headlock – Fanatic Wrestling](https://fanaticwrestling.com/blogs/news/3-great-finishes-from-a-front-headlock) |
 | **Guard → wrestle-up → top** | Standing up out of your own guard into a takedown. | 3 | 4 | [Building A Basic Standup Game For No-Gi – Evolve Daily](https://evolve-mma.com/blog/how-to-build-a-basic-standup-game-for-no-gi-bjj/) |
 | **Failed pass → leg entanglement** | Turning a stalled pass into a leg lock entry instead of restarting. | 4 | 3 | [Pillars of Defense: Leg Locks to Guard Passing – BJJ Fanatics](https://bjjfanatics.com/products/the-pillars-of-defense-leglocks-to-guard-passing-by-gordon-ryan) |
+| **Rolling back take** | Seatbelt tight on their turtle, roll over their near shoulder and take them with you, landing in back control with hooks. Bypasses the slow turtle breakdown entirely. | 3 | 3 | [Rolling Back Take – BJJ Graph](https://bjjgraph.org/Transitions/Rolling-Back-Take) |
+| **Cement mixer (gator roll)** | Front headlock plus underhook: roll to the underhook side and churn them over onto their back. Wrestling's rolling reversal — also called the Olympic roll or cow catcher. | 4 | 1 | [Cement Mixer – Spark Wrestling](https://www.sparkwrestling.com/lessons/front-headlock-and-stuck-under-counters/front-headlock-on-the-mat/cement-mixer-olympic-roll-gator-roll-cow-catcher) |
 
 ---
 
