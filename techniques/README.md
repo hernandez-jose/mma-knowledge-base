@@ -53,3 +53,4 @@ ratings must match [`jujitsu.md`](../jujitsu.md).
 
 - [`jujitsu.md`](../jujitsu.md) — the full technique atlas, ratings, rulesets, class syllabus
 - [`training-plan.md`](../training-plan.md) — the 8-week MMA-focused program that schedules this material
+- [`curriculum/`](../curriculum/) — the syllabus: modules, drills, and the roll formats that blend this material into live sparring

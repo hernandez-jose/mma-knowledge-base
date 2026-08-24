@@ -40,6 +40,16 @@ Every move gets two numbers. They are the whole point of this document — a lis
 > **[Submissions](techniques/submissions/)** · **[Escapes](techniques/escapes/)**
 >
 > Technique names in the tables below link straight to their detail pages.
+>
+> ### 🗓️ Actually training it
+>
+> This file tells you what exists. The **[Curriculum](curriculum/)** tells you what
+> to teach, in what order, with the drills that make it stick — fourteen modules
+> covering every part below, a drill library from solo movement to live rounds,
+> and the roll formats that blend new material into open sparring instead of
+> letting it evaporate: **[Modules](curriculum/modules/)** ·
+> **[Drills](curriculum/drills/)** ·
+> **[Integration rolls](curriculum/drills/integration-rolls.md)**
 
 **Gi markers:** 🥋 = gi-only (needs cloth) · 🚫🥋 = works much better without a gi · no marker = works in both.
 
@@ -552,6 +562,8 @@ These belong in every warm-up. They cost nothing and they are the substrate ever
 ## Part XIII — The Syllabus: What Goes Into a Class
 
 > This is the answer to *"what do I actually bring to class?"* — ordered by when a student needs it, not by how impressive it looks. Each tier assumes the one before it.
+>
+> Each tier below is expanded into a full module — lessons, drills, checkpoint — in the **[Curriculum](curriculum/modules/)**.
 
 ### Tier 0 — Before you touch anybody (first 10 minutes, day one)
 
@@ -641,6 +653,9 @@ Points and advantages · what's legal at your belt · match procedure · weigh-i
 | 55–60 | Cool-down, questions, note-taking |
 
 > **The most common coaching mistake is teaching too much.** Two techniques drilled to competence beat six demonstrated beautifully.
+
+> Ready-made versions of this template, built from a single module's drill block, are in the **[Curriculum](curriculum/README.md#the-session-template)** — along with a 16-week cycle that schedules the whole atlas.
+
 
 ### 90-minute class
 
