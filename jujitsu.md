@@ -60,7 +60,8 @@ Every move gets two numbers. They are the whole point of this document — a lis
 ## The table directory
 
 Every table in this atlas, with the link that points at it. The
-[curriculum](curriculum/) and the [8-week camp](training-plan.md) link each of
+[complete 96-session program](complete-program.md), the [curriculum](curriculum/)
+and the [8-week camp](training-plan.md) link each of
 their activities back into this list — so any drill, session block or lesson can
 be traced to the table that defines it.
 
