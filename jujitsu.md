@@ -57,6 +57,42 @@ Every move gets two numbers. They are the whole point of this document — a lis
 
 ---
 
+## The table directory
+
+Every table in this atlas, with the link that points at it. The
+[curriculum](curriculum/) and the [8-week camp](training-plan.md) link each of
+their activities back into this list — so any drill, session block or lesson can
+be traced to the table that defines it.
+
+| Table | What's in it | Rows |
+|---|---|:-:|
+| **[I — The positional ladder](#part-i--the-map)** | Every position scored from +4 to −4 | 9 |
+| **[II.a — Dominant top positions](#iia--dominant-top-positions)** | Back, mount, side, KOB, north–south, HQ, front headlock, turtle top | 21 |
+| **[II.b — Guards](#iib--guards-bottom-positions-with-attacks)** | Every named guard, closed to worm | 33 |
+| **[II.c — Standing and clinch positions](#iic--standing-and-clinch-positions)** | Ties, underhooks, body lock, sprawl position | 9 |
+| **[III.a — Wrestling takedowns](#iiia--wrestling-takedowns-leg-attacks)** | Doubles, singles, picks, snaps, duck-unders, body lock | 16 |
+| **[III.b — Judo throws](#iiib--judo-throws)** | Reaps, sweeps, hip throws, sacrifice throws | 21 |
+| **[III.c — BJJ entries to the ground](#iiic--bjj-specific-entries-to-the-ground)** | Guard pulls, pull-to-wrestle, flying attacks, Imanari | 6 |
+| **[IV — Takedown defense](#part-iv--takedown-defense)** | Stance, sprawl, whizzer, front headlock, cage wrestling | 21 |
+| **[V — Guard passing](#part-v--guard-passing)** | Pressure, speed and leg-entanglement passing | 19 |
+| **[VI — Sweeps and reversals](#part-vi--sweeps-and-reversals)** | Every sweep, plus the wrestle-up and technical stand-up | 25 |
+| **[VII.a — Positional escapes](#viia--positional-escapes)** | Escapes from mount, side, back, KOB, north–south, kesa, turtle | 15 |
+| **[VII.b — Submission defense](#viib--submission-defense)** | Early, middle and late defense to every common attack | 12 |
+| **[VIII.a — Chokes and strangles](#viiia--chokes-and-strangles)** | 26 chokes, gi and no-gi | 26 |
+| **[VIII.b — Arm and shoulder locks](#viiib--arm-and-shoulder-locks)** | Armbars, kimura, americana, omoplata, wrist locks | 12 |
+| **[VIII.c — Leg locks](#viiic--leg-locks)** | Ankle locks, heel hooks, kneebars, toe holds, slicers | 12 |
+| **[VIII.d — Spinal locks and cranks](#viiid--spinal-locks-and-cranks)** | Twister, cranks, crabs — mostly banned, all listed | 5 |
+| **[IX — Transitions and back takes](#part-ix--transitions-and-back-takes)** | How you move between every position above | 13 |
+| **[X — The concepts](#part-x--the-concepts-more-important-than-any-move)** | Frames, base, posture, grips, timing, breathing, the tap | 14 |
+| **[XI — Solo movements](#part-xi--solo-movements-the-physical-alphabet)** | The warm-up alphabet: shrimp, bridge, breakfall, sprawl | 12 |
+| **[XII — Rules and rulesets](#part-xii--rules-and-rulesets-you-need-this-before-you-compete)** | Points, belt legality, ruleset differences, belt timelines | 4 tables |
+| **[XIII — The syllabus](#part-xiii--the-syllabus-what-goes-into-a-class)** | Tiers 0–9: what to teach and when | 10 tiers |
+| **[XIV — Class templates](#part-xiv--class-templates)** | The 60- and 90-minute class shapes | 2 |
+| **[XIV.a — Drilling and rolling formats](#xiva--drilling-and-rolling-formats)** | **Every way to run a live round** — flow, positional, task, king of the hill, shark tank, fight sim | 20 |
+| **[XV — Gap analysis](#part-xv--gap-analysis-what-the-list-above-still-misses)** | What's missing, what's under-served, what's deliberately omitted | 3 tables |
+
+---
+
 ## Part I — The Map
 
 Everything in jiu-jitsu is a fight to move up this ladder and stop your opponent moving up it. Learn this before you learn a single technique.
@@ -664,6 +700,47 @@ Add a 10-minute dedicated **standing block** and a 10-minute **escape block** be
 ### Positional sparring — the highest-value 15 minutes of any class
 
 Start from the exact position taught. Bottom person's goal: escape or sweep. Top person's goal: hold or advance. Reset every 90 seconds. This produces roughly three times the reps of the relevant situation compared with open rolling.
+
+---
+
+### XIV.a — Drilling and rolling formats
+
+Positions and techniques are only half the atlas. The other half is *how you run
+the round* — and a session plan that says "live rounds" with no format chosen is
+the most common way training time gets wasted. Every format below is a real,
+named thing you can put on a whiteboard.
+
+**Intensity** is the number both partners agree on out loud before the round
+starts. Most training injuries are two people rolling at different numbers.
+
+| Format | What it is | Intensity | What it trains | Drill |
+|---|---|:-:|---|---|
+| **Cooperative drilling** | Partner gives the exact reaction, at half speed, so you can build the movement. | 0–20% | The shape of a technique | [P-series](curriculum/drills/partner-drills.md) |
+| **Resistant drilling** | Same reps, but the partner defends with one named counter. | 40–60% | Timing and grip sequence | [P-series](curriculum/drills/partner-drills.md) |
+| **Chain drilling** | Attack A → their named defense → attack B. Three links, no more. | 40–70% | Chaining; nothing works in isolation above white belt | [C-series](curriculum/drills/chain-drills.md) |
+| **Catch-and-release** | Live rolling where a locked submission is released instead of finished. | 60–70% | Submission *entries*, safely and at volume | [P-13](curriculum/drills/partner-drills.md#p-13--catch-and-release-submissions) |
+| **Positional sparring** | Live from one exact start position, with a win condition for each player, reset on a score or a clock. | 70–100% | Recognition — *when* a technique applies. **The highest-value 15 minutes of any class.** | [G-series](curriculum/drills/positional-games.md) |
+| **King of the hill** | Winner stays in, fresh partner every round. | 80% | Volume, energy, and a scoreboard people care about | [R-08](curriculum/drills/integration-rolls.md#r-08--king-of-the-hill) |
+| **Flow roll** | Continuous movement, no finishing, positions given up freely. Nobody wins. | 40–50% | Transitions, at three to four times the volume of a hard round | [R-01](curriculum/drills/integration-rolls.md#r-01--flow-roll) |
+| **Task roll** | Normal roll, but each player has one stated objective for the round. | 70% | Getting today's technique into live rolling instead of losing it | [R-02](curriculum/drills/integration-rolls.md#r-02--task-roll) |
+| **Handicap roll** | One player constrained — arm in the belt, defense only, starts in a bad spot. | 70–90% | A real fight for both people in a mismatched pair | [R-03](curriculum/drills/integration-rolls.md#r-03--handicap-roll) |
+| **Positional restart roll** | Open rolling with a forced reset to a named position every 60–90 seconds. | 80% | Competition rhythm; kills stalling in weak positions | [R-04](curriculum/drills/integration-rolls.md#r-04--positional-restart-roll) |
+| **Scramble / broken-position starts** | 20–30 second rounds from deliberately unstable positions, reset immediately. | 80% | The transitional chaos that decides most matches | [R-09](curriculum/drills/integration-rolls.md#r-09--broken-position-roll) |
+| **Breathing roll** | Nasal breathing only; mouth opens, round pauses. | 60% | Composure. Panic is mostly oxygen debt. | [R-06](curriculum/drills/integration-rolls.md#r-06--breathing-roll) |
+| **Scored roll** | A full match with a third person refereeing under a real ruleset. | 85% | Rules literacy — knowing *why* you won or lost | [R-11](curriculum/drills/integration-rolls.md#r-11--scored-roll) |
+| **Shark tank** | One player stays in, fresh partners every 90 seconds. | 100% | Competition conditioning only. Peak weeks; never for beginners. | [R-07](curriculum/drills/integration-rolls.md#r-07--shark-tank) |
+| **Strikes-aware / MMA round** | Grappling with open-palm contact or light gloves. | 60–80% | Which of your jiu-jitsu survives punches — see [training-plan.md](training-plan.md) | [R-13](curriculum/drills/integration-rolls.md#r-13--strikes-aware-roll) |
+| **Ladder roll** | Submissions only count from +2 or better on the [positional ladder](#part-i--the-map). | 80% | *Position before submission*, with a scoreboard attached | [R-14](curriculum/drills/integration-rolls.md#r-14--ladder-roll) |
+| **Body-mismatch protocol** | Named rules for rounds across a big size, age or skill gap — not a game, a safety standard. | varies | How to roll with a body unlike yours, which is most rounds | [R-12](curriculum/drills/integration-rolls.md#r-12--body-mismatch-roll) |
+| **Blindfold start** | Eyes closed for the first 30 seconds from a ground start. | 60% | Reading weight and pressure instead of sight | [R-10](curriculum/drills/integration-rolls.md#r-10--blindfold-start) |
+| **Debrief round** | Any format, plus three written lines afterwards: what worked, what didn't, what to ask. | any | Retention — roughly doubles what a session leaves behind | [R-15](curriculum/drills/integration-rolls.md#r-15--debrief-roll) |
+| **Open rolling** | No constraints. | 70–100% | Nothing new — it's where you **audit** what you already own | [R-15](curriculum/drills/integration-rolls.md#r-15--debrief-roll) |
+
+> **Open rolling is not where you learn.** Under real resistance you default to
+> what you already own, which is exactly the material you need reps of least. New
+> techniques survive only if a format above forces them into the round first —
+> that's what the [curriculum's integration rolls](curriculum/drills/integration-rolls.md)
+> are for.
 
 ---
 

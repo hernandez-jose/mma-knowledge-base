@@ -43,6 +43,8 @@ any class, and it's the first thing cut when a coach talks too long.
 
 ## G-01 · Escape or die
 
+**Atlas:** [Positional escapes → *every escape in the table*](../../jujitsu.md#viia--positional-escapes)
+
 **Start:** rotating — mount, side control, back control, knee-on-belly, north–south.
 **Bottom wins:** escape to guard, turtle-facing, or a better position.
 **Top wins:** hold for the full 90 s, or advance up the ladder.
@@ -55,6 +57,8 @@ most valuable game in this file, and the one students avoid.
 
 ## G-02 · Guard retention king of the hill
 
+**Atlas:** [Guards → *guard retention*](../../jujitsu.md#iib--guards-bottom-positions-with-attacks) · [Rolling formats → *King of the hill*](../../jujitsu.md#xiva--drilling-and-rolling-formats)
+
 **Start:** bottom seated or supine, top standing at their feet.
 **Bottom wins:** survive 60 s without being passed, or sweep.
 **Top wins:** pass and hold 3 s — then they stay in and the next passer comes on.
@@ -65,6 +69,8 @@ Line up three or four passers. The bottom player stays until they're passed.
 - **Feeds:** [Module 04](../modules/04-guard.md)
 
 ## G-03 · Pass or sweep
+
+**Atlas:** [Guard passing → *every pass*](../../jujitsu.md#part-v--guard-passing) · [Sweeps → *every sweep*](../../jujitsu.md#part-vi--sweeps-and-reversals)
 
 **Start:** top player inside the bottom player's guard, hands on the mat.
 **Top wins:** pass and control 3 s.
@@ -78,6 +84,8 @@ minutes and no plan.
 
 ## G-04 · Hold the pin
 
+**Atlas:** [Top positions → *Side control · Mount · KOB*](../../jujitsu.md#iia--dominant-top-positions) · [Rolling formats → *Positional sparring*](../../jujitsu.md#xiva--drilling-and-rolling-formats)
+
 **Start:** top in side control, bottom flat.
 **Top wins:** hold any legal pin for 20 continuous seconds.
 **Bottom wins:** recover guard or reverse.
@@ -90,6 +98,8 @@ learn that a pin is a *sequence* of pins, not a hold.
 
 ## G-05 · Back attack / back defense
 
+**Atlas:** [Top positions → *Back control (hooks in)*](../../jujitsu.md#iia--dominant-top-positions) · [Positional escapes → *Back escape — hand fight and slide*](../../jujitsu.md#viia--positional-escapes)
+
 **Start:** attacker with the seatbelt and both hooks in, defender's hands down.
 **Attacker wins:** any choke.
 **Defender wins:** clear both hooks and get their shoulders to the mat, or turn in.
@@ -101,6 +111,8 @@ attacking position in the sport and the most common way beginners lose.
 
 ## G-06 · Turtle wars
 
+**Atlas:** [Top positions → *Turtle top / back exposure*](../../jujitsu.md#iia--dominant-top-positions) · [Guards → *Turtle (bottom)*](../../jujitsu.md#iib--guards-bottom-positions-with-attacks)
+
 **Start:** one player turtled, the other with a seatbelt-side ride.
 **Turtled player wins:** face them (sit-out), stand up, or recover guard.
 **Rider wins:** take the back with both hooks, or flatten them out.
@@ -110,6 +122,8 @@ attacking position in the sport and the most common way beginners lose.
 
 ## G-07 · Front headlock game
 
+**Atlas:** [Top positions → *Front headlock*](../../jujitsu.md#iia--dominant-top-positions) · [Takedown defense → *Front headlock*](../../jujitsu.md#part-iv--takedown-defense)
+
 **Start:** one player in a front headlock, the other on their knees with their head under.
 **Top wins:** any front headlock finish, a back take, or a go-behind.
 **Bottom wins:** stand up facing them, or get a leg and come up.
@@ -118,6 +132,8 @@ attacking position in the sport and the most common way beginners lose.
 - **Feeds:** Modules [08](../modules/08-submissions.md), [10](../modules/10-scrambles.md)
 
 ## G-08 · Wrestle-up
+
+**Atlas:** [Sweeps → *Wrestle-up*](../../jujitsu.md#part-vi--sweeps-and-reversals)
 
 **Start:** bottom player seated, top player standing, one grip each.
 **Bottom wins:** come up to standing with control, or complete a takedown.
@@ -130,6 +146,8 @@ to being on the floor: **get up**.
 
 ## G-09 · Grips only
 
+**Atlas:** [Concepts → *Grip fighting*](../../jujitsu.md#part-x--the-concepts-more-important-than-any-move) · [Clinch positions → *Collar-and-elbow tie · Underhook*](../../jujitsu.md#iic--standing-and-clinch-positions)
+
 **Start:** standing (or both seated).
 **Both win by:** establishing a named dominant grip and holding it 3 seconds.
 No takedowns, no passing, no submissions.
@@ -141,6 +159,8 @@ Named grips: **gi** — cross collar, collar-and-sleeve, two-on-one, sleeve-and-
 - **Feeds:** [Module 11](../modules/11-concepts.md)
 
 ## G-10 · Scramble start
+
+**Atlas:** [Concepts → *The scramble*](../../jujitsu.md#part-x--the-concepts-more-important-than-any-move) · [Rolling formats → *Scramble / broken-position starts*](../../jujitsu.md#xiva--drilling-and-rolling-formats)
 
 **Start:** deliberately broken — both players on hands and knees head-to-head; or
 one player's shot caught halfway with the other in a half-sprawl; or both in a
@@ -155,6 +175,8 @@ design — a scramble is decided in the first three seconds.
 
 ## G-11 · Leg lock defense only
 
+**Atlas:** [Submission defense → *Hide the heel / “boot”*](../../jujitsu.md#viib--submission-defense) · [Leg locks → *Straight ankle lock*](../../jujitsu.md#viiic--leg-locks)
+
 **Start:** partner has outside ashi garami with your leg in, at 30%.
 **Defender wins:** hide the heel, clear the knee line, extract and come on top.
 **Attacker wins:** achieve a *controlled* straight ankle lock position — no rotational attacks, no finishing pressure.
@@ -163,6 +185,8 @@ design — a scramble is decided in the first three seconds.
 - **Feeds:** [Module 08](../modules/08-submissions.md)
 
 ## G-12 · First grip to first takedown
+
+**Atlas:** [Wrestling takedowns → *every leg attack*](../../jujitsu.md#iiia--wrestling-takedowns-leg-attacks) · [Judo throws → *every throw*](../../jujitsu.md#iiib--judo-throws)
 
 **Start:** standing, out of range.
 **Both win by:** any takedown landing in guard or better, held 3 s. Guard pulls score nothing.
@@ -174,6 +198,8 @@ this early in the session, not late.
 - **Feeds:** [Module 09](../modules/09-takedowns.md)
 
 ## G-13 · Handicap games
+
+**Atlas:** [Rolling formats → *Handicap roll*](../../jujitsu.md#xiva--drilling-and-rolling-formats)
 
 **Start:** any of the above, with one player constrained.
 
@@ -189,6 +215,8 @@ this early in the session, not late.
 
 ## G-14 · Submission escape only
 
+**Atlas:** [Submission defense → *every defense in the table*](../../jujitsu.md#viib--submission-defense)
+
 **Start:** the submission already applied at ~70% — armbar half-extended, triangle
 locked but not squeezed, RNC with the grip in but no pressure.
 **Defender wins:** escape to a neutral or better position.
@@ -202,6 +230,8 @@ triangle.
 
 ## G-15 · Half guard, both chairs
 
+**Atlas:** [Guards → *Knee shield / Z-guard*](../../jujitsu.md#iib--guards-bottom-positions-with-attacks) · [Guard passing → *Half guard pass — underhook + crossface*](../../jujitsu.md#part-v--guard-passing)
+
 **Start:** bottom player with a knee shield, top player with a crossface.
 **Bottom wins:** sweep, come up, or recover full guard.
 **Top wins:** pass to side control and hold 3 s.
@@ -213,6 +243,8 @@ fighter and a 50-year-old hobbyist will spend the most time in.
 
 ## G-16 · Knee-on-belly clock
 
+**Atlas:** [Top positions → *Knee-on-belly (KOB)*](../../jujitsu.md#iia--dominant-top-positions) · [Positional escapes → *Knee push*](../../jujitsu.md#viia--positional-escapes)
+
 **Start:** top player with knee on belly, hands off.
 **Top wins:** hold 15 s, or transition to mount/back.
 **Bottom wins:** escape or recover guard.
@@ -223,6 +255,8 @@ teaches breathing under discomfort faster than anything else.
 - **Detail page:** [knee-on-belly escapes](../../techniques/escapes/knee-on-belly-escapes.md)
 
 ## G-17 · The ladder game
+
+**Atlas:** [The ladder → *the whole ladder*](../../jujitsu.md#part-i--the-map) · [IBJJF points → *IBJJF points*](../../jujitsu.md#ibjjf-points)
 
 **Start:** both players on their knees, hands touching.
 **Scoring:** [`jujitsu.md` Part I](../../jujitsu.md#part-i--the-map) positional values. Each time you improve a rung and hold 3 s, call the number out loud. Highest total in 3 minutes wins.

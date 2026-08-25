@@ -73,6 +73,7 @@ drills that train it. Nothing in the atlas is left without a home.
 | **XII** — Rules and rulesets | Competition literacy | [12](modules/12-rules-and-competition.md) | [R-11](drills/integration-rolls.md#r-11--scored-roll), [R-04](drills/integration-rolls.md#r-04--positional-restart-roll) |
 | **XIII** — The syllabus (Tiers 0–9) | The whole module set | [00](modules/00-foundations.md)–[13](modules/13-longevity.md) | — |
 | **XIV** — Class templates | The session shape | [This file](#the-session-template) | [Drill block builder](drills/README.md#building-a-drill-block) |
+| **XIV.a** — Drilling and rolling formats | Every way to run a live round | [This file](#the-session-template), [11](modules/11-concepts.md) | All of [integration-rolls.md](drills/integration-rolls.md) |
 | **XV.a** — Missing subjects | Grip fighting, scrambles, turtle, front headlock, wrestling up, breakfalls, breathing, different bodies, leg lock defense, tapping, ego | [00](modules/00-foundations.md), [05](modules/05-sweeps.md), [10](modules/10-scrambles.md), [11](modules/11-concepts.md) | [G-09](drills/positional-games.md#g-09--grips-only), [G-10](drills/positional-games.md#g-10--scramble-start), [G-06](drills/positional-games.md#g-06--turtle-wars), [P-18](drills/partner-drills.md#p-18--tap-timing), [R-12](drills/integration-rolls.md#r-12--body-mismatch-roll) |
 | **XV.b** — Under-served domains | Self-defense, MMA, gi vs no-gi, age and body adaptations, joint health, refereeing | [12](modules/12-rules-and-competition.md), [13](modules/13-longevity.md) | [R-13](drills/integration-rolls.md#r-13--strikes-aware-roll), [R-12](drills/integration-rolls.md#r-12--body-mismatch-roll), [S-14](drills/solo-drills.md#s-14--neck-grip-and-hip-prehab) |
 | **XV.c** — Deliberate omissions | Banned and high-risk techniques | Named in the safety sections of [08](modules/08-submissions.md), [09](modules/09-takedowns.md) | — |
@@ -81,6 +82,23 @@ drills that train it. Nothing in the atlas is left without a home.
 **The MMA layer** — cage wrestling, ground-and-pound, striking-aware guard — lives
 in [`training-plan.md`](../training-plan.md), and
 [R-13](drills/integration-rolls.md#r-13--strikes-aware-roll) is the doorway to it.
+
+### Every activity links back to a table
+
+The map above is the module-level view. Below it, the linking is per activity:
+
+| Where | What carries the link |
+|---|---|
+| **Module lessons** | An **Atlas** column on every lesson row, naming the part it comes from |
+| **Module drill blocks** | An **Atlas** column on every slot — warm-up, reps, chain, game, roll |
+| **Drill cards** (all 77) | An **Atlas** line naming the table *and the row* the drill trains |
+| **Camp sessions** (all 160 activities in [`training-plan.md`](../training-plan.md)) | An **Atlas:** reference at the end of every activity line |
+
+So any activity in any session can be traced to the table that defines it, and
+the atlas's own [table directory](../jujitsu.md#the-table-directory) lists every
+table in one place. Live rounds included: the atlas gained
+[XIV.a — Drilling and rolling formats](../jujitsu.md#xiva--drilling-and-rolling-formats)
+so a "Live" block points at a real, named format rather than at nothing.
 
 ---
 

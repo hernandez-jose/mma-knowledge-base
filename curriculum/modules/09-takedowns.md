@@ -66,29 +66,29 @@ when everyone's tired — that's how knees get wrecked.
 
 ## Lessons
 
-| # | Lesson | Content | Game |
-|:-:|---|---|---|
-| **9.1** | Stance, motion, and the hand fight | Feet quiet, hands busy. No takedowns for the first session at all. | G-09 |
-| **9.2** | Level change and the penetration step | Knees change the level, not the waist. Head up — a dropped head is a guillotine. | — |
-| **9.3** | Double leg, then its defense | Learn the shot and the sprawl in the same hour, always. | G-12 |
-| **9.4** | Single leg and the finishes | Run the pipe, the trip, the lift — pick one and own it. | G-12 |
-| **9.5** | Clinch: pummelling, underhooks, bodylock | Inside position, head position, hips. The bodylock is the most transferable takedown in MMA. | P-01 |
-| **9.6** | Foot sweeps and osoto/ouchi | Break their posture, then take the loaded leg. Uchikomi first ([P-16](../drills/partner-drills.md#p-16--uchikomi-with-breakfalls)). | — |
-| **9.7** | Ankle picks and snap-downs | The low-risk pair. Enormous return for the effort, and safe on any mat. | G-12 |
-| **9.8** | Guard pulling as a decision | Legal in IBJJF, penalised in ADCC, terrible in a fight. If you pull, pull with a grip and a plan, and know what it costs you. | — |
+| # | Lesson | Content | Game | Atlas |
+|:-:|---|---|---|---|
+| **9.1** | Stance, motion, and the hand fight | Feet quiet, hands busy. No takedowns for the first session at all. | G-09 | [IV](../../jujitsu.md#part-iv--takedown-defense) [II.c](../../jujitsu.md#iic--standing-and-clinch-positions) |
+| **9.2** | Level change and the penetration step | Knees change the level, not the waist. Head up — a dropped head is a guillotine. | — | [XI](../../jujitsu.md#part-xi--solo-movements-the-physical-alphabet) [III.a](../../jujitsu.md#iiia--wrestling-takedowns-leg-attacks) |
+| **9.3** | Double leg, then its defense | Learn the shot and the sprawl in the same hour, always. | G-12 | [III.a](../../jujitsu.md#iiia--wrestling-takedowns-leg-attacks) [IV](../../jujitsu.md#part-iv--takedown-defense) |
+| **9.4** | Single leg and the finishes | Run the pipe, the trip, the lift — pick one and own it. | G-12 | [III.a](../../jujitsu.md#iiia--wrestling-takedowns-leg-attacks) |
+| **9.5** | Clinch: pummelling, underhooks, bodylock | Inside position, head position, hips. The bodylock is the most transferable takedown in MMA. | P-01 | [II.c](../../jujitsu.md#iic--standing-and-clinch-positions) [III.a](../../jujitsu.md#iiia--wrestling-takedowns-leg-attacks) |
+| **9.6** | Foot sweeps and osoto/ouchi | Break their posture, then take the loaded leg. Uchikomi first ([P-16](../drills/partner-drills.md#p-16--uchikomi-with-breakfalls)). | — | [III.b](../../jujitsu.md#iiib--judo-throws) |
+| **9.7** | Ankle picks and snap-downs | The low-risk pair. Enormous return for the effort, and safe on any mat. | G-12 | [III.a](../../jujitsu.md#iiia--wrestling-takedowns-leg-attacks) |
+| **9.8** | Guard pulling as a decision | Legal in IBJJF, penalised in ADCC, terrible in a fight. If you pull, pull with a grip and a plan, and know what it costs you. | — | [III.c](../../jujitsu.md#iiic--bjj-specific-entries-to-the-ground) |
 
 ---
 
 ## The drill block
 
-| Slot | Content |
-|---|---|
-| Warm-up | S-06, S-07, S-11, S-13 |
-| Grips | [P-02](../drills/partner-drills.md#p-02--grip-fight-isolation) — 4 × 60 s, every session |
-| Reps | [P-03 shot/sprawl](../drills/partner-drills.md#p-03--shotsprawl-alternation), [P-04 timing](../drills/partner-drills.md#p-04--penetration-step-on-a-moving-partner), [P-16 uchikomi](../drills/partner-drills.md#p-16--uchikomi-with-breakfalls) |
-| Chain | [C-09 single ↔ high crotch ↔ go-behind](../drills/chain-drills.md#c-09--single-leg--high-crotch--go-behind) |
-| Game | [G-12](../drills/positional-games.md#g-12--first-grip-to-first-takedown) — use the **touch-and-go** variation on hard mats |
-| Roll | Start rounds standing for one week per month |
+| Slot | Content | Atlas |
+|---|---|---|
+| Warm-up | S-06, S-07, S-11, S-13 | [XI](../../jujitsu.md#part-xi--solo-movements-the-physical-alphabet) |
+| Grips | [P-02](../drills/partner-drills.md#p-02--grip-fight-isolation) — 4 × 60 s, every session | [II.c](../../jujitsu.md#iic--standing-and-clinch-positions) |
+| Reps | [P-03 shot/sprawl](../drills/partner-drills.md#p-03--shotsprawl-alternation), [P-04 timing](../drills/partner-drills.md#p-04--penetration-step-on-a-moving-partner), [P-16 uchikomi](../drills/partner-drills.md#p-16--uchikomi-with-breakfalls) | [III.a](../../jujitsu.md#iiia--wrestling-takedowns-leg-attacks) [IV](../../jujitsu.md#part-iv--takedown-defense) |
+| Chain | [C-09 single ↔ high crotch ↔ go-behind](../drills/chain-drills.md#c-09--single-leg--high-crotch--go-behind) | [III.a](../../jujitsu.md#iiia--wrestling-takedowns-leg-attacks) |
+| Game | [G-12](../drills/positional-games.md#g-12--first-grip-to-first-takedown) — use the **touch-and-go** variation on hard mats | [III.a](../../jujitsu.md#iiia--wrestling-takedowns-leg-attacks) [III.b](../../jujitsu.md#iiib--judo-throws) |
+| Roll | Start rounds standing for one week per month | [XIV.a](../../jujitsu.md#xiva--drilling-and-rolling-formats) |
 
 ---
 

@@ -60,28 +60,28 @@ will out-move you; if you only speed-pass, a heavy one will hold you in place.
 
 ## Lessons
 
-| # | Lesson | Content | Game |
-|:-:|---|---|---|
-| **6.1** | Opening the closed guard | Standing and kneeling. Posture, grips, and the honest note that standing is safer and harder. | G-03 |
-| **6.2** | Headquarters as a hub | Knee across the near leg, their far foot on your hip. From here, three passes are one decision. | G-03 |
-| **6.3** | Knee cut | Underhook, crossface, knee slices, hip lands on the mat. The three details people miss: the underhook, the head, and the far hand. | G-03 |
-| **6.4** | Toreando | Grip both legs, pin them to one side, walk **around** their hips — not over their legs. | G-02 |
-| **6.5** | Body lock pass | Clasp below their hips, chest to chest, no space anywhere. Best answer available to a smaller passer against a bigger guard. | G-03 |
-| **6.6** | Half guard passing | Underhook and crossface, flatten, free the leg last. The knee shield is the problem; the answer is the head, not the leg. | G-15 |
-| **6.7** | Passing chains | [C-04](../drills/chain-drills.md#c-04--knee-cut--back-step--leg-drag) and [C-05](../drills/chain-drills.md#c-05--toreando--leg-drag--back-exposure). Passes are a chain, never a list. | G-03 |
-| **6.8** | Passing bigger and smaller bodies | Smaller passers: distance, speed, leg drags, never wrestle their frames. Bigger passers: pressure works, but a smaller guard recovers faster — commit earlier and pin the hips, not the shoulders. | G-13 |
+| # | Lesson | Content | Game | Atlas |
+|:-:|---|---|---|---|
+| **6.1** | Opening the closed guard | Standing and kneeling. Posture, grips, and the honest note that standing is safer and harder. | G-03 | [V](../../jujitsu.md#part-v--guard-passing) |
+| **6.2** | Headquarters as a hub | Knee across the near leg, their far foot on your hip. From here, three passes are one decision. | G-03 | [II.a](../../jujitsu.md#iia--dominant-top-positions) |
+| **6.3** | Knee cut | Underhook, crossface, knee slices, hip lands on the mat. The three details people miss: the underhook, the head, and the far hand. | G-03 | [V](../../jujitsu.md#part-v--guard-passing) |
+| **6.4** | Toreando | Grip both legs, pin them to one side, walk **around** their hips — not over their legs. | G-02 | [V](../../jujitsu.md#part-v--guard-passing) |
+| **6.5** | Body lock pass | Clasp below their hips, chest to chest, no space anywhere. Best answer available to a smaller passer against a bigger guard. | G-03 | [V](../../jujitsu.md#part-v--guard-passing) |
+| **6.6** | Half guard passing | Underhook and crossface, flatten, free the leg last. The knee shield is the problem; the answer is the head, not the leg. | G-15 | [V](../../jujitsu.md#part-v--guard-passing) |
+| **6.7** | Passing chains | [C-04](../drills/chain-drills.md#c-04--knee-cut--back-step--leg-drag) and [C-05](../drills/chain-drills.md#c-05--toreando--leg-drag--back-exposure). Passes are a chain, never a list. | G-03 | [V](../../jujitsu.md#part-v--guard-passing) [X](../../jujitsu.md#part-x--the-concepts-more-important-than-any-move) |
+| **6.8** | Passing bigger and smaller bodies | Smaller passers: distance, speed, leg drags, never wrestle their frames. Bigger passers: pressure works, but a smaller guard recovers faster — commit earlier and pin the hips, not the shoulders. | G-13 | [XV.a](../../jujitsu.md#xva--things-missing-from-almost-every-syllabus) |
 
 ---
 
 ## The drill block
 
-| Slot | Content |
-|---|---|
-| Warm-up | S-02, S-08, S-12 |
-| Reps | [P-11 pass reps](../drills/partner-drills.md#p-11--pass-reps) — 8 each side per pass, feed then hold |
-| Chain | [C-04](../drills/chain-drills.md#c-04--knee-cut--back-step--leg-drag), then [C-05](../drills/chain-drills.md#c-05--toreando--leg-drag--back-exposure) |
-| Game | [G-03 pass or sweep](../drills/positional-games.md#g-03--pass-or-sweep), 90 s rounds, swap every round |
-| Roll | [R-02 task roll](../drills/integration-rolls.md#r-02--task-roll): "pass three times, any way" |
+| Slot | Content | Atlas |
+|---|---|---|
+| Warm-up | S-02, S-08, S-12 | [XI](../../jujitsu.md#part-xi--solo-movements-the-physical-alphabet) |
+| Reps | [P-11 pass reps](../drills/partner-drills.md#p-11--pass-reps) — 8 each side per pass, feed then hold | [V](../../jujitsu.md#part-v--guard-passing) |
+| Chain | [C-04](../drills/chain-drills.md#c-04--knee-cut--back-step--leg-drag), then [C-05](../drills/chain-drills.md#c-05--toreando--leg-drag--back-exposure) | [V](../../jujitsu.md#part-v--guard-passing) |
+| Game | [G-03 pass or sweep](../drills/positional-games.md#g-03--pass-or-sweep), 90 s rounds, swap every round | [V](../../jujitsu.md#part-v--guard-passing) [VI](../../jujitsu.md#part-vi--sweeps-and-reversals) |
+| Roll | [R-02 task roll](../drills/integration-rolls.md#r-02--task-roll): "pass three times, any way" | [XIV.a](../../jujitsu.md#xiva--drilling-and-rolling-formats) |
 
 ---
 

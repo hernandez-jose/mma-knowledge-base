@@ -41,6 +41,8 @@ you're short of.
 
 ## C-01 · Armbar ↔ triangle ↔ omoplata
 
+**Atlas:** [Arm locks → *Armbar · Omoplata*](../../jujitsu.md#viiib--arm-and-shoulder-locks) · [Chokes → *Triangle choke*](../../jujitsu.md#viiia--chokes-and-strangles)
+
 **Start:** closed guard, their posture already broken.
 
 | They defend by… | You take |
@@ -57,6 +59,8 @@ starts from the same broken posture, so the setup work is shared.
 
 ## C-02 · RNC ↔ collar choke ↔ armbar
 
+**Atlas:** [Chokes → *Rear naked choke · Bow and arrow*](../../jujitsu.md#viiia--chokes-and-strangles) · [Arm locks → *Armbar (juji gatame)*](../../jujitsu.md#viiib--arm-and-shoulder-locks)
+
 **Start:** back control, seatbelt, both hooks.
 
 | They defend by… | You take |
@@ -69,6 +73,8 @@ starts from the same broken posture, so the setup work is shared.
 - **Pages:** [RNC](../../techniques/submissions/rear-naked-choke.md) · [bow and arrow](../../techniques/submissions/bow-and-arrow.md) · [armbar](../../techniques/submissions/armbar.md)
 
 ## C-03 · Kimura ↔ guillotine ↔ back take
+
+**Atlas:** [Arm locks → *Kimura*](../../jujitsu.md#viiib--arm-and-shoulder-locks) · [Chokes → *Guillotine*](../../jujitsu.md#viiia--chokes-and-strangles) · [Transitions & back takes → *Front headlock → back*](../../jujitsu.md#part-ix--transitions-and-back-takes)
 
 **Start:** kimura grip from half guard bottom, or from a front headlock.
 
@@ -85,6 +91,8 @@ lesson of this drill.
 
 ## C-04 · Knee cut ↔ back step ↔ leg drag
 
+**Atlas:** [Guard passing → *Knee cut · Back step · Leg drag*](../../jujitsu.md#part-v--guard-passing) · [Top positions → *Headquarters (HQ)*](../../jujitsu.md#iia--dominant-top-positions)
+
 **Start:** headquarters position (your knee across their near leg, their far foot on your hip).
 
 | They defend by… | You take |
@@ -98,6 +106,8 @@ and never as three separate techniques.
 
 ## C-05 · Toreando ↔ leg drag ↔ back exposure
 
+**Atlas:** [Guard passing → *Toreando · Leg drag*](../../jujitsu.md#part-v--guard-passing) · [Transitions & back takes → *Leg drag → back*](../../jujitsu.md#part-ix--transitions-and-back-takes)
+
 **Start:** standing at their feet, both legs controlled.
 
 Pin the legs to one side (toreando) → they turn in to recover → **leg drag** their
@@ -106,6 +116,8 @@ top leg across → they turn away to escape the drag → **take the back**.
 - **Cue:** *Every pass they escape moves them one step closer to giving you the back.* The pass and the back take are the same movement in different amounts.
 
 ## C-06 · Scissor ↔ hip bump ↔ kimura sweep
+
+**Atlas:** [Sweeps → *Scissor · Hip bump · Kimura sweep*](../../jujitsu.md#part-vi--sweeps-and-reversals)
 
 **Start:** closed guard, cross-collar or collar-and-sleeve grip.
 
@@ -119,6 +131,8 @@ Three sweeps, one grip, one chain. This is the closed-guard equivalent of C-01.
 
 ## C-07 · Butterfly elevator ↔ arm drag ↔ back
 
+**Atlas:** [Sweeps → *Butterfly / elevator sweep · Arm drag to back*](../../jujitsu.md#part-vi--sweeps-and-reversals) · [Transitions & back takes → *Arm drag → back*](../../jujitsu.md#part-ix--transitions-and-back-takes)
+
 **Start:** butterfly guard, both hooks in, one underhook.
 
 Elevator sweep to the underhook side → they post out wide → **arm drag** the far
@@ -127,6 +141,8 @@ arm → they turn away → **back take** with the hook already in.
 - **Cue:** *Elevate to make them post; drag the post.*
 
 ## C-08 · Snap-down ↔ front headlock ↔ finish
+
+**Atlas:** [Wrestling takedowns → *Snap down*](../../jujitsu.md#iiia--wrestling-takedowns-leg-attacks) · [Transitions & back takes → *Front headlock → back*](../../jujitsu.md#part-ix--transitions-and-back-takes) · [Chokes → *Guillotine · D’Arce · Anaconda*](../../jujitsu.md#viiia--chokes-and-strangles)
 
 **Start:** standing, collar tie.
 
@@ -147,6 +163,8 @@ happens every time somebody's takedown fails.
 
 ## C-09 · Single leg ↔ high crotch ↔ go-behind
 
+**Atlas:** [Wrestling takedowns → *High single · High crotch · Go-behind off a sprawl*](../../jujitsu.md#iiia--wrestling-takedowns-leg-attacks)
+
 **Start:** on a single leg, head inside or outside.
 
 | They defend by… | You take |
@@ -159,6 +177,8 @@ happens every time somebody's takedown fails.
 
 ## C-10 · Mount escape ↔ half guard ↔ wrestle-up
 
+**Atlas:** [Positional escapes → *Elbow-knee escape*](../../jujitsu.md#viia--positional-escapes) · [Sweeps → *Wrestle-up*](../../jujitsu.md#part-vi--sweeps-and-reversals)
+
 **Start:** bottom mount.
 
 Elbow-knee escape → half guard bottom → knee shield and underhook → come up to
@@ -167,6 +187,8 @@ the dogfight → wrestle up to standing or finish the sweep.
 - **Why it's a chain:** most students learn the mount escape and stop, arriving in half guard with no plan. The escape isn't finished until you're on top or on your feet.
 
 ## C-11 · Ankle lock ↔ extraction ↔ pass
+
+**Atlas:** [Leg locks → *Straight ankle lock*](../../jujitsu.md#viiic--leg-locks) · [Guard passing → *the pass that follows the extraction*](../../jujitsu.md#part-v--guard-passing)
 
 **Start:** you in outside ashi with their leg.
 
@@ -177,6 +199,8 @@ leg** as they turn → **pass** to side control on the far side.
 - **Safety:** straight ankle lock only in this chain. Rotational attacks are coach-supervised, slow, and defense-first. See [G-11](positional-games.md#g-11--leg-lock-defense-only).
 
 ## C-12 · The pin ladder
+
+**Atlas:** [Transitions & back takes → *every transition in the table*](../../jujitsu.md#part-ix--transitions-and-back-takes) · [Top positions → *every pin*](../../jujitsu.md#iia--dominant-top-positions)
 
 **Start:** side control, partner at 40%.
 

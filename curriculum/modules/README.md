@@ -13,8 +13,8 @@ same place on every page:
 | **Front matter** | Atlas coverage, prerequisites, session count, drill IDs, checkpoint |
 | **Why this module exists** | The argument for spending mat time here |
 | **What you must own** | The short list. Depth beats breadth. |
-| **Lessons** | Numbered, each with content and the game that tests it |
-| **The drill block** | A ready-made session: warm-up → reps → chain → game → roll |
+| **Lessons** | Numbered, each with content, the game that tests it, and an **Atlas** column pointing at the table it comes from |
+| **The drill block** | A ready-made session: warm-up → reps → chain → game → roll, each slot linked to its atlas table |
 | **Blending it into a roll** | The tasks that force this material into live sparring |
 | **Checkpoint** | Measurable. You either pass it or you don't. |
 | **Related** | Sibling modules and the deep technique pages |

@@ -20,6 +20,11 @@
 Cite drills by ID. "Warm-up: S-01, S-03, S-07" is a complete instruction, and a
 training partner who has read this file knows exactly what to do.
 
+**Every card carries an `Atlas:` line** naming the table — and the row — in
+[`jujitsu.md`](../../jujitsu.md) that the drill trains. Live formats resolve to
+[XIV.a — Drilling and rolling formats](../../jujitsu.md#xiva--drilling-and-rolling-formats),
+which is the atlas's table of every way to run a round.
+
 ---
 
 ## The ladder every technique climbs

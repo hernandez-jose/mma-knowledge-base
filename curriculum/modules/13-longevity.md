@@ -24,6 +24,8 @@ again tomorrow, and in a decade.**
 
 ## 13.1 — Recovery
 
+**Atlas:** [XIII Tier 9 — recovery](../../jujitsu.md#tier-9--off-the-mat-from-month-one-forever)
+
 BJJ is high-frequency impact training. Treat it like one.
 
 | Item | The standard |
@@ -35,6 +37,8 @@ BJJ is high-frequency impact training. Treat it like one.
 | **Rest days are training** | Adaptation happens between sessions, not during them. |
 
 ## 13.2 — Strength and conditioning that actually transfers
+
+**Atlas:** [XIII Tier 9 — strength and conditioning](../../jujitsu.md#tier-9--off-the-mat-from-month-one-forever)
 
 | Area | Why | How |
 |---|---|---|
@@ -49,6 +53,8 @@ mat time.
 
 ## 13.3 — Injuries you can actually prevent
 
+**Atlas:** [XV.b — long-term joint health](../../jujitsu.md#xvb--whole-domains-the-tables-above-under-serve) · [XIII Tier 0 — hygiene](../../jujitsu.md#tier-0--before-you-touch-anybody-first-10-minutes-day-one)
+
 | Injury | Prevention |
 |---|---|
 | **Skin infections (staph, ringworm)** | Wash the gi after *every* session. Shower straight after. Cover open cuts. Don't train with an infection — one person ignoring this takes out a gym. |
@@ -60,6 +66,8 @@ mat time.
 
 ## 13.4 — Note-taking
 
+**Atlas:** [XIII Tier 9 — note-taking](../../jujitsu.md#tier-9--off-the-mat-from-month-one-forever)
+
 Three lines after every class: **what worked, what didn't, what to ask about.**
 
 It takes ninety seconds and roughly doubles retention. If you take one thing
@@ -68,12 +76,16 @@ from this entire curriculum, take this. See
 
 ## 13.5 — Video study
 
+**Atlas:** [XIII Tier 9 — video study](../../jujitsu.md#tier-9--off-the-mat-from-month-one-forever)
+
 Watch matches at **your weight and body type**, not highlight reels. A 60 kg
 guard player learns nothing useful from a heavyweight pressure passer, however
 beautiful it is. Watch a full match, pick one moment, and bring a question about
 it to class.
 
 ## 13.6 — Choosing a game
+
+**Atlas:** [XIII Tier 9 — choosing a game](../../jujitsu.md#tier-9--off-the-mat-from-month-one-forever) · [XV.b — gi vs no-gi](../../jujitsu.md#xvb--whole-domains-the-tables-above-under-serve)
 
 By purple belt you need a preferred guard, a preferred pass and a preferred
 finish — and honest reasons for each, based on your body rather than on whose
@@ -88,6 +100,8 @@ instructional you bought last.
 | Gi or no-gi? | They are close to different sports. Split your study deliberately. |
 
 ## 13.7 — Adaptations the sport under-serves
+
+**Atlas:** [XV.b — kids, older adults, women's considerations](../../jujitsu.md#xvb--whole-domains-the-tables-above-under-serve) · [XV.a — how to roll with different bodies](../../jujitsu.md#xva--things-missing-from-almost-every-syllabus)
 
 | Group | What changes |
 |---|---|

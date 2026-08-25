@@ -70,26 +70,26 @@ Drills: [P-14](../drills/partner-drills.md#p-14--the-choke-map-circuit), [C-08](
 
 ## Lessons
 
-| # | Lesson | Content | Game |
-|:-:|---|---|---|
-| **10.1** | Scramble rules and exits | The five rules above, then twenty 20-second scramble starts. | G-10 |
-| **10.2** | Turtle: getting out | Sit-out, stand-up, granby — chosen by where their weight is. | G-06 |
-| **10.3** | Turtle: attacking it | Seatbelt ride, hooks, mat return, and why chasing the back with your hands loses it. | G-06 |
-| **10.4** | The front headlock | Head position, the elbow-in grip, and the five exits above. | G-07 |
-| **10.5** | Back exposure in transition | Every pass they escape moves them one step closer to giving you the back. Learn to see it. | G-17 |
-| **10.6** | Scrambling with a size difference | Smaller: speed and angles, never a wrestling exchange. Bigger: commit forward, take space, don't chase. | G-13 |
+| # | Lesson | Content | Game | Atlas |
+|:-:|---|---|---|---|
+| **10.1** | Scramble rules and exits | The five rules above, then twenty 20-second scramble starts. | G-10 | [X](../../jujitsu.md#part-x--the-concepts-more-important-than-any-move) [XV.a](../../jujitsu.md#xva--things-missing-from-almost-every-syllabus) |
+| **10.2** | Turtle: getting out | Sit-out, stand-up, granby — chosen by where their weight is. | G-06 | [VII.a](../../jujitsu.md#viia--positional-escapes) |
+| **10.3** | Turtle: attacking it | Seatbelt ride, hooks, mat return, and why chasing the back with your hands loses it. | G-06 | [II.a](../../jujitsu.md#iia--dominant-top-positions) [IX](../../jujitsu.md#part-ix--transitions-and-back-takes) |
+| **10.4** | The front headlock | Head position, the elbow-in grip, and the five exits above. | G-07 | [II.a](../../jujitsu.md#iia--dominant-top-positions) [IV](../../jujitsu.md#part-iv--takedown-defense) |
+| **10.5** | Back exposure in transition | Every pass they escape moves them one step closer to giving you the back. Learn to see it. | G-17 | [IX](../../jujitsu.md#part-ix--transitions-and-back-takes) |
+| **10.6** | Scrambling with a size difference | Smaller: speed and angles, never a wrestling exchange. Bigger: commit forward, take space, don't chase. | G-13 | [XV.a](../../jujitsu.md#xva--things-missing-from-almost-every-syllabus) |
 
 ---
 
 ## The drill block
 
-| Slot | Content |
-|---|---|
-| Warm-up | S-04, S-05, S-07, S-08 |
-| Reps | [P-08 turtle recovery](../drills/partner-drills.md#p-08--turtle-recovery-reps), [P-14 choke map](../drills/partner-drills.md#p-14--the-choke-map-circuit) |
-| Chain | [C-08 snap-down → front headlock → finish](../drills/chain-drills.md#c-08--snap-down--front-headlock--finish) |
-| Game | [G-10 scramble start](../drills/positional-games.md#g-10--scramble-start) — 10 × 20 s, then [G-06 turtle wars](../drills/positional-games.md#g-06--turtle-wars) |
-| Roll | [R-09 broken-position roll](../drills/integration-rolls.md#r-09--broken-position-roll) |
+| Slot | Content | Atlas |
+|---|---|---|
+| Warm-up | S-04, S-05, S-07, S-08 | [XI](../../jujitsu.md#part-xi--solo-movements-the-physical-alphabet) |
+| Reps | [P-08 turtle recovery](../drills/partner-drills.md#p-08--turtle-recovery-reps), [P-14 choke map](../drills/partner-drills.md#p-14--the-choke-map-circuit) | [VII.a](../../jujitsu.md#viia--positional-escapes) [VIII.a](../../jujitsu.md#viiia--chokes-and-strangles) |
+| Chain | [C-08 snap-down → front headlock → finish](../drills/chain-drills.md#c-08--snap-down--front-headlock--finish) | [III.a](../../jujitsu.md#iiia--wrestling-takedowns-leg-attacks) [IX](../../jujitsu.md#part-ix--transitions-and-back-takes) |
+| Game | [G-10 scramble start](../drills/positional-games.md#g-10--scramble-start) — 10 × 20 s, then [G-06 turtle wars](../drills/positional-games.md#g-06--turtle-wars) | [X](../../jujitsu.md#part-x--the-concepts-more-important-than-any-move) [II.a](../../jujitsu.md#iia--dominant-top-positions) |
+| Roll | [R-09 broken-position roll](../drills/integration-rolls.md#r-09--broken-position-roll) | [XIV.a](../../jujitsu.md#xiva--drilling-and-rolling-formats) |
 
 ---
 

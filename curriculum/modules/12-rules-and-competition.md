@@ -26,6 +26,8 @@ You cannot play a game whose scoring you don't know.
 
 ## Lesson 12.1 — Points, advantages, penalties
 
+**Atlas:** [XII — IBJJF points](../../jujitsu.md#ibjjf-points)
+
 | Action | Points | Notes |
 |---|:-:|---|
 | Takedown | **2** | Must land in guard or better and hold 3 seconds |
@@ -43,6 +45,8 @@ given.
 
 ## Lesson 12.2 — What's legal at your belt
 
+**Atlas:** [XII — legality by belt](../../jujitsu.md#legality-by-belt-ibjjf-adult) · [XV.c — deliberately omitted techniques](../../jujitsu.md#xvc--techniques-the-tables-omitted-on-purpose)
+
 Full table: [`jujitsu.md` legality by belt](../../jujitsu.md#legality-by-belt-ibjjf-adult).
 The short version for adults under IBJJF:
 
@@ -56,6 +60,8 @@ The short version for adults under IBJJF:
 
 ## Lesson 12.3 — How the major rulesets differ
 
+**Atlas:** [XII — how the major rulesets differ](../../jujitsu.md#how-the-major-rulesets-differ)
+
 | Ruleset | Character | What it changes about your game |
 |---|---|---|
 | **IBJJF** | Points, time limits, gi and no-gi | Belt-based submission restrictions; guard pulling is legal and common |
@@ -65,6 +71,8 @@ The short version for adults under IBJJF:
 | **MMA / self-defense** | No rules, strikes present | Closed guard, posture and standing up become vital; inverted guard becomes a bad idea |
 
 ## Lesson 12.4 — Competition day
+
+**Atlas:** [XIII Tier 8 — ruleset and competition](../../jujitsu.md#tier-8--ruleset-and-competition-before-the-first-tournament) · [XII — belt progression](../../jujitsu.md#belt-progression-rough-reality)
 
 | Item | What to know |
 |---|---|
@@ -79,12 +87,12 @@ The short version for adults under IBJJF:
 
 ## The drill block (the four weeks before an event)
 
-| Week out | Content |
-|:-:|---|
-| **4** | [R-11 scored rolls](../drills/integration-rolls.md#r-11--scored-roll), full 5-minute matches, rotate the referee role |
-| **3** | [R-04 positional restart rolls](../drills/integration-rolls.md#r-04--positional-restart-roll) — hard restarts, match rhythm |
-| **2** | [R-07 shark tank](../drills/integration-rolls.md#r-07--shark-tank), once. Then back off. |
-| **1** | Taper. [R-01 flow rolls](../drills/integration-rolls.md#r-01--flow-roll), technique review, sleep. **No shark tanks, no new techniques.** |
+| Week out | Content | Atlas |
+|:-:|---|---|
+| **4** | [R-11 scored rolls](../drills/integration-rolls.md#r-11--scored-roll), full 5-minute matches, rotate the referee role | [XIV.a](../../jujitsu.md#xiva--drilling-and-rolling-formats) |
+| **3** | [R-04 positional restart rolls](../drills/integration-rolls.md#r-04--positional-restart-roll) — hard restarts, match rhythm | [XIV.a](../../jujitsu.md#xiva--drilling-and-rolling-formats) |
+| **2** | [R-07 shark tank](../drills/integration-rolls.md#r-07--shark-tank), once. Then back off. | [XIV.a](../../jujitsu.md#xiva--drilling-and-rolling-formats) |
+| **1** | Taper. [R-01 flow rolls](../drills/integration-rolls.md#r-01--flow-roll), technique review, sleep. **No shark tanks, no new techniques.** | [XIV.a](../../jujitsu.md#xiva--drilling-and-rolling-formats) |
 
 ---
 

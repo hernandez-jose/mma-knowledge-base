@@ -49,28 +49,28 @@ protecting the neck, chin tucked, knees active, never flat.
 
 ## Lessons
 
-| # | Lesson | Content | Game |
-|:-:|---|---|---|
-| **2.1** | Defensive posture and frames | Bone structures, not muscle. Forearm and shin frames from under mount, side control and KOB. **Frames are how small people survive big people.** | G-01 |
-| **2.2** | Mount escapes | Upa when their weight is forward, elbow-knee when it's back. Bridge first, *feel* which, then choose. | G-01 |
-| **2.3** | Side control escapes | Elbow to knee, knee to elbow. Frame short and bone-on-bone. The underhook option when they're heavy on the far side. | G-01 |
-| **2.4** | Back defense | Chin down, two hands on the choking hand, shoulders to the mat on the non-choking side, clear the hook, turn in. | G-05 |
-| **2.5** | Knee-on-belly and north–south | The two positions nobody drills escaping and everybody hates being in. | G-16 |
-| **2.6** | Turtle, both ways | How to get there safely, and three ways out before they attach. | G-06 |
-| **2.7** | Escaping *early* | The whole module in one idea: every escape is easy one second before it's needed and nearly impossible five seconds after. Escape the *transition*, not the pin. | G-01 |
-| **2.8** | Survival under a much bigger opponent | Frames, breathing and hip mobility instead of strength. See section 4 of every escape page. | G-01 + [G-13](../drills/positional-games.md#g-13--handicap-games) |
+| # | Lesson | Content | Game | Atlas |
+|:-:|---|---|---|---|
+| **2.1** | Defensive posture and frames | Bone structures, not muscle. Forearm and shin frames from under mount, side control and KOB. **Frames are how small people survive big people.** | G-01 | [X](../../jujitsu.md#part-x--the-concepts-more-important-than-any-move) |
+| **2.2** | Mount escapes | Upa when their weight is forward, elbow-knee when it's back. Bridge first, *feel* which, then choose. | G-01 | [VII.a](../../jujitsu.md#viia--positional-escapes) |
+| **2.3** | Side control escapes | Elbow to knee, knee to elbow. Frame short and bone-on-bone. The underhook option when they're heavy on the far side. | G-01 | [VII.a](../../jujitsu.md#viia--positional-escapes) |
+| **2.4** | Back defense | Chin down, two hands on the choking hand, shoulders to the mat on the non-choking side, clear the hook, turn in. | G-05 | [VII.a](../../jujitsu.md#viia--positional-escapes) |
+| **2.5** | Knee-on-belly and north–south | The two positions nobody drills escaping and everybody hates being in. | G-16 | [VII.a](../../jujitsu.md#viia--positional-escapes) |
+| **2.6** | Turtle, both ways | How to get there safely, and three ways out before they attach. | G-06 | [VII.a](../../jujitsu.md#viia--positional-escapes) [II.b](../../jujitsu.md#iib--guards-bottom-positions-with-attacks) |
+| **2.7** | Escaping *early* | The whole module in one idea: every escape is easy one second before it's needed and nearly impossible five seconds after. Escape the *transition*, not the pin. | G-01 | [X](../../jujitsu.md#part-x--the-concepts-more-important-than-any-move) |
+| **2.8** | Survival under a much bigger opponent | Frames, breathing and hip mobility instead of strength. See section 4 of every escape page. | G-01 + [G-13](../drills/positional-games.md#g-13--handicap-games) | [XV.a](../../jujitsu.md#xva--things-missing-from-almost-every-syllabus) |
 
 ---
 
 ## The drill block
 
-| Slot | Content |
-|---|---|
-| Warm-up | S-01, S-03, S-04, S-15 |
-| Reps | [P-05](../drills/partner-drills.md#p-05--mount-escape-reps), [P-06](../drills/partner-drills.md#p-06--side-control-escape-reps), [P-07](../drills/partner-drills.md#p-07--back-escape-reps) — 10 each side, feed then hold |
-| Chain | [C-10 mount escape → half guard → wrestle-up](../drills/chain-drills.md#c-10--mount-escape--half-guard--wrestle-up) |
-| Game | [G-01 escape or die](../drills/positional-games.md#g-01--escape-or-die) — four rounds, one per position |
-| Roll | [R-03 handicap roll](../drills/integration-rolls.md#r-03--handicap-roll): higher belt starts on top, every time |
+| Slot | Content | Atlas |
+|---|---|---|
+| Warm-up | S-01, S-03, S-04, S-15 | [XI](../../jujitsu.md#part-xi--solo-movements-the-physical-alphabet) |
+| Reps | [P-05](../drills/partner-drills.md#p-05--mount-escape-reps), [P-06](../drills/partner-drills.md#p-06--side-control-escape-reps), [P-07](../drills/partner-drills.md#p-07--back-escape-reps) — 10 each side, feed then hold | [VII.a](../../jujitsu.md#viia--positional-escapes) |
+| Chain | [C-10 mount escape → half guard → wrestle-up](../drills/chain-drills.md#c-10--mount-escape--half-guard--wrestle-up) | [VII.a](../../jujitsu.md#viia--positional-escapes) [VI](../../jujitsu.md#part-vi--sweeps-and-reversals) |
+| Game | [G-01 escape or die](../drills/positional-games.md#g-01--escape-or-die) — four rounds, one per position | [VII.a](../../jujitsu.md#viia--positional-escapes) |
+| Roll | [R-03 handicap roll](../drills/integration-rolls.md#r-03--handicap-roll): higher belt starts on top, every time | [XIV.a](../../jujitsu.md#xiva--drilling-and-rolling-formats) |
 
 ---
 

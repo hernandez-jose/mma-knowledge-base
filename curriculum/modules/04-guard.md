@@ -43,28 +43,28 @@ is optional for years. Know it exists; don't build on it yet.
 
 ## Lessons
 
-| # | Lesson | Content | Game |
-|:-:|---|---|---|
-| **4.1** | Retention before guards | Face them, frame, hip escape, leg pummel, re-guard. Your legs are arms — retention is a pummelling skill. | G-02 |
-| **4.2** | Closed guard: holding it | Breaking posture, controlling the grips, the three places their hands can be and what each allows. | G-03 |
-| **4.3** | Closed guard: the attack triangle | Armbar / triangle / kimura from the same broken posture. See [C-01](../drills/chain-drills.md#c-01--armbar--triangle--omoplata). | G-03 |
-| **4.4** | Half guard bottom | Get on your side. Knee shield or underhook — never flat, never square. | G-15 |
-| **4.5** | Butterfly and seated guard | Hooks in, posture up, chest connection, the arm drag as the twin of the elevator. | G-08 |
-| **4.6** | Basic open guard | Feet on hips, tripod and sickle, and the distance rule: free, grip, or contact — pick one deliberately. | G-02 |
-| **4.7** | Guard against a much bigger passer | Knee shield earlier, distance sooner, no flat backs, and the honest note that closed guard costs a big passer less than it costs you. | G-02 + [G-13](../drills/positional-games.md#g-13--handicap-games) |
-| **4.8** | Gi vs no-gi guards | Spider, lasso and worm evaporate without cloth. Decide which sport you're training for and split your study. | — |
+| # | Lesson | Content | Game | Atlas |
+|:-:|---|---|---|---|
+| **4.1** | Retention before guards | Face them, frame, hip escape, leg pummel, re-guard. Your legs are arms — retention is a pummelling skill. | G-02 | [II.b](../../jujitsu.md#iib--guards-bottom-positions-with-attacks) [XIII T3](../../jujitsu.md#tier-3--guard-weeks-412) |
+| **4.2** | Closed guard: holding it | Breaking posture, controlling the grips, the three places their hands can be and what each allows. | G-03 | [II.b](../../jujitsu.md#iib--guards-bottom-positions-with-attacks) |
+| **4.3** | Closed guard: the attack triangle | Armbar / triangle / kimura from the same broken posture. See [C-01](../drills/chain-drills.md#c-01--armbar--triangle--omoplata). | G-03 | [VIII.b](../../jujitsu.md#viiib--arm-and-shoulder-locks) [VIII.a](../../jujitsu.md#viiia--chokes-and-strangles) |
+| **4.4** | Half guard bottom | Get on your side. Knee shield or underhook — never flat, never square. | G-15 | [II.b](../../jujitsu.md#iib--guards-bottom-positions-with-attacks) |
+| **4.5** | Butterfly and seated guard | Hooks in, posture up, chest connection, the arm drag as the twin of the elevator. | G-08 | [II.b](../../jujitsu.md#iib--guards-bottom-positions-with-attacks) |
+| **4.6** | Basic open guard | Feet on hips, tripod and sickle, and the distance rule: free, grip, or contact — pick one deliberately. | G-02 | [II.b](../../jujitsu.md#iib--guards-bottom-positions-with-attacks) |
+| **4.7** | Guard against a much bigger passer | Knee shield earlier, distance sooner, no flat backs, and the honest note that closed guard costs a big passer less than it costs you. | G-02 + [G-13](../drills/positional-games.md#g-13--handicap-games) | [XV.a](../../jujitsu.md#xva--things-missing-from-almost-every-syllabus) |
+| **4.8** | Gi vs no-gi guards | Spider, lasso and worm evaporate without cloth. Decide which sport you're training for and split your study. | — | [XV.b](../../jujitsu.md#xvb--whole-domains-the-tables-above-under-serve) |
 
 ---
 
 ## The drill block
 
-| Slot | Content |
-|---|---|
-| Warm-up | S-01, S-02, S-12, S-09 |
-| Reps | [P-09 guard retention reps](../drills/partner-drills.md#p-09--guard-retention-reps) — 4 × 90 s, passer at 40% then 70% |
-| Chain | [C-06 scissor ↔ hip bump ↔ kimura](../drills/chain-drills.md#c-06--scissor--hip-bump--kimura-sweep) |
-| Game | [G-02 retention KOTH](../drills/positional-games.md#g-02--guard-retention-king-of-the-hill), then [G-15 half guard both chairs](../drills/positional-games.md#g-15--half-guard-both-chairs) |
-| Roll | [R-02 task roll](../drills/integration-rolls.md#r-02--task-roll) with a retention task |
+| Slot | Content | Atlas |
+|---|---|---|
+| Warm-up | S-01, S-02, S-12, S-09 | [XI](../../jujitsu.md#part-xi--solo-movements-the-physical-alphabet) |
+| Reps | [P-09 guard retention reps](../drills/partner-drills.md#p-09--guard-retention-reps) — 4 × 90 s, passer at 40% then 70% | [II.b](../../jujitsu.md#iib--guards-bottom-positions-with-attacks) |
+| Chain | [C-06 scissor ↔ hip bump ↔ kimura](../drills/chain-drills.md#c-06--scissor--hip-bump--kimura-sweep) | [VI](../../jujitsu.md#part-vi--sweeps-and-reversals) |
+| Game | [G-02 retention KOTH](../drills/positional-games.md#g-02--guard-retention-king-of-the-hill), then [G-15 half guard both chairs](../drills/positional-games.md#g-15--half-guard-both-chairs) | [II.b](../../jujitsu.md#iib--guards-bottom-positions-with-attacks) [V](../../jujitsu.md#part-v--guard-passing) |
+| Roll | [R-02 task roll](../drills/integration-rolls.md#r-02--task-roll) with a retention task | [XIV.a](../../jujitsu.md#xiva--drilling-and-rolling-formats) |
 
 ---
 

@@ -39,6 +39,8 @@ If you're at home, 8–10 reps is a length.
 
 ## S-01 · Shrimp ladder
 
+**Atlas:** [Solo movements → *Shrimp / hip escape*](../../jujitsu.md#part-xi--solo-movements-the-physical-alphabet)
+
 **Trains:** the hip escape · **Dose:** 2 lengths each direction · **Feeds:** Modules 01, 02, 04
 
 On your back, heels close to your hips. Bridge slightly onto one shoulder, turn
@@ -52,6 +54,8 @@ flat. Reset and go the other way.
 
 ## S-02 · Reverse shrimp ladder
 
+**Atlas:** [Solo movements → *Reverse shrimp*](../../jujitsu.md#part-xi--solo-movements-the-physical-alphabet)
+
 **Trains:** closing distance and re-guarding · **Dose:** 2 lengths each direction · **Feeds:** Modules 01, 04
 
 The shrimp travelling forwards. From your side, post the top foot, drive your
@@ -62,6 +66,8 @@ you chase a passer's hips instead of letting them walk around you.
 - **Fail signal:** you sit up to travel. Stay on your side; the shoulder stays low.
 
 ## S-03 · Bridge series
+
+**Atlas:** [Solo movements → *Bridge (upa)*](../../jujitsu.md#part-xi--solo-movements-the-physical-alphabet)
 
 **Trains:** the upa and every escape built on it · **Dose:** 10 straight, 10 each side · **Feeds:** Modules 01, 02
 
@@ -77,6 +83,8 @@ actual escape sequence.
 
 ## S-04 · Technical stand-up on the whistle
 
+**Atlas:** [Solo movements → *Technical stand-up*](../../jujitsu.md#part-xi--solo-movements-the-physical-alphabet)
+
 **Trains:** getting off the floor facing the threat · **Dose:** 15 reps, alternating posting sides · **Feeds:** Modules 01, 02, 10
 
 Sit up on one hip. Post the same-side hand behind you and the opposite foot in
@@ -88,6 +96,8 @@ hand leaving the mat *last*, finishing in a fighting stance facing forward.
 
 ## S-05 · Shoulder rolls
 
+**Atlas:** [Solo movements → *Forward / backward shoulder roll*](../../jujitsu.md#part-xi--solo-movements-the-physical-alphabet)
+
 **Trains:** rolling without loading the neck · **Dose:** 6 forward, 6 backward, each shoulder · **Feeds:** Modules 01, 10
 
 Forward: reach one arm across your body, tuck the chin to the *opposite*
@@ -98,6 +108,8 @@ line in reverse, looking over the shoulder you're rolling on.
 - **Fail signal:** you feel it in your neck, or you land flat on your back with a thud.
 
 ## S-06 · Breakfall ladder
+
+**Atlas:** [Solo movements → *Breakfall (side and back)*](../../jujitsu.md#part-xi--solo-movements-the-physical-alphabet)
 
 **Trains:** taking a throw without an injury · **Dose:** 10 side each way, 10 back · **Feeds:** Modules 01, 09
 
@@ -111,6 +123,8 @@ slap the mat with the whole arm at 45°, chin tucked, exhaling hard.
 
 ## S-07 · Sprawl ladder
 
+**Atlas:** [Solo movements → *Sprawl*](../../jujitsu.md#part-xi--solo-movements-the-physical-alphabet) · [Takedown defense → *Sprawl*](../../jujitsu.md#part-iv--takedown-defense)
+
 **Trains:** the takedown-defense reflex · **Dose:** 3 × 10 reps · **Feeds:** Modules 01, 09
 
 From a fighting stance, drop your hips to the mat, shoot both legs back and wide,
@@ -121,6 +135,8 @@ is half the drill.
 - **Progression:** sprawl → circle to the side and face → sprawl again. Reflex plus reposition.
 
 ## S-08 · Sit-through / hip heist
+
+**Atlas:** [Solo movements → *Sit-through / hip heist*](../../jujitsu.md#part-xi--solo-movements-the-physical-alphabet) · [Takedown defense → *Hip heist / hip switch*](../../jujitsu.md#part-iv--takedown-defense)
 
 **Trains:** turning your hips through from a base · **Dose:** 10 each side · **Feeds:** Modules 01, 10
 
@@ -133,6 +149,8 @@ the escape hatch from turtle and the recovery from a failed shot.
 
 ## S-09 · Granby roll
 
+**Atlas:** [Solo movements → *Granby roll*](../../jujitsu.md#part-xi--solo-movements-the-physical-alphabet)
+
 **Trains:** inverted escape and guard retention · **Dose:** 5 each direction, slowly · **Feeds:** Modules 01, 04, 10
 
 From your side, roll over your upper back and shoulder — hips lifting over your
@@ -142,6 +160,8 @@ head — and come out facing the other way. Build this slowly.
 - **Safety:** neck-loading movement. If you have any neck history, do S-10 for a month before this.
 
 ## S-10 · Inversion build-up
+
+**Atlas:** [Solo movements → *Inversion*](../../jujitsu.md#part-xi--solo-movements-the-physical-alphabet)
 
 **Trains:** neck-safe inverting · **Dose:** 3 × 8, controlled · **Feeds:** Modules 01, 04
 
@@ -154,6 +174,8 @@ quarter turn each session once it's comfortable.
 
 ## S-11 · Penetration step reps
 
+**Atlas:** [Solo movements → *Penetration step*](../../jujitsu.md#part-xi--solo-movements-the-physical-alphabet)
+
 **Trains:** the takedown entry · **Dose:** 10 each side, mirror then on a bag · **Feeds:** Modules 01, 09
 
 From stance, change level with the **knees** (not the waist), step the lead foot
@@ -164,6 +186,8 @@ drive the back leg through and come up.
 - **Fail signal:** your head drops below your hips at any point.
 
 ## S-12 · Guard retention shadow
+
+**Atlas:** [Guards → *guard retention*](../../jujitsu.md#iib--guards-bottom-positions-with-attacks) · [Tier 3 — guard → *Guard retention*](../../jujitsu.md#tier-3--guard-weeks-412)
 
 **Trains:** leg pummelling and hip switching · **Dose:** 3 × 45 s · **Feeds:** Module 04
 
@@ -176,6 +200,8 @@ shield, recover to a square guard. Continuous, no pauses.
 
 ## S-13 · Shadow wrestling
 
+**Atlas:** [Takedown defense → *Stance and motion*](../../jujitsu.md#part-iv--takedown-defense)
+
 **Trains:** stance, motion and level change · **Dose:** 3 × 2 min · **Feeds:** Module 09
 
 Continuous movement in a fighting stance: circle, change levels, fake a shot,
@@ -186,6 +212,8 @@ time — this is a grip-fighting drill as much as a footwork one.
 - **Progression:** call your own sequence out loud. Naming it while doing it doubles retention.
 
 ## S-14 · Neck, grip and hip prehab
+
+**Atlas:** [Tier 9 — off the mat → *Strength and conditioning*](../../jujitsu.md#tier-9--off-the-mat-from-month-one-forever)
 
 **Trains:** the ability to still be training in ten years · **Dose:** 2–3 × per week, 10 min · **Feeds:** Module 13
 
@@ -199,6 +227,8 @@ stretch. **Rotational core:** cable or band chops, 3 × 12 each way.
 - **Why it's here:** BJJ finger arthritis is near-universal and neck injuries end careers. This is the least glamorous drill in the library and the one you'll be most glad you did.
 
 ## S-15 · Breathing ladder
+
+**Atlas:** [Concepts → *Breathing*](../../jujitsu.md#part-x--the-concepts-more-important-than-any-move)
 
 **Trains:** composure under load · **Dose:** 5 min, daily is better than long · **Feeds:** Modules 00, 11
 

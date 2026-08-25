@@ -49,31 +49,31 @@ If you own these, you have a complete submission game. Everything else in
 
 ## Lessons
 
-| # | Lesson | Content | Drill |
-|:-:|---|---|---|
-| **8.1** | How a choke actually works | Blood chokes (carotid) vs air chokes (trachea). Blood chokes are faster, safer and the ones to build on. | P-13 |
-| **8.2** | RNC and the back attack system | Seatbelt, hand fight, and the fact that the choke is won before the hand goes in. | G-05, C-02 |
-| **8.3** | Triangle, arm triangle, and head-and-arm control | One arm in, one arm out — the single condition that makes all three available. | C-01 |
-| **8.4** | The front headlock hub | Guillotine, D'Arce, anaconda, back take, go-behind. Their arm position picks the choke. | P-14, C-08 |
-| **8.5** | Armbar from four positions | Guard, mount, side, back. Same mechanism, four entries. Hips high, knees pinched, thumb up. | C-01 |
-| **8.6** | Kimura as a control | The grip that sweeps, takes the back, and finishes — in that order of usefulness. | C-03 |
-| **8.7** | Gi chokes 🥋 | Cross collar, bow and arrow, loop, ezekiel. Cloth is a weapon; use it while you have it. | P-13 |
-| **8.8** | Straight ankle lock and leg entanglement basics | Outside ashi, heel exposure, and the rule that a leg entanglement is a passing position containing a submission. | C-11, P-15 |
-| **8.9** | Rotational leg attacks — *advanced, supervised* | Heel hook and toe hold. Slow, coach-led, defense-literate students only. Check belt legality first. | — |
-| **8.10** | Chains | [C-01](../drills/chain-drills.md#c-01--armbar--triangle--omoplata), [C-02](../drills/chain-drills.md#c-02--rnc--collar-choke--armbar), [C-03](../drills/chain-drills.md#c-03--kimura--guillotine--back-take). Above white belt, this *is* submission grappling. | R-05 |
+| # | Lesson | Content | Drill | Atlas |
+|:-:|---|---|---|---|
+| **8.1** | How a choke actually works | Blood chokes (carotid) vs air chokes (trachea). Blood chokes are faster, safer and the ones to build on. | P-13 | [VIII.a](../../jujitsu.md#viiia--chokes-and-strangles) |
+| **8.2** | RNC and the back attack system | Seatbelt, hand fight, and the fact that the choke is won before the hand goes in. | G-05, C-02 | [VIII.a](../../jujitsu.md#viiia--chokes-and-strangles) [II.a](../../jujitsu.md#iia--dominant-top-positions) |
+| **8.3** | Triangle, arm triangle, and head-and-arm control | One arm in, one arm out — the single condition that makes all three available. | C-01 | [VIII.a](../../jujitsu.md#viiia--chokes-and-strangles) |
+| **8.4** | The front headlock hub | Guillotine, D'Arce, anaconda, back take, go-behind. Their arm position picks the choke. | P-14, C-08 | [VIII.a](../../jujitsu.md#viiia--chokes-and-strangles) [IX](../../jujitsu.md#part-ix--transitions-and-back-takes) |
+| **8.5** | Armbar from four positions | Guard, mount, side, back. Same mechanism, four entries. Hips high, knees pinched, thumb up. | C-01 | [VIII.b](../../jujitsu.md#viiib--arm-and-shoulder-locks) |
+| **8.6** | Kimura as a control | The grip that sweeps, takes the back, and finishes — in that order of usefulness. | C-03 | [VIII.b](../../jujitsu.md#viiib--arm-and-shoulder-locks) |
+| **8.7** | Gi chokes 🥋 | Cross collar, bow and arrow, loop, ezekiel. Cloth is a weapon; use it while you have it. | P-13 | [VIII.a](../../jujitsu.md#viiia--chokes-and-strangles) |
+| **8.8** | Straight ankle lock and leg entanglement basics | Outside ashi, heel exposure, and the rule that a leg entanglement is a passing position containing a submission. | C-11, P-15 | [VIII.c](../../jujitsu.md#viiic--leg-locks) [II.b](../../jujitsu.md#iib--guards-bottom-positions-with-attacks) |
+| **8.9** | Rotational leg attacks — *advanced, supervised* | Heel hook and toe hold. Slow, coach-led, defense-literate students only. Check belt legality first. | — | [VIII.c](../../jujitsu.md#viiic--leg-locks) [XII legality](../../jujitsu.md#legality-by-belt-ibjjf-adult) |
+| **8.10** | Chains | [C-01](../drills/chain-drills.md#c-01--armbar--triangle--omoplata), [C-02](../drills/chain-drills.md#c-02--rnc--collar-choke--armbar), [C-03](../drills/chain-drills.md#c-03--kimura--guillotine--back-take). Above white belt, this *is* submission grappling. | R-05 | [X](../../jujitsu.md#part-x--the-concepts-more-important-than-any-move) |
 
 ---
 
 ## The drill block
 
-| Slot | Content |
-|---|---|
-| Warm-up | S-01, S-03, S-12 |
-| Reps | [P-13 catch-and-release](../drills/partner-drills.md#p-13--catch-and-release-submissions), 3 × 2 min |
-| Hub | [P-14 choke map circuit](../drills/partner-drills.md#p-14--the-choke-map-circuit), 6 laps |
-| Chain | One of C-01, C-02, C-03 per session — scripted, then choice |
-| Game | [G-05 back attack/defense](../drills/positional-games.md#g-05--back-attack--back-defense) or [G-07 front headlock](../drills/positional-games.md#g-07--front-headlock-game) |
-| Roll | [R-05 chain roll](../drills/integration-rolls.md#r-05--chain-roll) |
+| Slot | Content | Atlas |
+|---|---|---|
+| Warm-up | S-01, S-03, S-12 | [XI](../../jujitsu.md#part-xi--solo-movements-the-physical-alphabet) |
+| Reps | [P-13 catch-and-release](../drills/partner-drills.md#p-13--catch-and-release-submissions), 3 × 2 min | [VIII.a](../../jujitsu.md#viiia--chokes-and-strangles) [VIII.b](../../jujitsu.md#viiib--arm-and-shoulder-locks) |
+| Hub | [P-14 choke map circuit](../drills/partner-drills.md#p-14--the-choke-map-circuit), 6 laps | [II.a](../../jujitsu.md#iia--dominant-top-positions) [VIII.a](../../jujitsu.md#viiia--chokes-and-strangles) |
+| Chain | One of C-01, C-02, C-03 per session — scripted, then choice | [VIII.a](../../jujitsu.md#viiia--chokes-and-strangles) [VIII.b](../../jujitsu.md#viiib--arm-and-shoulder-locks) |
+| Game | [G-05 back attack/defense](../drills/positional-games.md#g-05--back-attack--back-defense) or [G-07 front headlock](../drills/positional-games.md#g-07--front-headlock-game) | [II.a](../../jujitsu.md#iia--dominant-top-positions) |
+| Roll | [R-05 chain roll](../drills/integration-rolls.md#r-05--chain-roll) | [XIV.a](../../jujitsu.md#xiva--drilling-and-rolling-formats) |
 
 ---
 

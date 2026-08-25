@@ -43,24 +43,24 @@ person who needs it most is always the one who joined last week.
 
 ## Lessons
 
-| # | Lesson | Content |
-|:-:|---|---|
-| **0.1** | The tap and the release | Teach the tap *before* the first submission exists. Drill it with [P-18](../drills/partner-drills.md#p-18--tap-timing). Include the verbal tap for when both hands are trapped. |
-| **0.2** | Mat culture | Etiquette, hygiene, and why they're a safety system rather than a tradition. Staph and ringworm are the most common "injuries" in the sport. |
-| **0.3** | Rolling with different bodies | 30 kg heavier, 30 kg lighter, brand new, twice your skill, 25 years older — each needs a different approach, and getting it wrong is how people get hurt. |
-| **0.4** | Breathing under pressure | Nasal breathing, long exhale, and the fact that panic is mostly oxygen debt. [S-15](../drills/solo-drills.md#s-15--breathing-ladder), then [R-06](../drills/integration-rolls.md#r-06--breathing-roll). |
-| **0.5** | Ego, losing, and the first six months | Said out loud in week one: you will lose constantly for a year, that is the tuition, and it is the number one reason people quit. |
-| **0.6** | When to tap early vs. when it's discomfort | Joints: always early, no exceptions. Compressions and neck cranks hurt before they're dangerous — but **never gamble on a heel hook**, there is no warning before a ligament goes. |
+| # | Lesson | Content | Atlas |
+|:-:|---|---|---|
+| **0.1** | The tap and the release | Teach the tap *before* the first submission exists. Drill it with [P-18](../drills/partner-drills.md#p-18--tap-timing). Include the verbal tap for when both hands are trapped. | [XIII T0](../../jujitsu.md#tier-0--before-you-touch-anybody-first-10-minutes-day-one) |
+| **0.2** | Mat culture | Etiquette, hygiene, and why they're a safety system rather than a tradition. Staph and ringworm are the most common "injuries" in the sport. | [XIII T0](../../jujitsu.md#tier-0--before-you-touch-anybody-first-10-minutes-day-one) |
+| **0.3** | Rolling with different bodies | 30 kg heavier, 30 kg lighter, brand new, twice your skill, 25 years older — each needs a different approach, and getting it wrong is how people get hurt. | [XV.a](../../jujitsu.md#xva--things-missing-from-almost-every-syllabus) |
+| **0.4** | Breathing under pressure | Nasal breathing, long exhale, and the fact that panic is mostly oxygen debt. [S-15](../drills/solo-drills.md#s-15--breathing-ladder), then [R-06](../drills/integration-rolls.md#r-06--breathing-roll). | [X](../../jujitsu.md#part-x--the-concepts-more-important-than-any-move) |
+| **0.5** | Ego, losing, and the first six months | Said out loud in week one: you will lose constantly for a year, that is the tuition, and it is the number one reason people quit. | [XV.a](../../jujitsu.md#xva--things-missing-from-almost-every-syllabus) |
+| **0.6** | When to tap early vs. when it's discomfort | Joints: always early, no exceptions. Compressions and neck cranks hurt before they're dangerous — but **never gamble on a heel hook**, there is no warning before a ligament goes. | [VII.b](../../jujitsu.md#viib--submission-defense) |
 
 ---
 
 ## The drill block
 
-| Slot | Drill |
-|---|---|
-| Every first class | [P-18 tap timing](../drills/partner-drills.md#p-18--tap-timing) — 5 minutes, both roles |
-| Warm-down, weekly | [S-15 breathing ladder](../drills/solo-drills.md#s-15--breathing-ladder) |
-| Any mismatched pair | [R-12 body mismatch roll](../drills/integration-rolls.md#r-12--body-mismatch-roll) protocol, stated before the round |
+| Slot | Drill | Atlas |
+|---|---|---|
+| Every first class | [P-18 tap timing](../drills/partner-drills.md#p-18--tap-timing) — 5 minutes, both roles | [XIII T0](../../jujitsu.md#tier-0--before-you-touch-anybody-first-10-minutes-day-one) |
+| Warm-down, weekly | [S-15 breathing ladder](../drills/solo-drills.md#s-15--breathing-ladder) | [X](../../jujitsu.md#part-x--the-concepts-more-important-than-any-move) |
+| Any mismatched pair | [R-12 body mismatch roll](../drills/integration-rolls.md#r-12--body-mismatch-roll) protocol, stated before the round | [XV.a](../../jujitsu.md#xva--things-missing-from-almost-every-syllabus) |
 
 ---
 

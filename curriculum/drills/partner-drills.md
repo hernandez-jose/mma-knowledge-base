@@ -46,6 +46,8 @@ loud before you start.
 
 ## P-01 · Pummelling
 
+**Atlas:** [Solo movements → *Pummelling*](../../jujitsu.md#part-xi--solo-movements-the-physical-alphabet) · [Clinch positions → *Underhook · Over-under clinch*](../../jujitsu.md#iic--standing-and-clinch-positions)
+
 **Trains:** inside control in the clinch · **Dose:** 3 × 90 s · **Feeds:** Module 09
 
 Standing, chest to chest. Alternate underhooks — as they swim one in, you swim
@@ -57,6 +59,8 @@ elbows tight so they can't get double-unders.
 - **Live start:** first to a bodylock with both hands clasped wins the exchange; reset.
 
 ## P-02 · Grip fight isolation
+
+**Atlas:** [Concepts → *Grip fighting*](../../jujitsu.md#part-x--the-concepts-more-important-than-any-move) · [Gap analysis XV.a → *Grip fighting as its own subject*](../../jujitsu.md#xva--things-missing-from-almost-every-syllabus)
 
 **Trains:** the exchange that decides every other exchange · **Dose:** 4 × 60 s standing, 4 × 60 s seated · **Feeds:** Module 11
 
@@ -71,6 +75,8 @@ you concede the point.
 
 ## P-03 · Shot/sprawl alternation
 
+**Atlas:** [Wrestling takedowns → *Double leg*](../../jujitsu.md#iiia--wrestling-takedowns-leg-attacks) · [Takedown defense → *Sprawl*](../../jujitsu.md#part-iv--takedown-defense)
+
 **Trains:** the entry and the answer, in the same round · **Dose:** 6 × 30 s, alternating on the whistle · **Feeds:** Module 09
 
 One partner shoots at 60%, the other sprawls. Whistle every 30 seconds and swap
@@ -80,6 +86,8 @@ sprawl that ends chest-heavy with an angle behind.
 - **Cue:** *Sprawl, then circle.* A sprawl that stops in front of them is half a defense.
 
 ## P-04 · Penetration step on a moving partner
+
+**Atlas:** [Solo movements → *Penetration step*](../../jujitsu.md#part-xi--solo-movements-the-physical-alphabet) · [Wrestling takedowns → *Double leg*](../../jujitsu.md#iiia--wrestling-takedowns-leg-attacks)
 
 **Trains:** timing, not mechanics · **Dose:** 10 each side · **Feeds:** Module 09
 
@@ -91,6 +99,8 @@ the mat between their feet.
 - **Fail signal:** you shoot from too far and reach with your hands. Take one more step first.
 
 ## P-05 · Mount escape reps
+
+**Atlas:** [Positional escapes → *Upa / trap-and-roll · Elbow-knee escape*](../../jujitsu.md#viia--positional-escapes)
 
 **Trains:** trap-and-roll and elbow-knee · **Dose:** 10 each escape, each side · **Feeds:** Module 02
 
@@ -104,6 +114,8 @@ the hip, shrimp, insert the knee, recover half guard.
 
 ## P-06 · Side control escape reps
 
+**Atlas:** [Positional escapes → *Frame and shrimp · Underhook to dogfight*](../../jujitsu.md#viia--positional-escapes)
+
 **Trains:** the three answers from under side control · **Dose:** 8 each, each side · **Feeds:** Module 02
 
 **(a) Frame and shrimp** to knee-in and guard recovery. **(b) Underhook** to
@@ -115,6 +127,8 @@ far side.
 - **Detail page:** [side control escapes](../../techniques/escapes/side-control-escapes.md)
 
 ## P-07 · Back escape reps
+
+**Atlas:** [Positional escapes → *Back escape — hand fight and slide*](../../jujitsu.md#viia--positional-escapes)
 
 **Trains:** the hand fight, then the slide · **Dose:** 10 each side · **Feeds:** Module 02
 
@@ -128,6 +142,8 @@ and land in their guard or side control.
 
 ## P-08 · Turtle recovery reps
 
+**Atlas:** [Positional escapes → *Sit-out*](../../jujitsu.md#viia--positional-escapes) · [Takedown defense → *Sit-out*](../../jujitsu.md#part-iv--takedown-defense)
+
 **Trains:** getting out before they attach · **Dose:** 8 of each exit · **Feeds:** Module 10
 
 Three exits from turtle with a partner riding: **sit-out** (post and kick
@@ -139,6 +155,8 @@ follow).
 - **Detail page:** [turtle escapes](../../techniques/escapes/turtle-escapes.md)
 
 ## P-09 · Guard retention reps
+
+**Atlas:** [Guards → *guard retention*](../../jujitsu.md#iib--guards-bottom-positions-with-attacks) · [Tier 3 — guard → *Guard retention*](../../jujitsu.md#tier-3--guard-weeks-412)
 
 **Trains:** hips and legs against a passer · **Dose:** 4 × 90 s · **Feeds:** Module 04
 
@@ -152,6 +170,8 @@ knee shield insertion.
 
 ## P-10 · Sweep reps
 
+**Atlas:** [Sweeps → *Scissor · Hip bump · Butterfly · Old school*](../../jujitsu.md#part-vi--sweeps-and-reversals)
+
 **Trains:** the four sweeps that pay rent · **Dose:** 8 each, each side · **Feeds:** Module 05
 
 **Scissor** (closed guard, off-balance to the knee-through side), **hip bump**
@@ -162,6 +182,8 @@ tip), **old school** (half guard, underhook plus far-ankle grab).
 - **Hold setting:** partner posts a specific hand and you must remove that post before sweeping.
 
 ## P-11 · Pass reps
+
+**Atlas:** [Guard passing → *Knee cut · Toreando · Body lock pass*](../../jujitsu.md#part-v--guard-passing)
 
 **Trains:** the three passes worth owning early · **Dose:** 8 each, each side · **Feeds:** Module 06
 
@@ -175,6 +197,8 @@ legs down).
 
 ## P-12 · Pin transition circuit
 
+**Atlas:** [Transitions & back takes → *Side control → mount → back*](../../jujitsu.md#part-ix--transitions-and-back-takes) · [Top positions → *the pins themselves*](../../jujitsu.md#iia--dominant-top-positions)
+
 **Trains:** riding the positional ladder · **Dose:** 5 laps each direction · **Feeds:** Module 07
 
 Partner lies down and offers 20% resistance. Circuit: side control → knee-on-belly
@@ -185,6 +209,8 @@ Hold each pin for 3 seconds (the IBJJF standard) before moving.
 - **Live start:** they escape at 50%; you re-pin wherever you land.
 
 ## P-13 · Catch-and-release submissions
+
+**Atlas:** [Rolling formats → *Catch-and-release*](../../jujitsu.md#xiva--drilling-and-rolling-formats)
 
 **Trains:** entries at speed, without the injuries · **Dose:** 3 × 2 min · **Feeds:** Module 08
 
@@ -197,6 +223,8 @@ taps, nobody gets hurt, everybody gets three times the entries.
 
 ## P-14 · The choke map circuit
 
+**Atlas:** [Top positions → *Front headlock*](../../jujitsu.md#iia--dominant-top-positions) · [Chokes → *Guillotine · D’Arce · Anaconda*](../../jujitsu.md#viiia--chokes-and-strangles)
+
 **Trains:** the front headlock as a hub, not a technique · **Dose:** 6 laps · **Feeds:** Modules 08, 10
 
 Snap-down → front headlock. From there, pick one exit per lap: **guillotine**
@@ -208,6 +236,8 @@ near arm is in), **back take** (they stand up), **go-behind** (they retreat).
 - **Detail pages:** [guillotine](../../techniques/submissions/guillotine.md) · [D'Arce](../../techniques/submissions/darce.md) · [anaconda](../../techniques/submissions/anaconda.md)
 
 ## P-15 · Leg entanglement entry and extraction
+
+**Atlas:** [Submission defense → *Hide the heel / “boot”*](../../jujitsu.md#viib--submission-defense) · [Leg locks → *Straight ankle lock*](../../jujitsu.md#viiic--leg-locks)
 
 **Trains:** leg lock **defense** before offense · **Dose:** 10 extractions, then 10 entries · **Feeds:** Module 08
 
@@ -222,6 +252,8 @@ the straight ankle lock only.
 
 ## P-16 · Uchikomi with breakfalls
 
+**Atlas:** [Judo throws → *Osoto · Ouchi · Seoi nage*](../../jujitsu.md#iiib--judo-throws) · [Solo movements → *Breakfall (side and back)*](../../jujitsu.md#part-xi--solo-movements-the-physical-alphabet)
+
 **Trains:** throw entries and safe landings together · **Dose:** 3 × 10 entries, then 10 full throws each · **Feeds:** Module 09
 
 Ten entries without the throw (uchikomi) to groove the turn-in, then ten full
@@ -234,6 +266,8 @@ alternative.
 
 ## P-17 · Wall and cage stand-ups
 
+**Atlas:** [Takedown defense → *Cage / wall wrestling*](../../jujitsu.md#part-iv--takedown-defense)
+
 **Trains:** getting up under pressure · **Dose:** 8 each side · **Feeds:** Module 10
 
 Back to the wall, seated, partner pressuring. Back flat against the wall,
@@ -244,6 +278,8 @@ Finish in a stance or in a bodylock of your own.
 - **Note:** the MMA version, under strikes, is in [`training-plan.md`](../../training-plan.md).
 
 ## P-18 · Tap timing
+
+**Atlas:** [Concepts → *The tap*](../../jujitsu.md#part-x--the-concepts-more-important-than-any-move) · [Tier 0 — before you touch anybody → *How to tap*](../../jujitsu.md#tier-0--before-you-touch-anybody-first-10-minutes-day-one)
 
 **Trains:** the safety system the whole sport rests on · **Dose:** once in a beginner's first week, then whenever a new person joins · **Feeds:** Module 00
 

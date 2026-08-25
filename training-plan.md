@@ -3,6 +3,7 @@
 > 8 weeks · 4 sessions/week · 60 minutes/session · 32 sessions total.
 > Technique deep-dives: **[Technique Library](techniques/)** — per-submission and per-escape pages covering how each move changes against different body sizes.
 > Long-term syllabus: **[Curriculum](curriculum/)** — fourteen modules, the drill library, and the roll formats that blend new material into live sparring. This camp is the 8-week MMA slice of it.
+> Every activity in every session below ends with an **Atlas:** link to the table in [jujitsu.md](jujitsu.md) that the activity comes from — warm-ups to [solo movements](jujitsu.md#part-xi--solo-movements-the-physical-alphabet), live blocks to [rolling formats](jujitsu.md#xiva--drilling-and-rolling-formats), and everything in between.
 
 **Legend:** every position is shown as a rendered 3D scene from two angles — a **side view** and a **high angle** that shows the hand positions. The athlete in **red shorts (light skin)** is our fighter, red corner; the opponent wears **blue shorts (dark skin)**, blue corner.
 
@@ -294,38 +295,38 @@ Job one: become hard to finish. Escapes from every bad position, submission defe
 
 ### Session 01 — Day One: Base & the Upa
 
-- **0–6 Warm-up:** Line drills: shrimp, bridge, technical stand-up, sprawl walk.
-- **6–18 Takedown:** Double leg part 1 — stance and penetration step: level change with the knees, lead knee over the toes, head up. 10 clean shots each side on pads.
-- **18–33 Position:** Mount escape — trap & roll: trap the arm and the same-side foot, bridge high over that shoulder, finish on top inside their guard. Both sides.
-- **33–48 Submission:** RNC survival: chin down, shoulders shrugged, two-on-one on the choking hand, peel and slide it over your head. Partner builds to a 70% grip.
-- **48–58 Live:** Positional 5×2 min: start mounted — escape resets, top holds or advances.
+- **0–6 Warm-up:** Line drills: shrimp, bridge, technical stand-up, sprawl walk. **Atlas:** [Solo movements](jujitsu.md#part-xi--solo-movements-the-physical-alphabet)
+- **6–18 Takedown:** Double leg part 1 — stance and penetration step: level change with the knees, lead knee over the toes, head up. 10 clean shots each side on pads. **Atlas:** [Wrestling takedowns](jujitsu.md#iiia--wrestling-takedowns-leg-attacks)
+- **18–33 Position:** Mount escape — trap & roll: trap the arm and the same-side foot, bridge high over that shoulder, finish on top inside their guard. Both sides. **Atlas:** [Positional escapes](jujitsu.md#viia--positional-escapes)
+- **33–48 Submission:** RNC survival: chin down, shoulders shrugged, two-on-one on the choking hand, peel and slide it over your head. Partner builds to a 70% grip. **Atlas:** [Submission defense](jujitsu.md#viib--submission-defense)
+- **48–58 Live:** Positional 5×2 min: start mounted — escape resets, top holds or advances. **Atlas:** [Rolling formats](jujitsu.md#xiva--drilling-and-rolling-formats)
 - **Coach cue:** *Bridge into them, not just up.*
 
 ### Session 02 — Frames & Sprawls
 
-- **0–6 Warm-up:** Sprawl ladder, hip escapes down the mat, backward rolls.
-- **6–18 Takedown:** Sprawl: hips punch the mat, legs shoot back, chest heavy on their shoulders, angle behind. Partner shoots at 50%.
-- **18–33 Position:** Side control escape: forearm frame at the neck, elbow-to-knee connection, big shrimp, knee inside, recover guard. Option two: underhook and come up.
-- **33–48 Submission:** Guillotine defense: early hand to your own throat, chin buried, shoulder pressure over the top, circle to the trapped-arm side and pop the head out.
-- **48–58 Live:** 5×2 min: start under side control.
+- **0–6 Warm-up:** Sprawl ladder, hip escapes down the mat, backward rolls. **Atlas:** [Solo movements](jujitsu.md#part-xi--solo-movements-the-physical-alphabet)
+- **6–18 Takedown:** Sprawl: hips punch the mat, legs shoot back, chest heavy on their shoulders, angle behind. Partner shoots at 50%. **Atlas:** [Takedown defense](jujitsu.md#part-iv--takedown-defense)
+- **18–33 Position:** Side control escape: forearm frame at the neck, elbow-to-knee connection, big shrimp, knee inside, recover guard. Option two: underhook and come up. **Atlas:** [Positional escapes](jujitsu.md#viia--positional-escapes)
+- **33–48 Submission:** Guillotine defense: early hand to your own throat, chin buried, shoulder pressure over the top, circle to the trapped-arm side and pop the head out. **Atlas:** [Submission defense](jujitsu.md#viib--submission-defense)
+- **48–58 Live:** 5×2 min: start under side control. **Atlas:** [Rolling formats](jujitsu.md#xiva--drilling-and-rolling-formats)
 - **Coach cue:** *Frames before force — bones hold, muscles fail.*
 
 ### Session 03 — Lose the Backpack
 
-- **0–6 Warm-up:** Seat-belt pummels, wall sits, light wrestler’s bridges.
-- **6–18 Takedown:** Single leg part 1: snap the collar tie, change level, head tight to their chest, run the pipe. Counter for the partner: whizzer plus hips back.
-- **18–33 Position:** Back escape: chin down, two hands win the choking hand, shoulders flat to the mat, walk the hips to the open side, clear the hook, turn in.
-- **33–48 Submission:** Kimura and americana defense: hide the wrist — grab your own hip or straighten the arm — elbows tight to the ribs, turn toward the crank.
-- **48–58 Live:** Back-attack rounds 4×2 min from the seat belt.
+- **0–6 Warm-up:** Seat-belt pummels, wall sits, light wrestler’s bridges. **Atlas:** [Solo movements](jujitsu.md#part-xi--solo-movements-the-physical-alphabet)
+- **6–18 Takedown:** Single leg part 1: snap the collar tie, change level, head tight to their chest, run the pipe. Counter for the partner: whizzer plus hips back. **Atlas:** [Wrestling takedowns](jujitsu.md#iiia--wrestling-takedowns-leg-attacks) · [Takedown defense](jujitsu.md#part-iv--takedown-defense)
+- **18–33 Position:** Back escape: chin down, two hands win the choking hand, shoulders flat to the mat, walk the hips to the open side, clear the hook, turn in. **Atlas:** [Positional escapes](jujitsu.md#viia--positional-escapes)
+- **33–48 Submission:** Kimura and americana defense: hide the wrist — grab your own hip or straighten the arm — elbows tight to the ribs, turn toward the crank. **Atlas:** [Submission defense](jujitsu.md#viib--submission-defense)
+- **48–58 Live:** Back-attack rounds 4×2 min from the seat belt. **Atlas:** [Rolling formats](jujitsu.md#xiva--drilling-and-rolling-formats)
 - **Coach cue:** *Chin buys time, hands buy freedom.*
 
 ### Session 04 — Bad Day at the Office
 
-- **0–6 Warm-up:** Partner sprawl-shot ladder, easy pace.
-- **6–18 Takedown:** Shot vs sprawl game: alternate on the whistle every 30 seconds at 60%. Shooters score on a clean knee pick-up.
-- **18–33 Position:** Knee-on-belly escape: frame the knee and the hip, long shrimp to guard. Turtle recovery: sit-out and face them before they attach.
-- **33–48 Submission:** Defense circuit, one-minute stations: RNC peel, guillotine posture, kimura hide, early armbar clasp and stack.
-- **48–58 Live:** Bad-spot rotation 4×2 min: mount, side, back, KOB.
+- **0–6 Warm-up:** Partner sprawl-shot ladder, easy pace. **Atlas:** [Solo movements](jujitsu.md#part-xi--solo-movements-the-physical-alphabet)
+- **6–18 Takedown:** Shot vs sprawl game: alternate on the whistle every 30 seconds at 60%. Shooters score on a clean knee pick-up. **Atlas:** [Wrestling takedowns](jujitsu.md#iiia--wrestling-takedowns-leg-attacks) · [Takedown defense](jujitsu.md#part-iv--takedown-defense)
+- **18–33 Position:** Knee-on-belly escape: frame the knee and the hip, long shrimp to guard. Turtle recovery: sit-out and face them before they attach. **Atlas:** [Positional escapes](jujitsu.md#viia--positional-escapes)
+- **33–48 Submission:** Defense circuit, one-minute stations: RNC peel, guillotine posture, kimura hide, early armbar clasp and stack. **Atlas:** [Submission defense](jujitsu.md#viib--submission-defense)
+- **48–58 Live:** Bad-spot rotation 4×2 min: mount, side, back, KOB. **Atlas:** [Rolling formats](jujitsu.md#xiva--drilling-and-rolling-formats)
 - **Coach cue:** *Position before panic — breathe, frame, move.*
 
 > **CHECKPOINT W1 — Escape mount and side control against 50% resistance inside 60 seconds each; 10 clean penetration steps without dropping your head.**
@@ -336,38 +337,38 @@ Guard retention, getting off the floor, and getting off the fence. The bottom is
 
 ### Session 05 — Stand-Up Game
 
-- **0–6 Warm-up:** Technical stand-ups on the whistle, wall sits, shot-defense footwork.
-- **6–18 Takedown:** Snap-down: heavy collar tie plus elbow control, snap as they step in, circle toward the go-behind.
-- **18–33 Position:** Technical stand-up and the wall walk: post, base leg back, stand facing them. On the fence: back flat, underhooks, wedge a leg, slide up — never turn away.
-- **33–48 Submission:** Triangle defense: posture tall, arms both in or both out — never one-and-one. Late: stack high over their shoulder and walk around.
-- **48–58 Live:** Wall rounds 5×2 min: attacker pins to the fence, defender stands and exits.
+- **0–6 Warm-up:** Technical stand-ups on the whistle, wall sits, shot-defense footwork. **Atlas:** [Solo movements](jujitsu.md#part-xi--solo-movements-the-physical-alphabet)
+- **6–18 Takedown:** Snap-down: heavy collar tie plus elbow control, snap as they step in, circle toward the go-behind. **Atlas:** [Wrestling takedowns](jujitsu.md#iiia--wrestling-takedowns-leg-attacks)
+- **18–33 Position:** Technical stand-up and the wall walk: post, base leg back, stand facing them. On the fence: back flat, underhooks, wedge a leg, slide up — never turn away. **Atlas:** [Positional escapes](jujitsu.md#viia--positional-escapes) · [Takedown defense](jujitsu.md#part-iv--takedown-defense)
+- **33–48 Submission:** Triangle defense: posture tall, arms both in or both out — never one-and-one. Late: stack high over their shoulder and walk around. **Atlas:** [Submission defense](jujitsu.md#viib--submission-defense)
+- **48–58 Live:** Wall rounds 5×2 min: attacker pins to the fence, defender stands and exits. **Atlas:** [Rolling formats](jujitsu.md#xiva--drilling-and-rolling-formats)
 - **Coach cue:** *Head above their head, hips off the fence.*
 
 ### Session 06 — Half Shield
 
-- **0–6 Warm-up:** Knee-shield sit-throughs, hip switches.
-- **6–18 Takedown:** Duck-under: lift their elbow off the collar tie, level change through the window, chest to their back, finish with a rear bodylock.
-- **18–33 Position:** Half guard bottom: knee shield and frames; the law of the position — underhook or knee shield at all times. Today: recover full guard.
-- **33–48 Submission:** Arm-triangle defense: chin and hand-fight before it locks; once locked, bridge, turn belly-down toward them, make the gap and slide out.
-- **48–58 Live:** Half guard bottom survival 5×2 min: recover or stand to reset.
+- **0–6 Warm-up:** Knee-shield sit-throughs, hip switches. **Atlas:** [Solo movements](jujitsu.md#part-xi--solo-movements-the-physical-alphabet)
+- **6–18 Takedown:** Duck-under: lift their elbow off the collar tie, level change through the window, chest to their back, finish with a rear bodylock. **Atlas:** [Wrestling takedowns](jujitsu.md#iiia--wrestling-takedowns-leg-attacks)
+- **18–33 Position:** Half guard bottom: knee shield and frames; the law of the position — underhook or knee shield at all times. Today: recover full guard. **Atlas:** [Guards](jujitsu.md#iib--guards-bottom-positions-with-attacks)
+- **33–48 Submission:** Arm-triangle defense: chin and hand-fight before it locks; once locked, bridge, turn belly-down toward them, make the gap and slide out. **Atlas:** [Submission defense](jujitsu.md#viib--submission-defense)
+- **48–58 Live:** Half guard bottom survival 5×2 min: recover or stand to reset. **Atlas:** [Rolling formats](jujitsu.md#xiva--drilling-and-rolling-formats)
 - **Coach cue:** *Underhook or knee shield — never neither.*
 
 ### Session 07 — Land Mines & Leg Locks
 
-- **0–6 Warm-up:** Technical stand-ups, backward rolls, ankle mobility.
-- **6–18 Takedown:** Ankle pick: snap their posture over the lead foot, drop step, scoop the heel, drive through the shoulder.
-- **18–33 Position:** North–south escape: frame the hips, spin inside to turtle, sit out to face them. Turtle rules: elbows in, hands guard the neck, never flatten.
-- **33–48 Submission:** Leg-lock survival: straight ankle — clear the knee line, put the boot on, stand through. Heel hooks: defense concepts only, hands follow early, kill the rotation, tap at the first sign. Never applied live in this program.
-- **48–58 Live:** Leg-entanglement escapes at 50%, then north–south and turtle positionals.
+- **0–6 Warm-up:** Technical stand-ups, backward rolls, ankle mobility. **Atlas:** [Solo movements](jujitsu.md#part-xi--solo-movements-the-physical-alphabet)
+- **6–18 Takedown:** Ankle pick: snap their posture over the lead foot, drop step, scoop the heel, drive through the shoulder. **Atlas:** [Wrestling takedowns](jujitsu.md#iiia--wrestling-takedowns-leg-attacks)
+- **18–33 Position:** North–south escape: frame the hips, spin inside to turtle, sit out to face them. Turtle rules: elbows in, hands guard the neck, never flatten. **Atlas:** [Positional escapes](jujitsu.md#viia--positional-escapes)
+- **33–48 Submission:** Leg-lock survival: straight ankle — clear the knee line, put the boot on, stand through. Heel hooks: defense concepts only, hands follow early, kill the rotation, tap at the first sign. Never applied live in this program. **Atlas:** [Submission defense](jujitsu.md#viib--submission-defense) · [Leg locks](jujitsu.md#viiic--leg-locks)
+- **48–58 Live:** Leg-entanglement escapes at 50%, then north–south and turtle positionals. **Atlas:** [Rolling formats](jujitsu.md#xiva--drilling-and-rolling-formats)
 - **Coach cue:** *Leg tangled? Clear the knee line, then stand.*
 
 ### Session 08 — Survival Final
 
-- **0–6 Warm-up:** Full escape flow both sides, zero resistance.
-- **6–18 Takedown:** Carousel, 2-minute stations at 60%: double, single, sprawl, snap-down, duck-under, ankle pick.
-- **18–33 Position:** Escape gauntlet: coach calls a new bad position every 90 seconds; escape or stand.
-- **33–48 Submission:** Defense gauntlet: partner attacks the called submission at 70%; defend, escape, reset.
-- **48–58 Live:** Week-2 test: 4×2 min in mount, side, back and KOB against fresh partners at 70%.
+- **0–6 Warm-up:** Full escape flow both sides, zero resistance. **Atlas:** [Positional escapes](jujitsu.md#viia--positional-escapes)
+- **6–18 Takedown:** Carousel, 2-minute stations at 60%: double, single, sprawl, snap-down, duck-under, ankle pick. **Atlas:** [Wrestling takedowns](jujitsu.md#iiia--wrestling-takedowns-leg-attacks) · [Takedown defense](jujitsu.md#part-iv--takedown-defense)
+- **18–33 Position:** Escape gauntlet: coach calls a new bad position every 90 seconds; escape or stand. **Atlas:** [Positional escapes](jujitsu.md#viia--positional-escapes)
+- **33–48 Submission:** Defense gauntlet: partner attacks the called submission at 70%; defend, escape, reset. **Atlas:** [Submission defense](jujitsu.md#viib--submission-defense)
+- **48–58 Live:** Week-2 test: 4×2 min in mount, side, back and KOB against fresh partners at 70%. **Atlas:** [Rolling formats](jujitsu.md#xiva--drilling-and-rolling-formats)
 - **Coach cue:** *Calm is a skill — exhale on the bottom.*
 
 > **CHECKPOINT W2 — Survive two minutes in any bad spot at 70% pressure without tapping; three clean wall stand-ups in one round.**
@@ -378,38 +379,38 @@ Sweeps that put you on top, passes that keep you there, and full takedowns. Posi
 
 ### Session 09 — Bodylock & Hip Bump
 
-- **0–6 Warm-up:** Pummeling swims, hip-heist sit-ups.
-- **6–18 Takedown:** Bodylock takedown: win the over-under pummel, hips in and lower than theirs, lock behind their back, chest drive, step across, turn them over the hip.
-- **18–33 Position:** Hip bump sweep: as they posture up in your closed guard — sit up big, post the hand, swing your hips over the trapped arm, land in mount.
-- **33–48 Submission:** Kimura from guard: they post on the mat to stop the bump — wrap the posting arm, lock the figure-four, hip out, paint their knuckles to the ceiling.
-- **48–58 Live:** Guard battle 5×2 min: bottom sweeps or submits, top postures and passes.
+- **0–6 Warm-up:** Pummeling swims, hip-heist sit-ups. **Atlas:** [Solo movements](jujitsu.md#part-xi--solo-movements-the-physical-alphabet)
+- **6–18 Takedown:** Bodylock takedown: win the over-under pummel, hips in and lower than theirs, lock behind their back, chest drive, step across, turn them over the hip. **Atlas:** [Wrestling takedowns](jujitsu.md#iiia--wrestling-takedowns-leg-attacks)
+- **18–33 Position:** Hip bump sweep: as they posture up in your closed guard — sit up big, post the hand, swing your hips over the trapped arm, land in mount. **Atlas:** [Sweeps](jujitsu.md#part-vi--sweeps-and-reversals)
+- **33–48 Submission:** Kimura from guard: they post on the mat to stop the bump — wrap the posting arm, lock the figure-four, hip out, paint their knuckles to the ceiling. **Atlas:** [Arm locks](jujitsu.md#viiib--arm-and-shoulder-locks)
+- **48–58 Live:** Guard battle 5×2 min: bottom sweeps or submits, top postures and passes. **Atlas:** [Rolling formats](jujitsu.md#xiva--drilling-and-rolling-formats)
 - **Coach cue:** *The hip bump and the kimura are the same sit-up.*
 
 ### Session 10 — Knee Cut Day
 
-- **0–6 Warm-up:** Knee-cut slide drills down the mat, cross-face drills.
-- **6–18 Takedown:** Outside trip from the bodylock: load their weight over one heel, chop the calf, chest through, land straight into side control.
-- **18–33 Position:** Knee cut pass: knee slices across their bottom shin, far-side underhook, heavy cross-face, corkscrew the hips through to side control.
-- **33–48 Submission:** Americana from side control: they push up — pin the wrist to the mat, figure-four, paint the knuckles toward their hip, lift the elbow.
-- **48–58 Live:** Pass vs guard 5×2 min from open guard.
+- **0–6 Warm-up:** Knee-cut slide drills down the mat, cross-face drills. **Atlas:** [Guard passing](jujitsu.md#part-v--guard-passing)
+- **6–18 Takedown:** Outside trip from the bodylock: load their weight over one heel, chop the calf, chest through, land straight into side control. **Atlas:** [Judo throws](jujitsu.md#iiib--judo-throws)
+- **18–33 Position:** Knee cut pass: knee slices across their bottom shin, far-side underhook, heavy cross-face, corkscrew the hips through to side control. **Atlas:** [Guard passing](jujitsu.md#part-v--guard-passing)
+- **33–48 Submission:** Americana from side control: they push up — pin the wrist to the mat, figure-four, paint the knuckles toward their hip, lift the elbow. **Atlas:** [Arm locks](jujitsu.md#viiib--arm-and-shoulder-locks)
+- **48–58 Live:** Pass vs guard 5×2 min from open guard. **Atlas:** [Rolling formats](jujitsu.md#xiva--drilling-and-rolling-formats)
 - **Coach cue:** *The cross-face wins the pass before the knee does.*
 
 ### Session 11 — Scissor & Straight Arm
 
-- **0–6 Warm-up:** Scissor-sweep load-ups, hip-escape flow.
-- **6–18 Takedown:** Inside trip: off the collar tie, deep step between their feet, inside hook the lead leg, drive over the trapped foot.
-- **18–33 Position:** Scissor sweep: wrist and head control, knee across their chest, bottom leg chops the base, pull them onto you first — no load, no sweep.
-- **33–48 Submission:** Armbar from guard: control the wrist, climb the legs high to the armpits, cut the angle, knees pinch, leg over the face, lift the hips.
-- **48–58 Live:** Sweep-or-pass 5×2 min.
+- **0–6 Warm-up:** Scissor-sweep load-ups, hip-escape flow. **Atlas:** [Sweeps](jujitsu.md#part-vi--sweeps-and-reversals)
+- **6–18 Takedown:** Inside trip: off the collar tie, deep step between their feet, inside hook the lead leg, drive over the trapped foot. **Atlas:** [Judo throws](jujitsu.md#iiib--judo-throws)
+- **18–33 Position:** Scissor sweep: wrist and head control, knee across their chest, bottom leg chops the base, pull them onto you first — no load, no sweep. **Atlas:** [Sweeps](jujitsu.md#part-vi--sweeps-and-reversals)
+- **33–48 Submission:** Armbar from guard: control the wrist, climb the legs high to the armpits, cut the angle, knees pinch, leg over the face, lift the hips. **Atlas:** [Arm locks](jujitsu.md#viiib--arm-and-shoulder-locks)
+- **48–58 Live:** Sweep-or-pass 5×2 min. **Atlas:** [Rolling formats](jujitsu.md#xiva--drilling-and-rolling-formats)
 - **Coach cue:** *Nobody sweeps a tall opponent — break the posture first.*
 
 ### Session 12 — Toreando & Tempo
 
-- **0–6 Warm-up:** Push-pull partner steps, foot-sweep timing.
-- **6–18 Takedown:** Foot sweep: pull them into a step and sweep the ankle with your arch just as the foot lands; the hands snap them past you.
-- **18–33 Position:** Toreando pass: control both shins, steer the legs one way and step the other, hip switch into knee-on-belly before they turn in.
-- **33–48 Submission:** Kimura from north–south and side: snag the far wrist as they push, figure-four, rotate toward the head, their elbow glued to your chest.
-- **48–58 Live:** Positional carousel 5×2 min: guard, pass, KOB.
+- **0–6 Warm-up:** Push-pull partner steps, foot-sweep timing. **Atlas:** [Judo throws](jujitsu.md#iiib--judo-throws)
+- **6–18 Takedown:** Foot sweep: pull them into a step and sweep the ankle with your arch just as the foot lands; the hands snap them past you. **Atlas:** [Judo throws](jujitsu.md#iiib--judo-throws)
+- **18–33 Position:** Toreando pass: control both shins, steer the legs one way and step the other, hip switch into knee-on-belly before they turn in. **Atlas:** [Guard passing](jujitsu.md#part-v--guard-passing)
+- **33–48 Submission:** Kimura from north–south and side: snag the far wrist as they push, figure-four, rotate toward the head, their elbow glued to your chest. **Atlas:** [Arm locks](jujitsu.md#viiib--arm-and-shoulder-locks)
+- **48–58 Live:** Positional carousel 5×2 min: guard, pass, KOB. **Atlas:** [Rolling formats](jujitsu.md#xiva--drilling-and-rolling-formats)
 - **Coach cue:** *Pass to knee-on-belly, not into a hug.*
 
 > **CHECKPOINT W3 — Hit two different sweeps and one clean pass against 60% resistance; finish the bodylock takedown into side control.**
@@ -420,38 +421,38 @@ Butterfly attacks, wrestle-ups, pressure passing and the fence game — where mo
 
 ### Session 13 — Butterfly Engine
 
-- **0–6 Warm-up:** Seated hip movement, butterfly sit-and-lift drills.
-- **6–18 Takedown:** Knee tap: off the over-under, block the far knee, drive across the block, head up and chest heavy.
-- **18–33 Position:** Butterfly hook sweep: chest to chest, underhook plus far-arm control, load them onto your hooks, lift the underhook-side hook, roll them over the trapped arm.
-- **33–48 Submission:** High-elbow guillotine intro: when they duck or shoot lazy — chin strap, wrist blade on the throat, elbow climbs over their back, hips curl in.
-- **48–58 Live:** Seated starts 5×2 min: butterfly vs kneeling passer.
+- **0–6 Warm-up:** Seated hip movement, butterfly sit-and-lift drills. **Atlas:** [Guards](jujitsu.md#iib--guards-bottom-positions-with-attacks)
+- **6–18 Takedown:** Knee tap: off the over-under, block the far knee, drive across the block, head up and chest heavy. **Atlas:** [Wrestling takedowns](jujitsu.md#iiia--wrestling-takedowns-leg-attacks)
+- **18–33 Position:** Butterfly hook sweep: chest to chest, underhook plus far-arm control, load them onto your hooks, lift the underhook-side hook, roll them over the trapped arm. **Atlas:** [Sweeps](jujitsu.md#part-vi--sweeps-and-reversals)
+- **33–48 Submission:** High-elbow guillotine intro: when they duck or shoot lazy — chin strap, wrist blade on the throat, elbow climbs over their back, hips curl in. **Atlas:** [Chokes](jujitsu.md#viiia--chokes-and-strangles)
+- **48–58 Live:** Seated starts 5×2 min: butterfly vs kneeling passer. **Atlas:** [Rolling formats](jujitsu.md#xiva--drilling-and-rolling-formats)
 - **Coach cue:** *Hooks do nothing without chest-to-chest.*
 
 ### Session 14 — Heavy Hips
 
-- **0–6 Warm-up:** Hip-toss footwork with no throw, crash-pad falls.
-- **6–18 Takedown:** Hip toss from the over-under: step across, hips lower than theirs and through, rotate them over. Soft throws onto pads only.
-- **18–33 Position:** Bodylock pressure pass: lock over their knees, chest heavy, walk the hips to one side, slide the knee over — your chest never leaves them.
-- **33–48 Submission:** Arm triangle from mount: pin their arm across the neck, drop your head to that side, slide off to the other, hips low, squeeze slow.
-- **48–58 Live:** Top-pressure rounds: pass, hold five seconds, advance to mount.
+- **0–6 Warm-up:** Hip-toss footwork with no throw, crash-pad falls. **Atlas:** [Solo movements](jujitsu.md#part-xi--solo-movements-the-physical-alphabet) · [Judo throws](jujitsu.md#iiib--judo-throws)
+- **6–18 Takedown:** Hip toss from the over-under: step across, hips lower than theirs and through, rotate them over. Soft throws onto pads only. **Atlas:** [Judo throws](jujitsu.md#iiib--judo-throws)
+- **18–33 Position:** Bodylock pressure pass: lock over their knees, chest heavy, walk the hips to one side, slide the knee over — your chest never leaves them. **Atlas:** [Guard passing](jujitsu.md#part-v--guard-passing)
+- **33–48 Submission:** Arm triangle from mount: pin their arm across the neck, drop your head to that side, slide off to the other, hips low, squeeze slow. **Atlas:** [Chokes](jujitsu.md#viiia--chokes-and-strangles)
+- **48–58 Live:** Top-pressure rounds: pass, hold five seconds, advance to mount. **Atlas:** [Rolling formats](jujitsu.md#xiva--drilling-and-rolling-formats)
 - **Coach cue:** *Pressure is patience with posture.*
 
 ### Session 15 — Fence Wrestling 101
 
-- **0–6 Warm-up:** Wall sits, wall-pummel entries.
-- **6–18 Takedown:** Cage takedowns: stuffed double becomes a wall bodylock; head inside, inside trip and run-the-pipe single off the fence.
-- **18–33 Position:** Wall play both sides — pinner: head under the chin, hips glued, wrist rides; defender: frame, swim, circle off, never flat. Arm drag to the back at the wall.
-- **33–48 Submission:** RNC mechanics: choking arm deep past the chin, elbow centered under the jaw, second hand behind the head, squeeze chest-to-spine. Catch and release.
-- **48–58 Live:** Cage rounds 5×2 min: takedown vs stand-up on the fence.
+- **0–6 Warm-up:** Wall sits, wall-pummel entries. **Atlas:** [Clinch positions](jujitsu.md#iic--standing-and-clinch-positions)
+- **6–18 Takedown:** Cage takedowns: stuffed double becomes a wall bodylock; head inside, inside trip and run-the-pipe single off the fence. **Atlas:** [Takedown defense](jujitsu.md#part-iv--takedown-defense)
+- **18–33 Position:** Wall play both sides — pinner: head under the chin, hips glued, wrist rides; defender: frame, swim, circle off, never flat. Arm drag to the back at the wall. **Atlas:** [Takedown defense](jujitsu.md#part-iv--takedown-defense) · [Transitions & back takes](jujitsu.md#part-ix--transitions-and-back-takes)
+- **33–48 Submission:** RNC mechanics: choking arm deep past the chin, elbow centered under the jaw, second hand behind the head, squeeze chest-to-spine. Catch and release. **Atlas:** [Chokes](jujitsu.md#viiia--chokes-and-strangles)
+- **48–58 Live:** Cage rounds 5×2 min: takedown vs stand-up on the fence. **Atlas:** [Rolling formats](jujitsu.md#xiva--drilling-and-rolling-formats)
 - **Coach cue:** *On the fence, head position is the whole fight.*
 
 ### Session 16 — Half Guard, Both Chairs
 
-- **0–6 Warm-up:** Underhook sit-outs, old-school entries, no resistance.
-- **6–18 Takedown:** Chain drill at 60%: double → knee tap → bodylock, flowing off the partner’s reactions.
-- **18–33 Position:** Split rounds. Bottom: old-school — deep underhook, up on the elbow, capture the far ankle, drive over it; sprawled on? Treat it as a single leg. Top: half-guard pass — cross-face, far underhook, flatten them, free the knee with a toe grab.
-- **33–48 Submission:** Turtle attacks: seat belt, chair-sit to hooks, snap them flat — finish the sequence with a catch-and-release RNC.
-- **48–58 Live:** Half guard top/bottom 5×2 min, then the week-4 sweep test.
+- **0–6 Warm-up:** Underhook sit-outs, old-school entries, no resistance. **Atlas:** [Sweeps](jujitsu.md#part-vi--sweeps-and-reversals)
+- **6–18 Takedown:** Chain drill at 60%: double → knee tap → bodylock, flowing off the partner’s reactions. **Atlas:** [Wrestling takedowns](jujitsu.md#iiia--wrestling-takedowns-leg-attacks)
+- **18–33 Position:** Split rounds. Bottom: old-school — deep underhook, up on the elbow, capture the far ankle, drive over it; sprawled on? Treat it as a single leg. Top: half-guard pass — cross-face, far underhook, flatten them, free the knee with a toe grab. **Atlas:** [Sweeps](jujitsu.md#part-vi--sweeps-and-reversals)
+- **33–48 Submission:** Turtle attacks: seat belt, chair-sit to hooks, snap them flat — finish the sequence with a catch-and-release RNC. **Atlas:** [Transitions & back takes](jujitsu.md#part-ix--transitions-and-back-takes)
+- **48–58 Live:** Half guard top/bottom 5×2 min, then the week-4 sweep test. **Atlas:** [Rolling formats](jujitsu.md#xiva--drilling-and-rolling-formats)
 - **Coach cue:** *The underhook is the steering wheel — whoever has it, drives.*
 
 > **CHECKPOINT W4 — Sweep or wrestle up from bottom half or butterfly inside 90 seconds; defend a cage takedown and exit off the fence.**
@@ -462,38 +463,38 @@ The front headlock is MMA’s money position. Enter it from snap-downs and spraw
 
 ### Session 17 — Front Headlock Day
 
-- **0–6 Warm-up:** Snap-down footwork, chin-strap pummels.
-- **6–18 Takedown:** Snap-down to front headlock: heavy collar tie and elbow, snap as they step, chin strap plus elbow control before their hands touch the mat.
-- **18–33 Position:** Front headlock ride: chest on the crown, chin strap, second hand rides the elbow, knee blocks the near shoulder, spin opposite their sit-out.
-- **33–48 Submission:** High-elbow guillotine, full detail: chin strap deep, blade on the throat, clasp without weaving, elbow climbs over the back, hips curl through. Finish standing or with guard on one side.
-- **48–58 Live:** Front headlock spar 5×2 min: finish or escape resets.
+- **0–6 Warm-up:** Snap-down footwork, chin-strap pummels. **Atlas:** [Wrestling takedowns](jujitsu.md#iiia--wrestling-takedowns-leg-attacks)
+- **6–18 Takedown:** Snap-down to front headlock: heavy collar tie and elbow, snap as they step, chin strap plus elbow control before their hands touch the mat. **Atlas:** [Wrestling takedowns](jujitsu.md#iiia--wrestling-takedowns-leg-attacks)
+- **18–33 Position:** Front headlock ride: chest on the crown, chin strap, second hand rides the elbow, knee blocks the near shoulder, spin opposite their sit-out. **Atlas:** [Top positions](jujitsu.md#iia--dominant-top-positions)
+- **33–48 Submission:** High-elbow guillotine, full detail: chin strap deep, blade on the throat, clasp without weaving, elbow climbs over the back, hips curl through. Finish standing or with guard on one side. **Atlas:** [Chokes](jujitsu.md#viiia--chokes-and-strangles)
+- **48–58 Live:** Front headlock spar 5×2 min: finish or escape resets. **Atlas:** [Rolling formats](jujitsu.md#xiva--drilling-and-rolling-formats)
 - **Coach cue:** *Chin strap first, choke second.*
 
 ### Session 18 — The D’Arce
 
-- **0–6 Warm-up:** Sprawl flow, shot entries at 50%.
-- **6–18 Takedown:** Sprawl to front headlock: their shot comes in, hips crush down, chin strap installs on the way up.
-- **18–33 Position:** Go-behind: shuck the head down and past, drag the elbow, chest glued, arrive at a 90-degree angle behind them.
-- **33–48 Submission:** D’Arce — the arm-first entry: thread under their near arm and across the neck, palm to your own biceps, second hand behind their head, shrink the circle. Hit it off half guard top and stuffed shots.
-- **48–58 Live:** Sprawl-and-brawl grappling: one shoots, one snaps and chokes.
+- **0–6 Warm-up:** Sprawl flow, shot entries at 50%. **Atlas:** [Takedown defense](jujitsu.md#part-iv--takedown-defense)
+- **6–18 Takedown:** Sprawl to front headlock: their shot comes in, hips crush down, chin strap installs on the way up. **Atlas:** [Takedown defense](jujitsu.md#part-iv--takedown-defense)
+- **18–33 Position:** Go-behind: shuck the head down and past, drag the elbow, chest glued, arrive at a 90-degree angle behind them. **Atlas:** [Transitions & back takes](jujitsu.md#part-ix--transitions-and-back-takes)
+- **33–48 Submission:** D’Arce — the arm-first entry: thread under their near arm and across the neck, palm to your own biceps, second hand behind their head, shrink the circle. Hit it off half guard top and stuffed shots. **Atlas:** [Chokes](jujitsu.md#viiia--chokes-and-strangles)
+- **48–58 Live:** Sprawl-and-brawl grappling: one shoots, one snaps and chokes. **Atlas:** [Rolling formats](jujitsu.md#xiva--drilling-and-rolling-formats)
 - **Coach cue:** *They fight the guillotine hand? The D’Arce is already there.*
 
 ### Session 19 — Take the Back
 
-- **0–6 Warm-up:** Seat-belt pummels, hook retention drills.
-- **6–18 Takedown:** Duck-under to the back, rear bodylock finish: lift, angle, place them down — mat returns, never spikes.
-- **18–33 Position:** Back retention: seat belt palm-over-palm on the chest, hooks or body triangle, follow their turn like a backpack, re-pummel lost hooks.
-- **33–48 Submission:** RNC against full resistance: trap one wrist one-on-one, sneak the choking hand while they fight, palm-to-palm short choke when the full lock is blocked.
-- **48–58 Live:** Back attack vs escape 5×2 min.
+- **0–6 Warm-up:** Seat-belt pummels, hook retention drills. **Atlas:** [Top positions](jujitsu.md#iia--dominant-top-positions)
+- **6–18 Takedown:** Duck-under to the back, rear bodylock finish: lift, angle, place them down — mat returns, never spikes. **Atlas:** [Wrestling takedowns](jujitsu.md#iiia--wrestling-takedowns-leg-attacks)
+- **18–33 Position:** Back retention: seat belt palm-over-palm on the chest, hooks or body triangle, follow their turn like a backpack, re-pummel lost hooks. **Atlas:** [Top positions](jujitsu.md#iia--dominant-top-positions)
+- **33–48 Submission:** RNC against full resistance: trap one wrist one-on-one, sneak the choking hand while they fight, palm-to-palm short choke when the full lock is blocked. **Atlas:** [Chokes](jujitsu.md#viiia--chokes-and-strangles)
+- **48–58 Live:** Back attack vs escape 5×2 min. **Atlas:** [Rolling formats](jujitsu.md#xiva--drilling-and-rolling-formats)
 - **Coach cue:** *Legs keep the position, hands take the neck.*
 
 ### Session 20 — Anaconda & the Map
 
-- **0–6 Warm-up:** Front-headlock flow with a partner, both sides.
-- **6–18 Takedown:** Snap-down variations: two-on-one snap, inside-tie snap, cross-face snap — every snap finishes in a chin strap.
-- **18–33 Position:** Choke-map flow drill: snap → front headlock → coach calls the exit — guillotine, D’Arce, anaconda or go-behind. Ten reps per pair.
-- **33–48 Submission:** Anaconda — the neck-first entry: thread under the neck and out the far armpit, biceps grip, gator-roll toward the trapped arm to shrink it. Knees to chest, breathe them out.
-- **48–58 Live:** Front-headlock-only game 5×2 min.
+- **0–6 Warm-up:** Front-headlock flow with a partner, both sides. **Atlas:** [Top positions](jujitsu.md#iia--dominant-top-positions)
+- **6–18 Takedown:** Snap-down variations: two-on-one snap, inside-tie snap, cross-face snap — every snap finishes in a chin strap. **Atlas:** [Wrestling takedowns](jujitsu.md#iiia--wrestling-takedowns-leg-attacks)
+- **18–33 Position:** Choke-map flow drill: snap → front headlock → coach calls the exit — guillotine, D’Arce, anaconda or go-behind. Ten reps per pair. **Atlas:** [Chokes](jujitsu.md#viiia--chokes-and-strangles) · [Transitions & back takes](jujitsu.md#part-ix--transitions-and-back-takes)
+- **33–48 Submission:** Anaconda — the neck-first entry: thread under the neck and out the far armpit, biceps grip, gator-roll toward the trapped arm to shrink it. Knees to chest, breathe them out. **Atlas:** [Chokes](jujitsu.md#viiia--chokes-and-strangles)
+- **48–58 Live:** Front-headlock-only game 5×2 min. **Atlas:** [Rolling formats](jujitsu.md#xiva--drilling-and-rolling-formats)
 - **Coach cue:** *Neck-first is anaconda, arm-first is D’Arce.*
 
 > **CHECKPOINT W5 — From a snap-down: enter the front headlock and finish one choke (guillotine, D’Arce or anaconda) or take the back, against a resisting partner.**
@@ -504,38 +505,38 @@ Finish from the positions you win: the mount and back systems, the armbar–tria
 
 ### Session 21 — Mount Week Opens
 
-- **0–6 Warm-up:** Grapevine holds, tech-mount switches.
-- **6–18 Takedown:** Double–single chain: shoot the double; they sprawl a leg free — swing to the single and run the pipe.
-- **18–33 Position:** Mount maintenance: grapevines, head under the chin; they turn, you tech-mount; they push, your hands ride up. Thirty-second king-of-mount turns.
-- **33–48 Submission:** Armbar from mount: they push your chest — S-mount, knee behind the head, leg over the face, fall back slow, knees pinched, thumb up.
-- **48–58 Live:** Mount attack vs escape 5×2 min.
+- **0–6 Warm-up:** Grapevine holds, tech-mount switches. **Atlas:** [Top positions](jujitsu.md#iia--dominant-top-positions)
+- **6–18 Takedown:** Double–single chain: shoot the double; they sprawl a leg free — swing to the single and run the pipe. **Atlas:** [Wrestling takedowns](jujitsu.md#iiia--wrestling-takedowns-leg-attacks)
+- **18–33 Position:** Mount maintenance: grapevines, head under the chin; they turn, you tech-mount; they push, your hands ride up. Thirty-second king-of-mount turns. **Atlas:** [Top positions](jujitsu.md#iia--dominant-top-positions)
+- **33–48 Submission:** Armbar from mount: they push your chest — S-mount, knee behind the head, leg over the face, fall back slow, knees pinched, thumb up. **Atlas:** [Arm locks](jujitsu.md#viiib--arm-and-shoulder-locks)
+- **48–58 Live:** Mount attack vs escape 5×2 min. **Atlas:** [Rolling formats](jujitsu.md#xiva--drilling-and-rolling-formats)
 - **Coach cue:** *When they push, they hand you the arm.*
 
 ### Session 22 — Head & Arm
 
-- **0–6 Warm-up:** Pummeling, trip entries at 50%.
-- **6–18 Takedown:** Bodylock to trips: inside trip when they base back, outside trip when they lean in — feel it, don’t force it.
-- **18–33 Position:** Pressure pass to mount: slide the knee over the belt line, grapevine, consolidate before you climb.
-- **33–48 Submission:** Arm triangle system: punch the arm across from mount, head drops, slide off toward the trapped-arm side, hips low, squeeze slow. Fist in the way? Fix the angle, not the effort.
-- **48–58 Live:** Pass-to-submission rounds: a sub only counts if you held the position three seconds first.
+- **0–6 Warm-up:** Pummeling, trip entries at 50%. **Atlas:** [Clinch positions](jujitsu.md#iic--standing-and-clinch-positions)
+- **6–18 Takedown:** Bodylock to trips: inside trip when they base back, outside trip when they lean in — feel it, don’t force it. **Atlas:** [Judo throws](jujitsu.md#iiib--judo-throws)
+- **18–33 Position:** Pressure pass to mount: slide the knee over the belt line, grapevine, consolidate before you climb. **Atlas:** [Guard passing](jujitsu.md#part-v--guard-passing) · [Transitions & back takes](jujitsu.md#part-ix--transitions-and-back-takes)
+- **33–48 Submission:** Arm triangle system: punch the arm across from mount, head drops, slide off toward the trapped-arm side, hips low, squeeze slow. Fist in the way? Fix the angle, not the effort. **Atlas:** [Chokes](jujitsu.md#viiia--chokes-and-strangles)
+- **48–58 Live:** Pass-to-submission rounds: a sub only counts if you held the position three seconds first. **Atlas:** [Rolling formats](jujitsu.md#xiva--drilling-and-rolling-formats)
 - **Coach cue:** *Squeeze like a door closing, not a trap snapping.*
 
 ### Session 23 — Triangle Day
 
-- **0–6 Warm-up:** High-leg climbs, hip-up holds, angle-cut drills.
-- **6–18 Takedown:** Ankle pick review plus snap-down mix: make them carry your collar-tie weight, then pick the lead ankle.
-- **18–33 Position:** Guard attack posture: overhook and head control, climb the legs to the armpits, hips never flat — the punch-safe angles.
-- **33–48 Submission:** Triangle from guard: one arm in, one arm out, shoot the legs high, lock the shin behind the knee, cut perpendicular, curl their head down. Chain: armbar when they pull out, triangle when they re-post.
-- **48–58 Live:** Guard submission-only rounds 5×2 min.
+- **0–6 Warm-up:** High-leg climbs, hip-up holds, angle-cut drills. **Atlas:** [Guards](jujitsu.md#iib--guards-bottom-positions-with-attacks)
+- **6–18 Takedown:** Ankle pick review plus snap-down mix: make them carry your collar-tie weight, then pick the lead ankle. **Atlas:** [Wrestling takedowns](jujitsu.md#iiia--wrestling-takedowns-leg-attacks)
+- **18–33 Position:** Guard attack posture: overhook and head control, climb the legs to the armpits, hips never flat — the punch-safe angles. **Atlas:** [Guards](jujitsu.md#iib--guards-bottom-positions-with-attacks)
+- **33–48 Submission:** Triangle from guard: one arm in, one arm out, shoot the legs high, lock the shin behind the knee, cut perpendicular, curl their head down. Chain: armbar when they pull out, triangle when they re-post. **Atlas:** [Chokes](jujitsu.md#viiia--chokes-and-strangles)
+- **48–58 Live:** Guard submission-only rounds 5×2 min. **Atlas:** [Rolling formats](jujitsu.md#xiva--drilling-and-rolling-formats)
 - **Coach cue:** *No angle, no triangle — get perpendicular.*
 
 ### Session 24 — Below the Belt, Safely
 
-- **0–6 Warm-up:** Ashi entries on a cooperative partner.
-- **6–18 Takedown:** Foot sweep and snap rhythm: sweep when they defend the snap, snap when they defend the sweep.
-- **18–33 Position:** North–south control and rotations: side → north–south → far side, chest heavy, hips never float.
-- **33–48 Submission:** North–south choke: arm past the neck, shoulder drops onto the throat, hips low, slow squeeze. Straight ankle: ashi position, knees pinch, blade under the achilles, hips forward — no twisting, instant release. Heel-hook defense review only.
-- **48–58 Live:** Submission-only rounds; every leg attack is catch-and-release. Week-6 chain test.
+- **0–6 Warm-up:** Ashi entries on a cooperative partner. **Atlas:** [Guards](jujitsu.md#iib--guards-bottom-positions-with-attacks)
+- **6–18 Takedown:** Foot sweep and snap rhythm: sweep when they defend the snap, snap when they defend the sweep. **Atlas:** [Judo throws](jujitsu.md#iiib--judo-throws)
+- **18–33 Position:** North–south control and rotations: side → north–south → far side, chest heavy, hips never float. **Atlas:** [Top positions](jujitsu.md#iia--dominant-top-positions) · [Transitions & back takes](jujitsu.md#part-ix--transitions-and-back-takes)
+- **33–48 Submission:** North–south choke: arm past the neck, shoulder drops onto the throat, hips low, slow squeeze. Straight ankle: ashi position, knees pinch, blade under the achilles, hips forward — no twisting, instant release. Heel-hook defense review only. **Atlas:** [Chokes](jujitsu.md#viiia--chokes-and-strangles) · [Leg locks](jujitsu.md#viiic--leg-locks)
+- **48–58 Live:** Submission-only rounds; every leg attack is catch-and-release. Week-6 chain test. **Atlas:** [Rolling formats](jujitsu.md#xiva--drilling-and-rolling-formats)
 - **Coach cue:** *Catches prove control; control proves the finish.*
 
 > **CHECKPOINT W6 — Chain three submissions in one continuous catch-and-release sequence from mount or guard; finish a straight ankle lock with control.**
@@ -546,38 +547,38 @@ Everything now happens under light strikes: ground-and-pound on top and bottom, 
 
 ### Session 25 — Ground & Pound 101
 
-- **0–6 Warm-up:** Glove up; shadow wrestling with level changes.
-- **6–18 Takedown:** Double leg off the jab: hide the level change behind your own punches, shoot as their weight loads the lead leg.
-- **18–33 Position:** GnP from mount and guard top at 30%: base first, punch second — posture control, hand traps, short elbows. Bottom player installs the high-frame punch block.
-- **33–48 Submission:** Arm triangle off their punch: the bottom player swings, the arm crosses the center line — pin it, drop the head, lock the choke.
-- **48–58 Live:** MMA positional 5×2 min: top may strike light; bottom escapes or submits.
+- **0–6 Warm-up:** Glove up; shadow wrestling with level changes. **Atlas:** [Solo movements](jujitsu.md#part-xi--solo-movements-the-physical-alphabet)
+- **6–18 Takedown:** Double leg off the jab: hide the level change behind your own punches, shoot as their weight loads the lead leg. **Atlas:** [Wrestling takedowns](jujitsu.md#iiia--wrestling-takedowns-leg-attacks) · [MMA grappling](jujitsu.md#xvb--whole-domains-the-tables-above-under-serve)
+- **18–33 Position:** GnP from mount and guard top at 30%: base first, punch second — posture control, hand traps, short elbows. Bottom player installs the high-frame punch block. **Atlas:** [MMA grappling](jujitsu.md#xvb--whole-domains-the-tables-above-under-serve)
+- **33–48 Submission:** Arm triangle off their punch: the bottom player swings, the arm crosses the center line — pin it, drop the head, lock the choke. **Atlas:** [Chokes](jujitsu.md#viiia--chokes-and-strangles)
+- **48–58 Live:** MMA positional 5×2 min: top may strike light; bottom escapes or submits. **Atlas:** [Rolling formats](jujitsu.md#xiva--drilling-and-rolling-formats) · [MMA grappling](jujitsu.md#xvb--whole-domains-the-tables-above-under-serve)
 - **Coach cue:** *Strike to advance, not just to score.*
 
 ### Session 26 — Fence & Fists
 
-- **0–6 Warm-up:** Wall pummeling with gloves, light inside shots.
-- **6–18 Takedown:** Cage wrestling with strikes: level change off short punches, knee taps at the wall, bodylock with the head inside, light knees to the thighs.
-- **18–33 Position:** GnP from side control and knee-on-belly: shoulder pressure, short elbows, hop to KOB to open the punches. Defender: frames up, wall-walks under fire.
-- **33–48 Submission:** Guillotine punishing the shot: they duck in off your punches — snap, chin strap, high elbow. Their takedown becomes your finish.
-- **48–58 Live:** Cage MMA rounds 5×2 min, light.
+- **0–6 Warm-up:** Wall pummeling with gloves, light inside shots. **Atlas:** [Clinch positions](jujitsu.md#iic--standing-and-clinch-positions) · [MMA grappling](jujitsu.md#xvb--whole-domains-the-tables-above-under-serve)
+- **6–18 Takedown:** Cage wrestling with strikes: level change off short punches, knee taps at the wall, bodylock with the head inside, light knees to the thighs. **Atlas:** [Takedown defense](jujitsu.md#part-iv--takedown-defense) · [MMA grappling](jujitsu.md#xvb--whole-domains-the-tables-above-under-serve)
+- **18–33 Position:** GnP from side control and knee-on-belly: shoulder pressure, short elbows, hop to KOB to open the punches. Defender: frames up, wall-walks under fire. **Atlas:** [MMA grappling](jujitsu.md#xvb--whole-domains-the-tables-above-under-serve)
+- **33–48 Submission:** Guillotine punishing the shot: they duck in off your punches — snap, chin strap, high elbow. Their takedown becomes your finish. **Atlas:** [Chokes](jujitsu.md#viiia--chokes-and-strangles)
+- **48–58 Live:** Cage MMA rounds 5×2 min, light. **Atlas:** [Rolling formats](jujitsu.md#xiva--drilling-and-rolling-formats) · [MMA grappling](jujitsu.md#xvb--whole-domains-the-tables-above-under-serve)
 - **Coach cue:** *Position pays for the punches.*
 
 ### Session 27 — Bottom Game Under Fire
 
-- **0–6 Warm-up:** Punch-block series flow: frame, hip escape, knees in.
-- **6–18 Takedown:** Level change off strike feints; defenders sprawl on the real one — read the hips, not the hands.
-- **18–33 Position:** Punch-block series to attacks: high frame, hip escape, butterfly lift to wrestle-up; break their posture by pulling the punching arm in.
-- **33–48 Submission:** RNC in scrambles: every time they turn away from punches — seat belt, hooks, finish. Back takes off every turn.
-- **48–58 Live:** Scramble-heavy MMA rounds, light: coach resets to chaos positions.
+- **0–6 Warm-up:** Punch-block series flow: frame, hip escape, knees in. **Atlas:** [Guards](jujitsu.md#iib--guards-bottom-positions-with-attacks) · [MMA grappling](jujitsu.md#xvb--whole-domains-the-tables-above-under-serve)
+- **6–18 Takedown:** Level change off strike feints; defenders sprawl on the real one — read the hips, not the hands. **Atlas:** [Wrestling takedowns](jujitsu.md#iiia--wrestling-takedowns-leg-attacks) · [Takedown defense](jujitsu.md#part-iv--takedown-defense)
+- **18–33 Position:** Punch-block series to attacks: high frame, hip escape, butterfly lift to wrestle-up; break their posture by pulling the punching arm in. **Atlas:** [Guards](jujitsu.md#iib--guards-bottom-positions-with-attacks) · [Sweeps](jujitsu.md#part-vi--sweeps-and-reversals)
+- **33–48 Submission:** RNC in scrambles: every time they turn away from punches — seat belt, hooks, finish. Back takes off every turn. **Atlas:** [Chokes](jujitsu.md#viiia--chokes-and-strangles) · [Transitions & back takes](jujitsu.md#part-ix--transitions-and-back-takes)
+- **48–58 Live:** Scramble-heavy MMA rounds, light: coach resets to chaos positions. **Atlas:** [Rolling formats](jujitsu.md#xiva--drilling-and-rolling-formats) · [MMA grappling](jujitsu.md#xvb--whole-domains-the-tables-above-under-serve)
 - **Coach cue:** *The arm they punch with is the arm you take.*
 
 ### Session 28 — Rounds
 
-- **0–6 Warm-up:** Jump rope, sprawl bursts, breathing drills.
-- **6–18 Takedown:** Chain wrestling tired: 45-second bursts of double → single → bodylock against sprawl and light strikes.
-- **18–33 Position:** Fight-IQ drill: from any position the coach calls advance, strike, finish or stand — three seconds to obey.
-- **33–48 Submission:** Choke map under fatigue: 30-second sprawl sprint, then run the map on a resisting partner.
-- **48–58 Live:** 1×5 min full fight sim, light strikes.
+- **0–6 Warm-up:** Jump rope, sprawl bursts, breathing drills. **Atlas:** [Solo movements](jujitsu.md#part-xi--solo-movements-the-physical-alphabet)
+- **6–18 Takedown:** Chain wrestling tired: 45-second bursts of double → single → bodylock against sprawl and light strikes. **Atlas:** [Wrestling takedowns](jujitsu.md#iiia--wrestling-takedowns-leg-attacks)
+- **18–33 Position:** Fight-IQ drill: from any position the coach calls advance, strike, finish or stand — three seconds to obey. **Atlas:** [The ladder](jujitsu.md#part-i--the-map)
+- **33–48 Submission:** Choke map under fatigue: 30-second sprawl sprint, then run the map on a resisting partner. **Atlas:** [Chokes](jujitsu.md#viiia--chokes-and-strangles)
+- **48–58 Live:** 1×5 min full fight sim, light strikes. **Atlas:** [Rolling formats](jujitsu.md#xiva--drilling-and-rolling-formats) · [MMA grappling](jujitsu.md#xvb--whole-domains-the-tables-above-under-serve)
 - **Coach cue:** *Score with position, rest in control, finish on their exhale.*
 
 > **CHECKPOINT W7 — In one 5-minute fight sim: land a takedown, advance one position, threaten one submission, and stand back up under light fire.**
@@ -588,38 +589,38 @@ Sharpen, rehearse, taper, test. Nothing new this week — everything faster, cle
 
 ### Session 29 — Sharpen
 
-- **0–6 Warm-up:** Fast feet, level changes, two sprawls, roll out.
-- **6–18 Takedown:** Speed chains: six takedowns for time, both sides, crisp entries — sloppy reps reset the clock.
-- **18–33 Position:** Top flow: pass → knee-on-belly → mount → back with light GnP against rising resistance.
-- **33–48 Submission:** Chain carousel, catch-and-release: armbar–triangle–kimura from guard; guillotine–D’Arce–anaconda from the front headlock.
-- **48–58 Live:** 2×3 min fight sims, light.
+- **0–6 Warm-up:** Fast feet, level changes, two sprawls, roll out. **Atlas:** [Solo movements](jujitsu.md#part-xi--solo-movements-the-physical-alphabet)
+- **6–18 Takedown:** Speed chains: six takedowns for time, both sides, crisp entries — sloppy reps reset the clock. **Atlas:** [Wrestling takedowns](jujitsu.md#iiia--wrestling-takedowns-leg-attacks)
+- **18–33 Position:** Top flow: pass → knee-on-belly → mount → back with light GnP against rising resistance. **Atlas:** [Transitions & back takes](jujitsu.md#part-ix--transitions-and-back-takes)
+- **33–48 Submission:** Chain carousel, catch-and-release: armbar–triangle–kimura from guard; guillotine–D’Arce–anaconda from the front headlock. **Atlas:** [Arm locks](jujitsu.md#viiib--arm-and-shoulder-locks) · [Chokes](jujitsu.md#viiia--chokes-and-strangles)
+- **48–58 Live:** 2×3 min fight sims, light. **Atlas:** [Rolling formats](jujitsu.md#xiva--drilling-and-rolling-formats) · [MMA grappling](jujitsu.md#xvb--whole-domains-the-tables-above-under-serve)
 - **Coach cue:** *Speed is certainty, not hurry.*
 
 ### Session 30 — Dress Rehearsal
 
-- **0–6 Warm-up:** Full fight warm-up exactly as on fight night.
-- **6–18 Takedown:** Cage takedowns and defense, mixed rounds at fight pace, light strikes.
-- **18–33 Position:** Wall stand-ups under fire, GnP against the cage, referee-position restarts.
-- **33–48 Submission:** Finish what appears: coach calls a position, you take the highest-percentage submission available inside 20 seconds.
-- **48–58 Live:** 3×3 min fight sim with corner advice between rounds.
+- **0–6 Warm-up:** Full fight warm-up exactly as on fight night. **Atlas:** [Solo movements](jujitsu.md#part-xi--solo-movements-the-physical-alphabet)
+- **6–18 Takedown:** Cage takedowns and defense, mixed rounds at fight pace, light strikes. **Atlas:** [Takedown defense](jujitsu.md#part-iv--takedown-defense)
+- **18–33 Position:** Wall stand-ups under fire, GnP against the cage, referee-position restarts. **Atlas:** [MMA grappling](jujitsu.md#xvb--whole-domains-the-tables-above-under-serve)
+- **33–48 Submission:** Finish what appears: coach calls a position, you take the highest-percentage submission available inside 20 seconds. **Atlas:** [Chokes](jujitsu.md#viiia--chokes-and-strangles)
+- **48–58 Live:** 3×3 min fight sim with corner advice between rounds. **Atlas:** [Rolling formats](jujitsu.md#xiva--drilling-and-rolling-formats) · [MMA grappling](jujitsu.md#xvb--whole-domains-the-tables-above-under-serve)
 - **Coach cue:** *Fight the plan, not your feelings.*
 
 ### Session 31 — Taper & Flow
 
-- **0–6 Warm-up:** Easy movement, long exhales.
-- **6–18 Takedown:** Shadow wrestling; 50% entries on a cooperative partner — footwork perfect, breathing quiet.
-- **18–33 Position:** Flow rolls: continuous position-to-position at 50%, no winners today.
-- **33–48 Submission:** Catch-and-release chains at 50%; talk the choke map and the ladder out loud with your partner.
-- **48–58 Live:** 2×3 min conversational-pace flow spars.
+- **0–6 Warm-up:** Easy movement, long exhales. **Atlas:** [Solo movements](jujitsu.md#part-xi--solo-movements-the-physical-alphabet) · [Concepts](jujitsu.md#part-x--the-concepts-more-important-than-any-move)
+- **6–18 Takedown:** Shadow wrestling; 50% entries on a cooperative partner — footwork perfect, breathing quiet. **Atlas:** [Wrestling takedowns](jujitsu.md#iiia--wrestling-takedowns-leg-attacks)
+- **18–33 Position:** Flow rolls: continuous position-to-position at 50%, no winners today. **Atlas:** [Rolling formats](jujitsu.md#xiva--drilling-and-rolling-formats)
+- **33–48 Submission:** Catch-and-release chains at 50%; talk the choke map and the ladder out loud with your partner. **Atlas:** [Chokes](jujitsu.md#viiia--chokes-and-strangles)
+- **48–58 Live:** 2×3 min conversational-pace flow spars. **Atlas:** [Rolling formats](jujitsu.md#xiva--drilling-and-rolling-formats)
 - **Coach cue:** *Store it today, spend it Saturday.*
 
 ### Session 32 — FINAL EXAM
 
-- **0–6 Warm-up:** Fighter’s choice, six minutes.
-- **6–18 Takedown:** Land three different takedowns against 70% defense — one of them against the cage.
-- **18–33 Position:** Escape mount, side control and back control at 70%; two wall stand-ups under pressure.
-- **33–48 Submission:** Run the full choke map, then chain three submissions catch-and-release without losing position.
-- **48–58 Live:** One 5-minute championship-pace fight sim, light strikes. Debrief and scorecard.
+- **0–6 Warm-up:** Fighter’s choice, six minutes. **Atlas:** [Solo movements](jujitsu.md#part-xi--solo-movements-the-physical-alphabet)
+- **6–18 Takedown:** Land three different takedowns against 70% defense — one of them against the cage. **Atlas:** [Wrestling takedowns](jujitsu.md#iiia--wrestling-takedowns-leg-attacks)
+- **18–33 Position:** Escape mount, side control and back control at 70%; two wall stand-ups under pressure. **Atlas:** [Positional escapes](jujitsu.md#viia--positional-escapes)
+- **33–48 Submission:** Run the full choke map, then chain three submissions catch-and-release without losing position. **Atlas:** [Chokes](jujitsu.md#viiia--chokes-and-strangles)
+- **48–58 Live:** One 5-minute championship-pace fight sim, light strikes. Debrief and scorecard. **Atlas:** [Rolling formats](jujitsu.md#xiva--drilling-and-rolling-formats)
 - **Coach cue:** *Empty the toolbox.*
 
 > **FINAL — Pass the fight-ready checklist below. Coach signs off line by line.**

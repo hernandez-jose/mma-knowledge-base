@@ -57,27 +57,27 @@ person who still has three points of base on the mat. The sequence is always:
 
 ## Lessons
 
-| # | Lesson | Content | Game |
-|:-:|---|---|---|
-| **5.1** | Off-balancing before sweeping | Kuzushi as its own skill. Ten minutes of just breaking base, with no sweep allowed at the end. | G-03 |
-| **5.2** | The closed guard three | Scissor, hip bump, kimura sweep — one grip, three exits, chained. | G-03 |
-| **5.3** | Butterfly: elevator and arm drag | Load them onto your shin, tip; or drag the post and take the back. Same setup, two doors. | G-03 |
-| **5.4** | Half guard: old school and the dogfight | Underhook, far ankle, come up. The dogfight as a position rather than an accident. | G-15 |
-| **5.5** | Open guard sweeps | Tripod and sickle as a pair — they cover opposite directions and share one grip. | G-02 |
-| **5.6** | **Wrestling up** | From seated guard: hand fight, get to a knee, single or bodylock, come up. The most under-taught scoring action in the sport. | G-08 |
-| **5.7** | Sweeping someone much heavier | Attack the base points, never the mass. Elevate with the shin, not the arms. Timing is the only lever that scales. | G-13 |
+| # | Lesson | Content | Game | Atlas |
+|:-:|---|---|---|---|
+| **5.1** | Off-balancing before sweeping | Kuzushi as its own skill. Ten minutes of just breaking base, with no sweep allowed at the end. | G-03 | [X](../../jujitsu.md#part-x--the-concepts-more-important-than-any-move) |
+| **5.2** | The closed guard three | Scissor, hip bump, kimura sweep — one grip, three exits, chained. | G-03 | [VI](../../jujitsu.md#part-vi--sweeps-and-reversals) |
+| **5.3** | Butterfly: elevator and arm drag | Load them onto your shin, tip; or drag the post and take the back. Same setup, two doors. | G-03 | [VI](../../jujitsu.md#part-vi--sweeps-and-reversals) |
+| **5.4** | Half guard: old school and the dogfight | Underhook, far ankle, come up. The dogfight as a position rather than an accident. | G-15 | [VI](../../jujitsu.md#part-vi--sweeps-and-reversals) |
+| **5.5** | Open guard sweeps | Tripod and sickle as a pair — they cover opposite directions and share one grip. | G-02 | [VI](../../jujitsu.md#part-vi--sweeps-and-reversals) |
+| **5.6** | **Wrestling up** | From seated guard: hand fight, get to a knee, single or bodylock, come up. The most under-taught scoring action in the sport. | G-08 | [VI](../../jujitsu.md#part-vi--sweeps-and-reversals) [XV.a](../../jujitsu.md#xva--things-missing-from-almost-every-syllabus) |
+| **5.7** | Sweeping someone much heavier | Attack the base points, never the mass. Elevate with the shin, not the arms. Timing is the only lever that scales. | G-13 | [XV.a](../../jujitsu.md#xva--things-missing-from-almost-every-syllabus) |
 
 ---
 
 ## The drill block
 
-| Slot | Content |
-|---|---|
-| Warm-up | S-01, S-02, S-12 |
-| Reps | [P-10 sweep reps](../drills/partner-drills.md#p-10--sweep-reps) — 8 each side, feed then hold with a named post |
-| Chain | [C-06](../drills/chain-drills.md#c-06--scissor--hip-bump--kimura-sweep) then [C-07](../drills/chain-drills.md#c-07--butterfly-elevator--arm-drag--back) |
-| Game | [G-03 pass or sweep](../drills/positional-games.md#g-03--pass-or-sweep), then [G-08 wrestle-up](../drills/positional-games.md#g-08--wrestle-up) |
-| Roll | [R-14 ladder roll, reverse version](../drills/integration-rolls.md#r-14--ladder-roll) — bottom game only |
+| Slot | Content | Atlas |
+|---|---|---|
+| Warm-up | S-01, S-02, S-12 | [XI](../../jujitsu.md#part-xi--solo-movements-the-physical-alphabet) |
+| Reps | [P-10 sweep reps](../drills/partner-drills.md#p-10--sweep-reps) — 8 each side, feed then hold with a named post | [VI](../../jujitsu.md#part-vi--sweeps-and-reversals) |
+| Chain | [C-06](../drills/chain-drills.md#c-06--scissor--hip-bump--kimura-sweep) then [C-07](../drills/chain-drills.md#c-07--butterfly-elevator--arm-drag--back) | [VI](../../jujitsu.md#part-vi--sweeps-and-reversals) |
+| Game | [G-03 pass or sweep](../drills/positional-games.md#g-03--pass-or-sweep), then [G-08 wrestle-up](../drills/positional-games.md#g-08--wrestle-up) | [V](../../jujitsu.md#part-v--guard-passing) [VI](../../jujitsu.md#part-vi--sweeps-and-reversals) |
+| Roll | [R-14 ladder roll, reverse version](../drills/integration-rolls.md#r-14--ladder-roll) — bottom game only | [XIV.a](../../jujitsu.md#xiva--drilling-and-rolling-formats) |
 
 ---
 

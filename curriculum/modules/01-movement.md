@@ -48,15 +48,15 @@ neck, both built slowly, neither in week one.
 
 ## Lessons
 
-| # | Lesson | Content |
-|:-:|---|---|
-| **1.1** | Hips: shrimp and reverse shrimp | Hips travel, shoulders stay. Land on your side, never flat. |
-| **1.2** | Bridge and the upa | Heels close, drive *into* them rather than straight up, finish over one shoulder. |
-| **1.3** | Getting up: technical stand-up | Post hand and opposite foot, kick through, never turn your back. |
-| **1.4** | Falling: breakfalls and shoulder rolls | Slap and exhale on the same beat, chin tucked, over the shoulder never the head. |
-| **1.5** | Standing: stance, sprawl, penetration step | Hips punch the mat first. Level change with the knees, not the waist. |
-| **1.6** | Turning: sit-through and hip heist | Post, kick through, face them — before you rise onto your knees. |
-| **1.7** | Advanced (month 2+): granby and inversion | Weight on the shoulder blade, never the crown of the head. Volume, not intensity. |
+| # | Lesson | Content | Atlas |
+|:-:|---|---|---|
+| **1.1** | Hips: shrimp and reverse shrimp | Hips travel, shoulders stay. Land on your side, never flat. | [XI](../../jujitsu.md#part-xi--solo-movements-the-physical-alphabet) |
+| **1.2** | Bridge and the upa | Heels close, drive *into* them rather than straight up, finish over one shoulder. | [XI](../../jujitsu.md#part-xi--solo-movements-the-physical-alphabet) |
+| **1.3** | Getting up: technical stand-up | Post hand and opposite foot, kick through, never turn your back. | [XI](../../jujitsu.md#part-xi--solo-movements-the-physical-alphabet) |
+| **1.4** | Falling: breakfalls and shoulder rolls | Slap and exhale on the same beat, chin tucked, over the shoulder never the head. | [XI](../../jujitsu.md#part-xi--solo-movements-the-physical-alphabet) |
+| **1.5** | Standing: stance, sprawl, penetration step | Hips punch the mat first. Level change with the knees, not the waist. | [XI](../../jujitsu.md#part-xi--solo-movements-the-physical-alphabet) [IV](../../jujitsu.md#part-iv--takedown-defense) |
+| **1.6** | Turning: sit-through and hip heist | Post, kick through, face them — before you rise onto your knees. | [XI](../../jujitsu.md#part-xi--solo-movements-the-physical-alphabet) |
+| **1.7** | Advanced (month 2+): granby and inversion | Weight on the shoulder blade, never the crown of the head. Volume, not intensity. | [XI](../../jujitsu.md#part-xi--solo-movements-the-physical-alphabet) |
 
 ---
 

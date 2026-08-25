@@ -60,25 +60,25 @@ Almost all of the value is at the *early* stage. Train early defense.
 
 ## Lessons
 
-| # | Lesson | Content | Game |
-|:-:|---|---|---|
-| **3.1** | Choke defense: RNC and guillotine | Chin, hands, and the hand fight that happens before either. | G-14, G-05 |
-| **3.2** | Choke defense: triangle and arm triangle | Posture, the one-in-one-out rule, and the shoulder-walk escape from a locked arm triangle. | G-14 |
-| **3.3** | Arm lock defense: armbar, kimura, americana | Elbows in, hide the wrist, turn toward the crank. Clasp early — never late. | G-14 |
-| **3.4** | Leg lock defense, before any leg lock offense | Hide the heel, clear the knee line, extract. Eight weeks of defense only. | G-11, P-15 |
-| **3.5** | When to tap, revisited | Joints: early, always. Compressions and cranks: they hurt before they're dangerous, but that's not permission to be brave. Heel hooks: there is no warning — tap on the *position*, not the pain. | — |
+| # | Lesson | Content | Game | Atlas |
+|:-:|---|---|---|---|
+| **3.1** | Choke defense: RNC and guillotine | Chin, hands, and the hand fight that happens before either. | G-14, G-05 | [VII.b](../../jujitsu.md#viib--submission-defense) |
+| **3.2** | Choke defense: triangle and arm triangle | Posture, the one-in-one-out rule, and the shoulder-walk escape from a locked arm triangle. | G-14 | [VII.b](../../jujitsu.md#viib--submission-defense) |
+| **3.3** | Arm lock defense: armbar, kimura, americana | Elbows in, hide the wrist, turn toward the crank. Clasp early — never late. | G-14 | [VII.b](../../jujitsu.md#viib--submission-defense) |
+| **3.4** | Leg lock defense, before any leg lock offense | Hide the heel, clear the knee line, extract. Eight weeks of defense only. | G-11, P-15 | [VII.b](../../jujitsu.md#viib--submission-defense) [VIII.c](../../jujitsu.md#viiic--leg-locks) |
+| **3.5** | When to tap, revisited | Joints: early, always. Compressions and cranks: they hurt before they're dangerous, but that's not permission to be brave. Heel hooks: there is no warning — tap on the *position*, not the pain. | — | [X](../../jujitsu.md#part-x--the-concepts-more-important-than-any-move) [XII legality](../../jujitsu.md#legality-by-belt-ibjjf-adult) |
 
 ---
 
 ## The drill block
 
-| Slot | Content |
-|---|---|
-| Warm-up | S-01, S-03, S-15 |
-| Reps | Partner applies each attack at 30%, you defend at the **early** stage. 10 reps × 6 attacks. |
-| Game | [G-14 submission escape only](../drills/positional-games.md#g-14--submission-escape-only) — one attack per round, applied at a crawl |
-| Leg locks | [G-11 defense only](../drills/positional-games.md#g-11--leg-lock-defense-only), coach supervised |
-| Roll | [R-05 chain roll](../drills/integration-rolls.md#r-05--chain-roll) — catch-and-release means you get caught a lot, safely |
+| Slot | Content | Atlas |
+|---|---|---|
+| Warm-up | S-01, S-03, S-15 | [XI](../../jujitsu.md#part-xi--solo-movements-the-physical-alphabet) |
+| Reps | Partner applies each attack at 30%, you defend at the **early** stage. 10 reps × 6 attacks. | [VII.b](../../jujitsu.md#viib--submission-defense) |
+| Game | [G-14 submission escape only](../drills/positional-games.md#g-14--submission-escape-only) — one attack per round, applied at a crawl | [VII.b](../../jujitsu.md#viib--submission-defense) |
+| Leg locks | [G-11 defense only](../drills/positional-games.md#g-11--leg-lock-defense-only), coach supervised | [VIII.c](../../jujitsu.md#viiic--leg-locks) |
+| Roll | [R-05 chain roll](../drills/integration-rolls.md#r-05--chain-roll) — catch-and-release means you get caught a lot, safely | [XIV.a](../../jujitsu.md#xiva--drilling-and-rolling-formats) |
 
 ---
 

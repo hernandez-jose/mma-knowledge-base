@@ -52,6 +52,8 @@ the definition of having learned it.
 
 ## R-01 · Flow roll
 
+**Atlas:** [Rolling formats → *Flow roll*](../../jujitsu.md#xiva--drilling-and-rolling-formats)
+
 **Rules:** 40–50%. Continuous movement, no stalling, no finishing. Positions are
 given up freely — when someone earns a position, take it, then let the round keep
 moving. Nobody wins.
@@ -64,6 +66,8 @@ rehearse *sequences* rather than moments.
 - **Use it:** taper weeks, day after a competition, rolling with a brand-new person, or as the last round of any session.
 
 ## R-02 · Task roll
+
+**Atlas:** [Rolling formats → *Task roll*](../../jujitsu.md#xiva--drilling-and-rolling-formats)
 
 **Rules:** 70%. Each player gets **one** task, stated out loud before the round.
 Everything else is a normal roll. You win the round by completing your task —
@@ -85,6 +89,8 @@ it gives you is a list of tasks to use here.
 
 ## R-03 · Handicap roll
 
+**Atlas:** [Rolling formats → *Handicap roll*](../../jujitsu.md#xiva--drilling-and-rolling-formats)
+
 **Rules:** 70–90%. One player is constrained so the round is genuinely
 competitive for both.
 
@@ -100,6 +106,8 @@ competitive for both.
 
 ## R-04 · Positional restart roll
 
+**Atlas:** [Rolling formats → *Positional restart roll*](../../jujitsu.md#xiva--drilling-and-rolling-formats)
+
 **Rules:** 80%. Normal rolling, but the coach (or a timer) resets both players to
 a named position every 60–90 seconds regardless of what's happening. Reset
 positions rotate through the ladder: guard, half, side, mount, back, standing.
@@ -109,6 +117,8 @@ positions for an entire round, and it's the closest simulation of the way a
 competition match actually feels — repeated hard restarts, never a settled game.
 
 ## R-05 · Chain roll
+
+**Atlas:** [Rolling formats → *Chain drilling · Catch-and-release*](../../jujitsu.md#xiva--drilling-and-rolling-formats)
 
 **Rules:** 70%, catch-and-release. You may not attack the same submission twice
 in a row — every attack must be a **response** to their defense of the previous
@@ -120,6 +130,8 @@ into live skill, and the safest way to roll hard on submissions.
 - **Scoring, if you want one:** longest chain of the round wins. Three links is a good round; four is a very good one.
 
 ## R-06 · Breathing roll
+
+**Atlas:** [Rolling formats → *Breathing roll*](../../jujitsu.md#xiva--drilling-and-rolling-formats) · [Concepts → *Breathing*](../../jujitsu.md#part-x--the-concepts-more-important-than-any-move)
 
 **Rules:** 60%, **nasal breathing only**. If your mouth opens, you stop, sit up,
 and recover your breathing before continuing. Six minutes, no reset.
@@ -133,6 +145,8 @@ pressure, spike their heart rate, and then blame their conditioning.
 
 ## R-07 · Shark tank
 
+**Atlas:** [Rolling formats → *Shark tank*](../../jujitsu.md#xiva--drilling-and-rolling-formats)
+
 **Rules:** 100%. One player stays in; fresh partners enter every 90 seconds for
 five to eight rounds.
 
@@ -145,6 +159,8 @@ this tired.
 
 ## R-08 · King of the hill
 
+**Atlas:** [Rolling formats → *King of the hill*](../../jujitsu.md#xiva--drilling-and-rolling-formats)
+
 **Rules:** 80%. Winner stays on. Rounds are 2 minutes or until a submission or a
 clean positional score, whichever is first. Losers rotate to the back of the line.
 
@@ -154,6 +170,8 @@ training has to a scoreboard. This is the format people stay late for.
 - **Variation:** run it from a position rather than standing — king of the hill from guard, from back control, from a scramble start.
 
 ## R-09 · Broken-position roll
+
+**Atlas:** [Rolling formats → *Scramble / broken-position starts*](../../jujitsu.md#xiva--drilling-and-rolling-formats) · [Concepts → *The scramble*](../../jujitsu.md#part-x--the-concepts-more-important-than-any-move)
 
 **Rules:** 80%. Every restart begins from deliberately unstable positions —
 a caught shot, a half-completed pass, both players turtled head-to-head, a failed
@@ -165,6 +183,8 @@ position and which almost nobody trains because it can't be demonstrated cleanly
 - **Pairs with:** [G-10](positional-games.md#g-10--scramble-start).
 
 ## R-10 · Blindfold start
+
+**Atlas:** [Rolling formats → *Blindfold start*](../../jujitsu.md#xiva--drilling-and-rolling-formats) · [Concepts → *Connection / heaviness*](../../jujitsu.md#part-x--the-concepts-more-important-than-any-move)
 
 **Rules:** 60%. Both players close their eyes (or one player wears a blindfold)
 for the first 30 seconds of each round from a grip-established start. Then eyes
@@ -178,6 +198,8 @@ by once someone is chest-to-chest with you.
 
 ## R-11 · Scored roll
 
+**Atlas:** [Rolling formats → *Scored roll*](../../jujitsu.md#xiva--drilling-and-rolling-formats) · [IBJJF points → *IBJJF points*](../../jujitsu.md#ibjjf-points) · [Legality by belt → *Legality by belt*](../../jujitsu.md#legality-by-belt-ibjjf-adult)
+
 **Rules:** 85%, with a third person refereeing under [IBJJF
 scoring](../../jujitsu.md#ibjjf-points). Real 5-minute match, real points, real
 advantages, called out loud. Referee explains every call afterwards.
@@ -189,6 +211,8 @@ and just showing up.
 - **Rotate the referee's role.** Learning to score a match teaches you to read your own.
 
 ## R-12 · Body mismatch roll
+
+**Atlas:** [Rolling formats → *Body-mismatch protocol*](../../jujitsu.md#xiva--drilling-and-rolling-formats) · [Gap analysis XV.a → *How to roll with different bodies*](../../jujitsu.md#xva--things-missing-from-almost-every-syllabus)
 
 **Rules:** vary with the gap. Not a game — a protocol for the rounds that make up
 most of everybody's training.
@@ -205,6 +229,8 @@ most of everybody's training.
 
 ## R-13 · Strikes-aware roll
 
+**Atlas:** [Rolling formats → *Strikes-aware / MMA round*](../../jujitsu.md#xiva--drilling-and-rolling-formats) · [Gap analysis XV.b → *MMA-specific grappling*](../../jujitsu.md#xvb--whole-domains-the-tables-above-under-serve)
+
 **Rules:** 60–80% grappling with **open-palm touches to the head** allowed at
 light contact, or with one player holding focus mitts. Head contact is a *tag*,
 not a strike — it exists to inform position, not to hurt.
@@ -219,6 +245,8 @@ optional.
 
 ## R-14 · Ladder roll
 
+**Atlas:** [Rolling formats → *Ladder roll*](../../jujitsu.md#xiva--drilling-and-rolling-formats) · [The ladder → *the positional ladder*](../../jujitsu.md#part-i--the-map)
+
 **Rules:** 80%. You may only attack a submission from **+2 or better** on the
 [positional ladder](../../jujitsu.md#part-i--the-map) — side control, mount,
 back, north–south, knee-on-belly. Submissions from guard don't count. Announce
@@ -231,6 +259,8 @@ dives on every armbar and loses every position.
 - **Reverse version (advanced):** guard attacks only. Nothing from the top. Forces a complete bottom game.
 
 ## R-15 · Debrief roll
+
+**Atlas:** [Rolling formats → *Debrief round*](../../jujitsu.md#xiva--drilling-and-rolling-formats) · [Tier 9 — off the mat → *Note-taking*](../../jujitsu.md#tier-9--off-the-mat-from-month-one-forever)
 
 **Rules:** any format, plus **three lines written down** at the end:
 

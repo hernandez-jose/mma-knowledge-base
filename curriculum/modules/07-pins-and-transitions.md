@@ -52,27 +52,27 @@ This is also where the sport's organising principle becomes concrete:
 
 ## Lessons
 
-| # | Lesson | Content | Game |
-|:-:|---|---|---|
-| **7.1** | The anatomy of a pin | Connection and heaviness — weight through *their* chest, not through your own knees. This is why a 70 kg person can feel like a piano. | G-04 |
-| **7.2** | Side control as a system | Three grip configurations, and what each one gives up. Switching between them *is* the position. | G-04 |
-| **7.3** | Mount: low, high, technical | Low mount kills the bridge, high mount kills the frames, technical mount is a doorway to the back. | G-01 (from the top) |
-| **7.4** | Knee-on-belly and north–south | The two pins that break people mentally. Both are transitions dressed as positions. | G-16 |
-| **7.5** | Back control | Seatbelt priority, hooks vs body triangle, and the rule: **head off the centreline** or you get rolled over. | G-05 |
-| **7.6** | Transitions: the ladder, live | [C-12](../drills/chain-drills.md#c-12--the-pin-ladder). Every transition is triggered by their movement. Turn away → back. Turn in → mount or north–south. Bridge → KOB. Frame → high mount. | G-17 |
-| **7.7** | Pinning much bigger and much smaller people | Bigger: you cannot out-weight them, so control the head and the far arm and stay on the shoulder line. Smaller: pressure less, follow more — they escape through space, not through your weight. | G-13 |
+| # | Lesson | Content | Game | Atlas |
+|:-:|---|---|---|---|
+| **7.1** | The anatomy of a pin | Connection and heaviness — weight through *their* chest, not through your own knees. This is why a 70 kg person can feel like a piano. | G-04 | [X](../../jujitsu.md#part-x--the-concepts-more-important-than-any-move) |
+| **7.2** | Side control as a system | Three grip configurations, and what each one gives up. Switching between them *is* the position. | G-04 | [II.a](../../jujitsu.md#iia--dominant-top-positions) |
+| **7.3** | Mount: low, high, technical | Low mount kills the bridge, high mount kills the frames, technical mount is a doorway to the back. | G-01 (from the top) | [II.a](../../jujitsu.md#iia--dominant-top-positions) |
+| **7.4** | Knee-on-belly and north–south | The two pins that break people mentally. Both are transitions dressed as positions. | G-16 | [II.a](../../jujitsu.md#iia--dominant-top-positions) |
+| **7.5** | Back control | Seatbelt priority, hooks vs body triangle, and the rule: **head off the centreline** or you get rolled over. | G-05 | [II.a](../../jujitsu.md#iia--dominant-top-positions) |
+| **7.6** | Transitions: the ladder, live | [C-12](../drills/chain-drills.md#c-12--the-pin-ladder). Every transition is triggered by their movement. Turn away → back. Turn in → mount or north–south. Bridge → KOB. Frame → high mount. | G-17 | [IX](../../jujitsu.md#part-ix--transitions-and-back-takes) |
+| **7.7** | Pinning much bigger and much smaller people | Bigger: you cannot out-weight them, so control the head and the far arm and stay on the shoulder line. Smaller: pressure less, follow more — they escape through space, not through your weight. | G-13 | [XV.a](../../jujitsu.md#xva--things-missing-from-almost-every-syllabus) |
 
 ---
 
 ## The drill block
 
-| Slot | Content |
-|---|---|
-| Warm-up | S-02, S-08, S-12 |
-| Reps | [P-12 pin transition circuit](../drills/partner-drills.md#p-12--pin-transition-circuit) — 5 laps each direction |
-| Chain | [C-12 the pin ladder](../drills/chain-drills.md#c-12--the-pin-ladder) |
-| Game | [G-04 hold the pin](../drills/positional-games.md#g-04--hold-the-pin), then [G-17 the ladder game](../drills/positional-games.md#g-17--the-ladder-game) |
-| Roll | [R-14 ladder roll](../drills/integration-rolls.md#r-14--ladder-roll) — submissions only from +2 or better |
+| Slot | Content | Atlas |
+|---|---|---|
+| Warm-up | S-02, S-08, S-12 | [XI](../../jujitsu.md#part-xi--solo-movements-the-physical-alphabet) |
+| Reps | [P-12 pin transition circuit](../drills/partner-drills.md#p-12--pin-transition-circuit) — 5 laps each direction | [IX](../../jujitsu.md#part-ix--transitions-and-back-takes) |
+| Chain | [C-12 the pin ladder](../drills/chain-drills.md#c-12--the-pin-ladder) | [IX](../../jujitsu.md#part-ix--transitions-and-back-takes) |
+| Game | [G-04 hold the pin](../drills/positional-games.md#g-04--hold-the-pin), then [G-17 the ladder game](../drills/positional-games.md#g-17--the-ladder-game) | [II.a](../../jujitsu.md#iia--dominant-top-positions) |
+| Roll | [R-14 ladder roll](../drills/integration-rolls.md#r-14--ladder-roll) — submissions only from +2 or better | [XIV.a](../../jujitsu.md#xiva--drilling-and-rolling-formats) |
 
 ---
 
