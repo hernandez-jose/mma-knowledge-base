@@ -2,6 +2,7 @@
 
 > 8 weeks · 4 sessions/week · 60 minutes/session · 32 sessions total.
 > Technique deep-dives: **[Technique Library](techniques/)** — per-submission and per-escape pages covering how each move changes against different body sizes.
+> The MMA atlas: **[mma.md](mma.md)** — striking, clinch, cage craft, ground and pound, rules, fight IQ and the sparring formats this camp uses.
 > Everything, session by session: **[complete-program.md](complete-program.md)** — 96 sessions, 4 a week, covering every entry in the atlas.
 > Long-term syllabus: **[Curriculum](curriculum/)** — fourteen modules, the drill library, and the roll formats that blend new material into live sparring. This camp is the 8-week MMA slice of it.
 > Every activity in every session below ends with an **Atlas:** link to the table in [jujitsu.md](jujitsu.md) that the activity comes from — warm-ups to [solo movements](jujitsu.md#part-xi--solo-movements-the-physical-alphabet), live blocks to [rolling formats](jujitsu.md#xiva--drilling-and-rolling-formats), and everything in between.

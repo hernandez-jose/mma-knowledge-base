@@ -51,6 +51,14 @@ Every move gets two numbers. They are the whole point of this document — a lis
 > **[Drills](curriculum/drills/)** ·
 > **[Integration rolls](curriculum/drills/integration-rolls.md)**
 
+> ### 🥊 The striking half
+>
+> This file is grappling. **[mma.md](mma.md)** is the same treatment for mixed
+> martial arts — every strike, clinch position, cage skill, ground-and-pound
+> tool and fight-IQ decision, rated for difficulty, frequency and **what it
+> costs you when it fails** — plus what changes about everything below once
+> there are punches, a fence and judges.
+
 **Gi markers:** 🥋 = gi-only (needs cloth) · 🚫🥋 = works much better without a gi · no marker = works in both.
 
 **Image / source column:** most tables below carry a rightmost link to where you can see the technique — a dedicated Wikipedia article where one exists, otherwise a Wikimedia Commons photo or the best available BJJ/grappling reference. These are real, individually verified sources, not generated links. Where nothing dedicated exists for a niche move, the cell says so and points to the closest related page instead of guessing. A few purely conceptual or reference tables (the positional-ladder summary, Part X concepts, rules/ruleset/belt tables, the class syllabus and templates) don't carry this column — there's no single "photo" of a concept like grip fighting or a rule like the advantage system.
