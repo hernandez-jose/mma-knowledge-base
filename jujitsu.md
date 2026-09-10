@@ -2,7 +2,7 @@
 
 > A full reference of Brazilian Jiu-Jitsu positions, takedowns, takedown defense, passes, sweeps, escapes and submissions — every entry rated for **difficulty** and **how often you'll actually see it**.
 >
-> Companion to the 8-week program in **[training-plan.md](training-plan.md)**. That file tells you *what to train on which day*. This file is the dictionary: *what everything is, how hard it is, and whether it's worth your time yet.*
+> Companion to the 8-week grappling program in **[training-plan.md](training-plan.md)** and the 24-week, 120-session **[MMA Curriculum](mma-training-plan.md)**. That file tells you *what to train on which day*. This file is the dictionary: *what everything is, how hard it is, and whether it's worth your time yet.*
 
 ---
 

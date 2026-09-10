@@ -2,6 +2,7 @@
 
 > 8 weeks · 4 sessions/week · 60 minutes/session · 32 sessions total.
 > Technique deep-dives: **[Technique Library](techniques/)** — per-submission and per-escape pages covering how each move changes against different body sizes.
+> The whole sport — striking, clinch, cage and fight craft — is the 24-week, 120-session **[MMA Curriculum](mma-training-plan.md)**. This file is its grappling module, in more depth.
 
 **Legend:** every position is shown as a rendered 3D scene from two angles — a **side view** and a **high angle** that shows the hand positions. The athlete in **red shorts (light skin)** is our fighter, red corner; the opponent wears **blue shorts (dark skin)**, blue corner.
 
