@@ -54,3 +54,4 @@ ratings must match [`jujitsu.md`](../jujitsu.md).
 - [`jujitsu.md`](../jujitsu.md) — the full technique atlas, ratings, rulesets, class syllabus
 - [`training-plan.md`](../training-plan.md) — the 8-week MMA-focused program that schedules this material
 - [`mma-training-plan.md`](../mma-training-plan.md) — the 24-week, 120-session MMA curriculum: striking, wrestling, clinch, cage and fight craft as well as the ground
+- [`boxing.md`](../boxing.md) · [`kickboxing.md`](../kickboxing.md) · [`muay-thai.md`](../muay-thai.md) · [`mma.md`](../mma.md) — the striking atlases and the MMA hub
