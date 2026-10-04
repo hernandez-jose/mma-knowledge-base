@@ -162,9 +162,9 @@ Measured from the repository on the date above (rated table rows with both a Dif
 | Art | File | Size | Parts | Rated entries | Depth beyond the atlas |
 |---|---|---|:-:|:-:|---|
 | Jiu-Jitsu | `jujitsu.md` | ~103 KB | 15 | ~276 | 29 deep-dive pages in `techniques/` (22 submissions, 7 escape systems) |
-| Boxing | `boxing.md` | ~35 KB | 15 | ~226 | none yet |
+| Boxing | `boxing.md` | ~35 KB | 15 | ~224 | none yet |
 | Kickboxing | `kickboxing.md` | ~25 KB | 15 | ~128 | none yet |
-| Muay Thai | `muay-thai.md` | ~31 KB | 18 | ~161 | none yet |
+| Muay Thai | `muay-thai.md` | ~31 KB | 18 | ~160 | none yet |
 | Combos & drills | `drills/` (6 files) | ~48 KB | — | 123 combos/chains and 65 partner drills (seed) | feeds F-31 |
 | MMA hub | `mma.md` | ~8 KB | 6 | cross-art tables (not rated) | links into the four atlases |
 
