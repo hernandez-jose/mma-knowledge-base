@@ -6,6 +6,8 @@
 
 ---
 
+> **Practice this:** combinations, chains and partner drills for this art are in **[drills/kickboxing.md](drills/kickboxing.md)** (notation and safety rules in [drills/README.md](drills/README.md)).
+
 ## How to read the tables
 
 ### Difficulty (`Diff`)

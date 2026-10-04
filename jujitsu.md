@@ -6,6 +6,8 @@
 
 ---
 
+> **Practice this:** combinations, chains and partner drills for this art are in **[drills/jiu-jitsu.md](drills/jiu-jitsu.md)** (notation and safety rules in [drills/README.md](drills/README.md)).
+
 ## How to read the tables
 
 Every move gets two numbers. They are the whole point of this document — a list of 300 techniques is useless without a sense of priority.

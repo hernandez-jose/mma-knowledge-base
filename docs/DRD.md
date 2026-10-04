@@ -4,6 +4,7 @@
 |---|---|
 | **Status** | Draft v1 — for review |
 | **Date** | 2026-10-03 |
+| **Content** | [`drills/`](../drills/) — notation, combos and partner drills the Train area is built from |
 | **Companion** | [`PRD.md`](PRD.md) — Product Requirements Document (requirement IDs such as F-9 refer to it) |
 | **Scope** | Information architecture, visual system, components, page templates, interaction, accessibility, content design. Not a visual mock-up set: it specifies what the mock-ups must satisfy. |
 
@@ -28,6 +29,7 @@ Home
 ├── Kickboxing  (15 parts, mirrors kickboxing.md)
 ├── Muay Thai   (18 parts, mirrors muay-thai.md)
 ├── MMA hub     (ranges across arts · transitions · ruleset compare · mixed learning paths)
+├── Train       (combo & drill library · Combo Builder · Drill Builder · Drill Runner)
 ├── Learn       (paths · beginner primer · glossary · concepts)
 ├── Compare     (rulesets · cross-art equivalents · styles)
 ├── Search      (global, filters)
@@ -48,13 +50,17 @@ Home
 | Compare | `/compare/rulesets?set=k1,muay-thai-stadium` | |
 | Filters | query string (F-11) | `/search?art=boxing&kind=defense&diff=1-3` |
 | Path | `/learn/{art}/{path-slug}` | `/learn/boxing/foundations` |
+| Combo | `/train/combo?n={notation}&rs={ruleset}` | `/train/combo?n=1-1-2-SK&rs=k1` |
+| Drill | `/train/drill/{id}` | `/train/drill/kickboxing-teep-war` |
+| Builder | `/train/build` | |
+| Runner | `/train/run/{drill-id}` | |
 
 Entry IDs never change; renames create a redirect from the old slug.
 
 ### 2.2 Navigation
 
 - **Top bar (all breakpoints):** logo · art switcher (four art chips + MMA) · search · menu.
-- **Phone:** bottom tab bar — *Arts · Search · Learn · Compare · My*. Search is reachable with the thumb.
+- **Phone:** bottom tab bar — *Arts · Search · Train · Learn · My* (Compare moves into the Learn tab). Search is reachable with the thumb.
 - **Desktop:** left rail with the current art's Parts (sticky, collapsible), content in the centre, an "On this page" rail on the right for long sections.
 - **Breadcrumb** on every page below Home (F-4). The art colour appears as a thin bar, not as the page background.
 
@@ -176,6 +182,63 @@ Technique-specific terms (e.g. *plum*, *teep*, *shrimp*) underlined with a dotte
 
 Three types only: **Note** (neutral), **Honesty note** (informed judgment, provenance), **Safety** (Section 4.5). No decorative callouts.
 
+### 4.13 Combo and Drill Builder components
+
+**Design goal:** a coach or student can build `1-1-2-SK` in under 15 seconds with one thumb, see immediately whether it is legal and sensible, and run it.
+
+**4.13.1 Step tray.** A horizontally scrolling row of *step chips* — the combo as it reads in the gym.
+
+```
+[ 1 Jab ] → [ 1 Jab ] → [ 2 Cross ] → [ SK Switch kick ]   [ + ]
+   Diff 1       Diff 1       Diff 1          Diff 3        Combo Diff 3 · Legal: K-1 ✓ Muay Thai ✓ Boxing ✕
+```
+
+- Each chip shows the **token** (large), the **name** (small), a limb/target glyph, and an optional modifier badge (feint, pivot, switch). Tap = edit; drag handle or long-press = reorder; swipe or ✕ = delete.
+- Chips use the art accent for the bar only; the token text is `--text`. Illegal steps get an icon and the word "illegal" in addition to the colour.
+- Below the tray: the **plain-English sentence** ("Jab, jab, cross, switch kick to the body") and the **canonical notation** with a copy button.
+
+**4.13.2 Step picker.** The `+` chip opens a bottom sheet (desktop: side panel) with tabs by *kind*: Hands · Kicks · Knees · Elbows · Defense · Clinch · Movement · Grappling. Entries are filtered live by the chosen **ruleset** and by **range continuity** with the previous step (steps that cannot follow are dimmed with the reason on tap, not hidden). A search box accepts names, aliases and tokens. Frequently used steps for the current art appear first.
+
+**4.13.3 Notation field.** A single text input mirrors the tray (`1-1-2-SK`). Typing updates the tray; editing the tray updates the field. Errors underline the bad token and offer the nearest valid token. Never a modal.
+
+**4.13.4 Validator panel.** A compact list under the tray: *errors* (red icon + "must fix"), *warnings* (amber icon + "check this"), *suggestions* (neutral icon). Each message is one sentence and carries a one-tap fix where one exists ("Add a reset step", "Move the head kick after a setup"). Colour is never the only carrier — each level has its own icon and label. Publishing/sharing is disabled while errors exist; saving a draft is always allowed.
+
+**4.13.5 Ruleset and level selectors.** Two pickers fixed at the top: **Ruleset** (Boxing · K-1 · Muay Thai · MMA · custom) and **My level** (Beginner · Intermediate · Advanced). Changing either re-runs validation without losing the combo.
+
+**4.13.6 Computed badges.** Combo **Diff** and **Com** appear as the standard rating chips (4.1) with the note "calculated from the steps". They cannot be edited.
+
+**4.13.7 Drill builder form.** A stepped form (not one long page): **1 Template** → **2 Roles** → **3 Start & rules** → **4 Timing & intensity** → **5 Combos** (attach from the library or builder) → **6 Safety & equipment** → **7 Review**. A live **drill card** preview sits beside (desktop) or above (phone) the form. Intensity uses a 5-step segmented control with the ladder names (Air · Touch · Light · Technical · Hard), a one-line explanation of the selected level, and the **intensity guard** (F-38): picking too high for the content shows an inline explanation and a confirm button, not a blocking dialog.
+
+**4.13.8 Drill card.** The standard reading unit of the library:
+
+```
+┌ Teep war ─────────────── Muay Thai · Partner ┐
+│ Roles: Equal partners        Intensity ●●○○○ 2 · Touch │
+│ Timing: 3 × 2 min, 30 s rest                            │
+│ Goal: Distance and rhythm                               │
+│ Rules: Only teeps. Win by scoring clean and staying balanced. │
+│ Progression: 1 add a feint · 2 add a check · 3 add a counter  │
+│ Safety: Shin guards. Teep to the body only.             │
+│ Uses: T · LT          [ Run ] [ Save ] [ Share ]        │
+└──────────────────────────────────────────────┘
+```
+
+**4.13.9 Drill runner.** Full-screen, high-contrast, large-type timer for use across a room.
+- **Always visible:** time remaining, round X of Y, current role for the viewer ("You are: Feeder"), and the current combination in large type.
+- **Controls:** start/pause, skip, swap roles, +/− 15 s, end session — each ≥ 56 px.
+- **Cues:** bell sound and haptics at start/end and a "10 seconds" cue; every cue has a visual equivalent (flash, banner) and all sound is optional.
+- **Role swap:** a full-width banner at each swap ("Swap — now you're the defender") for 3 seconds.
+- **Safety strip:** the drill's intensity and its single most important safety line stay pinned.
+- **Screen wake-lock** on; works offline; respects reduced motion.
+
+**4.13.10 Practice mode (combo caller).** Shows one step at a time in very large type with an optional auto-advance interval (0.5–3 s), a "relay" mode that appends a step each round, and an optional spoken call-out. Beginners can see the sequence; advanced users can hide upcoming steps.
+
+**4.13.11 Generator panel.** Controls for Art · Ruleset · Length · Diff ceiling · Focus · Seed; **Generate** shows three candidate combos, each already validated; tap one to open it in the builder. The seed is displayed and shareable.
+
+**4.13.12 Library view.** The standard section table (4.2) with extra columns: Notation · Type · Intensity · Roles. Filters (4.6) add Type, Intensity, Role and Equipment. Seed content carries a "Library" badge; user content carries the author and visibility (Private · Link · Public).
+
+**4.13.13 States.** Empty tray ("Start with a jab — or paste notation"), invalid notation, illegal-in-ruleset, offline (runner works, sharing queued), and review-pending for public submissions.
+
 ## 5. Page templates
 
 ### 5.1 Home
@@ -229,6 +292,18 @@ Choose rulesets (up to 4) or arts (up to 4) → matrix (4.10). Share link preser
 ### 5.8 My
 
 Bookmarks, "known / learning / want to learn" lists, path progress, notes. Clear statement that data is stored on this device unless signed in. Export and delete buttons.
+
+### 5.9 Train (library, builder, runner)
+
+**Train home:** three entry points — *Browse the library* (per art), *Build a combo*, *Build a drill* — and a "Resume" card for the last runner session. Below, *Today's drills* for the art last used.
+
+**Library page:** the table/cards from 4.13.12, grouped by art with a sticky art switcher; "Start here" shows the beginner set (Diff ≤ 2, intensity ≤ 2).
+
+**Combo page** (`/train/combo`): the step tray (read-only until you tap Edit), plain-English sentence, computed badges, **legality strip** (4.3) across rulesets, validator output, *Counters to this*, *Drills that train this*, [Practice] [Edit in builder] [Share]. A signed-out visitor sees the same page.
+
+**Builder page** (`/train/build`): tabs *Combo* and *Drill*. Phone: the tray on top, the picker as a bottom sheet, the validator panel under the tray. Desktop: tray and validator on the left, picker and preview on the right.
+
+**Runner page:** Section 4.13.9. No navigation chrome during a running round; a long-press on the timer reveals exit.
 
 ## 6. Interaction and behaviour
 
@@ -317,6 +392,8 @@ A release is design-complete when:
 5. A rating chip, legality strip, review badge and safety block appear on at least one entry in each art, using real content.
 6. A user who has never seen the app can, in testing, find a named technique and its legality under a chosen ruleset within 30 seconds on a phone (target to validate in usability testing with at least five participants per persona group).
 7. No page requires horizontal page scroll; wide tables scroll within their container.
+8. **Builder usability:** in testing, at least 80% of first-time participants build `1-1-2-SK` and read its legality under two rulesets within 60 seconds on a phone; every participant can start a drill from the library in ≤ 3 taps and read the current role and combination from 2 metres away in the runner.
+9. The step picker, validator panel and runner pass keyboard-only and screen-reader walkthroughs; combos read aloud as the plain-English sentence, not as raw tokens.
 
 ## 13. Open design questions
 
@@ -329,4 +406,4 @@ A release is design-complete when:
 
 ## 14. Appendix — component inventory (checklist)
 
-Top bar · art switcher · bottom tab bar · left rail · "On this page" rail · breadcrumb · search box and results · filter chip bar · filter bottom sheet · entry row/card · rating chips · legality strip · review badge · safety block · callouts · relationship rails · range ladder · position ladder · stance diagram · learning-path stepper · compare table · glossary tooltip · bookmark toggle · progress bar · coverage meter · empty state · error state · offline banner · cookie/consent (only if required by analytics) · print layout.
+Top bar · art switcher · bottom tab bar · left rail · "On this page" rail · breadcrumb · search box and results · filter chip bar · filter bottom sheet · entry row/card · rating chips · legality strip · review badge · safety block · callouts · relationship rails · range ladder · position ladder · stance diagram · learning-path stepper · compare table · glossary tooltip · bookmark toggle · progress bar · coverage meter · empty state · error state · offline banner · cookie/consent (only if required by analytics) · print layout · step chip · step tray · step picker · notation field · validator panel · ruleset and level selectors · drill card · drill builder stepper · intensity control and guard · drill runner · practice (caller) mode · generator panel.

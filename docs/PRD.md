@@ -5,7 +5,7 @@
 | **Status** | Draft v1 — for review |
 | **Date** | 2026-10-03 |
 | **Companion** | [`DRD.md`](DRD.md) — Design Requirements Document |
-| **Source content** | [`jujitsu.md`](../jujitsu.md) · [`boxing.md`](../boxing.md) · [`kickboxing.md`](../kickboxing.md) · [`muay-thai.md`](../muay-thai.md) · [`mma.md`](../mma.md) · [`techniques/`](../techniques/) · [`mma-training-plan.md`](../mma-training-plan.md) |
+| **Source content** | [`jujitsu.md`](../jujitsu.md) · [`boxing.md`](../boxing.md) · [`kickboxing.md`](../kickboxing.md) · [`muay-thai.md`](../muay-thai.md) · [`mma.md`](../mma.md) · [`drills/`](../drills/) · [`techniques/`](../techniques/) · [`mma-training-plan.md`](../mma-training-plan.md) |
 
 ---
 
@@ -116,6 +116,45 @@ A curated mapping that lets a user pivot between arts. Examples (to be completed
 
 Not a fifth atlas. It contains: the **ladder of ranges** across arts (striking → clinch → takedown → ground); **ruleset comparison** (Unified Rules vs. each art's rules); **transitions** (strike → clinch → takedown → ground, sprawl-and-brawl, cage wrestling); **learning paths** that mix arts, drawn from [`mma-training-plan.md`](../mma-training-plan.md) and [`training-plan.md`](../training-plan.md); and the **gap-analysis** summaries.
 
+### 5.6 Combos and drills (user- and editor-authored content)
+
+Two new content types sit beside entries. Both reference entries by id; neither duplicates technique content.
+
+**Combo** — an ordered list of steps.
+
+| Field | Type | Notes |
+|---|---|---|
+| `id`, `art`, `title`, `author`, `visibility` | | `visibility`: private / shared-by-link / public (public requires review) |
+| `notation` | string | Canonical hyphenated form, e.g. `1-1-2-SK` ([notation spec](../drills/README.md)) |
+| `steps[]` | list | Each: `entry_id`, optional `side` (lead/rear), `target` (head/body/leg), `modifier` (feint, switch, pivot), `note` |
+| `ruleset` | enum | The ruleset the combo was validated against |
+| `stance` | enum | orthodox / southpaw / both |
+| `purpose` | text | Why it works, one or two sentences |
+| `counters[]` | combo or entry ids | Optional: what it beats / what beats it |
+| `difficulty` | 1–5 | **Computed** (highest step rating + length factor) |
+| `commonness` | 1–5 | **Computed** (lowest step rating) |
+| `warnings[]` | list | Output of the validator (see 8.9) |
+| `status` | enum | draft / reviewed / verified |
+
+**Drill** — a structured partner or solo exercise.
+
+| Field | Type | Notes |
+|---|---|---|
+| `id`, `art`, `title`, `author`, `visibility`, `status` | | as above |
+| `roles[]` | list | feeder, attacker, defender, holder, flow partner, coach, timer |
+| `start` | text | Starting range or position (entry id for positions) |
+| `rules` | text | What each role may do |
+| `intensity` | 1–5 | The shared ladder (README §3.1); **required** |
+| `timing` | object | rounds, work seconds, rest seconds, or reps |
+| `goal` | text | The one skill trained |
+| `combos[]` | combo ids | Combinations the drill uses |
+| `progressions[]` | list | Three levels of "make it harder" |
+| `safety` | text | **Required**; may be pre-filled from the entries used |
+| `equipment[]` | list | Gloves, shin guards, pads, kick shield, mat… |
+| `type` | enum | solo / pad-feed / partner-reactive / flow / positional / sparring-theme |
+
+**Seeded library:** the combos and drills in [`drills/`](../drills/) are imported as `verified-seed` content and are the first thing users see.
+
 ## 6. Current content inventory (honest status)
 
 Measured from the repository on the date above (rated table rows with both a Diff and a Com value; the atlases also contain unrated reference text, rules and syllabus sections).
@@ -126,6 +165,7 @@ Measured from the repository on the date above (rated table rows with both a Dif
 | Boxing | `boxing.md` | ~35 KB | 15 | ~226 | none yet |
 | Kickboxing | `kickboxing.md` | ~25 KB | 15 | ~128 | none yet |
 | Muay Thai | `muay-thai.md` | ~31 KB | 18 | ~161 | none yet |
+| Combos & drills | `drills/` (6 files) | ~48 KB | — | 123 combos/chains and 65 partner drills (seed) | feeds F-31 |
 | MMA hub | `mma.md` | ~8 KB | 6 | cross-art tables (not rated) | links into the four atlases |
 
 **What this means:** Jiu-Jitsu is the benchmark. The three striking atlases are *complete as a first-pass taxonomy* but are **not yet at Jiu-Jitsu depth** — they lack the per-technique deep-dive pages (mechanism, standard application, body-size adjustments, failure modes, chains, defense, drills, safety). Producing those pages (≈ 40–60 for boxing, ≈ 40–50 each for kickboxing and Muay Thai) is a v1 content workstream, tracked in Section 12. The atlas rows also have no per-row image/source column yet; the Jiu-Jitsu file has one.
@@ -145,6 +185,9 @@ Stances and guards · footwork · hand strikes (shared with boxing) · all kicks
 
 ### 7.4 Muay Thai
 Stance/posture · ritual and culture (wai kru, ram muay, mongkol, pra jiad, music) · footwork · punches · teeps · kicks · knees · elbows · the clinch (holds, strikes, sweeps/dumps, defense) · defense · counters · styles (femur, tae, khao, sok, plam…) and **Thai scoring culture** · training tools · rulesets · syllabus · gap analysis.
+
+### 7.5a Combos and drills completeness
+Each art needs, at launch, at least: **15 offensive combinations** spread across Diff 1–4 · **8 counter-combinations** · **10 partner drills** covering distance, defense, offense and one low-intensity application round · a **solo practice** block · a safety note per drill. Jiu-Jitsu uses attack and escape **chains** in place of tokenised combos (15 chains plus 4 escape chains in the seed). The seeded library in `drills/` meets this for all four arts and the MMA hub; counts are a floor, not a ceiling.
 
 ### 7.5 Content quality rules (carried over from the technique library)
 - Second person; **they/them** for opponents and unnamed people.
@@ -219,6 +262,45 @@ Where only an atlas row exists (no deep-dive yet), the page shows the row's cont
 | F-29 | Editorial states (draft → reviewed → verified) shown on the entry; unreviewed content labelled. | P0 |
 | F-30 | Change log per entry; "Report an error" link on every page. | P1 |
 
+### 8.9 Combo and Drill Builder, library and runner
+
+Learning an art means repeating sequences with a partner. This feature lets anyone **build, validate, save, share and run** combinations and partner drills in every art, starting from the seeded library.
+
+**Example the builder must handle:** typing `1-1-2-SK` (or tapping jab, jab, cross, switch kick) produces a four-step combo with plain-English text, a computed difficulty, a legality result per ruleset (illegal in boxing because it contains a kick; legal in K-1, Muay Thai and MMA), and suggested counters and drills.
+
+| ID | Requirement | Pri |
+|---|---|:-:|
+| F-31 | **Seeded library**: all combos and partner drills in `drills/` browsable per art, filterable by Diff, intensity, ruleset, type (solo / pad / partner / flow / positional) and role. | P0 |
+| F-32 | **Combo builder**: assemble steps by tapping entries (grouped by kind and filtered to the chosen ruleset and range) *or* by typing notation; both views stay in sync. Supports drag-to-reorder, duplicate, delete and per-step modifiers (side, target, feint, switch, pivot). | P0 |
+| F-33 | **Notation parser**: parses and prints the canonical notation (`drills/README.md` §1), tolerates spaces, case and common aliases (`jab`, `cross`, `hook`), rejects unknown tokens with a suggestion. | P0 |
+| F-34 | **Validator**: runs the ten rules in `drills/README.md` §2 live — *errors* (illegal in ruleset; broken range continuity) block publishing, *warnings* and *suggestions* are shown inline with a one-line fix. | P0 |
+| F-35 | **Computed difficulty and commonness** from the entries used; never hand-entered. | P0 |
+| F-36 | **Plain-English renderer**: every combo shows its notation, a sentence, and a step list with entry links. | P0 |
+| F-37 | **Drill builder**: choose a template (pad-feed, partner-reactive, flow, positional, sparring-theme), fill in roles, start, rules, timing, intensity, goal, progressions. Intensity and safety are required; safety is pre-filled from the entries used and can be extended, not removed. | P0 |
+| F-38 | **Intensity guard**: head-contact, joint-lock, choke and elbow/knee drills default to intensity ≤ 2; selecting a higher level on those shows a confirmation naming the risk. Level 5 is only available for the *sparring-theme* type. | P0 |
+| F-39 | **Drill runner**: round timer with work/rest intervals, role swap prompts, current-step display, audio/haptic cues, wake-lock so the screen stays on; works offline. | P1 |
+| F-40 | **Combo practice mode**: shows one step at a time (or the whole sequence), optional call-out of the next step on a timer ("pad caller"), repeats N times, then adds a step ("relay"). | P1 |
+| F-41 | **Combo generator**: choose art, ruleset, length, Diff ceiling and focus (punch-kick, counters, clinch…); app proposes combos that pass the validator. Deterministic with a seed, so a coach can share "Tuesday's rounds". | P1 |
+| F-42 | **Counter and drill suggestions**: for any combo, list the defenses and counters from the atlas and drills that train them. | P1 |
+| F-43 | **Save, tag and organise**: private by default; collections ("Tuesday kickboxing class"); duplicate-and-edit of seeded items. | P1 |
+| F-44 | **Share**: stable link containing the notation (`/combo?n=1-1-2-SK&rs=k1`); no account needed to open. | P1 |
+| F-45 | **Class plan assembly**: combine combos and drills into a 60/90-minute plan using the atlas class templates; print or export to PDF. (Extends F-25.) | P2 |
+| F-46 | **Public contributions**: users may submit combos and drills for the public library; submissions go to an editorial queue and must pass the validator, carry a safety block, and be reviewed before appearing. | P2 |
+| F-47 | **Coach assignments**: a coach shares a drill set with a group by link; members mark done. | P2 |
+| F-48 | **Mixed-art combos** (e.g. strike → level change → takedown) using the grappling tokens, validated against the MMA ruleset. | P2 |
+
+**Validator rules (summary; full text in `drills/README.md` §2).** (1) Legal in the chosen ruleset. (2) Range continuity between steps. (3) No same-limb repeats without a reset unless it is a marked double. (4) Level/side/speed variety suggestion. (5) Safe ending. (6) Length vs the user's level. (7) Finisher without setup. (8) Defense/reset present in drills. (9) Stance consistency after switches. (10) Difficulty computed.
+
+**Moderation and safety.** User content is data, never rendered as HTML. Public items need practitioner review. Joint-lock, choke, head-strike, elbow and slam content cannot be published without a safety block and an intensity ≤ 3. The app does not offer "full power" partner drills; hard rounds exist only as *sparring themes* with the supervision notice.
+
+**Acceptance tests (minimum).**
+1. `1-1-2-SK` parses to jab, jab, cross, switch kick; Diff is computed from the entries; it is *illegal* under boxing and *legal* under K-1.
+2. `1-2-Eh` is rejected under K-1 and accepted under Muay Thai.
+3. A combo with a head kick and no setup in the previous two steps produces a warning, not an error.
+4. A drill with a choke and intensity 4 prompts the intensity guard.
+5. A shared link renders the same combo and validation result for a signed-out visitor.
+6. The seeded combos in `drills/` all validate with zero errors.
+
 ## 9. Non-functional requirements
 
 | Area | Requirement |
@@ -263,6 +345,7 @@ Where only an atlas row exists (no deep-dive yet), the page shows the row's cont
 | **M0 — Content baseline** *(done in this repo)* | Four atlases, MMA hub, technique library for Jiu-Jitsu, training plans, PRD, DRD | Files exist; internal review done (Section 15) |
 | **M1 — Parser + CI** | Markdown → JSON pipeline; validation rules F-28 | All four atlases parse with zero errors |
 | **M2 — Core app** | F-1…F-9, F-12, F-13, F-15, F-17, F-20, F-27…F-29 | Usable on phone; search and filters work; ruleset matrix live |
+| **M2b — Builder** | F-31…F-38 (library, builder, parser, validator, drill builder, intensity guard) | Acceptance tests 1–6 in §8.9 pass |
 | **M3 — Striking deep dives (wave 1)** | Boxing: jab, cross, hooks, uppercuts, slip/roll/parry, pivot, check hook, body shots · Kickboxing: low kick, calf kick, body kick, high kick, teep, oblique, shin check, catch · Muay Thai: teep, round kick, check, catch, straight knee, curving knee, elbows ×4, plum, sweeps | Pages follow the template (adapted: mechanism, standard application, adjust for their/your body, failure modes, chains, defense, drills, safety) |
 | **M4 — Practitioner review** | Each atlas reviewed by a qualified coach/competitor of that art | Entries move to **verified**; disputed items resolved or annotated |
 | **M5 — Launch (P0 + most P1)** | + F-6, F-10, F-11, F-14, F-16, F-18, F-21, F-22, F-26, F-30 | Metrics baselines recorded |
@@ -281,6 +364,7 @@ Where only an atlas row exists (no deep-dive yet), the page shows the row's cont
 | **Inconsistent depth across arts** | High (today) | Med | Visible coverage meters; deep-dive waves; "Deep dive coming" state |
 | **Ratings seen as authoritative** | Med | Med | Keep the atlas honesty note visible; label as editorial judgment |
 | **Scope creep into video/social** | Med | Med | Non-goals fixed; separate PRDs |
+| **Unsafe or wrong user-made drills** | Med | High | Validator errors, intensity guard, mandatory safety block, review before public, private by default |
 | **Parser fragility** | Med | Med | Header-driven parsing; CI fails on unknown table shapes |
 
 ## 14. Open questions

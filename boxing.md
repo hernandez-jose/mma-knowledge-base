@@ -6,6 +6,8 @@
 
 ---
 
+> **Practice this:** combinations, chains and partner drills for this art are in **[drills/boxing.md](drills/boxing.md)** (notation and safety rules in [drills/README.md](drills/README.md)).
+
 ## How to read the tables
 
 Identical to the Jiu-Jitsu atlas, so ratings compare across arts.

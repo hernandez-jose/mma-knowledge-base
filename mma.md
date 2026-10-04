@@ -6,6 +6,8 @@
 
 ---
 
+> **Practice this:** combinations, chains and partner drills for this art are in **[drills/mma.md](drills/mma.md)** (notation and safety rules in [drills/README.md](drills/README.md)).
+
 ## Part I — The ladder of ranges
 
 An MMA fight moves through five ranges. Each art owns one or two of them and has to be adapted for the rest.

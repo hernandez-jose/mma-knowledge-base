@@ -6,6 +6,8 @@
 
 ---
 
+> **Practice this:** combinations, chains and partner drills for this art are in **[drills/muay-thai.md](drills/muay-thai.md)** (notation and safety rules in [drills/README.md](drills/README.md)).
+
 ## How to read the tables
 
 ### Difficulty (`Diff`)
