@@ -2,7 +2,7 @@
 
 > **Purpose:** a handoff file so any new Claude Code session (or person) can pick up exactly where the last one stopped, without re-deriving anything. **Update it at the end of every working session** (rules in §9).
 >
-> **Last updated:** 2026-10-04 · **Updated by:** Claude Code session `01QM7YG29NcuAtLaWXj4WwQe`
+> **Last updated:** 2026-10-05 · **Updated by:** Claude Code session `01QM7YG29NcuAtLaWXj4WwQe`
 
 ---
 
@@ -20,11 +20,10 @@ Four atlases, an MMA hub, a PRD, a DRD and a combos/partner-drills library exist
 
 | Branch | Contents | On `main`? |
 |---|---|:-:|
-| `main` @ `043d965` | Boxing, Kickboxing, Muay Thai atlases, `mma.md`, PRD, DRD | ✔ |
-| `claude/mma-knowledge-base-docs` | same as above (already merged into `main`, fast-forward) | ✔ |
-| `claude/combos-and-drills` @ `23bf142` | `drills/` library, builder spec (PRD §5.6/§8.9, DRD §4.13/§5.9), "Practice this" links in each atlas | ✘ **not merged — user hasn't approved pushing to main** |
+| `main` @ `0c7e3d0` | Everything: atlases, `mma.md`, PRD, DRD, `drills/`, builder spec, `PROJECT-STATE.md`, `CLAUDE.md` | ✔ |
+| `claude/mma-knowledge-base-docs`, `claude/combos-and-drills` | fully merged into `main` (fast-forward); safe to delete | ✔ |
 
-The user asked once to "push everything to main"; that approval applied to that moment only. **Ask before pushing to `main` again.** Never open a PR unless asked.
+The user has approved pushing to `main` twice (2026-10-03, 2026-10-05), each time for that specific work only. **Ask before pushing to `main` again.** Never open a PR unless asked.
 
 ## 4. File map
 
@@ -38,8 +37,8 @@ The user asked once to "push everything to main"; that approval applied to that 
 | `docs/PRD.md` | Product requirements (F-1…F-48), content model, milestones, risks, review findings | ~34 KB | Draft v1 |
 | `docs/DRD.md` | Design requirements: IA, tokens, components (4.1–4.13), templates, a11y | ~30 KB | Draft v1 |
 | `docs/PROJECT-STATE.md` | **This file** | | Living |
-| `drills/README.md` | Notation, build rules, intensity ladder, roles, safety | ~9 KB | *branch only* |
-| `drills/{boxing,kickboxing,muay-thai,jiu-jitsu,mma}.md` | 123 combos/chains, 65 partner drills | ~32 KB | *branch only* |
+| `drills/README.md` | Notation, build rules, intensity ladder, roles, safety | ~9 KB | merged |
+| `drills/{boxing,kickboxing,muay-thai,jiu-jitsu,mma}.md` | 123 combos/chains, 65 partner drills | ~32 KB | merged |
 | `techniques/` | 22 submission + 7 escape deep-dive pages, `_TEMPLATE.md` | — | Pre-existing; **BJJ only** |
 | `mma-training-plan.md`, `training-plan.md` | 24-week MMA curriculum; 8-week plan | — | Pre-existing |
 | `assets/figures3d/` | 3D figure renders of BJJ positions | — | Pre-existing; rights unconfirmed |
@@ -79,13 +78,13 @@ The user asked once to "push everything to main"; that approval applied to that 
 | 7 | Kickboxing atlas is the thinnest (~128 rated rows vs 224 boxing) | `kickboxing.md` | Open |
 | 8 | `drills/` combos/drills are starting points; elbow, clinch and leg-lock drill safety notes especially need coach review | `drills/` | Open |
 | 9 | Image rights for `assets/figures3d/` unconfirmed | `assets/` | Open (PRD Q3) |
-| 10 | `drills/` not yet merged to `main`; atlases on `main` don't link to it until merged | git | Open |
+| 10 | `drills/` not yet merged to `main` | git | **Fixed 2026-10-05** |
 
 Already fixed (don't redo): removed invented fighter attributions and non-techniques from `boxing.md`; removed two invented guards and a vague "cut kick"; replaced "muay tee" with "counter fighter"; added kickboxing/Muay Thai counter combos to reach the PRD floor of 8.
 
 ## 8. Next steps (priority order)
 
-1. **Merge `claude/combos-and-drills` into `main`** — only after the user says so.
+1. ~~Merge drills branch~~ — done 2026-10-05.
 2. Add the **Image/source column** and source links to the striking atlases (match `jujitsu.md`).
 3. **Deep-dive pages, wave 1** (follow `_TEMPLATE.md`, adapted for strikes):
    - Boxing: jab, cross, lead hook, uppercut, slip, roll, parry, pivot, check hook, body shots → `techniques/boxing/`
@@ -116,6 +115,7 @@ At the **start** of each session: read this file, run the checks in §11, then c
 |---|---|
 | 2026-10-03 | Read `jujitsu.md` and the technique library; researched striking arts via web search; wrote `boxing.md`, `kickboxing.md`, `muay-thai.md`; wrote `docs/PRD.md` and `docs/DRD.md`; internal review (fixed invented entries, added honesty notes); created `mma.md`; pushed to branch, then fast-forwarded `main` at `043d965` on user request. |
 | 2026-10-04 | Added `drills/` (notation, 123 combos/chains, 65 partner drills); added Combo/Drill Builder spec to PRD (§5.6, §7.5a, §8.9, M2b) and DRD (§4.13, §5.9); linked drills from each atlas; pushed branch `claude/combos-and-drills` (**not on main**). Created this file and `CLAUDE.md`. |
+| 2026-10-05 | Merged `claude/combos-and-drills` into `main` (fast-forward, `0c7e3d0`) on user request; updated this file. |
 
 ## 11. Quick checks (run before committing)
 
