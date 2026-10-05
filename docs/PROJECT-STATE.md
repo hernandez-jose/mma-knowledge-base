@@ -53,8 +53,8 @@ Four atlases, an MMA hub, a PRD, a DRD and a combos/partner-drills library exist
 
 | Branch | Contents | On `main`? |
 |---|---|:-:|
-| `main` @ `0c7e3d0` | Everything: atlases, `mma.md`, PRD, DRD, `drills/`, builder spec, `PROJECT-STATE.md`, `CLAUDE.md` | ✔ |
-| `claude/mma-knowledge-base-docs`, `claude/combos-and-drills` | fully merged into `main` (fast-forward); safe to delete | ✔ |
+| `main` @ `740e860`+ | Everything: atlases, `mma.md`, PRD, DRD, `drills/`, builder spec, `PROJECT-STATE.md`, `CLAUDE.md` | ✔ |
+| `claude/mma-knowledge-base-docs`, `claude/combos-and-drills`, `claude/state-checklists` | fully merged into `main` (fast-forward); safe to delete | ✔ |
 
 The user has approved pushing to `main` twice (2026-10-03, 2026-10-05), each time for that specific work only. **Ask before pushing to `main` again.** Never open a PR unless asked.
 
@@ -150,6 +150,7 @@ At the **start** of each session: read this file, run the checks in §11, then c
 | 2026-10-03 | Read `jujitsu.md` and the technique library; researched striking arts via web search; wrote `boxing.md`, `kickboxing.md`, `muay-thai.md`; wrote `docs/PRD.md` and `docs/DRD.md`; internal review (fixed invented entries, added honesty notes); created `mma.md`; pushed to branch, then fast-forwarded `main` at `043d965` on user request. |
 | 2026-10-04 | Added `drills/` (notation, 123 combos/chains, 65 partner drills); added Combo/Drill Builder spec to PRD (§5.6, §7.5a, §8.9, M2b) and DRD (§4.13, §5.9); linked drills from each atlas; pushed branch `claude/combos-and-drills` (**not on main**). Created this file and `CLAUDE.md`. |
 | 2026-10-05 | Merged `claude/combos-and-drills` into `main` (fast-forward, `0c7e3d0`) on user request; updated this file. |
+| 2026-10-05 | Added progress checklists (§0, §8) to this file; merged to `main` on user request. |
 
 ## 11. Quick checks (run before committing)
 
