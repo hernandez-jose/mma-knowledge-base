@@ -6,6 +6,39 @@
 
 ---
 
+## 0. Progress checklist (the at-a-glance view)
+
+**Built so far**
+- [x] Jiu-Jitsu atlas (`jujitsu.md`) — pre-existing benchmark
+- [x] Jiu-Jitsu technique library — 22 submissions + 7 escape systems (pre-existing)
+- [x] MMA training plans — 8-week and 24-week (pre-existing)
+- [x] Boxing atlas (`boxing.md`)
+- [x] Kickboxing atlas (`kickboxing.md`)
+- [x] Muay Thai atlas (`muay-thai.md`)
+- [x] MMA hub (`mma.md`)
+- [x] Product Requirements Document (`docs/PRD.md`)
+- [x] Design Requirements Document (`docs/DRD.md`)
+- [x] Combos and partner drills library (`drills/`) — 123 combos/chains, 65 drills
+- [x] Combo/Drill Builder spec (PRD §8.9, DRD §4.13)
+- [x] Handoff file and `CLAUDE.md`
+- [x] Everything merged to `main`
+
+**Still to do** (details in §8)
+- [ ] Image/source column for the striking atlases
+- [ ] Deep-dive pages — Boxing
+- [ ] Deep-dive pages — Kickboxing
+- [ ] Deep-dive pages — Muay Thai
+- [ ] Deepen the Kickboxing atlas
+- [ ] Primary-source rules check (IBJJF, ADCC, boxing commissions, K-1/GLORY, Thai stadiums, IFMA, Unified Rules)
+- [ ] Practitioner review of each atlas
+- [ ] Parser + CI validation
+- [ ] Build the web app
+- [ ] Wrestling / Judo atlas (v2)
+
+> Markers: `[x]` done · `[ ]` not done. Update these boxes whenever something changes (§9).
+
+---
+
 ## 1. What this project is
 
 A knowledge base for **Brazilian Jiu-Jitsu, Boxing, Kickboxing and Muay Thai** (plus an MMA hub), written as Markdown "atlases", and the specs for a **web app** that will present it. One category per art; every entry rated for difficulty (1–5) and how common (1–5). The Jiu-Jitsu atlas (`jujitsu.md`) is the benchmark the other arts are built to match.
@@ -69,41 +102,42 @@ The user has approved pushing to `main` twice (2026-10-03, 2026-10-05), each tim
 
 | # | Issue | Where | Status |
 |:-:|---|---|---|
-| 1 | Striking atlases lack the per-row *Image / source* column | boxing, kickboxing, muay-thai | Open |
-| 2 | No deep-dive technique pages for striking arts | `techniques/` | Open (planned: PRD M3/M6) |
-| 3 | Thai elbow/knee names conflict between sources (*sok ngat* vs *sok hud*, *sok sab* vs *sok ti*) | `muay-thai.md` Part IX | Flagged; needs a Thai-speaking kru |
-| 4 | Ruleset details (rounds, gloves, knockdown rules, clinch limits, Thai scoring emphasis, Unified Rules) unverified against primary rulebooks | all striking atlases, `mma.md` | Open |
-| 5 | Ratings are judgment; no public frequency data for striking arts | all | Accepted |
-| 6 | Nothing has had practitioner review; **no entry is "verified"** | all | Open |
-| 7 | Kickboxing atlas is the thinnest (~128 rated rows vs 224 boxing) | `kickboxing.md` | Open |
-| 8 | `drills/` combos/drills are starting points; elbow, clinch and leg-lock drill safety notes especially need coach review | `drills/` | Open |
-| 9 | Image rights for `assets/figures3d/` unconfirmed | `assets/` | Open (PRD Q3) |
-| 10 | `drills/` not yet merged to `main` | git | **Fixed 2026-10-05** |
+| 1 | Striking atlases lack the per-row *Image / source* column | boxing, kickboxing, muay-thai | ☐ Open |
+| 2 | No deep-dive technique pages for striking arts | `techniques/` | ☐ Open (planned: PRD M3/M6) |
+| 3 | Thai elbow/knee names conflict between sources (*sok ngat* vs *sok hud*, *sok sab* vs *sok ti*) | `muay-thai.md` Part IX | ☐ Flagged; needs a Thai-speaking kru |
+| 4 | Ruleset details (rounds, gloves, knockdown rules, clinch limits, Thai scoring emphasis, Unified Rules) unverified against primary rulebooks | all striking atlases, `mma.md` | ☐ Open |
+| 5 | Ratings are judgment; no public frequency data for striking arts | all | ☑ Accepted |
+| 6 | Nothing has had practitioner review; **no entry is "verified"** | all | ☐ Open |
+| 7 | Kickboxing atlas is the thinnest (~128 rated rows vs 224 boxing) | `kickboxing.md` | ☐ Open |
+| 8 | `drills/` combos/drills are starting points; elbow, clinch and leg-lock drill safety notes especially need coach review | `drills/` | ☐ Open |
+| 9 | Image rights for `assets/figures3d/` unconfirmed | `assets/` | ☐ Open (PRD Q3) |
+| 10 | `drills/` not yet merged to `main` | git | ☑ Fixed 2026-10-05 |
 
 Already fixed (don't redo): removed invented fighter attributions and non-techniques from `boxing.md`; removed two invented guards and a vague "cut kick"; replaced "muay tee" with "counter fighter"; added kickboxing/Muay Thai counter combos to reach the PRD floor of 8.
 
 ## 8. Next steps (priority order)
 
-1. ~~Merge drills branch~~ — done 2026-10-05.
-2. Add the **Image/source column** and source links to the striking atlases (match `jujitsu.md`).
-3. **Deep-dive pages, wave 1** (follow `_TEMPLATE.md`, adapted for strikes):
-   - Boxing: jab, cross, lead hook, uppercut, slip, roll, parry, pivot, check hook, body shots → `techniques/boxing/`
-   - Kickboxing: low kick, calf kick, body kick, head kick, teep, oblique, shin check, catch → `techniques/kickboxing/`
-   - Muay Thai: teep, round kick, check, catch, straight knee, curving knee, 4 elbows, plum, sweeps → `techniques/muay-thai/`
-   - Create `techniques/boxing/README.md` etc. and update `techniques/README.md` (currently says only submissions + escapes).
-4. **Deepen kickboxing** (more kick variations, clinch, rules by organisation, Karate/Taekwondo-style entries).
-5. **Primary-source rules pass**: IBJJF, ADCC, commission boxing rules, K-1/GLORY, Lumpinee/Rajadamnern, IFMA, Unified Rules — add "as of" dates and links.
-6. **Practitioner review** per art; flip entry status to reviewed/verified.
-7. **Parser + CI validation** (PRD F-27/F-28): Markdown → JSON; fail on bad ratings, broken links, duplicate ids, unknown table shapes; run the combo validator over `drills/` (acceptance tests in PRD §8.9).
-8. **Build the app** (PRD M2, M2b) — static site, search, filters, ruleset matrix, Train area.
-9. Standalone **Wrestling** (and Judo) atlas — v2.
+- [x] 1. Merge the drills branch into `main` — done 2026-10-05.
+- [ ] 2. Add the **Image/source column** and source links to the striking atlases (match `jujitsu.md`).
+- [ ] 3. **Deep-dive pages, wave 1** (follow `_TEMPLATE.md`, adapted for strikes):
+  - [ ] Boxing: jab, cross, lead hook, uppercut, slip, roll, parry, pivot, check hook, body shots → `techniques/boxing/`
+  - [ ] Kickboxing: low kick, calf kick, body kick, head kick, teep, oblique, shin check, catch → `techniques/kickboxing/`
+  - [ ] Muay Thai: teep, round kick, check, catch, straight knee, curving knee, 4 elbows, plum, sweeps → `techniques/muay-thai/`
+  - [ ] Create `techniques/boxing/README.md` etc. and update `techniques/README.md` (currently says only submissions + escapes).
+- [ ] 4. **Deepen kickboxing** (more kick variations, clinch, rules by organisation, Karate/Taekwondo-style entries).
+- [ ] 5. **Primary-source rules pass**: IBJJF, ADCC, commission boxing rules, K-1/GLORY, Lumpinee/Rajadamnern, IFMA, Unified Rules — add "as of" dates and links.
+- [ ] 6. **Practitioner review** per art; flip entry status to reviewed/verified.
+  - [ ] Jiu-Jitsu · [ ] Boxing · [ ] Kickboxing · [ ] Muay Thai · [ ] drills
+- [ ] 7. **Parser + CI validation** (PRD F-27/F-28): Markdown → JSON; fail on bad ratings, broken links, duplicate ids, unknown table shapes; run the combo validator over `drills/` (acceptance tests in PRD §8.9).
+- [ ] 8. **Build the app** (PRD M2, M2b) — static site, search, filters, ruleset matrix, Train area.
+- [ ] 9. Standalone **Wrestling** (and Judo) atlas — v2.
 
 ## 9. How to update this file (rules for every session)
 
 At the **end** of each session — or before the context gets long — do this:
 1. Update **Last updated** and the git-state table (§3) from `git branch -a` and `git log --oneline -5 --all`.
 2. Update the file map (§4) for anything added, renamed or merged.
-3. Move finished items out of §8 into §10 (changelog) and add anything new you discovered to §7.
+3. **Tick the boxes** in §0 and §8 (`- [ ]` → `- [x]`) for anything finished, add a line to §10 (changelog), and add anything new you discovered to §7.
 4. Record any **decision** the user made in §6 so it is never re-asked.
 5. Commit this file with the work. Never leave it describing a state that no longer exists.
 
